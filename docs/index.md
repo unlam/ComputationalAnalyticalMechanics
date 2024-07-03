@@ -1,81 +1,61 @@
-
-[<image src="docs/assets/img/bothLogo.svg"  width="200">](https://ingenieria.unlam.edu.ar/)
-
-# Computational Analytical Mechanics
-
-[<image src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg"  width="80">](https://creativecommons.org/licenses/by-nc-sa/4.0/) 2024 Víctor A. Bettachini
-
-Access to the material: [https://unlam.github.io/ComputationalAnalyticalMechanics/](https://unlam.github.io/ComputationalAnalyticalMechanics/)
+# Índice de contenidos
 
 
-This is the repository for the course [Computational Analytical Mechanics](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510), for the [mechanical engineering degree](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) at the [Department of Engineering and Research in Technology](https://ingenieria.unlam.edu.ar/), Universidad Nacional de La Matanza.
+## Cronograma
+Voy copiando textualmente lo que figura en Teams. Solo acomodo los enlaces para que se muestren en markdown. Los que apuntan a videos no debieran ser visibles sin una cuenta de la UNLaM.
+
+La denominación de los directorios en la de los "títulos" que figuran en el cronograma. Transcribo el del presente cuatrimestre.
+
+| S  | Fecha | Área        | Título          | Temario                   |
+|:--:|:----- |:-----------:|:---------------:|:-------                |
+| 01 | 03-28 | _Feriado_   | _Feriado_       | _Feriado_              |
+| 02 | 04-04 | Newtoniana  | Vectorial       | Metodología del curso. Análisis matemático vectorial con Sympy. |  
+| 03 | 04-11 | Analítica   | Energía         | Grados de libertad. Coordenadas generalizadas. Energía cinética y potencial. |
+| 04 | 04-18 | “           | EulerLagrange   | Ecuaciones de Euler-Lagrange. |
+| 05 | 04-25 | “           | Ligaduras       | Ligaduras como función de coordenadas. |
+| 06 | 05-02 | Numérica    | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange. |
+| 07 | 05-09 | Fuerzas     | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange. |
+| 08 | 05-16 | “           | NoConservativas | Fuerzas no conservativas en el marco de Euler-Lagrange. |
+| 09 | 05-23 | Rígido      | TensorInercia   | Tensor de inercia. |
+| 10 | 05-30 | “           | “               | “ |
+| 11 | 06-06 | “           | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido. |
+| 12 | 06-13 | “           | “               | **Integrador: enunciado**. |
+| 13 | 06-20 | _Feriado_   | _Feriado_       | _Feriado_ |
+| 14 | 06-27 | Vibraciones | Vibraciones1GdL | Oscilaciones forzadas de un grado de libertad y en sistemas discretos. |
+| 15 | 07-04 | “           | VibracionesNGdL | **Integrador: presentación**. Modos normales de oscilación en sistemas discretos. |
+| 16 | 07-11 | “           | "               | " |
 
 
-Se trata de cuadernos Jupyter que intercalan explicaciones téoricas (texto y ecuaciones) con implementaciones en código que permiten resolver problemas inherentes. Dichos cuadernos se pueden ejecutar en línea en Google Colaboratory, sin necesidad de instalar software, y para tal fin se incluyen enlaces a los distintos módulos. Para quien lo considere necesario, en la sección "Entorno" se indica como realizar lo propio en forma local, sin acceder a Google Colab.
 
-La modalidad de aula invertida apunta a que durante los encuentros sincrónicos atienda a sus consultas mientras intentan terminar los ejercicios.
-Como leerán la teoría y empezarán a tratar de resolver ejercicios durante la semana, en cualquier momento pueden hacer consultas por este medio; no tienen que esperar al encuentro sincrónico.
+## 00General
 
-
-## Contents
-In this proposed schedule for a course of 14 weeks, the topics are divided by areas.
-Some of them are covered through more than one week, so a further descriptor, _Folder_, indicates where to find each week's material.
-
-| Week | Area                  | Folder            | Topics                   |
-|:----:|:---------------------:|:----------------:|:-------                |
-| 01   | Newtonian mechanics   | Vector           | Course presentation. Vector calculus using Sympy. |  
-| 02   | Analytical mechanics  | Energy           | Degrees of freedom. Generalized coordinates. Kinetic and potential energies. |
-| 03   | “                     | EulerLagrange    | Euler-Lagrange equations. |
-| 04   | “                     | Constraints      | Constraints as functions of coordinates. |
-| 05   | Numerical             | Simulation       | Numerical resolution of Euler-Lagrange equations. |
-| 06   | Forces                | ForcesConstraint | Constraints forces by Lagrange multipliers. |
-| 07   | “                     | NonConservative  | Non conservative forces in the Euler-Lagrange formalism. |
-| 08   | Rigid body            | PointMasses   | Inertia tensor of point masses systems. Steiner theorem. |
-| 09   | "                     | DistributedMass  | Inertia tensor of masses distributions.  |
-| 10   | “                     | EulerRotation    | Euler equations for the rigid body. |
-| 11   | “                     | "                | **Final project: statement of the problem** |
-| 12   | Oscillations          | OscillationsSDOF | Forced oscillations in single degree of freedom systems. |
-| 13   | “                     | OscillationsMDOF | **Project live presentation** Forced oscillation at multiple degrees of freedom systems. |
-| 14   | “                     | "                | **2.nd chance presentation**                                                       |
-
-## Bibliography
-
-### Basics
-- Lev Davidovich Landau y E. M. Lifshitz, _Mecánica - Curso de física teórica_ (Reverté, Barcelona, Estado Español, 2.a. edición, 1994)
-- Oscar E. Martinez, _Ondas es física_ (Eudeba, Buenos Aires, Argentina, 2008)
-
-### Vector mechanics
-
-- Juan Gualterio Roederer, _Mecánica elemental_ (Eudeba, Buenos Aires, Argentina, 2.a. edición, 2008)
-- Ferdinand Pierre Beer, E. Russell Johnston, y Elliot R Eisenberg, _Mecánica vectorial para ingenieros -_
-    - _Dinámica_ (McGraw-Hill, México DF, México, 9.a. edición, 2010)
-    - _Estática_ (McGraw-Hill, México DF, México, 9.a edición 2010)
-- W. Moebs et al., _Física universitaria - Volúmen 1_ (Rice University, Houston, Estados Unidos de América, 2021)
-- S. Alrasheed, _Principles of Mechanics_ (Springer Cham, Cham, Confederación Suiza, 1.er edición, 2019)
-
-### Analytical and vector mechanics
-
-- S. M. Targ, _Curso breve de mecánica teórica_ (Mir, Moscú, Unión de Repúblicas Socialistas Soviéticas, 2.a edición, 1976)
-
-### Analytical mechanics
-
-- Jerry B. Marion, _Dinamica clásica de las partículas y sistemas_ (Reverté, Barcelona, Estado Español, 2.a. edición, 1975)
-- Stephen T. Thornton y Jerry B. Marion, _Classical Dynamics of Particles and Systems_ (Thomson Brooks/Cole, Belmont, Estados Unidos de América,  5.a edición, 2004)
-- John Robert Taylor, _Classical Mechanics_ (University Science Books, Sausalito, Estados Unidos de América, 2005)
-- Cornelius Lanczos, _The Variational Principles of Mechanics_ (University of Toronto press, Toronto, Canadá, 1952).
-- Douglas Cline, _Variational Principles in Classical Mechanics_ (University of Rocherster River Campus Libraries, Rochester, Estados Unidos de América, 2021)
+### Requerimientos para la clase
+1. Los espero para la primer clase en el aula/laboratorio 259 a las 19:00 el jueves 4 de Abril.
+1. Trabajaremos todas las clases, incluso la primera, con
+  1. Microsoft Teams: usando su cuenta institucional de la UNLaM (xxx@alumno.unlam.edu.ar)
+  1. Google: usando una cuenta personal que ya tengan (o generen ahora) que debieran probar ahora que pueden ingresar (es un clásico cuando en la primer clase dicen que les funcionaba... el año pasado).  
+  Tengan anotadas en su teléfonos las contraseñas y no olviden traerlos a clase pues ambos sistemas requieren verificación de dos pasos, así que no olviden tener sus teléfonos con carga.
+1. Reaccionen con un emoji a este mensaje para confirmar que lo leyeron.
 
 
-## Course outline
+### Cronograma y próximos encuentros
+Antes del próximo encuentro en línea (vean el cronograma) deben:
+1. Entregar para las 19.30 hs de ese día el ejercicio de la guía de la primer semana.
+1. Empezar con lo que corresponde con la segunda semana: leer los cuadernos en Colab, ver el video que les va a aclarar como usar funciones para calcular energías, y ver en la guía de ejercicios que es lo que deberán tener hecho para la siguiente semana.
 
+Recuerden:
+- La modalidad de aula invertida apunta a que durante los encuentros sincrónicos atienda a sus consultas mientras intentan terminar los ejercicios.
+- Como leerán la teoría y empezarán a tratar de resolver ejercicios durante la semana, en cualquier momento pueden hacer consultas por este medio; no tienen que esperar al encuentro sincrónico.
+
+¿Me dan su reacción con un emoji para saber que leyeron esto?
+
+
+## 01 Cinemática vectorial
+
+### Mecánica vectorial
 Un repositorio en repositorio en GitHub aloja el material de la asignatura. Los indicados como [pdf] el portable document format contiene texto, gráficos y expresiones matemáticas estáticas [ipynb] son cuadernos de Python interactivo (interactive Python notebook)
 	
 Los ejecutaremos en Google Colaboratory
-
-
-### 01 Vector kinematics
-
-#### Mecánica vectorial
 - Para esta primer clase
   - [Introducción a la asignatura](https://colab.research.google.com/github/bettachini/MecanicaAnaliticaComputacional/blob/master/01Vectorial/estaAsignatura.ipynb) [ipnyb]
 - Teoría
