@@ -64,17 +64,17 @@ Some of them are covered through more than one week, so a further descriptor, _F
 
 ### 01 Vector kinematics
 
-#### Mecánica vectorial
-- First class:
-  - [Introduction to this course ![Introduction to this course](docs/assets/img/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/thisCourse.ipynb)
+- First class
+  - <a href = "https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/thisCourse.ipynb"><img src="docs/assets/img/colab-badge.svg" width="85" /> Introduction to this course</a>
   
-- Teoría
-  - [Cinemática vectorial](https://colab.research.google.com/github/bettachini/MecanicaAnaliticaComputacional/blob/master/01Vectorial/cinem%C3%A1ticaVectorial.ipynb) [ipynb]
-  - [Ejecución de código en el cuaderno Jupyter](https://ingunlamedu-my.sharepoint.com/personal/vbettachini_unlam_edu_ar/_layouts/15/stream.aspx?id=%2Fpersonal%2Fvbettachini%5Funlam%5Fedu%5Far%2FDocuments%2F24p%2F01vectorial%2FReiniciar%20entorno%20de%20ejecuci%C3%B3n%20y%20ejecutar%20todo%20%5B7oZh%5Fz0H5Qw%5D%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&referrer=Teams%2ETEAMS%2DWEB&referrerScenario=teams%2DfileLink&or=teams&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1) [video]
-- Práctica
-  - [Guía de ejercicios](https://github.com/bettachini/MecanicaAnaliticaComputacional/blob/master/01Vectorial/gu%C3%ADaVectorial.pdf) [pdf]
-  - [Ejercicios: ¿Cómo se entregan?](https://github.com/bettachini/MecanicaAnaliticaComputacional/blob/master/01Vectorial/entregaEjercicios.ipynb) [ipynb]
-    - Lo mismo explicado en un [video](https://ingunlamedu.sharepoint.com/:v:/s/23pMecAnComp/EfNcBWBCmtFCu9JXJQJNtcYBDDw9Cjko5Cbr-W3SNVnMsA?e=MkIllT&xsdata=MDV8MDF8fDZkOTE4MjIzMWExYjQ5YjhiNDM4MDhkYjlkYTk3YmMyfDY1OWUxZGJhYjNjYzRkY2M4NzMwZDIzODc3ZTdhYjdifDB8MHw2MzgyNzcxMjM0NTQ0NDg2OTZ8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMM1JsWVcxekx6RTVPbWxCVldoemVUVktaRTU2WkVJNU5qUktiM0JqTVU0MVpucHBkMFZGWm1OMVNYUTJNMjU1TURoUWRra3hRSFJvY21WaFpDNTBZV04yTWk5amFHRnVibVZzY3k4eE9UcGlaR1JsTTJZM09HSTBZMlEwTkRJeE9HTmhOREF5WTJGak4yWTRZVGsxTUVCMGFISmxZV1F1ZEdGamRqSXZiV1Z6YzJGblpYTXZNVFk1TWpFeE5UVTBORE0wT1E9PXw5MTQ2MzBmY2EyMmQ0OTM4YjQzODA4ZGI5ZGE5N2JjMnw4OTYzZWZlY2QzY2M0YWJlYjNiMzdkNTM1OTE1ZWE4Nw%3D%3D&sdata=Y2RjYTVYVklwZ3h1VlorOHNTWld5RTRWd1laQTZGeHpDSWMySUFVL2hOTT0%3D&isSPOFile=1) 
+- Theory
+  - <a href = "https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/vectorKinematics.ipynb"><img src="docs/assets/img/colab-badge.svg" width="85" /> Vector kinematics</a>
+
+  <!-- - [Ejecución de código en el cuaderno Jupyter](https://ingunlamedu-my.sharepoint.com/personal/vbettachini_unlam_edu_ar/_layouts/15/stream.aspx?id=%2Fpersonal%2Fvbettachini%5Funlam%5Fedu%5Far%2FDocuments%2F24p%2F01vectorial%2FReiniciar%20entorno%20de%20ejecuci%C3%B3n%20y%20ejecutar%20todo%20%5B7oZh%5Fz0H5Qw%5D%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&referrer=Teams%2ETEAMS%2DWEB&referrerScenario=teams%2DfileLink&or=teams&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1) [video] -->
+- Exercises
+  - <a href = "https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/exercisesVector.pdf"><img src="docs/assets/img/Icon_pdf_file.svg" width="20" /> Worksheet</a>
+  - <a href = "https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/turninExercises.ipynb"><img src="docs/assets/img/colab-badge.svg" width="85" /> Exercises: how to turn them in?</a>
+    <!-- - Lo mismo explicado en un [video](https://ingunlamedu.sharepoint.com/:v:/s/23pMecAnComp/EfNcBWBCmtFCu9JXJQJNtcYBDDw9Cjko5Cbr-W3SNVnMsA?e=MkIllT&xsdata=MDV8MDF8fDZkOTE4MjIzMWExYjQ5YjhiNDM4MDhkYjlkYTk3YmMyfDY1OWUxZGJhYjNjYzRkY2M4NzMwZDIzODc3ZTdhYjdifDB8MHw2MzgyNzcxMjM0NTQ0NDg2OTZ8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMM1JsWVcxekx6RTVPbWxCVldoemVUVktaRTU2WkVJNU5qUktiM0JqTVU0MVpucHBkMFZGWm1OMVNYUTJNMjU1TURoUWRra3hRSFJvY21WaFpDNTBZV04yTWk5amFHRnVibVZzY3k4eE9UcGlaR1JsTTJZM09HSTBZMlEwTkRJeE9HTmhOREF5WTJGak4yWTRZVGsxTUVCMGFISmxZV1F1ZEdGamRqSXZiV1Z6YzJGblpYTXZNVFk1TWpFeE5UVTBORE0wT1E9PXw5MTQ2MzBmY2EyMmQ0OTM4YjQzODA4ZGI5ZGE5N2JjMnw4OTYzZWZlY2QzY2M0YWJlYjNiMzdkNTM1OTE1ZWE4Nw%3D%3D&sdata=Y2RjYTVYVklwZ3h1VlorOHNTWld5RTRWd1laQTZGeHpDSWMySUFVL2hOTT0%3D&isSPOFile=1)  -->
 
 
 <!-- ### Ejecución de código en el cuaderno Jupyter

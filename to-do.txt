@@ -1,3 +1,4 @@
+- https://people.nscl.msu.edu/~hergert/phy820/material/worksheets/
 
 - Footer: is it "Updated on" or "Updated in" or what?
 
@@ -29,7 +30,7 @@ Once README.md is ready, copy its contents into index.md. There could be some di
 cinemáticaVectorial.ipynb - vectorKinematics.ipynb: ready 
 guíaVectorial.tex - exercisesVector.tex:            ready
 MarkdownLaTeX.ipynb:                                ready
-entregaEjercicios.ipynb:                            not needed     not considered, is that ok?
+entregaEjercicios.ipynb - turninExercises.ipynb:    not ready     what to do with it?
 estaAsignatura.ipynb - thiscourse.ipynb :           pending        processing
   - porqué se llama mec analit comp? 
   No se que hacer ahí.
