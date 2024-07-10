@@ -17,7 +17,7 @@ index.md      WORKING
   - week 13: Integrador: presentación.
 
   - 01
-    Exercises: how to turn them in? (how to submit?)
+    Exercises: how to turn them in? (how to submit?)  ok
     Ejecución de código en el cuaderno Jupyter: comentado, ¿borrar?
     referencias: algunas comentadas, ¿borrar?
 
@@ -43,13 +43,13 @@ introducciónPython -> introPython.ipynb             pending       Moved from ju
 energíaCinéticaTraslación.ipynb -> kineticEnergy.ipynb    not ready
 pénduloSuspensiónTV.ipynb  ->  pendulumFreePivot.ipynb    not ready
   - Gravitational potential energy: pendulum with moving pivot point
-    (free pivot point?)
+    (free pivot point?)  buscar en Landau 
 guíaEnergía.tex  ->  exercisesEnergy.tex                  not ready
 
 What about these?
 ejesPotencial - axesEnergy.ipynb:                   pending        working on the last section, check this 
-p02e04_ayuda.ipynb
-pénduloIdeal.ipynb
+p02e04_ayuda.ipynb        agregar link en el readme  un poco de ayuda según las consultas
+pénduloIdeal.ipynb        borrar
 
 
 03EulerLagrange    NOT READY 
