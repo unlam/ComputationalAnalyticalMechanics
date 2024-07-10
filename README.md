@@ -12,7 +12,7 @@ This is the repository for the course [Computational Analytical Mechanics](https
 
 It's a code-based undergraduate course on analytical mechanics for engineering students with little to no prior programming knowledge. This 14-week flipped classroom course focuses on providing skills to calculate dynamics and strains of simple mechanical devices modelled as rigid bodies by solving Euler-Lagrange equations. Problems sets with increasingly complex exercises are introduced each week. Python-based solutions to previous ones are reused by students, who through small incremental modifications over the code presented by the teaching staff, build their own library of solutions to address mechanical modelling challenges.  
 
-The course material is available as Jupyter notebooks containing theory and example exercises alongside the code to solve them.
+The material for this course is available as Jupyter notebooks, containing theory and example exercises alongside the code to solve them.
 Students are required to rely on computer-based calculations, both analytical and numerical, so to focus their efforts on the physics modelling and interpretation of results. The online hosting and execution of these notebooks avoids any installation or hardware requirement issues.
 
 
@@ -24,18 +24,18 @@ Some of them are covered through more than one week, so a further descriptor, _F
 |:----:|:---------------------:|:----------------:|:-------                |
 | 01   | Newtonian mechanics   | Vector           | Course presentation. Vector calculus using Sympy. |  
 | 02   | Analytical mechanics  | Energy           | Degrees of freedom. Generalized coordinates. Kinetic and potential energies. |
-| 03   | “                     | EulerLagrange    | Euler-Lagrange equations. |
-| 04   | “                     | Constraints      | Constraints as functions of coordinates. |
+| 03   | "                     | EulerLagrange    | Euler-Lagrange equations. |
+| 04   | "                     | Constraints      | Constraints as functions of coordinates. |
 | 05   | Numerical             | Simulation       | Numerical resolution of Euler-Lagrange equations. |
-| 06   | Forces                | ForcesConstraint | Constraints forces by Lagrange multipliers. |
-| 07   | “                     | NonConservative  | Non conservative forces in the Euler-Lagrange formalism. |
+| 06   | Forces                | ForcesConstraint | Constraint forces by Lagrange multipliers. |
+| 07   | "                     | NonConservative  | Non conservative forces in the Euler-Lagrange formalism. |
 | 08   | Rigid body            | PointMasses   | Inertia tensor of point masses systems. Steiner theorem. |
 | 09   | "                     | DistributedMass  | Inertia tensor of masses distributions.  |
-| 10   | “                     | EulerRotation    | Euler equations for the rigid body. |
-| 11   | “                     | "                | **Final project: statement of the problem** |
+| 10   | "                     | EulerRotation    | Euler equations for the rigid body. |
+| 11   | "                     | "                | **Final project: statement of the problem** |
 | 12   | Oscillations          | OscillationsSDOF | Forced oscillations in single degree of freedom systems. |
-| 13   | “                     | OscillationsMDOF | **Project live presentation** Forced oscillation at multiple degrees of freedom systems. |
-| 14   | “                     | "                | **2.nd chance presentation**                                                   |
+| 13   | "                     | OscillationsMDOF | **Project live presentation** Forced oscillation at multiple degrees of freedom systems. |
+| 14   | "                     | "                | **2.nd chance presentation**                                                   |
 
 ## Bibliography
 
@@ -65,61 +65,42 @@ Some of them are covered through more than one week, so a further descriptor, _F
 ### 01 Vector kinematics
 
 - First class
-  - [Introduction to this course &ensp;<image src="docs/assets/img/colab-badge.svg"  width="85">](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/thisCourse.ipynb)
+  - [Introduction to this course](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/thisCourse.ipynb) [ipynb]
   
 - Theory
-  - [Vector kinematics &ensp;<img src="docs/assets/img/colab-badge.svg" width="85" />](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/vectorKinematics.ipynb)
-
-  <!-- - [Ejecución de código en el cuaderno Jupyter](https://ingunlamedu-my.sharepoint.com/personal/vbettachini_unlam_edu_ar/_layouts/15/stream.aspx?id=%2Fpersonal%2Fvbettachini%5Funlam%5Fedu%5Far%2FDocuments%2F24p%2F01vectorial%2FReiniciar%20entorno%20de%20ejecuci%C3%B3n%20y%20ejecutar%20todo%20%5B7oZh%5Fz0H5Qw%5D%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&referrer=Teams%2ETEAMS%2DWEB&referrerScenario=teams%2DfileLink&or=teams&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1) [video] -->
+  - [Vector kinematics](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/vectorKinematics.ipynb) [ipynb]
 - Exercises
-  - [Worksheet &ensp; <img src="docs/assets/img/Icon_pdf_file.svg" width="20" />](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/01Vector/exercisesVector.pdf)
-  - [Exercises: how to turn them in? &ensp;<img src="docs/assets/img/colab-badge.svg" width="85" />](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/turninExercises.ipynb)  
-    <!-- - Lo mismo explicado en un [video](https://ingunlamedu.sharepoint.com/:v:/s/23pMecAnComp/EfNcBWBCmtFCu9JXJQJNtcYBDDw9Cjko5Cbr-W3SNVnMsA?e=MkIllT&xsdata=MDV8MDF8fDZkOTE4MjIzMWExYjQ5YjhiNDM4MDhkYjlkYTk3YmMyfDY1OWUxZGJhYjNjYzRkY2M4NzMwZDIzODc3ZTdhYjdifDB8MHw2MzgyNzcxMjM0NTQ0NDg2OTZ8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMM1JsWVcxekx6RTVPbWxCVldoemVUVktaRTU2WkVJNU5qUktiM0JqTVU0MVpucHBkMFZGWm1OMVNYUTJNMjU1TURoUWRra3hRSFJvY21WaFpDNTBZV04yTWk5amFHRnVibVZzY3k4eE9UcGlaR1JsTTJZM09HSTBZMlEwTkRJeE9HTmhOREF5WTJGak4yWTRZVGsxTUVCMGFISmxZV1F1ZEdGamRqSXZiV1Z6YzJGblpYTXZNVFk1TWpFeE5UVTBORE0wT1E9PXw5MTQ2MzBmY2EyMmQ0OTM4YjQzODA4ZGI5ZGE5N2JjMnw4OTYzZWZlY2QzY2M0YWJlYjNiMzdkNTM1OTE1ZWE4Nw%3D%3D&sdata=Y2RjYTVYVklwZ3h1VlorOHNTWld5RTRWd1laQTZGeHpDSWMySUFVL2hOTT0%3D&isSPOFile=1)  -->
-
-
-<!-- ### Ejecución de código en el cuaderno Jupyter
-En [este video](https://ingunlamedu-my.sharepoint.com/:v:/g/personal/vbettachini_unlam_edu_ar/EUGpl7i7ScdDq8uASN0RFvUBdQntZxvOF6GPzGF8MhyHjg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fV7CO3) les comentamos:
-- Cómo reiniciar el entorno de ejecución del google colab y ejecutar desde cero el ejercicio que envían. Siempre conviene que lo hagan para que se aseguren de no tener inconvenientes en el ejercicio.
-- También les comentamos sobre cómo mirar las variables que definieron y están usando.
-- Cómo mirar los errores y usar [chatGPT](https://chat.openai.com) para solucionarlos. -->
-
-
+  - [Worksheet | Vector kinematics](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/01Vector/exercisesVector.pdf) [pdf]
+  - [Exercises: how to turn them in?](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/turninExercises.ipynb) [ipynb]
 
 - References
   - [Introduction to Python](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/introPython.ipynb) [ipynb]
-  <!-- - [Ejercicios: carga y ejecución de un cuaderno Jupyter](https://login.microsoftonline.com/659e1dba-b3cc-4dcc-8730-d23877e7ab7b/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=66FF15BBE4D8D8E5687B5BCF694023E47DA4E39048967BD2%2D4CF80B3C96A2FD3283B3DF6134B704D424D2CB1035C11A5D86986E303AA6BAF8&redirect%5Furi=https%3A%2F%2Fingunlamedu%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=aefe2fa1%2D5094%2D5000%2D8d29%2Dc23636ce66c0) [video] -->
   - [How to include images in jupyter notebooks](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/imagesNotebooks.ipynb) [ipynb]
   - [2D and 3D graphics with matplotlib](https://github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb?classId=fc1ba4aa-6a5d-4ffa-8fd4-7a06ba08cfcd&classId=660444eb-e3d5-4135-8b70-44d5b04eb604) [ipynb]
   - [Markdown and $\LaTeX$](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/MarkdownLaTeX.ipynb) [ipynb]
-<!-- - [Asignatura: programa oficial](https://github.com/bettachini/MecanicaAnaliticaComputacional/blob/master/00Generalidades/programa.pdf?classId=fc1ba4aa-6a5d-4ffa-8fd4-7a06ba08cfcd&classId=660444eb-e3d5-4135-8b70-44d5b04eb604) [pdf] -->
 
-<!-- - [Cronograma](https://github.com/bettachini/MecanicaAnaliticaComputacional/blob/master/00Generalidades/cronograma.md?classId=660444eb-e3d5-4135-8b70-44d5b04eb604) -->
 - Exercises to turn in  
   - g01e01 to be submitted one hour after presenting the exercise in class
   - g01e02 to be submitted next week, 30 minutes after starting the new class
 
 
 ## 02 Kinetic energy and gravitational potential energy
-- [Kinetic energy](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/kineticEnergy.ipynb)
-<!-- - [Función de Python que calcula energía cinética](https://ingunlamedu.sharepoint.com/:v:/s/22sMecAnComputacional/EeyRmWbT-VBAumkHvDos_P0B4miAIUNGdevnJo18gf3B8Q?e=LHqZcv&isSPOFile=1&xsdata=MDV8MDF8fDhjZDAyMTRlYjU1MDQwMTNlN2I3MDhkYjlkYTg4NjYyfDY1OWUxZGJhYjNjYzRkY2M4NzMwZDIzODc3ZTdhYjdifDB8MHw2MzgyNzcxMTkzMzc3NTI1MDN8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMM1JsWVcxekx6RTVPbWxCVldoemVUVktaRTU2WkVJNU5qUktiM0JqTVU0MVpucHBkMFZGWm1OMVNYUTJNMjU1TURoUWRra3hRSFJvY21WaFpDNTBZV04yTWk5amFHRnVibVZzY3k4eE9UbzNPREU0TWpZMk5tSmxNbVUwTUdKbFlqRmlOakJrTkRkak16VXpaREF5WlVCMGFISmxZV1F1ZEdGamRqSXZiV1Z6YzJGblpYTXZNVFk1TWpFeE5EZzFPREkxTVE9PXxjMTBiZTZiMzQ2ZGI0MjBlODU2MTA4ZGI5ZGE4ODY2MHxhMDY1YWE5NDc0ODY0NWQ1YWEyYjlkNWQ1ZDAxNzgwYw%3D%3D&sdata=TkllQVYzdXlXR1M0MEw3OVRPQUQ2dkNzQ0d6MFMrY0hMTHBOMVBhY05JOD0%3D&classId=660444eb-e3d5-4135-8b70-44d5b04eb604) [video] -->
-- [Gravitational potential energy: pendulum with moving pivot point](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/pendulumFreePivot.ipynb) 
-- [Worksheet | Energy](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/02Energy/exercisesEnergy.pdf)
-<!-- - [foro de consultas: 02Energía] -->
+- [Kinetic energy](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/kineticEnergy.ipynb) [ipynb]
+- [Gravitational potential energy: pendulum with moving pivot point](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/pendulumFreePivot.ipynb) [ipynb]
+- [Worksheet | Energy](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/02Energy/exercisesEnergy.pdf) [pdf]
 - Exercises to turn in  
 From now on, exercises will be submitted the week following the time they become available, with a 30 minutes limit after starting the class.
   - g02e02
   - g02e03
-  - g02e04
+  - g02e04 | [Some help addressing frequently asked questions ](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/p02e04_help.ipynb) [ipynb]
 
 
 ## 03 Euler-Lagrange equation
-- [Euler-Lagrange equation | Pendulums](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/eulerLagrangePendulumns.ipynb)
-<!-- - [Apunte sobre el libro de Lanczos (opcional)](https://github.com/bettachini/MecanicaAnaliticaComputacional/blob/master/04EulerLagrange/apunteLanczos.pdf?classId=660444eb-e3d5-4135-8b70-44d5b04eb604) -->
-- [Euler-Lagrange template](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/euler_lagrange_base.ipynb)
-<!-- - [Foro de consultas: 03EulerLagrange] -->
-- [Worksheet | Euler-Lagrange](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/03EulerLagrange/exercisesEulerLagrange.pdf)
-- [Elastic potential energy](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/elasticPotentialEnergy.ipynb)
-- [Rotating parts in a system](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/rotatingParts.ipynb)
+- [Euler-Lagrange equation | Pendulums](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/eulerLagrangePendulumns.ipynb) [ipynb]
+- [Euler-Lagrange template](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/euler_lagrange_base.ipynb) [ipynb]
+- [Worksheet | Euler-Lagrange](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/03EulerLagrange/exercisesEulerLagrange.pdf) [pdf]
+- [Elastic potential energy](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/elasticPotentialEnergy.ipynb) [ipynb]
+- [Rotating parts in a system](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/rotatingParts.ipynb) [ipynb]
 - Exercises to turn in
   - g03e01c
   - g03e02
@@ -128,56 +109,46 @@ From now on, exercises will be submitted the week following the time they become
 
 
 ## 04 Constraints
-- [Constraints](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/constraintsFunction.ipynb)
-- [Atwood machine with constraint](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/atwoodConstraint.ipynb)
-<!-- - [Máquina de Atwood con ligadura: funciones usadas (video)](https://login.microsoftonline.com/659e1dba-b3cc-4dcc-8730-d23877e7ab7b/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=2AD4CCFAF671C97391C33058B5B390BA9CD316E02FDF2B18%2DF7999B13CDFD0383D3B84CC0D1532762903A6DF411E86F99743C751A289E4A15&redirect%5Furi=https%3A%2F%2Fingunlamedu%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=b8e732a1%2Da054%2D5000%2Dc659%2Dfb8c24ed7330) -->
-- [Solving systems of differential equations](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/solvingLinearSystems.ipynb)
-<!-- - [Foro de consultas: 04Ligaduras] -->
-- [Worksheet | Constraints](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/04Constraints/exercisesConstraints.pdf)
+- [Constraints](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/constraintsFunction.ipynb) [ipynb]
+- [Atwood machine with constraint](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/atwoodConstraint.ipynb) [ipynb]
+- [Solving systems of differential equations](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/solvingLinearSystems.ipynb) [ipynb]
+- [Worksheet | Constraints](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/04Constraints/exercisesConstraints.pdf) [pdf]
 - Exercises to turn in
   - g04e02
   - g04e03
   - g04e04
 
 
-
-## 05 Simulación numérica
-Es hora de resolver esas ecuaciones diferenciales obtenidas con el método de Euler-Lagrange. Pondremos en práctica lo aprendido de cálculo numérico y obtendremos la dinámica de los sistemas que hemos modelado.  
-- [Máquina de Atwood](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/06Simulaci%C3%B3n/atwoodSimulaci%C3%B3n_Resuelto.ipynb)
-- [Video - simulación numérica](https://ingunlamedu-my.sharepoint.com/:v:/g/personal/vbettachini_unlam_edu_ar/ERc2isv46_pFjS9cfpEGMb0BT8JMFpxAS6pz7rLQnVVuyw)
-- [Péndulo con punto de suspensión libre](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/06Simulaci%C3%B3n/p%C3%A9nduloLibreSimulaci%C3%B3n_Resuelto.ipynb)
-- [Foro de consultas: 05Simulación]
-- Ejercicios a entregar
-  - [Guía de ejercicios | Simulación](https://github.com/bettachini/MecanicaAnaliticaComputacional/blob/master/06Simulaci%C3%B3n/gu%C3%ADaSimulaci%C3%B3n.pdf)
+## 05 Numerical simulations
+It's time to solve the equations found using the Euler-Lagrange method. We'll put into action what we learnt in any numerical analysis course and we will determine the dynamics of the systems that we have modelled.
+- [Atwood machine](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/atwoodSimulationSolved.ipynb) [ipynb]
+- [Pendulum with moving pivot point](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/pendulumFreeSimulSolved.ipynb) [ipynb]
+- [Worksheet | Simulation](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/05Simulation/exercisesSimulation.pdf) [pdf]
+- Exercises to turn in
   - g05e02a
   - g05e02c
   - g05e03
   - g05e04
 
 
-## 06 Fuerzas de ligadura
-Tan importante como determinar la dinámica de cada parte de un dispositivo es estimar los esfuerzos que deben soportar. Empezaremos a calcular estos torques y fuerzas.  
-- [Fuerzas de ligadura](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/07FuerzasLigadura/fuerzasLigadura.ipynb)
-- [Fuerzas de ligadura | Péndulo rígido ideal](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/07FuerzasLigadura/ligaduraP%C3%A9nduloIdeal.ipynb)
-- [Fuerzas de ligadura | Rodadura](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/07FuerzasLigadura/rodaduraFuerzasLigadura.ipynb)
-- [Ejercicios de Fuerzas de ligadura | video](https://ingunlamedu.sharepoint.com/sites/24pMecAnComp/_layouts/15/streamembed.aspx?uniqueId=b4342276-42b9-434a-8748-382b1f1780b3&embed=%7B%22ha%22%3A%22teams%22%2C%22hv%22%3A%22classwork%22%2C%22hm%22%3A%22view%22%2C%22hp%22%3A%22web%22%2C%22nb%22%3Atrue%2C%22hrv%22%3A%22classworkList%22%2C%22hvn%22%3A%22aui.v20240607.5%22%2C%22t0%22%3A922156.0999999999%2C%22t0to%22%3A1718461920575.4%2C%22tcs%22%3A922156.0999999999%2C%22tcsto%22%3A1718461920575.4%2C%22hvm%22%3Afalse%2C%22hsi%22%3A%2261c1e76f-e1b3-42c8-8455-a70dada7043e%22%2C%22he%22%3A%22Prod%22%7D)
-- [Foro de consultas: 06FuerzasLigadura]
-- Ejercicios a entregar
-  - [Guía de ejercicios | Fuerzas de ligadura](https://github.com/bettachini/MecanicaAnaliticaComputacional/blob/master/07FuerzasLigadura/gu%C3%ADaFuerzasLigadura.pdf)
+## 06 Constraint forces
+The determination of the dynamics of each part in a device is important, but it's equally important to determine the strains that they have to withstand. Let's start calculating these torques and forces.
+- [Constraint forces](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/forcesConstraint.ipynb) [ipynb]
+- [Constraint forces | Ideal physical pendulum](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/constraintIdealPendulum.ipynb) [ipynb]
+- [Constraint forces | Rolling](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/rollingForcesConstraint.ipynb) [ipynb]
+- [Worksheet | Constraint forces](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/06ForcesConstraint/exercisesConstraintForces.pdf) [pdf]
+- Exercises to turn in
   - g06e03
   - g06e04
   - g06e05
 
 
-## 07 Fuerzas no conservativas
-- [Fuerzas no conservativas y Euler-Lagrange](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/08NoConservativas/noConservativas.ipynb)
-- [Sistemas con fuerzas no conservativas resueltos con Euler-Lagrange](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/08NoConservativas/noConservativasEjemplos.ipynb)
-- [Péndulo de torsión desbalanceado | Pregunta conceptual (video)](https://ingunlamedu-my.sharepoint.com/personal/vbettachini_unlam_edu_ar/_layouts/15/stream.aspx?id=%2Fpersonal%2Fvbettachini%5Funlam%5Fedu%5Far%2FDocuments%2F21s%2F07NoConservativas%2F07%5FnoConservativas%5Fej2%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo5NzkuODM2LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fX0&ga=1&classId=660444eb%2De3d5%2D4135%2D8b70%2D44d5b04eb604&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1f5c0f91%2D1ba8%2D422d%2Da43a%2D3ddc0400a4d3)
-- [Pëndulo de torsión desbalanceado | Resolución analítica (video)](https://ingunlamedu-my.sharepoint.com/personal/vbettachini_unlam_edu_ar/_layouts/15/stream.aspx?id=%2Fpersonal%2Fvbettachini%5Funlam%5Fedu%5Far%2FDocuments%2F21s%2F07NoConservativas%2F07%5FnoConservativas%5Fej2%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyMjIzLjcxOSwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX19&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ebff5c37f%2D430e%2D4401%2D9a10%2Df62bac9cb049)
-- [Foro de consultas 07NoConservativas]
-- Ejercicios a entregar
-  - [Guía de ejercicios | Fuerzas no conservativas](https://github.com/bettachini/UNLaM_MecanicaGeneral/blob/master/08NoConservativas/gu%C3%ADaNoConservativas.pdf)
-  - [Cilindros solidarios | Ayuda para el ejercicio](https://colab.research.google.com/github/bettachini/MecanicaAnaliticaComputacional/blob/master/08NoConservativas/noConservativas_cilindroSolidario_ayuda.ipynb)
+## 07 Non conservative forces
+- [Non conservative forces and Euler-Lagrange](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07NonConservative/nonConservative.ipynb) [ipynb]
+- [Systems with non conservative forces solved using the Euler-Lagrange method](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07NonConservative/nonConservativesExamples.ipynb) [ipynb]
+- [Worksheet | Non conservative forces](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/07NonConservative/exercisesNonConservative.pdf) [pdf]
+- Exercises to turn in
+  - [Linked cylinders | Help](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07NonConservative/linkedCylinders_Help.ipynb) [ipynb]
   - g07e02
   - g07e03
   - g07e04
