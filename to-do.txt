@@ -17,6 +17,7 @@ index.md      WORKING
   - week 13: Integrador: presentación.
 
   - 01
+    Exercises: how to turn them in? (how to submit?)
     Ejecución de código en el cuaderno Jupyter: comentado, ¿borrar?
     referencias: algunas comentadas, ¿borrar?
 
@@ -34,12 +35,36 @@ entregaEjercicios.ipynb - turninExercises.ipynb:    not ready     what to do wit
 estaAsignatura.ipynb - thiscourse.ipynb :           pending        processing
   - porqué se llama mec analit comp? 
   No se que hacer ahí.
+introducciónPython -> introPython.ipynb             pending       Moved from jupyterLatex
 
 
 02Energy:      NOT READY
 ------------------------------------------------------------------
+energíaCinéticaTraslación.ipynb -> kineticEnergy.ipynb    not ready
+pénduloSuspensiónTV.ipynb  ->  pendulumFreePivot.ipynb    not ready
+  - Gravitational potential energy: pendulum with moving pivot point
+    (free pivot point?)
+guíaEnergía.tex  ->  exercisesEnergy.tex                  not ready
+
+What about these?
 ejesPotencial - axesEnergy.ipynb:                   pending        working on the last section, check this 
+p02e04_ayuda.ipynb
+pénduloIdeal.ipynb
 
 
 03EulerLagrange    NOT READY 
 ------------------------------------------------------------------
+eulerLagrangePéndulos -> eulerLagrangePendulums.ipynb   not ready 
+euler_lagrange_base.ipynb                               not ready 
+guíaEulerLagrange -> exercisesEulerLagrange.tex         not ready
+energíaPotencialElástica -> elasticPotentialEnergy      not ready
+partesRotantes.ipynb -> rotatingParts.ipynb             not ready 
+
+
+04Constraints    NOT READY 
+------------------------------------------------------------------
+ligadurasFunción.ipynb -> constraintsFunction.ipynb     not ready 
+atwoodLigadura.ipynb -> atwoodConstraint.ipynb          not ready 
+resoluciónSistemasLineales -> solvingLinearSystems      not ready 
+guíaLigaduras.tex -> exercisesConstraints.tex           not ready 
+
