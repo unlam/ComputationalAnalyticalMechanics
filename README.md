@@ -86,7 +86,7 @@ Some of them are covered through more than one week, so a further descriptor, _F
 
 ## 02 Kinetic energy and gravitational potential energy
 - [Kinetic energy](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/kineticEnergy.ipynb) [ipynb]
-- [Gravitational potential energy: pendulum with moving pivot point](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/pendulumFreePivot.ipynb) [ipynb]
+- [Gravitational potential energy: pendulum with pivot free to slide horizontally](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/pendulumFreePivot.ipynb) [ipynb]
 - [Worksheet | Energy](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/02Energy/exercisesEnergy.pdf) [pdf]
 - Exercises to turn in  
 From now on, exercises will be submitted the week following the time they become available, with a 30 minutes limit after starting the class.
@@ -122,7 +122,7 @@ From now on, exercises will be submitted the week following the time they become
 ## 05 Numerical simulations
 It's time to solve the equations found using the Euler-Lagrange method. We'll put into action what we learnt in any numerical analysis course and we will determine the dynamics of the systems that we have modelled.
 - [Atwood machine](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/atwoodSimulationSolved.ipynb) [ipynb]
-- [Pendulum with moving pivot point](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/pendulumFreeSimulSolved.ipynb) [ipynb]
+- [Pendulum with pivot free to slide horizontally](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/pendulumFreeSimulSolved.ipynb) [ipynb]
 - [Worksheet | Simulation](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/05Simulation/exercisesSimulation.pdf) [pdf]
 - Exercises to turn in
   - g05e02a
@@ -154,9 +154,10 @@ The determination of the dynamics of each part in a device is important, but it'
   - g07e04
 
 
-## 08 Tensor de incercia
-Llegó el momento de estudiar cuerpos sólidos de formas más complejas. Asi como una misma fuerza acelera más o menos distintos cuerpos según su masa un torque varía más o menos la velocidad angular según como está distribuida geométricamente su masa respecto al eje de rotación. El factor de relación es más complejo que una simple magnitud escalar, como la masa. Es el llamado tensor de inercia que en esta guía calcularán para geometrías simples, para luego animarse a atacar dispositivos mecánicos más realistas.
-- [Respaso de momento angular y torque](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/09bTensorInercia/momento_angular_torque.ipynb)
+## 08 The inertia tensor
+We now begin studying solids of increasing complexity. In the same manner that a force gives more or less acceleration to different bodies according to their masses, a torque changes more or less the angular velocity according to how the mass is distributed around the axis of rotation.
+The relation is more complex than a simple scalar quantity like mass, it is the inertia tensor, which we are going to calculate for simple geometric figures for now, to then move forward to work on more realistic mechanic devices.
+- [Angular momentum and torque review](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/09bTensorInercia/momento_angular_torque.ipynb)
 - [Tensor de inercia](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/09bTensorInercia/tensorInercia.ipynb)
 - [Tensor de inercia del Cubo](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/09bTensorInercia/ej5Cubo.ipynb)
 - [Tensor de inercia (video)](https://ingunlamedu-my.sharepoint.com/personal/vbettachini_unlam_edu_ar/_layouts/15/stream.aspx?id=%2Fpersonal%2Fvbettachini%5Funlam%5Fedu%5Far%2FDocuments%2F21s%2F08TensorInercia%2F08%20%5F%20Din%C3%A1mica%20del%20cuerpo%20r%C3%ADgido%20%5F%20Tensor%20de%20inercia%2D20211028%2Emp4&ga=1)
