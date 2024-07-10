@@ -1,28 +1,70 @@
-- Se necesita decidir la ubicación final del directorio en inglés para insertar los vínculos a los acrhivos.
+- https://people.nscl.msu.edu/~hergert/phy820/material/worksheets/
 
-After the folder "english_translation" is moved to its final location:
-introUNLaM:
-- fix paths, %edg fix path
 - Footer: is it "Updated on" or "Updated in" or what?
 
-Add this to README (Fix path):
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/bettachini/MecanicaAnaliticaComputacional/blob/master/88presentaci%C3%B3n/jose_2024/english_translation/index.md)
+- Add this to README in spanish version (Fix path):
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/) English version.
+
+- Fix repository description.
 
 
-index.md 
-  - Traducir párrafo de la introducción.
+
+index.md      WORKING
+------------------------------------------------------------------
   - week 6: Fuerzas de ligadura por multiplicadores de Lagrange.
   - week 10: Rotación Euler - euler angles?
   - week 11: Integrador: enunciado
   - week 13: Integrador: presentación.
 
-01Vectorial:
-cinemáticaVectorial.ipynb - vectorKinematics.ipynb: ready 
-entregaEjercicios.ipynb: not considered
-guíaVectorial.pdf - exercisesVector.pdf: ready
-MarkdownLaTeX.ipynb: ready
-estaAsignatura.ipynb - thiscourse.ipynb : pending
-  - porqué se llama mec analit comp? No se que hacer ahí.
+  - 01
+    Exercises: how to turn them in? (how to submit?)
+    Ejecución de código en el cuaderno Jupyter: comentado, ¿borrar?
+    referencias: algunas comentadas, ¿borrar?
 
-03Energy:
-ejesPotencial - axesEnergy.ipynb: working on the last section, check this 
+docs/index.md  NOT READY
+------------------------------------------------------------------
+Once README.md is ready, copy its contents into index.md. There could be some differences though, haven't thought about it yet.
+
+
+01Vectorial:   NOT READY
+------------------------------------------------------------------
+cinemáticaVectorial.ipynb - vectorKinematics.ipynb: ready 
+guíaVectorial.tex - exercisesVector.tex:            ready
+MarkdownLaTeX.ipynb:                                ready
+entregaEjercicios.ipynb - turninExercises.ipynb:    not ready     what to do with it?
+estaAsignatura.ipynb - thiscourse.ipynb :           pending        processing
+  - porqué se llama mec analit comp? 
+  No se que hacer ahí.
+introducciónPython -> introPython.ipynb             pending       Moved from jupyterLatex
+
+
+02Energy:      NOT READY
+------------------------------------------------------------------
+energíaCinéticaTraslación.ipynb -> kineticEnergy.ipynb    not ready
+pénduloSuspensiónTV.ipynb  ->  pendulumFreePivot.ipynb    not ready
+  - Gravitational potential energy: pendulum with moving pivot point
+    (free pivot point?)
+guíaEnergía.tex  ->  exercisesEnergy.tex                  not ready
+
+What about these?
+ejesPotencial - axesEnergy.ipynb:                   pending        working on the last section, check this 
+p02e04_ayuda.ipynb
+pénduloIdeal.ipynb
+
+
+03EulerLagrange    NOT READY 
+------------------------------------------------------------------
+eulerLagrangePéndulos -> eulerLagrangePendulums.ipynb   not ready 
+euler_lagrange_base.ipynb                               not ready 
+guíaEulerLagrange -> exercisesEulerLagrange.tex         not ready
+energíaPotencialElástica -> elasticPotentialEnergy      not ready
+partesRotantes.ipynb -> rotatingParts.ipynb             not ready 
+
+
+04Constraints    NOT READY 
+------------------------------------------------------------------
+ligadurasFunción.ipynb -> constraintsFunction.ipynb     not ready 
+atwoodLigadura.ipynb -> atwoodConstraint.ipynb          not ready 
+resoluciónSistemasLineales -> solvingLinearSystems      not ready 
+guíaLigaduras.tex -> exercisesConstraints.tex           not ready 
+
