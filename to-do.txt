@@ -17,9 +17,7 @@ index.md      WORKING
   - week 13: Integrador: presentación.
 
   - 01
-    Exercises: how to turn them in? (how to submit?)
     Ejecución de código en el cuaderno Jupyter: comentado, ¿borrar?
-    referencias: algunas comentadas, ¿borrar?
 
 docs/index.md  NOT READY
 ------------------------------------------------------------------
@@ -42,14 +40,12 @@ introducciónPython -> introPython.ipynb             pending       Moved from ju
 ------------------------------------------------------------------
 energíaCinéticaTraslación.ipynb -> kineticEnergy.ipynb    not ready
 pénduloSuspensiónTV.ipynb  ->  pendulumFreePivot.ipynb    not ready
-  - Gravitational potential energy: pendulum with moving pivot point
-    (free pivot point?)
 guíaEnergía.tex  ->  exercisesEnergy.tex                  not ready
+p02e04_ayuda.ipynb -> p02e04_help.ipynb                   not ready
 
 What about these?
 ejesPotencial - axesEnergy.ipynb:                   pending        working on the last section, check this 
-p02e04_ayuda.ipynb
-pénduloIdeal.ipynb
+pénduloIdeal.ipynb        borrar
 
 
 03EulerLagrange    NOT READY 
@@ -68,3 +64,40 @@ atwoodLigadura.ipynb -> atwoodConstraint.ipynb          not ready
 resoluciónSistemasLineales -> solvingLinearSystems      not ready 
 guíaLigaduras.tex -> exercisesConstraints.tex           not ready 
 
+
+05Simulation    NOT READY 
+------------------------------------------------------------------
+atwoodSimulación_Resuelto -> atwoodSimulationSolved         not ready 
+guíaSimulación.tex -> exercisesSimulation.tex               not ready
+pénduloLibreSimulación_Resuelto -> pendulumFreeSimulSolved  not ready
+
+what about these?
+pénduloAcopladasSimulación_enunciado.ipynb
+pénduloDobleSimulación_enunciado.ipynb
+pénduloIdealSimulación_enunciado.ipynb
+atwoodCompuestaSimulación_enunciado.ipynb
+
+
+06ForcesConstraint    NOT READY 
+------------------------------------------------------------------
+fuerzasLigadura.ipynb -> forcesConstraint.ipynb         not ready
+ligaduraPénduloIdeal.ipynb -> constraintIdealPendulum   not ready 
+rodaduraFuerzasLigadura -> rollingForcesConstraint      not ready
+guíaFuerzasLigadura.tex -> exercisesConstraintForces    not ready
+
+what about these?
+pénduloIdealFuerzasLigadura.ipynb
+sistemasNoHolónomos.ipynb
+
+
+07NonConservative    NOT READY 
+------------------------------------------------------------------
+noConservativas.ipynb -> nonConservative.ipynb                  not ready 
+noConservativasEjemplos -> nonConservativesExamples             not ready 
+guíaNoConservativas.tex -> exercisesNonConservative.tex         not ready
+noConservativas_cilindroSolidario_ayuda -> linkedCylinders_Help not ready
+  - Linked cylinders? jointed?
+
+
+08PointMasses    NOT READY 
+------------------------------------------------------------------
