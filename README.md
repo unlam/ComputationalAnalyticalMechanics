@@ -1,4 +1,3 @@
-
 [<image src="docs/assets/img/bothLogo.svg"  width="200">](https://ingenieria.unlam.edu.ar/)
 
 # Computational Analytical Mechanics
@@ -34,7 +33,7 @@ Some of them are covered through more than one week, so a further descriptor, _F
 | 10   | "                     | EulerRotation    | Euler equations for the rigid body. |
 | 11   | "                     | "                | **Final project: statement of the problem** |
 | 12   | Oscillations          | OscillationsSDOF | Forced oscillations in single degree of freedom systems. |
-| 13   | "                     | OscillationsMDOF | **Project live presentation** Forced oscillation at multiple degrees of freedom systems. |
+| 13   | "                     | OscillationsMDOF | **Project live presentation** Forced oscillations at multiple degrees of freedom systems. |
 | 14   | "                     | "                | **2.nd chance presentation**                                                   |
 
 ## Bibliography
@@ -155,64 +154,61 @@ The determination of the dynamics of each part in a device is important, but it'
 
 
 ## 08 The inertia tensor
+- [Worksheet](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/08PointMasses/exercisesNonInertial.pdf) [pdf]
+- [Spider on a frisbee](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08PointMasses/spiderFrisbee.ipynb) [ipynb]
+
+
+## 09 The inertia tensor
 We now begin studying solids of increasing complexity. In the same manner that a force gives more or less acceleration to different bodies according to their masses, a torque changes more or less the angular velocity according to how the mass is distributed around the axis of rotation.
 The relation is more complex than a simple scalar quantity like mass, it is the inertia tensor, which we are going to calculate for simple geometric figures for now, to then move forward to work on more realistic mechanic devices.
-- [Angular momentum and torque review](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/09bTensorInercia/momento_angular_torque.ipynb)
-- [Tensor de inercia](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/09bTensorInercia/tensorInercia.ipynb)
-- [Tensor de inercia del Cubo](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/09bTensorInercia/ej5Cubo.ipynb)
-- [Tensor de inercia (video)](https://ingunlamedu-my.sharepoint.com/personal/vbettachini_unlam_edu_ar/_layouts/15/stream.aspx?id=%2Fpersonal%2Fvbettachini%5Funlam%5Fedu%5Far%2FDocuments%2F21s%2F08TensorInercia%2F08%20%5F%20Din%C3%A1mica%20del%20cuerpo%20r%C3%ADgido%20%5F%20Tensor%20de%20inercia%2D20211028%2Emp4&ga=1)
-- [Condición de rodadura para un cono, pág 180, notas del profesor Abramson](https://mega.nz/file/HIhhCAqD?classId=660444eb-e3d5-4135-8b70-44d5b04eb604#PJhDUAjNeb142l1LWpuZDlhLQRtNSo5-EsiUZhokXTA)
-- [Foro de consultas | 08 Tensor de inercia]
-- Ejercicios a entregar
-  - [Guía de ejercicios | Tensor de inercia](https://github.com/bettachini/MecanicaAnaliticaComputacional/blob/master/09bTensorInercia/gu%C3%ADaTensorInercia.pdf)
-  - Primer fecha
+- [Angular momentum and torque review](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/angular_momentum_torque.ipynb) [ipynb]
+- [Inertia tensor](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/inertiaTensor.ipynb) [ipynb]
+- [Inertia tensor for a cube](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/ex5Cube.ipynb) [ipynb]
+<!-- - [Condición de rodadura para un cono, pág 180, notas del profesor Abramson](https://mega.nz/file/HIhhCAqD?classId=660444eb-e3d5-4135-8b70-44d5b04eb604#PJhDUAjNeb142l1LWpuZDlhLQRtNSo5-EsiUZhokXTA) -->
+- [Worksheet | Inertia tensor](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/09DistributedMass/exercisesInertiaTensor.pdf) [pdf]
+- Exercises to turn in
+  - First turn
     - g08e01
     - g08e02
     - g08e03
     - g08e04
-  - Segunda fecha
+  - Second turn
     - g08e06
     - g08e07
     - g08e08
     - g08e09
 
 
-## 09 Ecuaciones de Euler de la rotación
-Ahora que saben escribir para un cuerpo sólido el tensor de inercia es hora de empezar a rotarle.
-- [Ecuaciones de Euler de la rotación](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/10Rotaci%C3%B3nEuler/rotaci%C3%B3nEuler.ipynb)
-- [Ecuaciones de Euler de la rotación (video)](https://ingunlamedu-my.sharepoint.com/:v:/r/personal/vbettachini_unlam_edu_ar/Documents/21s/09Rotaci%C3%B3nEuler/Din%C3%A1mica%20del%20cuerpo%20r%C3%ADgido%20_%20Ecuaciones%20de%20Euler%20de%20la%20rotaci%C3%B3n-20211104.mp4?csf=1&web=1&e=mjCivH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzE3Mi41Mn19)
-- [Engranaje desalineado con su eje](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/10Rotaci%C3%B3nEuler/engranajeDesalineado.ipynb)
-- [Engranaje desalineado (video)](https://ingunlamedu-my.sharepoint.com/:v:/r/personal/vbettachini_unlam_edu_ar/Documents/21s/09Rotaci%C3%B3nEuler/Din%C3%A1mica%20del%20cuerpo%20r%C3%ADdigo%20_%20Ecuaciones%20de%20Euler%20de%20la%20rotaci%C3%B3n-20211111.mp4?csf=1&web=1&e=tAKj92&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTIyLjV9fQ%3D%3D)
-- [Volante de inercia](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/10Rotaci%C3%B3nEuler/volanteInercia.ipynb)
-- [Foro de consultas | 09 Ecuación de Euler de la rotación]
-- Ejercicios a entregar
-  - [Guía de ejercicios | Rotación Euler](https://github.com/bettachini/MecanicaAnaliticaComputacional/blob/master/10Rotaci%C3%B3nEuler/gu%C3%ADaRotacionEuler.pdf?classId=660444eb-e3d5-4135-8b70-44d5b04eb604)
+## 10 Euler equations
+Now that you know how to write the inertia tensor of a rigid body, it's time to make it rotate.  
+- [Euler equations](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/rotationEuler.ipynb) [ipynb]
+- [Gear with offsetted axis](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/gearOffsetted.ipynb) [ipynb]
+- [Flywheel](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/flywheel.ipynb) [ipynb]
+- [Worksheet | Euler equations](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/10EulerRotation/exercisesEulerRotation.pdf) [pdf]
+- Exercises to turn in
   - g09e02
   - g09e03
   - g09e05
 
 
-  ## 10 Vibraciones en sistemas de un grado de libertad
-  - [Vibraciones amortiguadas de un único grado de libertad (1GdL)](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/11Vibraciones1GdL/vibraciones1GdL.ipynb)
-  - [Vibraciones en sistemas de un grado de libertad (video)](https://ingunlamedu-my.sharepoint.com/personal/vbettachini_unlam_edu_ar/_layouts/15/stream.aspx?id=%2Fpersonal%2Fvbettachini%5Funlam%5Fedu%5Far%2FDocuments%2F21s%2F10vibraciones1GdL%2FVibraciones%20en%20sistemas%20de%20un%20grado%20de%20libertad%2D20211118%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6344d159%2D1a40%2D45eb%2Db596%2D0563b5d74d27)
-  - [Forzado armónico de un sistema de 1GdL](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/11Vibraciones1GdL/arm%C3%B3nico1GdL.ipynb)
-  - [Forzado arbitrario de un sistema de 1GdL](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/11Vibraciones1GdL/arbitrario1GdL.ipynb?classId=660444eb-e3d5-4135-8b70-44d5b04eb604)
-  - Ejercicios a entregar
-    - [Guía de ejercicios | Vibraciones 1GdL](https://github.com/bettachini/UNLaM_MecanicaGeneral/blob/master/11Vibraciones1GdL/gu%C3%ADaVibraciones1GdL.pdf)
+## 12 Oscillations of single degree of freedom systems
+  - [Damped oscillations of a single degree of freedom system (SDOF)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsSDOF/oscillationsSDOF.ipynb) [ipynb]
+  - [Single degree of freedom system harmonically forced](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsSDOF/harmonicSDOF.ipynb) [ipynb]
+  - [Single degree of freedom system with arbitrary force](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsSDOF/arbitrarySDOF.ipynb) [ipynb]
+  - [Worksheet | Oscillations SDOF](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/12OscillationsSDOF/exercisesSDOF.pdf) [pdf]
+  - Exercises to turn in
     - g10e01
     - g10e02
     - g10e03
     - g10e04
 
 
-## 11 Vibraciones en sistemas de múltiples grados de libertad
-- [Sistema discreto con múltiples grados de libertad](https://colab.research.google.com/github/bettachini/UNLaM_MecanicaGeneral/blob/master/12VibracionesNGdL/vibracionesNGdL.ipynb)
-- [Vibraciones en múltiples grados de libertad (video)](https://ingunlamedu-my.sharepoint.com/personal/vbettachini_unlam_edu_ar/_layouts/15/stream.aspx?id=%2Fpersonal%2Fvbettachini%5Funlam%5Fedu%5Far%2FDocuments%2F21s%2F11vibracionesNGdL%2FVibraciones%20en%20sistemas%20con%20m%C3%BAltiples%20grados%20de%20libertad%2D20211125%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&ga=1)
-- [Foro de consultas | Viblaciones MGdL]
-- Ejercicios a entregar
-  - [Guía de ejercicios | Vibraciones MGdL](https://github.com/bettachini/UNLaM_MecanicaGeneral/blob/master/12VibracionesNGdL/gu%C3%ADaVibracionesNGdL.pdf)
+## 13 Oscillations in multiple degrees of freedom systems
+- [Discrete system with multiple degrees of freedom](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/13OscillationsMDOF/oscillationsMDOF.ipynb) [ipynb]
+- [Worksheet | Oscillations MDOF](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/13OscillationsMDOF/exercisesMDOF.pdf) [pdf]
+- Exercises to turn in
   - g11e01
   - g11e02
 
 
-## Environment
+<!-- ## Environment -->
