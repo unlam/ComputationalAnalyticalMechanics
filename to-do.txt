@@ -9,19 +9,10 @@
 
 
 
-index.md      WORKING
+Pinned:
+docs/index.md  READY (with comments)
 ------------------------------------------------------------------
-  - week 6: Fuerzas de ligadura por multiplicadores de Lagrange.
-  - week 10: Rotación Euler - euler angles?
-  - week 11: Integrador: enunciado
-  - week 13: Integrador: presentación.
-
-  - 01
-    Ejecución de código en el cuaderno Jupyter: comentado, ¿borrar?
-
-docs/index.md  NOT READY
-------------------------------------------------------------------
-Once README.md is ready, copy its contents into index.md. There could be some differences though, haven't thought about it yet.
+Once README.md is ready, copy its contents into index.md. There could be some differences though, haven't thought about it yet. Like removing "Environment".
 
 
 01Vectorial:   NOT READY
@@ -100,4 +91,46 @@ noConservativas_cilindroSolidario_ayuda -> linkedCylinders_Help not ready
 
 
 08PointMasses    NOT READY 
+------------------------------------------------------------------
+guíaNoInercial.tex -> exercisesNonInertial.tex not ready
+arañaFrisbee.ipynb -> spiderFrisbee.ipynb      not ready 
+
+
+09DistributedMass    NOT READY 
+------------------------------------------------------------------
+momento_angular_torque -> angular_momentum_torque.ipynb   not ready 
+ej5Cubo.ipynb -> ex5Cube.ipynb                            not ready
+guíaTensorInercia.tex -> exercisesInertiaTensor.tex       not ready
+
+  notas del profesor Abramso ??? ¿borrar?
+  ej3BrazoRotacion.ipynb ?
+
+
+10EulerRotation    NOT READY 
+------------------------------------------------------------------
+rotaciónEuler.ipynb -> rotationEuler.ipynb            not ready
+engranajeDesalineado.ipynb -> gearOffsetted.ipynb     not ready
+  offsetted?
+volanteInercia.ipynb -> flywheel.ipynb                not ready
+guíaRotacionEuler.tex -> exercisesEulerRotation.tex   not ready 
+
+
+12OscillationsSDOF    NOT READY 
+------------------------------------------------------------------
+vibraciones1GdL.ipynb -> oscillationsSDOF.ipynb       not ready 
+armónico1GdL.ipynb -> harmonicSDOF.ipynb              not ready 
+arbitrario1GdL.ipynb -> arbitrarySDOF.ipynb           not ready 
+guíaVibraciones1GdL.tex -> exercisesSDOF.tex          not ready 
+
+
+13OscillationsMDOF    NOT READY 
+------------------------------------------------------------------
+vibracionesNGdL.ipynb -> oscillationsMDOF.ipynb       not ready 
+guíaVibracionesNGdL.tex -> exercisesMDOF.tex          not ready 
+
+what do do?
+  masas_transv.ipynb
+
+
+Environment           NOT READY
 ------------------------------------------------------------------
