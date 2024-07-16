@@ -2,21 +2,17 @@ title: Computational Analytical Mechanics
 author:
   name: Victor Bettachini
   email: "ask@for.it"
-logopath: assets/img/bothLogo.png
-logowidth: 100
-logoalt: Logo UNLAM
-logolink: https://fra.utn.edu.ar/
 # author: Edgardo Palazzo
 # email: epalazzo@fra.utn.edu.ar
 description: >-
   DIIT UNLAM
-baseurl: /MecanicaAnaliticaComputacional
-url: https://bettachini.github.io/
-github_username: bettachini
+baseurl: /ComputationalAnalyticalMechanics
+# url: https://unlam.github.io/
+url: https://frautn.github.io/
+github_username: frautn
 
 # Build settings
 theme: minima
-
 
 # plugins:
   # - jekyll-feed
