@@ -1,7 +1,5 @@
 - https://people.nscl.msu.edu/~hergert/phy820/material/worksheets/
 
-- Footer: is it "Updated on" or "Updated in" or what?
-
 - Add this to README in spanish version (Fix path):
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/) English version.
 
