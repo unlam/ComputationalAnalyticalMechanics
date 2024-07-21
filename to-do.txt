@@ -5,7 +5,8 @@
 
 - Fix repository description.
 
-
+- imágenesNotebooks.ipynb:
+  Copied into figuresLatex, what to do with this?
 
 Pinned:
 docs/index.md  READY (with comments)
