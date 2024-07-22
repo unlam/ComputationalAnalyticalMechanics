@@ -76,7 +76,7 @@ Some of them are covered through more than one week, so a further descriptor, _F
   - [Introduction to Python](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/introPython.ipynb) [ipynb]
   - [How to include images in jupyter notebooks](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/imagesNotebooks.ipynb) [ipynb]
   - [2D and 3D graphics with matplotlib](https://github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb?classId=fc1ba4aa-6a5d-4ffa-8fd4-7a06ba08cfcd&classId=660444eb-e3d5-4135-8b70-44d5b04eb604) [ipynb]
-  - [Markdown and $\LaTeX$](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/MarkdownLaTeX.ipynb) [ipynb]
+  - [Markdown and \LaTeX](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/MarkdownLaTeX.ipynb) [ipynb]
 
 - Exercises to turn in  
   - g01e01 to be submitted one hour after presenting the exercise in class
