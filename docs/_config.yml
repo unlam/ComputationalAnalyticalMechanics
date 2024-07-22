@@ -10,9 +10,12 @@ logolink: https://fra.utn.edu.ar/
 # email: epalazzo@fra.utn.edu.ar
 description: >-
   DIIT UNLAM
-baseurl: /MecanicaAnaliticaComputacional
-url: https://bettachini.github.io/
-github_username: bettachini
+# baseurl: /MecanicaAnaliticaComputacional
+baseurl: /ComputationalAnalyticalMechanics
+# url: https://bettachini.github.io/
+url: https://frautn.github.io/
+# github_username: bettachini
+github_username: frautn
 
 # Build settings
 theme: minima

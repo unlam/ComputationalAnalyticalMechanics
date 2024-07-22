@@ -1,13 +1,12 @@
 - https://people.nscl.msu.edu/~hergert/phy820/material/worksheets/
 
-- Footer: is it "Updated on" or "Updated in" or what?
-
 - Add this to README in spanish version (Fix path):
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/) English version.
 
 - Fix repository description.
 
-
+- imágenesNotebooks.ipynb:
+  Copied into figuresLatex, what to do with this?
 
 Pinned:
 docs/index.md  READY (with comments)
@@ -21,10 +20,21 @@ cinemáticaVectorial.ipynb - vectorKinematics.ipynb: ready
 guíaVectorial.tex - exercisesVector.tex:            ready
 MarkdownLaTeX.ipynb:                                ready
 entregaEjercicios.ipynb - turninExercises.ipynb:    not ready     what to do with it?
-estaAsignatura.ipynb - thiscourse.ipynb :           pending        processing
-  - porqué se llama mec analit comp? 
-  No se que hacer ahí.
-introducciónPython -> introPython.ipynb             pending       Moved from jupyterLatex
+estaAsignatura.ipynb - thiscourse.ipynb :           pending       
+  - Jupyter: the environment ...
+      Image is in spanish.
+  - The notebooks run on a free online system
+      Image is in spanish.
+  - Gestión del material de la asignatura: todo en línea
+      I would change a lot of this.
+  What to do with:
+    - Consultas asincrónicas en línea: 24/7
+    - Condición de aprobación
+    - Asistencia
+    - Entregas de ejercicios
+
+introducciónPython -> introPython.ipynb             processing       
+  Moved from jupyterLatex
 
 
 02Energy:      NOT READY
