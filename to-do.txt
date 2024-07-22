@@ -26,7 +26,7 @@ estaAsignatura.ipynb - thiscourse.ipynb :           ready (99%)
       - The notebooks run on a free online system
       - Course material management:...
 
-introducciónPython -> introPython.ipynb             processing       
+introducciónPython -> introPython.ipynb             ready       
   Moved from jupyterLatex
 
 
