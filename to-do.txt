@@ -14,34 +14,27 @@ docs/index.md  READY (with comments)
 Once README.md is ready, copy its contents into index.md. There could be some differences though, haven't thought about it yet. Like removing "Environment".
 
 
-01Vectorial:   NOT READY
+01Vectorial:   READY
 ------------------------------------------------------------------
 cinemáticaVectorial.ipynb - vectorKinematics.ipynb: ready 
 guíaVectorial.tex - exercisesVector.tex:            ready
 MarkdownLaTeX.ipynb:                                ready
-entregaEjercicios.ipynb - turninExercises.ipynb:    not ready     what to do with it?
-estaAsignatura.ipynb - thiscourse.ipynb :           pending       
-  - Jupyter: the environment ...
-      Image is in spanish.
-  - The notebooks run on a free online system
-      Image is in spanish.
-  - Gestión del material de la asignatura: todo en línea
-      I would change a lot of this.
-  What to do with:
-    - Consultas asincrónicas en línea: 24/7
-    - Condición de aprobación
-    - Asistencia
-    - Entregas de ejercicios
-
-introducciónPython -> introPython.ipynb             processing       
+estaAsignatura.ipynb - thiscourse.ipynb :           ready (99%)       
+  - Images in spanish:
+      - Jupyter: the environment ...
+      - The notebooks run on a free online system
+      - Course material management:...
+introducciónPython -> introPython.ipynb             ready       
   Moved from jupyterLatex
+
+entregaEjercicios.ipynb - turninExercises.ipynb:    not ready     what to do with it?
 
 
 02Energy:      NOT READY
 ------------------------------------------------------------------
-energíaCinéticaTraslación.ipynb -> kineticEnergy.ipynb    not ready
-pénduloSuspensiónTV.ipynb  ->  pendulumFreePivot.ipynb    not ready
-guíaEnergía.tex  ->  exercisesEnergy.tex                  not ready
+energíaCinéticaTraslación.ipynb -> kineticEnergy.ipynb    ready
+guíaEnergía.tex  ->  exercisesEnergy.tex                  ready
+pénduloSuspensiónTV.ipynb  ->  pendulumFreePivot.ipynb    processing
 p02e04_ayuda.ipynb -> p02e04_help.ipynb                   not ready
 
 What about these?
