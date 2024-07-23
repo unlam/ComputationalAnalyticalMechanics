@@ -1,4 +1,4 @@
-\documentclass[11pt, spanish, a4paper, twoside]{article}
+\documentclass[11pt, a4paper, twoside]{article}
 
 \input{../figuresLaTeX/introUNLaM}
 
@@ -14,76 +14,6 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 \begin{enumerate}
 
-		%\item \begin{minipage}[t][7.1cm]{0.75\textwidth}
-%\textbf{Péndulo simple} [Marion (e) ex. 7.2] \\
-%Obtenga la ecuación diferencial que describe la dinámica de una pesa que ``pendulea'' en el extremo de una cuerda.
-%\begin{enumerate}
-%	\item Si el péndulo oscila dentro del plano \(\hat{x}, \hat{y}\).
-%		¿En que sistema de coordenadas resolverá el problema? 
-%		¿Cuál coordenada es relevante para describir la dinámica? 
-%	\item Enumere las aproximaciones del modelo de péndulo que resolverá que lo diferencian de uno que puede armar en el laboratorio.
-%	\item Calcule la energía potencial de la pesa en el campo gravitatorio.
-%	¿Para qué sirve eso?
-%	Las fuerzas que surgen de un campo son fácilmente calculables usando que \(\vec{F} = - \vec{\nabla} V\), es decir, \emph{la fuerza es igual al negativo del gradiente del potencial}.
-%	\item Escriba la 2.a ley de Newton para la coordenada relevante.
-%	\item Resuelva la ecuación de la dinámica y obtenga la frecuencia de oscilación.
-%\end{enumerate}
-%\end{minipage}
-%\begin{minipage}[c][0cm][t]{0.2\textwidth}
-%%	\includegraphics[width=\textwidth]{marion_fig7_1}
-%%	\includegraphics[width=\textwidth]{\detokenize{pénduloHorizontal}}
-%	\begin{tikzpicture}[scale= 1.0]
-%	\draw [arrows=-latex] (-1,2) -> (-1,1) node [above=15, right=2] {\(\vec{g}\)}; % g vertical
-%		\draw [ultra thick] (-1.5,3) -- (2,3);
-%		\fill [pattern = north east lines] (-1.5,3) rectangle (2,3.2); % techo
-%		\draw [dashed] (0,3) -- (0,-.25);	% vertical
-%		\draw [thick] (0,3) -- +(-60:3) node[midway,above,right=2] {\(\ell\)};	% inclinada +:relativa, -60 grados, longitud 3
-%		\shade [ball color=black!80] ($(0,3)+(-60:3)$) circle(0.25) node [] {\color{white} $m$};
-%    \draw [arrows=-latex] (0,.4) -> (1.25,.4) node [midway, above] {\( \psi \)}; % desplazamiento horizontal
-%		\draw [arrows=-latex] (0,0) arc [start angle=-90, end angle=-65, radius=3] node [below=12, left=8] {\( \varphi \)};
-%	\end{tikzpicture}
-%\end{minipage}
-%%\vspace{-2.5cm}
-%
-
-%\subsection*{Fuerza como gradiente de un potencial}
-%% Vizcaino carpeta
-%\item Una partícula esta sometida a una fuerza \(\vec{F}(x)= \left( -k x + \frac{a}{x^3}\right) \hat{x}\)
-%\begin{enumerate}
-%    \item Hallar el potencial \(U(x)\) y graficarlo.
-%    \item Discutir los tipos de movimientos posibles.
-%    \item Determinar las posiciones de equilibrio estable y encuentre la solución general de la dinámica de la partícula, \(\vec{r}(t)\).
-%    \item Interpretar el movimiento en el límite \(E^2 \gg k a\). ¿Cuanto vale el periodo de las oscilaciones?
-%    \item Ídem. anterior en el límite \(E^2 \rightarrow k a\) con \(E^2 > k a\).
-%\end{enumerate}
-
-
-
-%\item \begin{minipage}[t][3cm]{0.7\textwidth}
-%\textbf{Péndulo ideal rígido} [Marion ex. 7.2]\\
-%Escriba y resuelva la ecuación que describe la dinámica de un péndulo de longitud $\ell$ en presencia de un campo gravitatorio de constante $g$. Discuta todas las aproximaciones que realiza.
-%\end{minipage}
-%\begin{minipage}[c][1cm][t]{0.25\textwidth}
-%%	\includegraphics[width=0.75\textwidth]{marion_fig7_1}
-%%	\includegraphics[width=\textwidth]{\detokenize{pénduloHorizontal}}
-%	\begin{tikzpicture}
-%	%\begin{tikzpicture}[scale= 1.2]
-%  	\draw [arrows=- triangle 45] (-1,2) -> (-1,1) node [above=15, right=2] {\(\vec{g}\)}; % g vertical
-%		\draw [ultra thick] (-1.5,3) -- (2.5,3);
-%		\fill [pattern = north east lines] (-1.5,3) rectangle (2.5,3.2); % techo
-%		\draw [dashed] (0,3) -- (0,0);	% vertical
-%		\draw [thick] (0,3) -- +(-60:3) node[midway,above,right=2] {\(\ell\)};	% inclinada +:relativa, -60 grados, longitud 3
-%		% \draw [thick] (0,3) -- +(-60:3) node[midway,above,sloped] {\(l\)};	% inclinada +:relativa, -60 grados, longitud 3
-%    \fill (0,3)+(-60:3) circle [radius=0.25] node [text=white] { \( \mathrm{m} \) }; % masa izq
-%    \draw [thin, arrows=- triangle 45] (0,.4) -> (1.25,.4) node [midway, above] {\( \psi \)}; % desplazamiento horizontal
-%    % \draw [thin, arrows=- triangle 45] (0,.4) -> (1.25,.4) node [above=8, left=8] {\( \psi \)}; % desplazamiento horizontal
-%		\draw [thin, arrows=- triangle 45] (0,0) arc [start angle=-90, end angle=-65, radius=3] node [below=12, left=8] {\( \varphi \)};
-%	\end{tikzpicture}
-%\end{minipage}
-
-
-
-
 \item
 	\begin{minipage}[t][5cm]{0.7\textwidth}
 		\textbf{Péndulo con punto de suspensión libre} [Landau \S5 ej. 2]\\
@@ -96,7 +26,7 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 		\end{enumerate}
 	\end{minipage}
 	\begin{minipage}[c][1cm][t]{0.3\textwidth}
-		\includegraphics[width=0.75\textwidth]{landauS52_fig2.png}
+		\includegraphics[width=0.75\textwidth]{figures/landauS52_fig2.png}
 	\end{minipage}
 
 
@@ -113,7 +43,7 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 		% Ayuda: \( \cos(\alpha \pm \beta) = \cos{ \alpha} \cos{ \beta \mp \sin \alpha} \sin{ \beta } \)
 	\end{minipage}
 	\begin{minipage}[c][0.5cm][t]{0.3\textwidth}
-		\includegraphics[width=0.75\textwidth]{landauS52_fig1.png}
+		\includegraphics[width=0.75\textwidth]{figures/landauS52_fig1.png}
 	\end{minipage}
 
 
@@ -128,7 +58,7 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 		Calcule la energía cinética, \(T\) y potencial, \(V\) de la partícula con masa \(m\).\end{minipage}
 	\begin{minipage}[c][3cm][t]{0.5\textwidth}
-		\includegraphics[width=0.75\textwidth]{marion_fig7_3.png}
+		\includegraphics[width=0.75\textwidth]{figures/marion_fig7_3.png}
 		% \includegraphics[width=0.75\textwidth]{landauS52_fig3.png}
 	\end{minipage}
 
@@ -144,7 +74,7 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 			Calcule la energía cinética para cada una de las tres masas y exprese en la forma más compacta posible la del sistema en su conjunto.
 	\end{minipage}
 	\begin{minipage}[c][1cm][t]{0.35\textwidth}
-		\includegraphics[width=0.75\textwidth]{landauS52_fig4.png}
+		\includegraphics[width=0.75\textwidth]{figures/landauS52_fig4.png}
 	\end{minipage}
 
 
