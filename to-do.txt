@@ -30,16 +30,14 @@ introducciónPython -> introPython.ipynb             ready
 entregaEjercicios.ipynb - turninExercises.ipynb:    not ready     what to do with it?
 
 
-02Energy:      NOT READY
+02Energy:      READY
 ------------------------------------------------------------------
 energíaCinéticaTraslación.ipynb -> kineticEnergy.ipynb    ready
 guíaEnergía.tex  ->  exercisesEnergy.tex                  ready
-pénduloSuspensiónTV.ipynb  ->  pendulumFreePivot.ipynb    processing
-p02e04_ayuda.ipynb -> p02e04_help.ipynb                   not ready
+pénduloSuspensiónTV -> gravitationalPotentialEnergy       ready
+p02e04_ayuda.ipynb -> p02e04_help.ipynb                   ready
 
-What about these?
-ejesPotencial - axesEnergy.ipynb:                   pending        working on the last section, check this 
-pénduloIdeal.ipynb        borrar
+ejesPotencial - axesEnergy.ipynb:                         removed
 
 
 03EulerLagrange    NOT READY 

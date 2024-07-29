@@ -95,6 +95,9 @@ From now on, exercises will be submitted the week following the time they become
 
 
 ## 03 Euler-Lagrange equation
+
+(Currently in Spanish, soon to be translated)
+
 - [Euler-Lagrange equation - Pendulums](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/eulerLagrangePendulumns.ipynb) [ipynb]
 - [Euler-Lagrange template](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/euler_lagrange_base.ipynb) [ipynb]
 - [Worksheet - Euler-Lagrange](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/03EulerLagrange/exercisesEulerLagrange.pdf) [pdf]
@@ -108,6 +111,9 @@ From now on, exercises will be submitted the week following the time they become
 
 
 ## 04 Constraints
+
+(Currently in Spanish, soon to be translated)
+
 - [Constraints](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/constraintsFunction.ipynb) [ipynb]
 - [Atwood machine with constraint](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/atwoodConstraint.ipynb) [ipynb]
 - [Solving systems of differential equations](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/solvingLinearSystems.ipynb) [ipynb]
@@ -119,6 +125,9 @@ From now on, exercises will be submitted the week following the time they become
 
 
 ## 05 Numerical simulations
+
+(Currently in Spanish, soon to be translated)
+
 It's time to solve the equations found using the Euler-Lagrange method. We'll put into action what we learnt in any numerical analysis course and we will determine the dynamics of the systems that we have modelled.
 - [Atwood machine](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/atwoodSimulationSolved.ipynb) [ipynb]
 - [Pendulum with pivot free to slide horizontally](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/pendulumFreeSimulSolved.ipynb) [ipynb]
@@ -131,6 +140,9 @@ It's time to solve the equations found using the Euler-Lagrange method. We'll pu
 
 
 ## 06 Constraint forces
+
+(Currently in Spanish, soon to be translated)
+
 The determination of the dynamics of each part in a device is important, but it's equally important to determine the strains that they have to withstand. Let's start calculating these torques and forces.
 - [Constraint forces](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/forcesConstraint.ipynb) [ipynb]
 - [Constraint forces - Ideal physical pendulum](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/constraintIdealPendulum.ipynb) [ipynb]
@@ -143,6 +155,9 @@ The determination of the dynamics of each part in a device is important, but it'
 
 
 ## 07 Non conservative forces
+
+(Currently in Spanish, soon to be translated)
+
 - [Non conservative forces and Euler-Lagrange](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07NonConservative/nonConservative.ipynb) [ipynb]
 - [Systems with non conservative forces solved using the Euler-Lagrange method](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07NonConservative/nonConservativesExamples.ipynb) [ipynb]
 - [Worksheet - Non conservative forces](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/07NonConservative/exercisesNonConservative.pdf) [pdf]
@@ -154,11 +169,17 @@ The determination of the dynamics of each part in a device is important, but it'
 
 
 ## 08 The inertia tensor
+
+(Currently in Spanish, soon to be translated)
+
 - [Worksheet](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/08PointMasses/exercisesNonInertial.pdf) [pdf]
 - [Spider on a frisbee](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08PointMasses/spiderFrisbee.ipynb) [ipynb]
 
 
 ## 09 The inertia tensor
+
+(Currently in Spanish, soon to be translated)
+
 We now begin studying solids of increasing complexity. In the same manner that a force gives more or less acceleration to different bodies according to their masses, a torque changes more or less the angular velocity according to how the mass is distributed around the axis of rotation.
 The relation is more complex than a simple scalar quantity like mass, it is the inertia tensor, which we are going to calculate for simple geometric figures for now, to then move forward to work on more realistic mechanic devices.
 - [Angular momentum and torque review](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/angular_momentum_torque.ipynb) [ipynb]
@@ -180,6 +201,9 @@ The relation is more complex than a simple scalar quantity like mass, it is the 
 
 
 ## 10 Euler equations
+
+(Currently in Spanish, soon to be translated)
+
 Now that you know how to write the inertia tensor of a rigid body, it's time to make it rotate.  
 - [Euler equations](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/rotationEuler.ipynb) [ipynb]
 - [Gear with offsetted axis](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/gearOffsetted.ipynb) [ipynb]
@@ -192,6 +216,9 @@ Now that you know how to write the inertia tensor of a rigid body, it's time to 
 
 
 ## 12 Oscillations of single degree of freedom systems
+
+(Currently in Spanish, soon to be translated)
+
   - [Damped oscillations of a single degree of freedom system (SDOF)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsSDOF/oscillationsSDOF.ipynb) [ipynb]
   - [Single degree of freedom system harmonically forced](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsSDOF/harmonicSDOF.ipynb) [ipynb]
   - [Single degree of freedom system with arbitrary force](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsSDOF/arbitrarySDOF.ipynb) [ipynb]
@@ -204,6 +231,9 @@ Now that you know how to write the inertia tensor of a rigid body, it's time to 
 
 
 ## 13 Oscillations in multiple degrees of freedom systems
+
+(Currently in Spanish, soon to be translated)
+
 - [Discrete system with multiple degrees of freedom](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/13OscillationsMDOF/oscillationsMDOF.ipynb) [ipynb]
 - [Worksheet - Oscillations MDOF](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/13OscillationsMDOF/exercisesMDOF.pdf) [pdf]
 - Exercises to turn in
