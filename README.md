@@ -26,7 +26,7 @@ Some of them are covered through more than one week, so a further descriptor, _F
 | 03   | "                     | EulerLagrange    | Euler-Lagrange equations. |
 | 04   | "                     | Constraints      | Constraints as functions of coordinates. |
 | 05   | Numerical             | Simulation       | Numerical resolution of Euler-Lagrange equations. |
-| 06   | Forces                | ForcesConstraint | Constraint forces by Lagrange multipliers. |
+| 06   | Forces                | ForcesConstraint | Constraint reactions by Lagrange multipliers. |
 | 07   | "                     | NonConservative  | Non conservative forces in the Euler-Lagrange formalism. |
 | 08   | Rigid body            | PointMasses   | Inertia tensor of point masses systems. Steiner theorem. |
 | 09   | "                     | DistributedMass  | Inertia tensor of masses distributions.  |
@@ -139,15 +139,15 @@ It's time to solve the equations found using the Euler-Lagrange method. We'll pu
   - g05e04
 
 
-## 06 Constraint forces
+## 06 Constraint reactions
 
 (Currently in Spanish, soon to be translated)
 
 The determination of the dynamics of each part in a device is important, but it's equally important to determine the strains that they have to withstand. Let's start calculating these torques and forces.
-- [Constraint forces](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/forcesConstraint.ipynb) [ipynb]
-- [Constraint forces - Ideal physical pendulum](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/constraintIdealPendulum.ipynb) [ipynb]
-- [Constraint forces - Rolling](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/rollingForcesConstraint.ipynb) [ipynb]
-- [Worksheet - Constraint forces](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/06ForcesConstraint/exercisesConstraintForces.pdf) [pdf]
+- [Constraint reactions](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/forcesConstraint.ipynb) [ipynb]
+- [Constraint reactions - Ideal physical pendulum](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/constraintIdealPendulum.ipynb) [ipynb]
+- [Constraint reactions - Rolling](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/rollingForcesConstraint.ipynb) [ipynb]
+- [Worksheet - Constraint reactions](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/06ForcesConstraint/exercisesConstraintForces.pdf) [pdf]
 - Exercises to turn in
   - g06e03
   - g06e04
