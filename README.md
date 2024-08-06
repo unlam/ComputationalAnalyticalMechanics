@@ -215,14 +215,14 @@ Now that you know how to write the inertia tensor of a rigid body, it's time to 
   - g09e05
 
 
-## 12 Oscillations of single degree of freedom systems
+## 11 Oscillations of single degree of freedom systems
 
 (Currently in Spanish, soon to be translated)
 
-  - [Damped oscillations of a single degree of freedom system (SDOF)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsSDOF/oscillationsSDOF.ipynb) [ipynb]
-  - [Single degree of freedom system harmonically forced](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsSDOF/harmonicSDOF.ipynb) [ipynb]
-  - [Single degree of freedom system with arbitrary force](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsSDOF/arbitrarySDOF.ipynb) [ipynb]
-  - [Worksheet - Oscillations SDOF](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/12OscillationsSDOF/exercisesSDOF.pdf) [pdf]
+  - [Damped oscillations of a single degree of freedom system (SDOF)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/oscillationsSDOF.ipynb) [ipynb]
+  - [Single degree of freedom system harmonically forced](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/harmonicSDOF.ipynb) [ipynb]
+  - [Single degree of freedom system with arbitrary force](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/arbitrarySDOF.ipynb) [ipynb]
+  - [Worksheet - Oscillations SDOF](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/11OscillationsSDOF/exercisesSDOF.pdf) [pdf]
   - Exercises to turn in
     - g10e01
     - g10e02
@@ -230,15 +230,22 @@ Now that you know how to write the inertia tensor of a rigid body, it's time to 
     - g10e04
 
 
-## 13 Oscillations in multiple degrees of freedom systems
+## 12 Oscillations in multiple degrees of freedom systems
 
 (Currently in Spanish, soon to be translated)
 
-- [Discrete system with multiple degrees of freedom](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/13OscillationsMDOF/oscillationsMDOF.ipynb) [ipynb]
-- [Worksheet - Oscillations MDOF](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/13OscillationsMDOF/exercisesMDOF.pdf) [pdf]
+- [Discrete system with multiple degrees of freedom](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsMDOF/oscillationsMDOF.ipynb) [ipynb]
+- [Worksheet - Oscillations MDOF](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/12OscillationsMDOF/exercisesMDOF.pdf) [pdf]
 - Exercises to turn in
   - g11e01
   - g11e02
+
+
+## 13 Final project
+
+(Currently in Spanish, soon to be translated)
+
+- [Final project - Rigid body](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/13FinalProject/projectRigid.ipynb) [ipynb]
 
 
 <!-- ## Environment -->

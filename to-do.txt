@@ -116,21 +116,32 @@ volanteInercia.ipynb -> flywheel.ipynb                not ready
 guíaRotacionEuler.tex -> exercisesEulerRotation.tex   not ready 
 
 
-12OscillationsSDOF    NOT READY 
+11OscillationsSDOF    NOT READY 
 ------------------------------------------------------------------
 vibraciones1GdL.ipynb -> oscillationsSDOF.ipynb       not ready 
 armónico1GdL.ipynb -> harmonicSDOF.ipynb              not ready 
 arbitrario1GdL.ipynb -> arbitrarySDOF.ipynb           not ready 
-guíaVibraciones1GdL.tex -> exercisesSDOF.tex          not ready 
+guíaVibraciones1GdL.tex -> exercisesSDOF.tex          not ready
+
+  - change g10e01 to g11e01? (and all the others)
+  check .tex
 
 
-13OscillationsMDOF    NOT READY 
+12OscillationsMDOF    NOT READY 
 ------------------------------------------------------------------
 vibracionesNGdL.ipynb -> oscillationsMDOF.ipynb       not ready 
 guíaVibracionesNGdL.tex -> exercisesMDOF.tex          not ready 
 
+  - change g11e01 to g12e01? (and all the others)
+  check .tex
+
 what do do?
   masas_transv.ipynb
+
+
+13FinalProject    NOT READY 
+------------------------------------------------------------------
+integradorRígido.ipynb -> projectRigid.ipynb        not ready
 
 
 Environment           NOT READY
