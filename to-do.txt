@@ -1,5 +1,7 @@
 - https://people.nscl.msu.edu/~hergert/phy820/material/worksheets/
 
+- 8 and 9, reorganize? check spanish version
+
 - Add this to README in spanish version (Fix path):
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/) English version.
 
