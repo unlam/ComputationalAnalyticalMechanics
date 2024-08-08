@@ -33,9 +33,9 @@ Some of them are covered through more than one week, so a further descriptor, _F
 | 10   | "                     | 10EulerRotation    | Euler equations for the rigid body. |
 | 11   | "                     | "                | **Final project: statement of the problem** |
 | 12   | Oscillations          | 11OscillationsSDOF | Forced oscillations in single degree of freedom systems. |
-| 13   | "                     | 12OscillationsMDOF | **Project live presentation** Forced oscillations at multiple degrees of freedom systems. |
+| 13   | "                     | 12OscillationsMDOF | Forced oscillations at multiple degrees of freedom systems. |
 | 14   | "                     | "                | "                                                           |
-| 15   | Evaluation            | (none)           | Project live presentation                                                   |
+| 15   | Evaluation            | (none)           | **Project live presentation**                                                   |
 | 16   | "                     | (none)           | **2.nd chance presentation**                                                   |
 
 
@@ -73,13 +73,11 @@ Some of them are covered through more than one week, so a further descriptor, _F
   - [Vector kinematics](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/vectorKinematics.ipynb) [ipynb]
 - Exercises
   - [Problem set - Vector kinematics](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/01Vector/exercisesVector.pdf) [pdf]
-  - [Exercises: how to turn them in?](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/turninExercises.ipynb) [ipynb]
 
 - References
-  - [Introduction to Python](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/introPython.ipynb) [ipynb]
-  - [How to include images in jupyter notebooks](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/imagesNotebooks.ipynb) [ipynb]
+  - [Introduction to Python](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/IntroPython.ipynb) [ipynb]
   - [2D and 3D graphics with matplotlib](https://github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb?classId=fc1ba4aa-6a5d-4ffa-8fd4-7a06ba08cfcd&classId=660444eb-e3d5-4135-8b70-44d5b04eb604) [ipynb]
-  - [Markdown and \LaTeX](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/MarkdownLaTeX.ipynb) [ipynb]
+  - [Markdown and LaTeX](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/MarkdownLaTeX.ipynb) [ipynb]
 
 - Exercises to turn in  
   - pset01e01 to be submitted one hour after presenting the exercise in class
@@ -88,7 +86,7 @@ Some of them are covered through more than one week, so a further descriptor, _F
 
 ## 02 Kinetic energy and gravitational potential energy
 - [Kinetic energy](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/kineticEnergy.ipynb) [ipynb]
-- [Gravitational potential energy: pendulum with pivot free to slide horizontally](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/pendulumFreePivot.ipynb) [ipynb]
+- [Gravitational potential energy: pendulum with pivot free to slide horizontally](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/gravitationalPotentialEnergy.ipynb) [ipynb]
 - [Problem set - Energy](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/02Energy/exercisesEnergy.pdf) [pdf]
 - Exercises to turn in  
 From now on, exercises will be submitted the week following the time they become available, with a 30 minutes limit after starting the class.
@@ -101,7 +99,7 @@ From now on, exercises will be submitted the week following the time they become
 
 (Currently in Spanish, soon to be translated)
 
-- [Euler-Lagrange equation - Pendulums](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/eulerLagrangePendulumns.ipynb) [ipynb]
+- [Euler-Lagrange equation - Pendulums](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/eulerLagrangePendulums.ipynb) [ipynb]
 - [Euler-Lagrange template](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/euler_lagrange_base.ipynb) [ipynb]
 - [Problem set - Euler-Lagrange](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/03EulerLagrange/exercisesEulerLagrange.pdf) [pdf]
 - [Elastic potential energy](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/elasticPotentialEnergy.ipynb) [ipynb]
@@ -175,22 +173,23 @@ The determination of the dynamics of each part in a device is important, but it'
 
 (Currently in Spanish, soon to be translated)
 
-- [Problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/08PointMasses/exercisesNonInertial.pdf) [pdf]
-- [Spider on a frisbee](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08PointMasses/spiderFrisbee.ipynb) [ipynb]
+We now begin studying solids of increasing complexity. In the same manner that a force gives more or less acceleration to different bodies according to their masses, a torque changes more or less the angular velocity according to how the mass is distributed around the axis of rotation.
+The relation is more complex than a simple scalar quantity like mass, it is the inertia tensor, which we are going to calculate for simple geometric figures for now, to then move forward to work on more realistic mechanic devices.
+
+- [Angular momentum and torque](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/angular_momentum_torque.ipynb) [ipynb]
+- [Inertia Tensor](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/inertiaTensor.ipynb) [ipynb]
+- [Problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/08InertiaTensor/exercisesInertiaTensor.pdf) [pdf]
+- [Ex. 3 - Rotation arm](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/ex3RotationArm.ipynb) [ipynb]
+- [Ex. 5 - Inertia tensor for a cube](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/ex5Cube.ipynb) [ipynb]
 
 
-## 09 The inertia tensor
+## 09 Distributed mass
 
 (Currently in Spanish, soon to be translated)
 
-We now begin studying solids of increasing complexity. In the same manner that a force gives more or less acceleration to different bodies according to their masses, a torque changes more or less the angular velocity according to how the mass is distributed around the axis of rotation.
-The relation is more complex than a simple scalar quantity like mass, it is the inertia tensor, which we are going to calculate for simple geometric figures for now, to then move forward to work on more realistic mechanic devices.
-- [Angular momentum and torque review](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/angular_momentum_torque.ipynb) [ipynb]
-- [Inertia tensor](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/inertiaTensor.ipynb) [ipynb]
-- [Inertia tensor for a cube](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/ex5Cube.ipynb) [ipynb]
-<!-- - [Condición de rodadura para un cono, pág 180, notas del profesor Abramson](https://mega.nz/file/HIhhCAqD?classId=660444eb-e3d5-4135-8b70-44d5b04eb604#PJhDUAjNeb142l1LWpuZDlhLQRtNSo5-EsiUZhokXTA) -->
-- [Problem set - Inertia tensor](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/09DistributedMass/exercisesInertiaTensor.pdf) [pdf]
-- Exercises to turn in
+
+- [Problem set - Distributed mass](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/09DistributedMass/exercisesDistributedMass.pdf) [pdf]
+<!-- - Exercises to turn in
   - First turn
     - pset08e01
     - pset08e02
@@ -200,7 +199,7 @@ The relation is more complex than a simple scalar quantity like mass, it is the 
     - pset08e06
     - pset08e07
     - pset08e08
-    - pset08e09
+    - pset08e09 -->
 
 
 ## 10 Euler equations
