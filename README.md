@@ -21,20 +21,23 @@ Some of them are covered through more than one week, so a further descriptor, _F
 
 | Week | Area                  | Folder            | Topics                   |
 |:----:|:---------------------:|:----------------:|:-------                |
-| 01   | Newtonian mechanics   | Vector           | Course presentation. Vector calculus using Sympy. |  
-| 02   | Analytical mechanics  | Energy           | Degrees of freedom. Generalized coordinates. Kinetic and potential energies. |
-| 03   | "                     | EulerLagrange    | Euler-Lagrange equations. |
-| 04   | "                     | Constraints      | Constraints as functions of coordinates. |
-| 05   | Numerical             | Simulation       | Numerical resolution of Euler-Lagrange equations. |
-| 06   | Forces                | ForcesConstraint | Constraint reactions by Lagrange multipliers. |
-| 07   | "                     | NonConservative  | Non conservative forces in the Euler-Lagrange formalism. |
-| 08   | Rigid body            | PointMasses   | Inertia tensor of point masses systems. Steiner theorem. |
-| 09   | "                     | DistributedMass  | Inertia tensor of masses distributions.  |
-| 10   | "                     | EulerRotation    | Euler equations for the rigid body. |
+| 01   | Newtonian mechanics   | 01Vector           | Course presentation. Vector calculus using Sympy. |  
+| 02   | Analytical mechanics  | 02Energy           | Degrees of freedom. Generalized coordinates. Kinetic and potential energies. |
+| 03   | "                     | 03EulerLagrange    | Euler-Lagrange equations. |
+| 04   | "                     | 04Constraints      | Constraints as functions of coordinates. |
+| 05   | Numerical             | 05Simulation       | Numerical resolution of Euler-Lagrange equations. |
+| 06   | Forces                | 06ForcesConstraint | Constraint reactions by Lagrange multipliers. |
+| 07   | "                     | 07NonConservative  | Non conservative forces in the Euler-Lagrange formalism. |
+| 08   | Rigid body            | 08InertiaTensor    | Inertia tensor of point masses systems. Steiner theorem. |
+| 09   | "                     | 09DistributedMass  | Inertia tensor of masses distributions.  |
+| 10   | "                     | 10EulerRotation    | Euler equations for the rigid body. |
 | 11   | "                     | "                | **Final project: statement of the problem** |
-| 12   | Oscillations          | OscillationsSDOF | Forced oscillations in single degree of freedom systems. |
-| 13   | "                     | OscillationsMDOF | **Project live presentation** Forced oscillations at multiple degrees of freedom systems. |
-| 14   | "                     | "                | **2.nd chance presentation**                                                   |
+| 12   | Oscillations          | 11OscillationsSDOF | Forced oscillations in single degree of freedom systems. |
+| 13   | "                     | 12OscillationsMDOF | **Project live presentation** Forced oscillations at multiple degrees of freedom systems. |
+| 14   | "                     | "                | "                                                           |
+| 15   | Evaluation            | (none)           | Project live presentation                                                   |
+| 16   | "                     | (none)           | **2.nd chance presentation**                                                   |
+
 
 ## Bibliography
 

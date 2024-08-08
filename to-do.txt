@@ -93,20 +93,18 @@ noConservativas_cilindroSolidario_ayuda -> linkedCylinders_Help not ready
   - Linked cylinders? jointed?
 
 
-08PointMasses    NOT READY 
+08InertiaTensor    NOT READY 
 ------------------------------------------------------------------
-guíaNoInercial.tex -> exercisesNonInertial.tex not ready
-arañaFrisbee.ipynb -> spiderFrisbee.ipynb      not ready 
+ej3BrazoRotacion.ipynb ->  ex3RotationArm.ipynb           not ready
+ej5Cubo.ipynb -> ex5Cube.ipynb                            not ready
+momento_angular_torque -> angular_momentum_torque.ipynb   not ready 
+tensorInercia.ipynb -> inertiaTensor.ipynb                not ready
+guíaTensorInercia.tex -> exercisesInertiaTensor.tex       not ready
 
 
 09DistributedMass    NOT READY 
 ------------------------------------------------------------------
-momento_angular_torque -> angular_momentum_torque.ipynb   not ready 
-ej5Cubo.ipynb -> ex5Cube.ipynb                            not ready
-guíaTensorInercia.tex -> exercisesInertiaTensor.tex       not ready
-
-  notas del profesor Abramso ??? ¿borrar?
-  ej3BrazoRotacion.ipynb ?
+guíaDistribuciónMasa.tex -> exercisesDistributedMass.tex  not ready
 
 
 10EulerRotation    NOT READY 
