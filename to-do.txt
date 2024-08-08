@@ -1,5 +1,7 @@
 - https://people.nscl.msu.edu/~hergert/phy820/material/worksheets/
 
+- 8 and 9, reorganize? check spanish version
+
 - Add this to README in spanish version (Fix path):
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/) English version.
 
@@ -91,20 +93,18 @@ noConservativas_cilindroSolidario_ayuda -> linkedCylinders_Help not ready
   - Linked cylinders? jointed?
 
 
-08PointMasses    NOT READY 
+08InertiaTensor    NOT READY 
 ------------------------------------------------------------------
-guíaNoInercial.tex -> exercisesNonInertial.tex not ready
-arañaFrisbee.ipynb -> spiderFrisbee.ipynb      not ready 
+ej3BrazoRotacion.ipynb ->  ex3RotationArm.ipynb           not ready
+ej5Cubo.ipynb -> ex5Cube.ipynb                            not ready
+momento_angular_torque -> angular_momentum_torque.ipynb   not ready 
+tensorInercia.ipynb -> inertiaTensor.ipynb                not ready
+guíaTensorInercia.tex -> exercisesInertiaTensor.tex       not ready
 
 
 09DistributedMass    NOT READY 
 ------------------------------------------------------------------
-momento_angular_torque -> angular_momentum_torque.ipynb   not ready 
-ej5Cubo.ipynb -> ex5Cube.ipynb                            not ready
-guíaTensorInercia.tex -> exercisesInertiaTensor.tex       not ready
-
-  notas del profesor Abramso ??? ¿borrar?
-  ej3BrazoRotacion.ipynb ?
+guíaDistribuciónMasa.tex -> exercisesDistributedMass.tex  not ready
 
 
 10EulerRotation    NOT READY 
@@ -116,21 +116,32 @@ volanteInercia.ipynb -> flywheel.ipynb                not ready
 guíaRotacionEuler.tex -> exercisesEulerRotation.tex   not ready 
 
 
-12OscillationsSDOF    NOT READY 
+11OscillationsSDOF    NOT READY 
 ------------------------------------------------------------------
 vibraciones1GdL.ipynb -> oscillationsSDOF.ipynb       not ready 
 armónico1GdL.ipynb -> harmonicSDOF.ipynb              not ready 
 arbitrario1GdL.ipynb -> arbitrarySDOF.ipynb           not ready 
-guíaVibraciones1GdL.tex -> exercisesSDOF.tex          not ready 
+guíaVibraciones1GdL.tex -> exercisesSDOF.tex          not ready
+
+  - change g10e01 to g11e01? (and all the others)
+  check .tex
 
 
-13OscillationsMDOF    NOT READY 
+12OscillationsMDOF    NOT READY 
 ------------------------------------------------------------------
 vibracionesNGdL.ipynb -> oscillationsMDOF.ipynb       not ready 
 guíaVibracionesNGdL.tex -> exercisesMDOF.tex          not ready 
 
+  - change g11e01 to g12e01? (and all the others)
+  check .tex
+
 what do do?
   masas_transv.ipynb
+
+
+13FinalProject    NOT READY 
+------------------------------------------------------------------
+integradorRígido.ipynb -> projectRigid.ipynb        not ready
 
 
 Environment           NOT READY
