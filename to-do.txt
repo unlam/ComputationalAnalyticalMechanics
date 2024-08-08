@@ -6,7 +6,6 @@
   - MarkdownLaTeX
   - constraintIdealPendulum
 
-- Exercises tu turn in 8 and 9.
 
 - Add this to README in spanish version (Fix path):
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/) English version.
@@ -125,17 +124,11 @@ armónico1GdL.ipynb -> harmonicSDOF.ipynb              not ready
 arbitrario1GdL.ipynb -> arbitrarySDOF.ipynb           not ready 
 guíaVibraciones1GdL.tex -> exercisesSDOF.tex          not ready
 
-  - change g10e01 to g11e01? (and all the others)
-  check .tex
-
 
 12OscillationsMDOF    NOT READY 
 ------------------------------------------------------------------
 vibracionesNGdL.ipynb -> oscillationsMDOF.ipynb       not ready 
 guíaVibracionesNGdL.tex -> exercisesMDOF.tex          not ready 
-
-  - change g11e01 to g12e01? (and all the others)
-  check .tex
 
 what do do?
   masas_transv.ipynb
