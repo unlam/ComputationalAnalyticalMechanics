@@ -1,14 +1,18 @@
 - https://people.nscl.msu.edu/~hergert/phy820/material/worksheets/
 
-- 8 and 9, reorganize? check spanish version
+- Licencia.
+
+- Change title in html render in colab:
+  - MarkdownLaTeX
+  - constraintIdealPendulum
+
+- Exercises tu turn in 8 and 9.
 
 - Add this to README in spanish version (Fix path):
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/) English version.
 
 - Fix repository description.
 
-- imágenesNotebooks.ipynb:
-  Copied into figuresLatex, what to do with this?
 
 Pinned:
 docs/index.md  READY (with comments)
@@ -26,10 +30,8 @@ estaAsignatura.ipynb - thiscourse.ipynb :           ready (99%)
       - Jupyter: the environment ...
       - The notebooks run on a free online system
       - Course material management:...
-introducciónPython -> introPython.ipynb             ready       
+introducciónPython -> IntroPython.ipynb             ready       
   Moved from jupyterLatex
-
-entregaEjercicios.ipynb - turninExercises.ipynb:    not ready     what to do with it?
 
 
 02Energy:      READY
