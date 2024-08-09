@@ -9,14 +9,14 @@ Access to the material: [https://unlam.github.io/ComputationalAnalyticalMechanic
 
 This is the repository for the course [Computational Analytical Mechanics](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510), for the [mechanical engineering degree](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) at the [Department of Engineering and Research in Technology](https://ingenieria.unlam.edu.ar/), Universidad Nacional de La Matanza.
 
-It's a code-based undergraduate course on analytical mechanics for engineering students with little to no prior programming knowledge. This 14-week flipped classroom course focuses on providing skills to calculate dynamics and strains of simple mechanical devices modelled as rigid bodies by solving Euler-Lagrange equations. Problems sets with increasingly complex exercises are introduced each week. Python-based solutions to previous ones are reused by students, who through small incremental modifications over the code presented by the teaching staff, build their own library of solutions to address mechanical modelling challenges.  
+It's a code-based undergraduate course on analytical mechanics for engineering students with little to no prior programming knowledge. This 16-week flipped classroom course focuses on providing skills to calculate dynamics and strains of simple mechanical devices modelled as rigid bodies by solving Euler-Lagrange equations. Problems sets with increasingly complex exercises are introduced each week. Python-based solutions to previous ones are reused by students, who through small incremental modifications over the code presented by the teaching staff, build their own library of solutions to address mechanical modelling challenges.  
 
 The material for this course is available as Jupyter notebooks, containing theory and example exercises alongside the code to solve them.
 Students are required to rely on computer-based calculations, both analytical and numerical, so to focus their efforts on the physics modelling and interpretation of results. The online hosting and execution of these notebooks avoids any installation or hardware requirement issues.
 
 
 ## Contents
-In this proposed schedule for a course of 14 weeks, the topics are divided by areas.
+In this proposed schedule for a course of 16 weeks, the topics are divided by areas.
 Some of them are covered through more than one week, so a further descriptor, _Folder_, indicates where to find each week's material.
 
 | Week | Area                  | Folder            | Topics                   |
@@ -72,11 +72,10 @@ Some of them are covered through more than one week, so a further descriptor, _F
 - Theory
   - [Vector kinematics](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/vectorKinematics.ipynb) [ipynb]
 - Exercises
-  - [Problem set - Vector kinematics](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/01Vector/exercisesVector.pdf) [pdf]
+  - [Problem set - Vector kinematics](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/exercisesVector.pdf) [pdf]
 
 - References
   - [Introduction to Python](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/IntroPython.ipynb) [ipynb]
-  - [2D and 3D graphics with matplotlib](https://github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb?classId=fc1ba4aa-6a5d-4ffa-8fd4-7a06ba08cfcd&classId=660444eb-e3d5-4135-8b70-44d5b04eb604) [ipynb]
   - [Markdown and LaTeX](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/MarkdownLaTeX.ipynb) [ipynb]
 
 - Exercises to turn in  
@@ -138,7 +137,8 @@ It's time to solve the equations found using the Euler-Lagrange method. We'll pu
   - pset05e02c
   - pset05e03
   - pset05e04
-
+- References
+  - [2D and 3D graphics with matplotlib](https://github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb?classId=fc1ba4aa-6a5d-4ffa-8fd4-7a06ba08cfcd&classId=660444eb-e3d5-4135-8b70-44d5b04eb604) [ipynb]
 
 ## 06 Constraint reactions
 
@@ -181,25 +181,22 @@ The relation is more complex than a simple scalar quantity like mass, it is the 
 - [Problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/08InertiaTensor/exercisesInertiaTensor.pdf) [pdf]
 - [Ex. 3 - Rotation arm](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/ex3RotationArm.ipynb) [ipynb]
 - [Ex. 5 - Inertia tensor for a cube](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/ex5Cube.ipynb) [ipynb]
+- Exercises to turn in
+  - pset08e02
+  - pset08e04
+  - pset08e05
 
 
 ## 09 Distributed mass
 
 (Currently in Spanish, soon to be translated)
 
-
 - [Problem set - Distributed mass](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/master/09DistributedMass/exercisesDistributedMass.pdf) [pdf]
-<!-- - Exercises to turn in
-  - First turn
-    - pset08e01
-    - pset08e02
-    - pset08e03
-    - pset08e04
-  - Second turn
-    - pset08e06
-    - pset08e07
-    - pset08e08
-    - pset08e09 -->
+- Exercises to turn in
+  - pset09e01
+  - pset09e02
+  - pset09e03
+  - pset09e04
 
 
 ## 10 Euler equations
