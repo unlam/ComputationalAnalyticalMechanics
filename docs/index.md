@@ -1,9 +1,18 @@
-[<image src="docs/assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/)
+![https://ingenieria.unlam.edu.ar/](/docs/assets/img/bothLogo.svg )
+<!--
+[<image src="{{site.url}}/docs/assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/)
+-->
 
 # Computational Analytical Mechanics
 
-[<image src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg"  width="80"/>](https://creativecommons.org/licenses/by-nc-sa/4.0/) 2024 Víctor A. Bettachini
 
+![https://creativecommons.org/licenses/by-nc-sa/4.0/](/docs/assets/img/by-nc-sa.svg) 2024 Víctor A. Bettachini
+
+<!--
+<img src="/docs/assets/img/by-nc-sa.src"/>
+
+[<image src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg"  width="80"/>](https://creativecommons.org/licenses/by-nc-sa/4.0/) 2024 Víctor A. Bettachini
+-->
 
 This is the repository for the course [Computational Analytical Mechanics](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510), for the [mechanical engineering degree](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) at the [Department of Engineering and Research in Technology](https://ingenieria.unlam.edu.ar/), Universidad Nacional de La Matanza.
 
