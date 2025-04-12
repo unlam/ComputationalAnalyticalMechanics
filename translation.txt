@@ -1,0 +1,69 @@
+
+tags/202503
+
+TODO:
+- Redo some figures, that look like screenshots, if there are copyright issues.
+- Check the year in the headers and footnotes. Some notebooks say 2022 in English and 2024 in Spanish.
+- There are only a couple of modules translated: compare files with Spanish versions.
+- The files that are not yet translated: copy the new files in Spanish again.
+
+
+== 01Vectorial -> 01Vector 
+
+cinemáticaVectorial.ipynb  ->  vectorKinematics.ipynb
+entregaEjercicios.ipynb    ->  ?
+estaAsignatura.ipynb       ->  thisCourse.ipynb
+guíaVectorial.tex          ->  exercisesVector.tex
+?                          ->  MarkdownLaTeX.ipynb
+?                          ->  IntroPython.ipynb
+
+
+== 02Energía -> 02Energy
+
+apunteLanczos.pdf                  ->  ?
+energíaCinéticaTraslación.ipynb    ->  kineticEnergy.ipynb
+energíaPotencialGravitatoria.ipynb ->  gravitationalPotentialEnergy.ipynb
+guíaEnergía.tex                    ->  exercisesEnergy.tex
+?                                  ->  p02e04_help.ipynb
+
+== 03EulerLagrange -> 03EulerLagrange
+
+apunteLanczos.tex                              ->  ?
+energíaPotencialElástica_eulerLagrange.ipynb   ->  elasticPotentialEnergy.ipynb
+guíaEulerLagrange.tex                          ->  exercisesEulerLagrange.tex
+partesRotantes_eulerLagrange.ipynb             ->  rotatingParts.ipynb
+plantilla_eulerLagrange.ipynb                  ->  euler_lagrange_base.ipynb
+péndulos_eulerLagrange.ipynb                   ->  eulerLagrangePendulums.ipynb
+
+
+== 04Ligaduras  ->  04Constraints
+
+atwood_Ligaduras.ipynb            ->  atwoodConstraint.ipynb
+guíaLigaduras.tex                 ->  exercisesConstraints.tex
+ligadurasFunción.ipynb            ->  constraintsFunction.ipynb
+resoluciónSistemasLineales.ipynb  ->  solvingLinearSystems.ipynb
+
+== 05Simulación  ->  05Simulation
+
+atwoodSimulación_Resuelto.ipynb         ->  atwoodSimulationSolved.ipynb
+guíaSimulación.tex                      ->  exercisesSimulation.tex
+pénduloLibre_Simulación_Resuelto.ipynb  ->  pendulumFreeSimulSolved.ipynb
+
+== 06FuerzasLigadura  ->  06ForcesConstraint
+
+fuerzasLigadura.ipynb               ->  forcesConstraint.ipynb
+guíaFuerzasLigadura.tex             ->  exercisesConstraintForces.tex
+pénduloIdeal_FuerzasLigadura.ipynb  ->  constraintIdealPendulum.ipynb
+rodadura_FuerzasLigadura.ipynb      ->  rollingForcesConstraint.ipynb
+sistemasNoHolónomos.ipynb           ->  ?
+
+
+== 07NoConservativas  ->  07NonConservative
+
+cilíndrosSolidarios_noConservativas_ayuda.ipynb  ->  linkedCylinders_Help.ipynb
+guíaNoConservativas.tex                          ->  exercisesNonConservative.tex
+noConservativas.ipynb                            ->  nonConservative.ipynb
+nonConservativesExamples.ipynb                   ->  ?
+
+== 08TensorInercia  ->  08InertiaTensor
+
