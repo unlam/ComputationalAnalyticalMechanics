@@ -31,10 +31,10 @@ guíaEnergía.tex                    ->  exercisesEnergy.tex                  As
 
 apunteLanczos.tex                              ->  ?                              Ask.
 energíaPotencialElástica_eulerLagrange.ipynb   ->  elasticPotentialEnergy.ipynb   Ask. (3)
-guíaEulerLagrange.tex                          ->  exercisesEulerLagrange.tex
-partesRotantes_eulerLagrange.ipynb             ->  rotatingParts.ipynb
-plantilla_eulerLagrange.ipynb                  ->  euler_lagrange_base.ipynb
-péndulos_eulerLagrange.ipynb                   ->  eulerLagrangePendulums.ipynb
+guíaEulerLagrange.tex                          ->  exercisesEulerLagrange.tex     Ready (4, ref.)
+partesRotantes_eulerLagrange.ipynb             ->  rotatingParts.ipynb            Ready
+plantilla_eulerLagrange.ipynb                  ->  euler_lagrange_base.ipynb      Ready
+péndulos_eulerLagrange.ipynb                   ->  eulerLagrangePendulums.ipynb   Ask. (5)
 
 
 == 04Ligaduras  ->  04Constraints
@@ -110,6 +110,11 @@ integradorRígido.ipynb  ->  projectRigid.ipynb
 
 
 
+=============================
+
+General:
+- End comments with a period.
+
 (1)
 Primera sección "Nuevamente ..." no está en inglés, parece nuevo. ¿Se agrega o no?
 
@@ -139,10 +144,35 @@ Ej 4: no están la explicación con las figuras en 3D. Pero está el archivo apa
 
 (3)
 
-Traducir el enunciado del ejercicio que se muestra o borrarlo?. Aun no hasta estar seguro de que queda.
+- Traducir el enunciado del ejercicio que se muestra o borrarlo?. Aun no hasta estar seguro de que queda.
 ¿El enunciado del problema se deja al comienzo o está mal ubicado?
 
-Corregir Hook por Hooke en español.
+- Corregir Hook por Hooke en español.
 
-Corregir ecuación para F, falta vector en F (o negrita), y dice vector r cuando debería ser versor?
+- Corregir ecuación para F, falta vector en F (o negrita), y dice vector r cuando debería ser versor?
+
+
+(4) Interesting references about topics in this notebook.
+Pendulum motion on an inclined plane
+https://iopscience.iop.org/article/10.1088/1361-6552/ac7b02
+
+Dynamic equation
+https://www.sciencedirect.com/topics/computer-science/dynamic-equation
+
+
+(5)
+
+- Referencias (hay más de una) Apunte apunteLanczos, ¿se deja, se borra, se modifica?
+Si se deja, hay que traducir el apunte.
+
+Depende de que se hace con la referencia, proceder con 
+**(Es imperativo leer la referencia para entender la deducción de esta ecuación)**
+
+Corregir:
+"Primero la derivada parcial respecto a la coordenada generalizada"
+debe ser respecto de la velocidad.
+
+
+
+
 
