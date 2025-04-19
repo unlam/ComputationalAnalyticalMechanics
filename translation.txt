@@ -113,6 +113,7 @@ integradorRígido.ipynb  ->  projectRigid.ipynb
 =============================
 
 General:
+- Check if figures are loaded in colab, because I'm sometimes using the link to a local file.
 - End comments with a period.
 
 (1)
