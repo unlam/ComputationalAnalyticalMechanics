@@ -10,12 +10,12 @@ TODO:
 
 == 01Vectorial -> 01Vector 
 
-cinemáticaVectorial.ipynb  ->  vectorKinematics.ipynb
-entregaEjercicios.ipynb    ->  ?
-estaAsignatura.ipynb       ->  thisCourse.ipynb
-guíaVectorial.tex          ->  exercisesVector.tex
-?                          ->  MarkdownLaTeX.ipynb
-?                          ->  IntroPython.ipynb
+cinemáticaVectorial.ipynb  ->  vectorKinematics.ipynb   Ready
+entregaEjercicios.ipynb    ->  ?                        Ask.
+estaAsignatura.ipynb       ->  thisCourse.ipynb         Ready
+guíaVectorial.tex          ->  exercisesVector.tex      Ready.
+?                          ->  MarkdownLaTeX.ipynb      Ask.
+?                          ->  IntroPython.ipynb        Ask.
 
 
 == 02Energía -> 02Energy
@@ -66,4 +66,44 @@ noConservativas.ipynb                            ->  nonConservative.ipynb
 nonConservativesExamples.ipynb                   ->  ?
 
 == 08TensorInercia  ->  08InertiaTensor
+
+guíaTensorInercia.tex               ->  exercisesInertiaTensor.tex
+momentoAngularTorque.ipynb          ->  angular_momentum_torque.ipynb
+monóxidoCarbono_tensorInercia.ipynb -> ?
+tensorInercia.ipynb                 -> inertiaTensor.ipynb
+?                                   -> ex3RotationArm.ipynb
+?                                   -> ex5Cube.ipynb  (Check next module 09)
+
+== 09MasaDistribuida  -> 09DistributedMass
+
+guíaDistribuciónMasa.tex   ->  exercisesDistributedMass.tex
+cubo_tensorInercia.ipynb   ->  inertiaTensorcube.ipynb  
+masaDistribuida.ipynb      ->  distributedMass.ipynb
+
+
+== 10RotaciónEuler  ->  10EulerRotation
+
+engranajeDesalineado.ipynb  ->  gearOffsetted.ipynb
+guíaRotacionEuler.tex       ->  exercisesEulerRotation.tex
+rotaciónEuler.ipynb         ->  rotationEuler.ipynb
+volanteInercia.ipynb        ->  flywheel.ipynb
+
+
+==  11Vibraciones1GdL  ->  11OscillationsSDOF
+
+arbitrario1GdL.ipynb     ->  arbitrarySDOF.ipynb
+armónico1GdL.ipynb       ->  harmonicSDOF.ipynb
+guíaVibraciones1GdL.tex  ->  exercisesSDOF.tex
+vibraciones1GdL.ipynb    ->  oscillationsSDOF.ipynb
+
+== 12VibracionesNGdL  ->  12OscillationsMDOF
+
+guíaVibracionesNGdL.tex  ->  exercisesMDOF.tex
+masas_transv.ipynb       ->  ?
+vibracionesNGdL.ipynb    ->  oscillationsMDOF.ipynb
+
+
+== 15Integrador  ->  13FinalProject   (keep this number?)
+
+integradorRígido.ipynb  ->  projectRigid.ipynb
 
