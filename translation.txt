@@ -20,16 +20,17 @@ guíaVectorial.tex          ->  exercisesVector.tex      Ready.
 
 == 02Energía -> 02Energy
 
-apunteLanczos.pdf                  ->  ?
-energíaCinéticaTraslación.ipynb    ->  kineticEnergy.ipynb
-energíaPotencialGravitatoria.ipynb ->  gravitationalPotentialEnergy.ipynb
-guíaEnergía.tex                    ->  exercisesEnergy.tex
-?                                  ->  p02e04_help.ipynb
+apunteLanczos.pdf                  ->  ?                                    Ask.
+energíaCinéticaTraslación.ipynb    ->  kineticEnergy.ipynb                  Ready.
+energíaPotencialGravitatoria.ipynb ->  gravitationalPotentialEnergy.ipynb   Ask. (1)
+guíaEnergía.tex                    ->  exercisesEnergy.tex                  Ask. (2)
+?                                  ->  p02e04_help.ipynb                    Ask. Keep or move to pdf?
+
 
 == 03EulerLagrange -> 03EulerLagrange
 
-apunteLanczos.tex                              ->  ?
-energíaPotencialElástica_eulerLagrange.ipynb   ->  elasticPotentialEnergy.ipynb
+apunteLanczos.tex                              ->  ?                              Ask.
+energíaPotencialElástica_eulerLagrange.ipynb   ->  elasticPotentialEnergy.ipynb   Ask. (3)
 guíaEulerLagrange.tex                          ->  exercisesEulerLagrange.tex
 partesRotantes_eulerLagrange.ipynb             ->  rotatingParts.ipynb
 plantilla_eulerLagrange.ipynb                  ->  euler_lagrange_base.ipynb
@@ -106,4 +107,42 @@ vibracionesNGdL.ipynb    ->  oscillationsMDOF.ipynb
 == 15Integrador  ->  13FinalProject   (keep this number?)
 
 integradorRígido.ipynb  ->  projectRigid.ipynb
+
+
+
+(1)
+Primera sección "Nuevamente ..." no está en inglés, parece nuevo. ¿Se agrega o no?
+
+### Generalized coordinates and Cartesian system
+Esto estaba en inglés y ahora no está más en la versión español. ¿Se deja o se borra?
+
+(2)
+
+Los ítems del Ej 1 cambiaron. Revisar específicamente el ítem d.
+
+Ej 2: Esto no lo incluí.
+"Para cada uno de los siguientes puntos escriba en un cuaderno Jupyter titula-
+do con su apellido una o varias celdas de código separadas entre sí por otras
+conteniendo un texto indicando de que punto se trata"
+
+Para corregir en español:
+T_\text{traslación} V_\text{gravitatoria}
+usar \text{} para etiquetas.
+
+"a traves" falta tilde.
+
+Ej 3: quizas es mejor usar dfrac para T en los resultados?
+
+Ej 4: no están la explicación con las figuras en 3D. Pero está el archivo aparte con esa explicación,
+¿agregar un link en el pdf?
+
+
+(3)
+
+Traducir el enunciado del ejercicio que se muestra o borrarlo?. Aun no hasta estar seguro de que queda.
+¿El enunciado del problema se deja al comienzo o está mal ubicado?
+
+Corregir Hook por Hooke en español.
+
+Corregir ecuación para F, falta vector en F (o negrita), y dice vector r cuando debería ser versor?
 
