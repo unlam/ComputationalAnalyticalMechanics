@@ -4,8 +4,11 @@ tags/202503
 TODO:
 - Redo some figures, that look like screenshots, if there are copyright issues.
 - Check the year in the headers and footnotes. Some notebooks say 2022 in English and 2024 in Spanish.
-- There are only a couple of modules translated: compare files with Spanish versions.
-- The files that are not yet translated: copy the new files in Spanish again.
+
+
+- Translate imagesNotebooks.ipynb
+
+
 
 
 == 01Vectorial -> 01Vector 
