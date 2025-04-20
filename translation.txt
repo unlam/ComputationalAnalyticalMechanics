@@ -42,7 +42,7 @@ péndulos_eulerLagrange.ipynb                   ->  eulerLagrangePendulums.ipynb
 
 == 04Ligaduras  ->  04Constraints
 
-atwood_Ligaduras.ipynb            ->  atwoodConstraint.ipynb
+atwood_Ligaduras.ipynb            ->  atwoodConstraint.ipynb        Ready (7)
 guíaLigaduras.tex                 ->  exercisesConstraints.tex      Ask (almost ready) (6)
 ligadurasFunción.ipynb            ->  constraintsFunction.ipynb
 resoluciónSistemasLineales.ipynb  ->  solvingLinearSystems.ipynb
@@ -120,6 +120,7 @@ integradorRígido.ipynb  ->  projectRigid.ipynb
 General:
 - Check if figures are loaded in colab, because I'm sometimes using the link to a local file.
 - End comments with a period.
+- Función de ligadura o ecuaciones de ligadura?
 
 (1)
 Primera sección "Nuevamente ..." no está en inglés, parece nuevo. ¿Se agrega o no?
@@ -185,3 +186,20 @@ Agregar tilde en Máquina.
 Exercises: the relation between the coordinates, is that a constraint?
 
 
+(7)
+Español, corregir: Más allá del problema de las ligaduras, el procedimiento habitual de definir las posiciones de los cuerpos de interes en en sistema de referencia cartesiando utilizando para esto las coordenadas generalizadas es la más adecuado.
+
+Esta línea falta en la sección donde se calculan las aceleraciones.
+t = sm.Symbol('t')
+
+Español:
+Tuve que agregar
+theta = me.dynamicsymbols(r'\theta')
+en la parte (c)
+
+(d) Corregir
+T_withPulley = sm.Eq(
+    sm.Symbol('T_\mathrm{w/pulley}'),
+    T_translational.rhs + T_rotationalPulley.rhs
+)
+T_withPulley
