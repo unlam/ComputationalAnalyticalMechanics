@@ -1,114 +1,89 @@
-\documentclass[11pt, spanish, a4paper, twoside]{article}
+\documentclass[11pt, a4paper, twoside]{article}
 
 \input{../figuresLaTeX/introUNLaM}
 
 
 \begin{document}
 \begin{center}
-  % \textsc{\large Mecánica general}\\
-  \textsc{\large Ligaduras}
+  \textsc{\large Constraints}
 \end{center}
 
 \noindent
-%De poder resolver estos problemas en forma autónoma puede asumir que adquirió los conocimientos mínimos sobre los temas abordados en la semana.
-%No dude en consultar a docentes y compañeros si no puede terminarlos.
-Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en consultar.
+Exercises marked with (*) have extra difficulty, don't hesitate to ask for help.
 
 \begin{enumerate}
 
 \item 
 	\begin{minipage}[t][3cm]{0.72\textwidth}
-		\textbf{Máquina de Atwood simple}\\
-		Una cuerda de longitud \(\ell\) pasa sobre una polea de radio \(R_p\) y masa \(m_p\).
-		Calcule la aceleración de las pesas que cuelgan de sus extremos.
+		\textbf{Atwood machine}\\
+		The figure shows a string of length \(\ell\) and a pulley of radius \(R_p\) and mass \(m_p\).
+		Find the acceleration of the masses attached at each end of the string.
 	\end{minipage}
 	\begin{minipage}[c][3cm][t]{0.2\textwidth}
-		% \hspace{0.5cm}
 		\input{figures/atwood.tikz}
 	\end{minipage}
 		\begin{enumerate}
-			\item La cuerda es inextensible, por lo que establece una relación entre \(y_1\) e \(y_2\).
-			Escriba esta función de vínculo.
-			\item Si la cuerda desliza sin rozamiento sobre la polea, esta última no se mueve.
-			Calcule la ecuación de Euler-Lagrange para \(y_1\) usando el vínculo del punto anterior y escriba la aceleración de las pesas.
-			\item Lo usual es que la cuerda no deslice y gire solidaria a la polea.
-			Esto vincula \(\theta\) al desplazamiento de la cuerda.
-			Con tal vínculo exprese en función de \(\dot{y}_1\) la energía cinética de rotación de la polea, que modelada como un cilindro homogéneo que en torno a su eje presenta un momento de inercia \((m/2) R^2\).
-			\item Use la ecuación de Euler-Lagrange para \(y_1\) para escribir la aceleración de las pesas en este caso.
+			\item The string is inextensible, so it establishes a relation between \(y_1\) and \(y_2\).
+			Write the function for this constraint.
+			\item If the string slides over the pulley without friction, the pulley will not move.
+			Write the Euler-Lagrange equation for \(y_1\) using the constraint from the previous item and write the masses' acceleration.
+			\item Usually, the string won't slide and the pulley will rotate.
+			This constraint adds a relation between \(\theta\) and the displacement of the string.
+			Using that constraint, write the pulley's rotational kinetic energy in terms of \(\dot{y}_1\), modeling the pulley as an homogeneous cylinder with a moment of inertia of \((m/2) R^2\).
+			\item Use the Euler-Lagrange equation for \(y_1\) to write the masses' accelerations.
 		\end{enumerate}
 	
 	\item 
 	\begin{minipage}[t][2.3cm]{0.75\textwidth}
-		\textbf{Péndulo de pesas deslizantes y acopladas}\\ 
-		Dos pesas de masa \(m_1\) y \(m_2\) están unidas por una barra rígida inextensible de longitud \(\ell\) y masa despreciable frente a las anteriores.
-		La de \(m_1\) puede deslizar sin rozamiento sobre un eje horizontal y la de \(m_2\) en uno vertical.
-		La barra establece un vínculo entre las respectivas coordenadas que definen sus posiciones, \(x\) e \(y\).
+		\textbf{Pendulum with sliding and coupled masses}\\ 
+		Two weights of masses \(m_1\) and \(m_2\) are linked together by a rigid bar of length \(\ell\) and negligible mass.
+		\(m_1\) can slide over an horizontal axis and \(m_2\) over a vertical axis, both without friction.
+		The bar sets a constraint between the coordinates that define their positions, \(x\) and \(y\).
 	\end{minipage}
 	\begin{minipage}[c][1cm][t]{0.25\textwidth}
 		\input{figures/slidingWeights.tikz}
 	\end{minipage}
 	\begin{enumerate}
-		\item Use la función de vínculo para expresar las posiciones solo en función de \(y\).
-		%\item Haga uso de la función de vínculo para expresar las posiciones en función de una sola coordenada generalizada.
-		%Exprésalas primero en función de:
-		%\begin{enumerate*}[
-		%			%itemjoin=\quad,
-		%			%before=\hspace*{\fill},
-		%			%after=\hspace*{\labelwidth}\hspace*{-\labelsep}\hspace*{\fill},
-		%		]
-		%	\item \(y\) y luego hágalo en función de  
-		%	\item \(\theta\)
-		%\end{enumerate*} % https://tex.stackexchange.com/questions/591120/how-can-you-put-items-on-one-line-and-center-them
-		\item Calcule la aceleración de la pesa de \(m_2\). % ¿Con cuál coordenada las expresiones de energía resultan más ``informativas''?\\
-		% \item Obtenga las aceleraciones.% ¿Con cuál coordenada las expresiones de energía resultan más ``informativas''?\\
-		Resultado:
+		\item Use the constraint function to express both positions only in terms of \(y\).
+		\item Calculate the acceleration of \(m_2\).\\
+		Result:
 			$\ddot{y} = \frac{- \ell^{2} m_{1} y \dot{y}^{2} + g m_{2} \left(\ell^{2} - y^{2}\right)^{2}}{\ell^{4} m_{2} + \ell^{2} m_{1} y^{2} - 2 \ell^{2} m_{2} y^{2} - m_{1} y^{4} + m_{2} y^{4}}$
 			\qquad
-			%$\ddot{\theta} = \frac{\left(\ell m_{1} \cos{\left(\theta \right)} \dot{\theta}^{2} - \ell m_{2} \cos{\left(\theta \right)} \dot{\theta}^{2} - g m_{2}\right) \sin{\left(\theta \right)}}{\ell \left(m_{1} \cos^{2}{\left(\theta \right)} + m_{2} \sin^{2}{\left(\theta \right)}\right)}$
-		%\item Realice las sustituciones que corresponden a una aproximación de pequeñas oscilaciones para el caso \(m_1 = m_2 = m\). ¿La expresión de qué sistema obtiene?
-		% \item (*) ¿Cuál es el período de movimiento de pequeñas oscilaciones para el caso \(m_1 = m_2 = m\)?
 	\end{enumerate}
 	
 
 	\item 
 	\begin{minipage}[t][6cm]{0.57\textwidth}
-		\textbf{Aro y polea}\\
-		Una pesa de masa \(m_{pesa}\) pende de sección de cuerda que sobresale a la derecha de una polea de radio \(R_{polea}\) y masa \(m_{polea}\).
-		Tal cuerda, que gira solidaria con la polea, tiene una longitud total \(\ell\) y su masa es despreciable.
-		Su otro extremo se ata con un nudo de masa \(m\) a un aro de masa \(m_{aro}\), enrollándose en un arco \(\theta\) en torno a éste.
-		El centro de la polea está a una altura \(h_{polea}\) por sobre el del aro de radio \(R_{aro}\) que como puede rotar libremente presenta un momento de inercia \(m_{aro} R_{aro}^2\).
-
-		Quedan el apartamiento con la horizontal de la pesa, \(y_{pesa}\), y la extensión del arco enrollado, \(\theta\), como las coordenadas generalizadas que estarán ligadas por la cuerda de longitud \(\ell\).
+		\textbf{Ring and pulley}\\
+		A weight of mass \(m_2\) hangs from the free end of the string that passes over the pulley of radius \(R_{p}\) and mass \(m_{p}\).
+		The string moves without sliping, its length is \(\ell\) and its mass is negligible.
+		The other end of the string is attached to mass \(m_1\), fixed to a ring of mass \(m_{r}\), coiling over the ring by an angle \(\theta\).
+		The center of the pulley is at a height \(h_{p}\) over the center of the ring. The radius of the ring is \(R_{r}\) and rotates freely with a moment of inertia \(m_{r} R_{r}^2\).
+		The generalized coordinates are \(y_{2}\) and \(\theta\), constrained because of the length \(\ell\).
 	\end{minipage}
 	\begin{minipage}[c][1.5cm][t]{0.2\textwidth}
 		\input{figures/ringPulley.tikz}
 	\end{minipage}
-	%\begin{minipage}[c][0cm][t]{0.2\textwidth}
-		%\hspace{0.5cm}
-		%\includegraphics[width=0.75\textwidth]{cmchap6_fig6_14}
-	%\end{minipage}
 	\begin{enumerate}
-		\item Escriba la posición de las partículas con masa en función de las coordenadas generalizas variables que  un sistema de referencia con origen en el centro del aro.
-		\item Describa la función de ligadura y utilícela para expresar las posiciones en función de \(\theta\).
-		Verifique su solución revisando que una variación de \(\theta\) ``hacia su cero'' implique que la pesa ``baja''. 
-		\item Obtenga la ecuación de Euler-Lagrange para la dinámica sin olvidar los momentos involucrados.\\
-		Resultado:
+		\item Write the position for each object in terms of the generalized coordinates, in a frame of reference with origin at the center of the ring.
+		\item Find an expression for the constraint and use it to rewrite the positions in terms of \(\theta\).
+		Verify your solution by checking that a variation in \(\theta\) approaching its zero value implies that the other object moves down.
+		\item Write the Euler-Lagrange equation.\\
+		Result:
 		\(
-		R_{aro}^{2} m \ddot{\theta} + R_{aro}^{2} m_{aro} \ddot{\theta} + R_{aro} g m \cos{\left(\theta \right)} + R_{polea}^{2} m_{pesa} \ddot{\theta} + \frac{R_{polea}^{2} m_{polea} \ddot{\theta}}{2} - R_{polea} g m_{pesa} = 0
+		R_{r}^{2} m_1 \ddot{\theta} + R_{r}^{2} m_{r} \ddot{\theta} + R_{r} g m_1 \cos{\left(\theta \right)} + R_{p}^{2} m_{2} \ddot{\theta} + \frac{R_{p}^{2} m_{p} \ddot{\theta}}{2} - R_{p} g m_{2} = 0
 		\)
 	\end{enumerate}
 
 
 	\item
 	\begin{minipage}[t][6.8cm]{0.67\textwidth}
-		\textbf{Maquina de Atwood compuesta} [Marion (english) ex. 7.8]\\ 
+		\textbf{Double Atwood machine} [Marion ex. 7.8]\\ 
 		\begin{enumerate}
-			\item Escriba la posición de las tres pesas y de la polea inferior en función de 
-			las cuatro coordenadas generalizadas indicadas en la figura: \(y_i\) con \(i = 1,2,3,p\). 
-			\item Modele las ligaduras que proveen las dos cuerdas en sendas funciones.
-			\item Use las funciones de ligadura para expresar todas las posiciones en función de \(y_1\) e \(y_2\).
-			\item Las cuerdas no deslizan sobre las poleas, por lo que la longitud de cuerda que se desplaza en una polea es igual a la que se desplaza en la otra.
-			Este es otro vínculo que debe modelar la relación entre las \(y_i\) y las \(\theta_i\).  
+			\item Write the positions for the three hanging objects and that of the lower pulley in terms of the generalized coordinates shown in the figure: \(y_i\) with \(i = 1,2,3,p\). 
+			\item Write the functions for the constraints provided by both strings.
+			\item Use the constraint functions to express all positions in terms of \(y_1\) and \(y_2\).
+			\item The strings don't slide over the pulleys. This is an extra constraint that must be used to relate \(y_i\) and \(\theta_i\).
 		\end{enumerate}
 	\end{minipage}
 	\begin{minipage}[c][0cm][t]{0.3\textwidth}
@@ -120,23 +95,23 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 			\stepcounter{enumii}
 			\stepcounter{enumii}
 			\stepcounter{enumii}
-			\item Calcule energías potenciales y cinéticas contemplando los momentos de inercia de las poleas.
-			Recuerde la relación entre el perímetro (circunferencia) de un círculo y su radio para escribir la velocidad angular en función del \(\dot{y}_i\) correspondiente.
-			\item Obtenga las dos ecuaciones de Euler-Lagrange.
-			Resultados:\\
+			\item Calculate the kinetic and potential energies.
+			\item Find both Euler-Lagrange equations.\\
+			Results:\\
 			% reduce size of equations
 			\scalebox{0.9}{
 			$- g m_{1} + g m_{2} + g m_{3} + g m_{p} + m_{1} \ddot{y}_{1} + m_{2} \ddot{y}_{1} - m_{2} \ddot{y}_{2} + m_{3} \ddot{y}_{1} + m_{3} \ddot{y}_{2} + \frac{3 m_{p} \ddot{y}_{1}}{2} = 0$}\\
 			\scalebox{0.9}{
 			$- g m_{2} + g m_{3} - m_{2} \ddot{y}_{1} + m_{2} \ddot{y}_{2} + m_{3} \ddot{y}_{1} + m_{3} \ddot{y}_{2} + \frac{m_{p} \ddot{y}_{2}}{2} = 0$
 			}
-			\item De este sistema de ecuaciones, despeje las aceleraciones generalizadas.
-			Resultados:\\
+			\item Solve for the generalized accelerations.\\
+			Results:\\
 			\(
 				\ddot{y}_{1} = \frac{2 g \left(2 m_{1} m_{2} + 2 m_{1} m_{3} + m_{1} m_{p} - 8 m_{2} m_{3} - 3 m_{2} m_{p} - 3 m_{3} m_{p} - m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\\
 				\ddot{y}_{2} = \frac{2 g \left(4 m_{1} + m_{p}\right) \left(m_{2} - m_{3}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}
 			\)
-			\item Exprese las aceleraciones de las tres pesas. Resultados:\\
+			\item Write the accelerations of the three masses.\\
+			Results:\\
 			\(
 				\ddot{\vec{r}}_{1} = \ddot{y}_1 (- \hat{e}_y)\\
 				\ddot{\vec{r}}_{2} = -  \frac{2 g \left(2 m_{1} m_{2} - 6 m_{1} m_{3} - m_{1} m_{p} + 8 m_{2} m_{3} + 4 m_{2} m_{p} + 2 m_{3} m_{p} + m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\mathbf{\hat{e}_y} \\

@@ -13,10 +13,10 @@
 	% angle dimensions
 	\draw [dashed, rotate around={-\angle:(ringCentre)}] {(ringCentre) + (0.2,0)} -- ({\ringRadius + \extra },0);
 	\draw [Latex-Latex] (ringCentre) ++(0:{\ringRadius + \extra / 2}) arc (0:-\angle:{\ringRadius + \extra / 2 }) node [midway, right] {\(\theta\)};
-	\node [above left] at (\ringRadius/2,0) {\(R_{aro}\)};
+	\node [above left] at (\ringRadius/2,0) {};
 	
 	% knot
-	\shade [ball color=black!80] ($(ringCentre) +({- \angle}:\ringRadius)$) circle(0.25) node [] {\color{white} $m$};
+	\shade [ball color=black!80] ($(ringCentre) +({- \angle}:\ringRadius)$) circle(0.25) node [] {\color{white} $m_1$};
 
 	% draw the pulley
 	\def \pulleyRadius {1.5};
@@ -30,13 +30,13 @@
 	
 	% arc above the pulley
 	\draw [ultra thick] (pulleyCentre) ++(0:\pulleyRadius) arc (0:180:\pulleyRadius);
-	\node [above] at ($ (pulleyCentre) + (\pulleyRadius/2,0)$) {\(R_{polea}\)};
+	\node [above] at ($ (pulleyCentre) + (\pulleyRadius/2,0)$) {};
 	
 	% height pulley dimension lines
 	\draw [dashed] {(ringCentre) + (0.2,0)} -- ({\ringRadius + 2 * \pulleyRadius + 2* \extra},0);
 	% \draw [dashed] {(pulleyCentre) + (0.2,0)} -- ($ (pulleyCentre) + (\pulleyRadius,0)$) ;
 	\draw [dashed] {(pulleyCentre) + (0.2,0)} -- ($ (pulleyCentre) + (\pulleyRadius + 2 * \extra,0)$) ;
-	\draw [Latex-Latex] ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra,0)$) -- ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude})$) node [midway, right] {\(h_{polea}\)};
+	\draw [Latex-Latex] ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra,0)$) -- ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude})$) node [midway, right] {\(h_{p}\)};
 	
 	% ceiling
 	\def \ceilingAbove {2.0};
@@ -55,10 +55,10 @@
 	
 	% weight dimension lines
 	\draw [dashed] (weightCentre) -- ({\ringRadius + 2 * \pulleyRadius + 2* \extra}, \weightAltitude);
-	\draw [Latex-Latex] ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude})$) --  ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude + \weightAltitude})$) node [midway, right] {\(y_{pesa}\)};
+	\draw [Latex-Latex] ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude})$) --  ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude + \weightAltitude})$) node [midway, right] {\(y_{2}\)};
 
 	% weight 
-	\shade [ball color=black!80] (weightCentre) circle (\weightHeight) node {\color{white} $m_{pesa}$};
+	\shade [ball color=black!80] (weightCentre) circle (\weightHeight) node {\color{white} $m_{2}$};
 
 
 	% floor

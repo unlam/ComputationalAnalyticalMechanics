@@ -43,9 +43,11 @@ péndulos_eulerLagrange.ipynb                   ->  eulerLagrangePendulums.ipynb
 == 04Ligaduras  ->  04Constraints
 
 atwood_Ligaduras.ipynb            ->  atwoodConstraint.ipynb
-guíaLigaduras.tex                 ->  exercisesConstraints.tex
+guíaLigaduras.tex                 ->  exercisesConstraints.tex      Ask (almost ready) (6)
 ligadurasFunción.ipynb            ->  constraintsFunction.ipynb
 resoluciónSistemasLineales.ipynb  ->  solvingLinearSystems.ipynb
+figures\ringPulley.tikz: changed labels.
+
 
 == 05Simulación  ->  05Simulation
 
@@ -177,6 +179,9 @@ Corregir:
 debe ser respecto de la velocidad.
 
 
+(6)
+Agregar tilde en Máquina.
 
+Exercises: the relation between the coordinates, is that a constraint?
 
 
