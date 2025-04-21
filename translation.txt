@@ -44,8 +44,8 @@ péndulos_eulerLagrange.ipynb                   ->  eulerLagrangePendulums.ipynb
 
 atwood_Ligaduras.ipynb            ->  atwoodConstraint.ipynb        Ready (7)
 guíaLigaduras.tex                 ->  exercisesConstraints.tex      Ask (almost ready) (6)
-ligadurasFunción.ipynb            ->  constraintsFunction.ipynb
-resoluciónSistemasLineales.ipynb  ->  solvingLinearSystems.ipynb
+ligadurasFunción.ipynb            ->  constraintsFunction.ipynb     Ready (8)
+resoluciónSistemasLineales.ipynb  ->  solvingLinearSystems.ipynb    Ready (9)
 figures\ringPulley.tikz: changed labels.
 
 
@@ -203,3 +203,12 @@ T_withPulley = sm.Eq(
     T_translational.rhs + T_rotationalPulley.rhs
 )
 T_withPulley
+
+
+(8)
+
+Español:
+usar "aligned" en lugar de "align" para no tener tags.
+
+(9)
+Dice que usaremos 3 métodos pero solo se muestran 2 en se notebook.
