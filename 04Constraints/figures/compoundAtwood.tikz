@@ -1,0 +1,83 @@
+\begin{tikzpicture}
+	
+	% upper pulley
+	\def \pulleyRadius {1.0};
+	\coordinate (pulleyCentre) at (0,0);
+	\fill [inner color = white, outer color = gray!25, thin] (pulleyCentre) circle (\pulleyRadius) node [below = 2 mm] {\(m_p\)};
+	\filldraw (pulleyCentre) circle (1 mm);
+
+	%% lower pulley dimensions
+	\def \extra {0.4};
+	\draw [-Latex] (pulleyCentre) ++(110:{\pulleyRadius + \extra / 2}) arc (110 : 160 : {\pulleyRadius + \extra / 2 }) node [midway, above] {\(\theta_1\)};
+	
+	
+	% dashed lines from 0.1 at each side of the circle
+	\def \deltax {1.0};
+	\draw [dashed] (0.2,0) -- ({\pulleyRadius + 2* \deltax},0);
+	\draw [dashed] (-0.2,0) -- ({-\pulleyRadius - \deltax},0);
+	\node at ({\pulleyRadius / 2}, 0) [above] {\(R\)};
+
+	% weight m_1
+	\def \boxwidth {\pulleyRadius/ 2.5};
+	\def \boxAheight {-1.5};
+	\shade [ball color=black!80] (-\pulleyRadius, \boxAheight) circle (\boxwidth) node {\color{white} $m_1$};
+	
+	% lower pulley
+	\def \lowerPulleyHeight {-2.5};
+	\coordinate (lowerPulleyCentre) at (\pulleyRadius,\lowerPulleyHeight);
+	\fill [inner color = white, outer color = gray!25, thin] (lowerPulleyCentre) circle (\pulleyRadius) node [below = 2mm] {\(m_p\)};
+	% \shade [ball color=black!80] (\pulleyRadius, \lowerPulleyHeight) circle (\boxwidth) node {\color{white} $m_2$};
+	\filldraw (lowerPulleyCentre) circle (1 mm);
+	\node at ($(lowerPulleyCentre) + ({\pulleyRadius / 2}, 0) $) [above] {\(R\)};
+	
+	%% lower pulley dimensions
+	\draw [-Latex] (lowerPulleyCentre) ++(110:{\pulleyRadius + \extra / 2}) arc (110 : 160 : {\pulleyRadius + \extra / 2 }) node [midway, above] {\(\theta_2\)};
+	
+	% rope 1
+	\draw [ultra thick] (-\pulleyRadius, \boxAheight + \boxwidth) -- (-\pulleyRadius,0);
+	\draw [ultra thick] ( \pulleyRadius, \lowerPulleyHeight) -- (\pulleyRadius,0); 
+	\draw [ultra thick] (pulleyCentre) ++(0:\pulleyRadius) arc (0:180:\pulleyRadius) node [above left] {\(\ell_1\)};
+
+
+	% rope 2
+	\draw [ultra thick] (lowerPulleyCentre) ++(0:\pulleyRadius) arc (0:180:\pulleyRadius) node [above left] {\(\ell_2\)};
+	\def \belowPulley3 {-1.5};
+	\coordinate (weight3) at ($(lowerPulleyCentre) + ( \pulleyRadius , \belowPulley3 )$);  
+	\draw [ultra thick] ($(lowerPulleyCentre) + (\pulleyRadius , 0) $) -- (weight3);
+	
+	\def \belowPulleyHeight2 {-2.0};
+	\coordinate (weight2) at ($(lowerPulleyCentre) + ( -\pulleyRadius , \belowPulleyHeight2 )$);  
+	\draw [ultra thick] ($(lowerPulleyCentre) + (-\pulleyRadius , 0) $) -- (weight2);
+
+	% weight m_3
+	\shade [ball color=black!80] (weight3) circle (\boxwidth) node {\color{white} $m_3$};
+
+	% weight m_2
+	\shade [ball color=black!80] (weight2) circle (\boxwidth) node {\color{white} $m_2$};
+
+
+	% upper puley dimensions
+	\def \pendeLeft {-\pulleyRadius - \boxwidth - 0.2};
+	\def \pende {\pulleyRadius + \boxwidth + 0.2};
+	\def \pendePulley {2* \pulleyRadius + 0.2};
+	\draw [-Latex] (\pendeLeft, 0) -- (\pendeLeft, \boxAheight) node [midway, left] {\(y_1\)};
+	\draw [-Latex] ( \pendePulley, 0) -- ( \pendePulley, \lowerPulleyHeight) node [midway, right] {\(y_p\)};
+
+
+	% lower pulley dimensions
+	\draw [-Latex] ($(lowerPulleyCentre) + (\pendeLeft, 0) $) -- ($(lowerPulleyCentre) + (\pendeLeft, \belowPulleyHeight2 ) $) node [midway, left] {\(y_2\)};
+	\draw [-Latex] ($(lowerPulleyCentre) + (\pende, 0) $) -- ($(lowerPulleyCentre) + (\pende, \belowPulley3 ) $) node [midway, right] {\(y_3\)};
+
+	
+	% lower pulley dashed lines
+	\draw [dashed] ($ (lowerPulleyCentre) + (-0.2,0) $) -- ($ (lowerPulleyCentre) + ({-\pulleyRadius - \deltax},0) $);
+	\draw [dashed] ($ (lowerPulleyCentre) + (0.2,0)$) -- ($(lowerPulleyCentre) + ({\pulleyRadius + \deltax},0) $);
+
+	% ceiling
+	\def \ceilingAbove {1.5};
+	\draw [line width = 1 mm] ($(pulleyCentre) + (0,\ceilingAbove)$) -- (pulleyCentre);
+	\draw [ultra thick] ($(pulleyCentre) + ({- \pulleyRadius},\ceilingAbove)$)  -- ($(pulleyCentre) + (\pulleyRadius,\ceilingAbove)$);
+	\fill [pattern = north east lines] ($(pulleyCentre) + ({- \pulleyRadius},\ceilingAbove)$)  rectangle ($(pulleyCentre) + (\pulleyRadius, {\ceilingAbove + 0.2 })$);
+
+
+\end{tikzpicture}
