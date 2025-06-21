@@ -1,139 +1,123 @@
-\documentclass[11pt, spanish, a4paper, twoside]{article}
+\documentclass[11pt, a4paper, twoside]{article}
 
 \input{../figuresLaTeX/introUNLaM}
 
 
 \begin{document}
 \begin{center}
-  % \textsc{\large Mecánica general}\\
-  \textsc{\large Ligaduras}
+  \textsc{\large Constraints}
 \end{center}
 
 \noindent
-%De poder resolver estos problemas en forma autónoma puede asumir que adquirió los conocimientos mínimos sobre los temas abordados en la semana.
-%No dude en consultar a docentes y compañeros si no puede terminarlos.
-Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en consultar.
+Exercises marked with (*) have extra difficulty, don't hesitate to ask for help.
+
 \begin{enumerate}
 
-
 \item 
-\begin{minipage}[t][3.5cm]{0.68\textwidth}
-	\textbf{Máquina de Atwood simple}\\
-	Obtenga a partir de la ecuación de Euler-Lagrange la aceleración que presentan las pesas de masas \(m_1\) y \(m_2\) que cuelgan de una cuerda de longitud \(\ell\) que pasa por sobre una polea de radio \(R_p\) y masa \(m_p\).
-	\begin{enumerate}
-		\item Resuelva el caso en que se considera \(m_p\) irrelevante.
-		\item Resuelva ahora considerando \(m_p\), y que la polea presenta una sección cilíndrica.
-			El momento de inercia de tal cilindro de masa \(m\) ante rotaciones en torno a su eje de simetría longitudinal es \((m/2) R^2\).
-	\end{enumerate}
-\end{minipage}
-\begin{minipage}[c][0.5cm][t]{0.3\textwidth}
-	% \hspace{0.5cm}
-	\includegraphics[width=0.75\textwidth]{figures/marion_fig2_11a}
-\end{minipage}
-
-
-\item 
-	\begin{minipage}[t][3.5cm]{0.8\textwidth}
-		\textbf{Aro y polea}\\
-		Una pesa de masa \(m\) pende de una sección de cuerda de longitud \(\ell_{pesa}\) que sobresale a la derecha de una polea de radio \(R_{polea}\) y masa \(m_{poleo}\).
-		La cuerda tiene un longitud total \(\ell\), su  masa es despreciable y gira solidaria con la una polea.
-
-		El otro extremo se ata con un nudo de masa \(M_{nude}\) a un aro de masa \(m_{aro}\), enrollándose parcialmente en torno a éste.
-		El centro de la polea está a una altura \(h\) por sobre el del aro de radio \(R_{aro}\) que como puede rotar libremente presenta un momento de inercia \(m_{aro} R_{aro}^2\).
-		
-		Denomine el ángulo desde el centro hasta el nudo medido desde la horizontal con \(\theta\).
-		Recuerde que el sentido positivo para un ángulo es el antihorario. 
+	\begin{minipage}[t][3cm]{0.72\textwidth}
+		\textbf{Atwood machine}\\
+		The figure shows a string of length \(\ell\) and a pulley of radius \(R_p\) and mass \(m_p\).
+		Find the acceleration of the masses attached at each end of the string.
 	\end{minipage}
-	\begin{minipage}[c][0cm][t]{0.2\textwidth}
-		% \hspace{0.5cm}
-		\includegraphics[width=0.75\textwidth]{figures/cmchap6_fig6_14}
+	\begin{minipage}[c][3cm][t]{0.2\textwidth}
+		\input{figures/atwood.tikz}
+	\end{minipage}
+		\begin{enumerate}
+			\item The string is inextensible, so it establishes a relation between \(y_1\) and \(y_2\).
+			Write the equation for this constraint.
+			\item If the string slides over the pulley without friction, the pulley will not move.
+			Write the Euler-Lagrange equation for \(y_1\) using the constraint from the previous item and write the masses' acceleration.
+			\item Usually, the string won't slide and the pulley will rotate.
+			This constraint adds a relation between \(\theta\) and the displacement of the string.
+			Using that constraint, write the pulley's rotational kinetic energy in terms of \(\dot{y}_1\), modeling the pulley as an homogeneous cylinder with a moment of inertia of \((m/2) R^2\).
+			\item Use the Euler-Lagrange equation for \(y_1\) to write the masses' accelerations.
+		\end{enumerate}
+	
+	\item 
+	\begin{minipage}[t][2.3cm]{0.75\textwidth}
+		\textbf{Pendulum with sliding and coupled masses}\\ 
+		Two weights of masses \(m_1\) and \(m_2\) are linked together by a rigid bar of length \(\ell\) and negligible mass.
+		\(m_1\) can slide over an horizontal axis and \(m_2\) over a vertical axis, both without friction.
+		The bar sets a constraint between the coordinates that define their positions, \(x\) and \(y\).
+	\end{minipage}
+	\begin{minipage}[c][1cm][t]{0.25\textwidth}
+		\input{figures/slidingWeights.tikz}
 	\end{minipage}
 	\begin{enumerate}
-		\item Escriba la posición de las partículas con masa con origen el centro del aro.
-		\item Describa la función de ligadura y utilícela para expresar las posiciones en función de \(\theta\).
-		\item Obtenga la ecuación de Euler-Lagrange para la dinámica.\\
-		Resultado:
-		\(M_{nudo} R_{aro}^{2} \ddot{\theta}_{aro} + M_{nudo} R_{aro} g \cos{\left(\theta_{aro} \right)} + R_{aro}^{2} m_{aro} \ddot{\theta}_{aro} + \frac{R_{polea}^{2} m_{polea} \ddot{\theta}_{aro}}{2} = 0\)
+		\item Use the constraint equation to express both positions only in terms of \(y\).
+		\item Calculate the acceleration of \(m_2\).\\
+		Result:
+			$\ddot{y} = \frac{- \ell^{2} m_{1} y \dot{y}^{2} + g m_{2} \left(\ell^{2} - y^{2}\right)^{2}}{\ell^{4} m_{2} + \ell^{2} m_{1} y^{2} - 2 \ell^{2} m_{2} y^{2} - m_{1} y^{4} + m_{2} y^{4}}$
+			\qquad
 	\end{enumerate}
+	
 
-
-\item 
-\begin{minipage}[t][1.5cm]{0.7\textwidth}
-	\textbf{Péndulo de pesas engarzadas y acopladas}\\ 
-	Dos pesas de masa \(m_1\) y \(m_2\) están unidas por una barra rígida inextensible de longitud \(\ell\) y masa despreciable frente a las anteriores.
-	La de \(m_1\) está engarzada en un eje horizontal y la de \(m_2\) en uno vertical.
-\end{minipage}
-\begin{minipage}[c][2cm][t]{0.3\textwidth}
-	% \hspace{0.5cm}
-	\includegraphics[width=0.75\textwidth]{figures/fcen1-004}
-\end{minipage}
-\begin{enumerate}
-	\item Escriba las posiciones de ambas partículas en función de una única coordenada haciendo uso de la ligadura que impone la barra rígida.
-	Hágalo para:
-	\begin{enumerate*}[
-				%itemjoin=\quad,
-				%before=\hspace*{\fill},
-				%after=\hspace*{\labelwidth}\hspace*{-\labelsep}\hspace*{\fill},
-			]
-		\item \(y\), la coordenada para la pesa de \(m_2\),
-		\item \(\theta\)
-	\end{enumerate*} % https://tex.stackexchange.com/questions/591120/how-can-you-put-items-on-one-line-and-center-them
-	\item Obtenga las aceleraciones y responda: ¿cuál coordenada generalizada preferiría?\\
-	Resultado:
-		$\ddot{y} = \frac{- \ell^{2} m_{1} y \dot{y}^{2} + g m_{2} \left(\ell^{2} - y^{2}\right)^{2}}{\ell^{4} m_{2} + \ell^{2} m_{1} y^{2} - 2 \ell^{2} m_{2} y^{2} - m_{1} y^{4} + m_{2} y^{4}}$
-		\qquad
-		$\ddot{\theta} = \frac{\left(\ell m_{1} \cos{\left(\theta \right)} \dot{\theta}^{2} - \ell m_{2} \cos{\left(\theta \right)} \dot{\theta}^{2} - g m_{2}\right) \sin{\left(\theta \right)}}{\ell \left(m_{1} \cos^{2}{\left(\theta \right)} + m_{2} \sin^{2}{\left(\theta \right)}\right)}$
-	\item (*) ¿Cuál es el período de movimiento de pequeñas oscilaciones para el caso \(m_1 = m_2 = m\)?
-\end{enumerate}
-
-
-
-\item
-\begin{minipage}[t][10cm]{0.65\textwidth}
-	\textbf{Maquina de Atwood compuesta} [Marion (english) ex. 7.8]\\ 
+	\item 
+	\begin{minipage}[t][6cm]{0.57\textwidth}
+		\textbf{Ring and pulley}\\
+		A weight of mass \(m_2\) hangs from the free end of the string that passes over the pulley of radius \(R_{p}\) and mass \(m_{p}\).
+		The string moves without sliping, its length is \(\ell\) and its mass is negligible.
+		The other end of the string is attached to mass \(m_1\), fixed to a ring of mass \(m_{r}\), coiling over the ring by an angle \(\theta\).
+		The center of the pulley is at a height \(h_{p}\) over the center of the ring. The radius of the ring is \(R_{r}\) and rotates freely with a moment of inertia \(m_{r} R_{r}^2\).
+		The generalized coordinates are \(y_{2}\) and \(\theta\), constrained because of the length \(\ell\).
+	\end{minipage}
+	\begin{minipage}[c][1.5cm][t]{0.2\textwidth}
+		\input{figures/ringPulley.tikz}
+	\end{minipage}
 	\begin{enumerate}
-		\item Escriba la posición de las tres pesas y de la polea inferior en función de 
-		las cuatro coordenadas generalizadas indicadas en la figura: \(y_i\) con \(i = 1,2,3,p\). 
-		\item Modele las ligaduras que proveen las cuerdas en dos funciones.
-		\item Haciendo uso de estas últimas reemplace en las posiciones para expresarles en función de solo dos \(y_i\).
-		\item Calcule energías potenciales y cinéticas contemplando los momentos de inercia de las poleas.
-		Recuerde la relacíón entre el perímetro (circunferencia) de un círculo y su radio para escribir la velocidad angular en función del \(\dot{y}_i\) correspondiente.
-		\item Obtenga las dos ecuaciones de Euler-Lagrange.\\
-		Resultados:\\
-		% reduce size of equations
-		\scalebox{0.9}{
-		$- g m_{1} + g m_{2} + g m_{3} + g m_{p} + m_{1} \ddot{y}_{1} + m_{2} \ddot{y}_{1} - m_{2} \ddot{y}_{2} + m_{3} \ddot{y}_{1} + m_{3} \ddot{y}_{2} + \frac{3 m_{p} \ddot{y}_{1}}{2} = 0$}\\
-		\scalebox{0.9}{
-		$- g m_{2} + g m_{3} - m_{2} \ddot{y}_{1} + m_{2} \ddot{y}_{2} + m_{3} \ddot{y}_{1} + m_{3} \ddot{y}_{2} + \frac{m_{p} \ddot{y}_{2}}{2} = 0$
-		}
-		\item Resuelva este sistema de ecuaciones para obtener las dos correspondientes aceleraciones generalizadas y con estas escribir las aceleraciones de los cuatro cuerpos en cuestión.\\
-		Resultados:\\
-		$\ddot{y}_{1} = \frac{4 g m_{1} m_{2} + 4 g m_{1} m_{3} + 2 g m_{1} m_{p} - 16 g m_{2} m_{3} - 6 g m_{2} m_{p} - 6 g m_{3} m_{p} - 2 g m_{p}^{2}}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}$\\
-		$\ddot{y}_{2} = \frac{8 g m_{1} m_{2} - 8 g m_{1} m_{3} + 2 g m_{2} m_{p} - 2 g m_{3} m_{p}}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}$\\
-		% $\ddot{y}_{3} = - \frac{8 g m_{1} m_{2} - 8 g m_{1} m_{3} + 2 g m_{2} m_{p} - 2 g m_{3} m_{p}}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}$\\
-		% $\ddot{y}_{p} = - \frac{4 g m_{1} m_{2} + 4 g m_{1} m_{3} + 2 g m_{1} m_{p} - 16 g m_{2} m_{3} - 6 g m_{2} m_{p} - 6 g m_{3} m_{p} - 2 g m_{p}^{2}}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}$
+		\item Write the position for each object in terms of the generalized coordinates, in a frame of reference with origin at the center of the ring.
+		\item Find an expression for the constraint and use it to rewrite the positions in terms of \(\theta\).
+		Verify your solution by checking that a variation in \(\theta\) approaching its zero value implies that the other object moves down.
+		\item Write the Euler-Lagrange equation.\\
+		Result:
+		\(
+		R_{r}^{2} m_1 \ddot{\theta} + R_{r}^{2} m_{r} \ddot{\theta} + R_{r} g m_1 \cos{\left(\theta \right)} + R_{p}^{2} m_{2} \ddot{\theta} + \frac{R_{p}^{2} m_{p} \ddot{\theta}}{2} - R_{p} g m_{2} = 0
+		\)
 	\end{enumerate}
-\end{minipage}
-\begin{minipage}[c][0cm][t]{0.3\textwidth}
-%		\begin{tikzpicture}
-%			\draw [ultra thick] (-2,4) -- (2,4);
-%			\fill [pattern = north east lines] (-2,4) rectangle (2,4.2); % techo
-%			\draw (0,4) -- (0,3); % linea vertical techo - polea superior
-%			\draw (0,3) circle [radius=0.5]; % polea superior
-%			\draw (-0.5,3) -- (-0.5,1.5); % linea vertical izquierda polea sup - inf
-%			\draw (0.5,3) -- (0.5,2.25); % linea vertical izquierda polea sup - m3
-%			\draw (0.25,1.75) rectangle (0.75,2.25) node [anchor= north west] {\(m_3\)} ; % m3
-%			% \draw (0.25,1.75) node [above=1, right=9.6] {\(m_3\)} rectangle (0.75,2.25) node [above=1, right=9.6] {\(m_3\)} ; % m3
-%			\draw (-0.5,1.5) circle [radius=0.5]; % polea inferior
-%			\draw (-1,1.5) -- (-1,.25); % linea vertical izquierda polea inf - m1
-%			\draw (-1.25,-.25) rectangle (-0.75,0.25) node [anchor= north west] {\(m_1\)} ; % m1
-%			\draw (0,1.5) -- (0,1); % linea vertical izquierda polea inf - m2
-%			\draw (-.25,.5) rectangle (.25,1) node [anchor= north west] {\(m_2\)} ; % m2
-%		\end{tikzpicture}
-	\includegraphics[width=\textwidth]{figures/marion_fig7_6}
-\end{minipage}
 
 
+	\item
+	\begin{minipage}[t][6.8cm]{0.67\textwidth}
+		\textbf{Double Atwood machine} [Marion ex. 7.8]\\ 
+		\begin{enumerate}
+			\item Write the positions for the three hanging objects and that of the lower pulley in terms of the generalized coordinates shown in the figure: \(y_i\) with \(i = 1,2,3,p\). 
+			\item Write the equations for the constraints provided by both strings.
+			\item Use the constraint equations to express all positions in terms of \(y_1\) and \(y_2\).
+			\item The strings don't slide over the pulleys. This is an extra constraint that must be used to relate \(y_i\) and \(\theta_i\).
+		\end{enumerate}
+	\end{minipage}
+	\begin{minipage}[c][0cm][t]{0.3\textwidth}
+		\input{figures/compoundAtwood.tikz}
+	\end{minipage}
+
+		\begin{enumerate}
+			\stepcounter{enumii}
+			\stepcounter{enumii}
+			\stepcounter{enumii}
+			\stepcounter{enumii}
+			\item Calculate the kinetic and potential energies.
+			\item Find both Euler-Lagrange equations.\\
+			Results:\\
+			% reduce size of equations
+			\scalebox{0.9}{
+			$- g m_{1} + g m_{2} + g m_{3} + g m_{p} + m_{1} \ddot{y}_{1} + m_{2} \ddot{y}_{1} - m_{2} \ddot{y}_{2} + m_{3} \ddot{y}_{1} + m_{3} \ddot{y}_{2} + \frac{3 m_{p} \ddot{y}_{1}}{2} = 0$}\\
+			\scalebox{0.9}{
+			$- g m_{2} + g m_{3} - m_{2} \ddot{y}_{1} + m_{2} \ddot{y}_{2} + m_{3} \ddot{y}_{1} + m_{3} \ddot{y}_{2} + \frac{m_{p} \ddot{y}_{2}}{2} = 0$
+			}
+			\item Solve for the generalized accelerations.\\
+			Results:\\
+			\(
+				\ddot{y}_{1} = \frac{2 g \left(2 m_{1} m_{2} + 2 m_{1} m_{3} + m_{1} m_{p} - 8 m_{2} m_{3} - 3 m_{2} m_{p} - 3 m_{3} m_{p} - m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\\
+				\ddot{y}_{2} = \frac{2 g \left(4 m_{1} + m_{p}\right) \left(m_{2} - m_{3}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}
+			\)
+			\item Write the accelerations of the three masses.\\
+			Results:\\
+			\(
+				\ddot{\vec{r}}_{1} = \ddot{y}_1 (- \hat{e}_y)\\
+				\ddot{\vec{r}}_{2} = -  \frac{2 g \left(2 m_{1} m_{2} - 6 m_{1} m_{3} - m_{1} m_{p} + 8 m_{2} m_{3} + 4 m_{2} m_{p} + 2 m_{3} m_{p} + m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\mathbf{\hat{e}_y} \\
+				\ddot{\vec{r}}_{3} = -  \frac{2 g \left(- 6 m_{1} m_{2} + 2 m_{1} m_{3} - m_{1} m_{p} + 8 m_{2} m_{3} + 2 m_{2} m_{p} + 4 m_{3} m_{p} + m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\mathbf{\hat{e}_y}
+				\) 
+		\end{enumerate}
 
 \end{enumerate}
 \end{document}
