@@ -32,7 +32,7 @@ guíaEnergía.tex                    ->  exercisesEnergy.tex                  As
 
 == 03EulerLagrange -> 03EulerLagrange
 
-apunteLanczos.tex                              ->  ?                              Ask.
+apunteLanczos.tex                              ->  ?                              Tranlsating (10)
 energíaPotencialElástica_eulerLagrange.ipynb   ->  elasticPotentialEnergy.ipynb   Ask. (3)
 guíaEulerLagrange.tex                          ->  exercisesEulerLagrange.tex     Ready (4, ref.)
 partesRotantes_eulerLagrange.ipynb             ->  rotatingParts.ipynb            Ready
@@ -212,3 +212,7 @@ usar "aligned" en lugar de "align" para no tener tags.
 
 (9)
 Dice que usaremos 3 métodos pero solo se muestran 2 en se notebook.
+
+(10) 
+- TODO: Remove spanish commands.
+- Link to license in Spanish not working.
