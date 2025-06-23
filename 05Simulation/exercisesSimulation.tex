@@ -24,37 +24,27 @@ Exercises marked with (*) have extra difficulty, don't hesitate to ask for help.
 Time from \(t = \SI{0}{\second}\) to \(t = \SI{10}{\second}\).
 Parameters and initial conditions:\\
 \(\ell_\mathrm{rope} > \SI{150}{\metre}\), 
-\(R_{\mathrm{pulley}\,1} = \SI{0.5}{\metre}\), \\ 
+\(R = \SI{0.5}{\metre}\), \\ 
 \(m_1 = \SI{8}{\kilo\gram}\), 
 \(m_2 = \SI{1}{\kilo\gram}\), 
-\(M_\mathrm{pulley} = \SI{4}{\kilo\gram}\), \\
+\(m_p = \SI{4}{\kilo\gram}\), \\
 \(x(t=0) = \SI{25}{\metre}\), 
 \(\dot{x}(t=0) = -\SI{10}{\metre\per\second}\).
 \end{minipage}
 \begin{minipage}[c][2cm][t]{0.3\textwidth}
-	\hspace{0.5cm}
-	\includegraphics[width=0.6\textwidth]{figures/marion_fig2_1a}
+	%\hspace{0.5cm}
+	%\includegraphics[width=0.6\textwidth]{marion_fig2_1a}
+	\input{figures/atwood.tikz}
 \end{minipage}
-
-
 
 \item
 	a) \textbf{Ideal pendulum} [Marion ex. 7.2] \\
 	b) \textbf{Pendulum with free support} [Landau \S5 ex. 2]\\ 
 	c) \textbf{Double pendulum} [Landau \S5 ex. 1] 
 \begin{tasks}(3)
-	\task \begin{tikzpicture}[scale= 1.0]
-  	\draw [arrows=-latex] (-1,2) -> (-1,1) node [above=15, right=2] {\(\vec{g}\)}; % g vertical
-		\draw [ultra thick] (-1.5,3) -- (2,3);
-		\fill [pattern = north east lines] (-1.5,3) rectangle (2,3.2); % techo
-		\draw [dashed] (0,3) -- (0,-.25);	% vertical
-		\draw [thick] (0,3) -- +(-60:3) node[midway,above,right=2] {\(\ell\)};	% inclinada +:relativa, -60 degrees, length 3
-		\shade [ball color=black!80] ($(0,3)+(-60:3)$) circle(0.25) node [] {\color{white} $m$};
-    \draw [arrows=-latex] (0,.4) -> (1.25,.4) node [midway, above] {\( \psi \)}; % desplazamiento horizontal
-		\draw [arrows=-latex] (0,0) arc [start angle=-90, end angle=-65, radius=3] node [below=12, left=8] {\( \varphi \)};
-	\end{tikzpicture}
-	\task \includegraphics[height=0.2\textwidth]{figures/landauS52_fig2}
-	\task \includegraphics[height=0.2\textwidth]{figures/landauS52_fig1}
+	\task \input{figures/pendulum.tikz}
+	\task \includegraphics[height=0.24\textwidth]{figures/landauS52_fig2}
+	\task \includegraphics[height=0.24\textwidth]{figures/landauS52_fig1}
 \end{tasks}
 Time from \(t = \SI{0}{\second}\) to \(t = \SI{10}{\second}\). Parameters and initial conditions:
 \begin{enumerate}
@@ -80,9 +70,11 @@ Time from \(t = \SI{0}{\second}\) to \(t = \SI{10}{\second}\). Parameters and in
 	\end{minipage}
 	\begin{minipage}[c][2cm][t]{0.3\textwidth}
 		\hspace{0.5cm}
-  	 \includegraphics[width=0.6\textwidth]{figures/fcen1-004}
+				\input{figures/slidingWeights.tikz}
+  	%  \includegraphics[width=0.6\textwidth]{figures/fcen1-004}
 	\end{minipage}
 
+	\newpage
 
 \item
 \begin{minipage}[t][2cm]{0.65\textwidth}
@@ -101,7 +93,8 @@ Time from \(t = \SI{0}{\second}\) to \(t = \SI{10}{\second}\). Parameters and in
 \(y_2(t=0) = \SI{2}{\metre}\), \(\dot{y}_2(t=0) = 0\)
 \end{minipage}
 \begin{minipage}[c][3cm][t]{0.3\textwidth}
-	\includegraphics[width=\textwidth]{figures/marion_fig7_6}
+		\input{figures/compoundAtwood.tikz}
+	% \includegraphics[width=\textwidth]{figures/marion_fig7_6}
 \end{minipage}
 
 \end{enumerate}

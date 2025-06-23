@@ -1,0 +1,42 @@
+\begin{tikzpicture}
+
+
+	% horizontal bar
+	\def \barLength {3};
+	\def \barAltitude {0};
+	\def \barExtra {0.5};
+	\draw [thin] (-\barExtra,\barAltitude) -- (\barLength,\barAltitude) node [above left] {\(x\)};
+
+	% vbar
+	\def \vbarHorizontal {0};
+	\draw [thin] (\vbarHorizontal,\barExtra) -- (\vbarHorizontal, - \barLength) node [above right] {\(y\)};
+	
+	% weight centres
+	\def \hbarWeightAltitude {3* \barLength / 4};
+	\coordinate (hbarWeightCentre) at (\hbarWeightAltitude, \barAltitude);
+	\coordinate (vbarWeightCentre) at (\vbarHorizontal, - \hbarWeightAltitude);
+
+	% rigid bar joining weights
+	\draw [ultra thick] (vbarWeightCentre) -- (hbarWeightCentre) node [midway, right] {\(\ell\)};
+	
+
+	% hbar weight
+	\def \hbarWeightRadius {.3};
+	\shade [ball color=black!80] (hbarWeightCentre) circle (\hbarWeightRadius) node {\color{white} $m_{1}$};
+
+	% vbar weight
+	\shade [ball color=black!80] (vbarWeightCentre) circle (\hbarWeightRadius) node {\color{white} $m_{2}$};
+
+	% arc centred at vbarWeightCentre from 45 to 90 with radius hbarWeightRadius + barExtra/2
+	\draw [-Latex] (vbarWeightCentre) ++(45:{\hbarWeightRadius + \barExtra}) arc (45:90:{\hbarWeightRadius + \barExtra}) node [midway, above right] {\(\theta\)};
+
+	% \draw [-Latex] (vbarWeightCentre) ++(45:{\hbarWeightRadius + \barExtra / 2}) arc (0:45:{\hbarWeightRadius + \barExtra / 2 }) node [midway, right] {\(\theta\)};
+	% \draw [-Latex] (vbarWeightCentre) ++(45:{\hbarWeightRadius + \barExtra / 2}) arc (0:45:{\hbarWeightRadius + \barExtra / 2 }) node [midway, right] {\(\theta\)};
+
+
+
+	% Ring
+	\def \ringRadius {0.1};
+	\filldraw (0,0) circle (\ringRadius);	
+	
+\end{tikzpicture}
