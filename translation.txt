@@ -48,7 +48,7 @@ figures\ringPulley.tikz: changed labels.
 == 05Simulación  ->  05Simulation
 
 atwoodSimulación_Resuelto.ipynb         ->  atwoodSimulationSolved.ipynb  (ver repo actual en español)
-guíaSimulación.tex                      ->  exercisesSimulation.tex
+guíaSimulación.tex                      ->  exercisesSimulation.tex        Ready
 pénduloLibre_Simulación_Resuelto.ipynb  ->  pendulumFreeSimulSolved.ipynb
 
 == 06FuerzasLigadura  ->  06ForcesConstraint
