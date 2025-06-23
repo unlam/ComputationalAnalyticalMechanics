@@ -14,16 +14,13 @@ TODO:
 == 01Vectorial -> 01Vector 
 
 cinemáticaVectorial.ipynb  ->  vectorKinematics.ipynb   Ready
-entregaEjercicios.ipynb    ->  ?                        Ask.  Borrar.
 estaAsignatura.ipynb       ->  thisCourse.ipynb         Ready
 guíaVectorial.tex          ->  exercisesVector.tex      Ready.
-?                          ->  MarkdownLaTeX.ipynb      Ask.  Borrar
-?                          ->  IntroPython.ipynb        Ask.  Borrar
 
 
 == 02Energía -> 02Energy
 
-apunteLanczos.pdf                  ->  notesLanczos.pdf                     Traduciendo Victor, Falta el archivo.
+apunteLanczos.pdf                  ->  notesLanczos.pdf                     Traduciendo Victor, copiar desde 03.
 energíaCinéticaTraslación.ipynb    ->  kineticEnergy.ipynb                  Ready.
 energíaPotencialGravitatoria.ipynb ->  gravitationalPotentialEnergy.ipynb   Ready.
 guíaEnergía.tex                    ->  exercisesEnergy.tex                  Ready.
