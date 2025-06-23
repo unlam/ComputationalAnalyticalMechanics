@@ -14,35 +14,34 @@ TODO:
 == 01Vectorial -> 01Vector 
 
 cinemáticaVectorial.ipynb  ->  vectorKinematics.ipynb   Ready
-entregaEjercicios.ipynb    ->  ?                        Ask.
+entregaEjercicios.ipynb    ->  ?                        Ask.  Borrar.
 estaAsignatura.ipynb       ->  thisCourse.ipynb         Ready
 guíaVectorial.tex          ->  exercisesVector.tex      Ready.
-?                          ->  MarkdownLaTeX.ipynb      Ask.
-?                          ->  IntroPython.ipynb        Ask.
+?                          ->  MarkdownLaTeX.ipynb      Ask.  Borrar
+?                          ->  IntroPython.ipynb        Ask.  Borrar
 
 
 == 02Energía -> 02Energy
 
-apunteLanczos.pdf                  ->  ?                                    Ask.
+apunteLanczos.pdf                  ->  notesLanczos.pdf                     Traduciendo Victor, Falta el archivo.
 energíaCinéticaTraslación.ipynb    ->  kineticEnergy.ipynb                  Ready.
-energíaPotencialGravitatoria.ipynb ->  gravitationalPotentialEnergy.ipynb   Ask. (1)
-guíaEnergía.tex                    ->  exercisesEnergy.tex                  Ask. (2)
-?                                  ->  p02e04_help.ipynb                    Ask. Keep or move to pdf?
+energíaPotencialGravitatoria.ipynb ->  gravitationalPotentialEnergy.ipynb   Ready.
+guíaEnergía.tex                    ->  exercisesEnergy.tex                  Ready.
 
 
 == 03EulerLagrange -> 03EulerLagrange
 
-apunteLanczos.tex                              ->  ?                              Tranlsating (10)
-energíaPotencialElástica_eulerLagrange.ipynb   ->  elasticPotentialEnergy.ipynb   Ask. (3)
+apunteLanczos.tex                              ->  notesLanczos.tex               Translating Victor (10)
+energíaPotencialElástica_eulerLagrange.ipynb   ->  elasticPotentialEnergy.ipynb   Ready.
 guíaEulerLagrange.tex                          ->  exercisesEulerLagrange.tex     Ready (4, ref.)
 partesRotantes_eulerLagrange.ipynb             ->  rotatingParts.ipynb            Ready
 plantilla_eulerLagrange.ipynb                  ->  euler_lagrange_base.ipynb      Ready
-péndulos_eulerLagrange.ipynb                   ->  eulerLagrangePendulums.ipynb   Ask. (5)
+péndulos_eulerLagrange.ipynb                   ->  eulerLagrangePendulums.ipynb   Ready
 
 
 == 04Ligaduras  ->  04Constraints
 
-atwood_Ligaduras.ipynb            ->  atwoodConstraint.ipynb        Ready (7)
+atwood_Ligaduras.ipynb            ->  atwoodConstraint.ipynb        Ready (Test that everything works)
 guíaLigaduras.tex                 ->  exercisesConstraints.tex      Ask (almost ready) (6)
 ligadurasFunción.ipynb            ->  constraintsFunction.ipynb     Ready (8)
 resoluciónSistemasLineales.ipynb  ->  solvingLinearSystems.ipynb    Ready (9)
@@ -51,7 +50,7 @@ figures\ringPulley.tikz: changed labels.
 
 == 05Simulación  ->  05Simulation
 
-atwoodSimulación_Resuelto.ipynb         ->  atwoodSimulationSolved.ipynb
+atwoodSimulación_Resuelto.ipynb         ->  atwoodSimulationSolved.ipynb  (ver repo actual en español)
 guíaSimulación.tex                      ->  exercisesSimulation.tex
 pénduloLibre_Simulación_Resuelto.ipynb  ->  pendulumFreeSimulSolved.ipynb
 
@@ -122,44 +121,10 @@ General:
 - End comments with a period.
 - Función de ligadura o ecuaciones de ligadura?
 
-(1)
-Primera sección "Nuevamente ..." no está en inglés, parece nuevo. ¿Se agrega o no?
-
-### Generalized coordinates and Cartesian system
-Esto estaba en inglés y ahora no está más en la versión español. ¿Se deja o se borra?
-
-(2)
-
-Los ítems del Ej 1 cambiaron. Revisar específicamente el ítem d.
-
-Ej 2: Esto no lo incluí.
-"Para cada uno de los siguientes puntos escriba en un cuaderno Jupyter titula-
-do con su apellido una o varias celdas de código separadas entre sí por otras
-conteniendo un texto indicando de que punto se trata"
-
-Para corregir en español:
-T_\text{traslación} V_\text{gravitatoria}
-usar \text{} para etiquetas.
-
-"a traves" falta tilde.
-
-Ej 3: quizas es mejor usar dfrac para T en los resultados?
-
-Ej 4: no están la explicación con las figuras en 3D. Pero está el archivo aparte con esa explicación,
-¿agregar un link en el pdf?
 
 
-(3)
 
-- Traducir el enunciado del ejercicio que se muestra o borrarlo?. Aun no hasta estar seguro de que queda.
-¿El enunciado del problema se deja al comienzo o está mal ubicado?
-
-- Corregir Hook por Hooke en español.
-
-- Corregir ecuación para F, falta vector en F (o negrita), y dice vector r cuando debería ser versor?
-
-
-(4) Interesting references about topics in this notebook.
+(4) Interesting references about topics in this notebook that could be added:
 Pendulum motion on an inclined plane
 https://iopscience.iop.org/article/10.1088/1361-6552/ac7b02
 
@@ -167,42 +132,11 @@ Dynamic equation
 https://www.sciencedirect.com/topics/computer-science/dynamic-equation
 
 
-(5)
-
-- Referencias (hay más de una) Apunte apunteLanczos, ¿se deja, se borra, se modifica?
-Si se deja, hay que traducir el apunte.
-
-Depende de que se hace con la referencia, proceder con 
-**(Es imperativo leer la referencia para entender la deducción de esta ecuación)**
-
-Corregir:
-"Primero la derivada parcial respecto a la coordenada generalizada"
-debe ser respecto de la velocidad.
-
 
 (6)
 Agregar tilde en Máquina.
 
 Exercises: the relation between the coordinates, is that a constraint?
-
-
-(7)
-Español, corregir: Más allá del problema de las ligaduras, el procedimiento habitual de definir las posiciones de los cuerpos de interes en en sistema de referencia cartesiando utilizando para esto las coordenadas generalizadas es la más adecuado.
-
-Esta línea falta en la sección donde se calculan las aceleraciones.
-t = sm.Symbol('t')
-
-Español:
-Tuve que agregar
-theta = me.dynamicsymbols(r'\theta')
-en la parte (c)
-
-(d) Corregir
-T_withPulley = sm.Eq(
-    sm.Symbol('T_\mathrm{w/pulley}'),
-    T_translational.rhs + T_rotationalPulley.rhs
-)
-T_withPulley
 
 
 (8)
