@@ -38,19 +38,22 @@
 	\item
 	\begin{minipage}[t][6.5cm]{0.65\textwidth}
 	\textbf{Double Atwood machine} [Marion ex. 7.8 and 7-37]\\
-	Use the frame of reference shown in the figure.
-	For this system of pulleys, determine: 
+	Use the method of Lagrange multipliers to find the equations of motion and the tensions in the strings.
 	\begin{enumerate}
-		\item the equations of motion,
-		\item and the tensions in both strings using the method of Lagrange multipliers.
+		\item Verify that you obtain the same generalized accelerations as when this is solved without using Lagrange multipliers. Results:\\
+		\(
+			\ddot{y}_{1} = \frac{2 g \left(2 m_{1} m_{2} + 2 m_{1} m_{3} + m_{1} m_{p} - 8 m_{2} m_{3} - 3 m_{2} m_{p} - 3 m_{3} m_{p} - m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\\
+			\ddot{y}_{2} = \frac{2 g \left(4 m_{1} + m_{p}\right) \left(m_{2} - m_{3}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}
+		\)
+		\item Find the tension in both strings.
+		Results:\\
+		\(
+			Q_{1} = \frac{g \left(32 m_{1} m_{2} m_{3} + 8 m_{1} m_{2} m_{p} + 20 m_{1} m_{3} m_{p} + 4 m_{1} m_{p}^{2} + 8 m_{2} m_{3} m_{p} + 2 m_{2} m_{p}^{2} + 4 m_{3} m_{p}^{2} + m_{p}^{3}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 6 m_{2} m_{p} + 14 m_{3} m_{p} + 3 m_{p}^{2}}
+			\)\\
+			\(
+				Q_{2} = \frac{g m_{3} \cdot \left(16 m_{1} m_{2} + 6 m_{1} m_{p} + 4 m_{2} m_{p} - m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 6 m_{2} m_{p} + 14 m_{3} m_{p} + 3 m_{p}^{2}}
+				\)
 	\end{enumerate}
-	Results:\\
-	\(
-		Q_{1} = \frac{g \left(32 m_{1} m_{2} m_{3} + 8 m_{1} m_{2} m_{p} + 20 m_{1} m_{3} m_{p} + 4 m_{1} m_{p}^{2} + 8 m_{2} m_{3} m_{p} + 2 m_{2} m_{p}^{2} + 4 m_{3} m_{p}^{2} + m_{p}^{3}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 6 m_{2} m_{p} + 14 m_{3} m_{p} + 3 m_{p}^{2}}
-	\)\\
-	\(
-		Q_{2} = \frac{g m_{3} \cdot \left(16 m_{1} m_{2} + 6 m_{1} m_{p} + 4 m_{2} m_{p} - m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 6 m_{2} m_{p} + 14 m_{3} m_{p} + 3 m_{p}^{2}}
-	\)
 	\end{minipage}
 	\begin{minipage}[c][0.5cm][t]{0.3\textwidth}
 		\input{figures/compoundAtwood.tikz}
@@ -64,7 +67,7 @@
 		The second one is hanging vertically at a distance \(y = \ell - \rho\) from the table, where \(\rho\) is the distance between the first particle and the hole.
 		\begin{enumerate}
 			\item Assuming that \(\theta\) is not necessarily constant, find the Lagrange equations for \(\rho\) and \(y\). Result:\\ \(- M g + M \ddot{y} + \lambda_{1} = 0 \qquad \lambda_{1} - m \rho \dot{\theta}^{2} + m \ddot{\rho} = 0\)
-			\item Solve the system for \(\rho, y\) and the lagrange multiplier \(\lambda_1\) finding the tensions exerted upon both particles.\\
+			\item Solve the system for \(\rho, y\) and the Lagrange multiplier \(\lambda_1\) finding the tensions exerted upon both particles.\\
 			Result: \(Q_{\rho} = \frac{M m \left(g + \rho \dot{\theta}^{2}\right)}{M + m}\)
 		\end{enumerate}
 	\end{minipage}
