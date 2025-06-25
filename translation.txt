@@ -47,14 +47,14 @@ figures\ringPulley.tikz: changed labels.
 
 == 05Simulación  ->  05Simulation
 
-atwoodSimulación_Resuelto.ipynb         ->  atwoodSimulationSolved.ipynb  (11) Almost ready
+atwoodSimulación_Resuelto.ipynb         ->  atwoodSimulationSolved.ipynb   Ready
 guíaSimulación.tex                      ->  exercisesSimulation.tex        Ready
 pénduloLibre_Simulación_Resuelto.ipynb  ->  pendulumFreeSimulSolved.ipynb  Ready (12)
 
 == 06FuerzasLigadura  ->  06ForcesConstraint
 
 fuerzasLigadura.ipynb               ->  forcesConstraint.ipynb
-guíaFuerzasLigadura.tex             ->  exercisesConstraintForces.tex
+guíaFuerzasLigadura.tex             ->  exercisesConstraintForces.tex   Ready.
 pénduloIdeal_FuerzasLigadura.ipynb  ->  constraintIdealPendulum.ipynb
 rodadura_FuerzasLigadura.ipynb      ->  rollingForcesConstraint.ipynb
 sistemasNoHolónomos.ipynb           ->  ?
@@ -148,9 +148,6 @@ Dice que usaremos 3 métodos pero solo se muestran 2 en se notebook.
 - TODO: Remove spanish commands.
 - Link to license in Spanish not working.
 
-(11)
-- The second reference in Runge-Kutta is in Spanish. Remove it? Leave it? Find another one?
-- Spanish: fix constaste
 
 (12)
 Translated from current version. The version in the release is outdated.
