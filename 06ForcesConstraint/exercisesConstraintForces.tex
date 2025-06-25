@@ -16,16 +16,7 @@
 		The constraint is that the bead is always at \(\vec{r} = \ell \hat{\rho}\), ergo, the function expressing this is \(f(\rho) = \rho - \ell = 0\).
 	\end{minipage}
 	\begin{minipage}[c][0cm][t]{0.25\textwidth}
-		\begin{tikzpicture}[scale= 1.0]
-  		\draw [arrows=-latex] (-1,2) -> (-1,1) node [above=15, right=2] {\(\vec{g}\)}; 
-			\draw [ultra thick] (-1.5,3) -- (2,3);
-			\fill [pattern = north east lines] (-1.5,3) rectangle (2,3.2); 
-			\draw [dashed] (0,3) -- (0,-.25);
-			\draw [thick] (0,3) -- +(-60:3) node[midway,above,right=2] {\(\ell\)};	
-			\shade [ball color=black!80] ($(0,3)+(-60:3)$) circle(0.25) node [] {\color{white} $m$};
-    	\draw [arrows=-latex] (0,.4) -> (1.25,.4) node [midway, above] {\( \psi \)}; 
-			\draw [arrows=-latex] (0,0) arc [start angle=-90, end angle=-65, radius=3] node [below=12, left=8] {\( \varphi \)};
-		\end{tikzpicture}
+		\input{figures/pendulum.tikz}
 	\end{minipage}
 
 
@@ -62,7 +53,7 @@
 	\)
 	\end{minipage}
 	\begin{minipage}[c][0.5cm][t]{0.3\textwidth}
-		\includegraphics[width=\textwidth]{figures/marion_fig7_6}
+		\input{figures/compoundAtwood.tikz}
 	\end{minipage}
 
 
@@ -78,7 +69,7 @@
 		\end{enumerate}
 	\end{minipage}
 	\begin{minipage}[c][0cm][t]{0.3\textwidth}
-		\includegraphics[width=\textwidth]{figures/cmchap6_fig6_5}
+		\input{figures/linkedWeights.tikz}
 	\end{minipage}
 
 
@@ -94,16 +85,7 @@
 		\end{enumerate}
 	\end{minipage}
 	\begin{minipage}[c][0cm][t]{0.3\textwidth}
-		\begin{tikzpicture}[scale= 1.0]
-			\draw [ultra thick] (-3,0) -- (3,0);
-			\fill [pattern = north east lines] (-3,0) rectangle (3,-0.2);
-			\draw [ultra thick] (-2,0) .. controls (-2,2*0.555) and (-2*0.555,2) .. (0,2) .. controls (2*0.555,2) and (2,2*0.555) .. (2,0); 
-			\shade [ball color=black!80] (2*0.5+.12,1.732+.18) circle(0.2) node [] {\color{white} $m$};
-			\draw [dashed] (0,0) -- (0,2);
-			\draw [-LaTeX] (0,0) -- (1,1.732) node [midway, anchor=west] {\(R\)}; 
-			\draw [-stealth] (0,1) arc (90:60:1) node [above left] {\(\theta\)};  
-			\draw [-stealth, thick] (-2.5,2) -> (-2.5,1) node [above=15, right=2] {\(\vec{g}\)}; 
-		\end{tikzpicture}
+		\input{figures/semiSphere.tikz}
 	\end{minipage}
 	
 	To find the angle at which the particle leaves the semi-sphere, you must solve the differential equation you'll get after working out the rather tough constraint force, which will be $\ddot{\theta} = \frac{g \sin(\theta)}{R}$.
