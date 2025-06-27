@@ -55,7 +55,7 @@ pénduloLibre_Simulación_Resuelto.ipynb  ->  pendulumFreeSimulSolved.ipynb  Rea
 
 fuerzasLigadura.ipynb               ->  forcesConstraint.ipynb
 guíaFuerzasLigadura.tex             ->  exercisesConstraintForces.tex   Ready.
-pénduloIdeal_FuerzasLigadura.ipynb  ->  constraintIdealPendulum.ipynb
+pénduloIdeal_FuerzasLigadura.ipynb  ->  constraintIdealPendulum.ipynb   Translating.
 rodadura_FuerzasLigadura.ipynb      ->  rollingForcesConstraint.ipynb
 sistemasNoHolónomos.ipynb           ->  nonHolonomicSystems.ipynb
 
