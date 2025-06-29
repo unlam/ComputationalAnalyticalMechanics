@@ -63,7 +63,7 @@ sistemasNoHolónomos.ipynb           ->  nonHolonomicSystems.ipynb       check (
 
 == 07NoConservativas  ->  07Nonconservative
 
-cilíndrosSolidarios_noConservativas_ayuda.ipynb  ->  linkedCylinders_Help.ipynb
+cilíndrosSolidarios_noConservativas_ayuda.ipynb  ->  linkedCylinders_Help.ipynb     Ready
 guíaNoConservativas.tex                          ->  exercisesNonconservative.tex   Ready. (16)
 noConservativas.ipynb                            ->  nonconservative.ipynb
 
