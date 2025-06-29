@@ -53,14 +53,12 @@ pénduloLibre_Simulación_Resuelto.ipynb  ->  pendulumFreeSimulSolved.ipynb  Rea
 
 == 06FuerzasLigadura  ->  06ForcesConstraint
 
-fuerzasLigadura.ipynb               ->  forcesConstraint.ipynb
+fuerzasLigadura.ipynb               ->  forcesConstraint.ipynb          (14)
 guíaFuerzasLigadura.tex             ->  exercisesConstraintForces.tex   Ready.
-pénduloIdeal_FuerzasLigadura.ipynb  ->  constraintIdealPendulum.ipynb   Translating.
+pénduloIdeal_FuerzasLigadura.ipynb  ->  constraintIdealPendulum.ipynb   Almost ready (13)
 rodadura_FuerzasLigadura.ipynb      ->  rollingForcesConstraint.ipynb
 sistemasNoHolónomos.ipynb           ->  nonHolonomicSystems.ipynb
 
-
-https://stackoverflow.com/questions/35979642/what-is-git-tag-how-to-create-tags-how-to-checkout-git-remote-tags#35979751
 
 == 07NoConservativas  ->  07NonConservative
 
@@ -153,4 +151,19 @@ Dice que usaremos 3 métodos pero solo se muestran 2 en se notebook.
 
 (12)
 Translated from current version. The version in the release is outdated.
+
+(13)
+Check this:
+Applying the constraint function
+Debe aplicarse ahora la función de restricción de la ligadura.
+No solo hay que substituir en las ecuaciones de Euler-Lagrange el que
+
+and this:
+También se puede establere que la derivada primera y segunda con el tiempo de la función de restricción de la ligadura:
+
+(14)
+Revisar el texto de este cuaderno.
+
+in the reference to the Lanczos notes, I wrote "A few notes...". This might change if the title
+of that pdf is changed.
 
