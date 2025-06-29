@@ -4,7 +4,8 @@ tags/202503
 TODO:
 - Redo some figures, that look like screenshots, if there are copyright issues.
 - Check the year in the headers and footnotes. Some notebooks say 2022 in English and 2024 in Spanish.
-
+- Remove every reference to Spanish in tex files. (do a search for Spanish in VSCode)
+- Check for nonconservative, fix any "non conservative"
 
 - Translate imagesNotebooks.ipynb
 
@@ -60,12 +61,11 @@ rodadura_FuerzasLigadura.ipynb      ->  rollingForcesConstraint.ipynb   Ready
 sistemasNoHolónomos.ipynb           ->  nonHolonomicSystems.ipynb       check (15) (from 2021)
 
 
-== 07NoConservativas  ->  07NonConservative
+== 07NoConservativas  ->  07Nonconservative
 
 cilíndrosSolidarios_noConservativas_ayuda.ipynb  ->  linkedCylinders_Help.ipynb
-guíaNoConservativas.tex                          ->  exercisesNonConservative.tex
-noConservativas.ipynb                            ->  nonConservative.ipynb
-nonConservativesExamples.ipynb                   ->  ?
+guíaNoConservativas.tex                          ->  exercisesNonconservative.tex   Ready. (16)
+noConservativas.ipynb                            ->  nonconservative.ipynb
 
 == 08TensorInercia  ->  08InertiaTensor
 
@@ -169,3 +169,7 @@ of that pdf is changed.
 
 (15)
 Revisar el texto de este cuaderno, dice versión 2021.
+
+
+(16)
+Check: longitudes de equilibrio. Pero el dato es l10 and l20, las longitudes naturales? No tienen porqué ser las mismas que en equilibrio.
