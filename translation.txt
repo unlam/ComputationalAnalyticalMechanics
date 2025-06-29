@@ -53,11 +53,11 @@ pénduloLibre_Simulación_Resuelto.ipynb  ->  pendulumFreeSimulSolved.ipynb  Rea
 
 == 06FuerzasLigadura  ->  06ForcesConstraint
 
-fuerzasLigadura.ipynb               ->  forcesConstraint.ipynb          (14)
+fuerzasLigadura.ipynb               ->  forcesConstraint.ipynb          check (14) (from 2021)
 guíaFuerzasLigadura.tex             ->  exercisesConstraintForces.tex   Ready.
 pénduloIdeal_FuerzasLigadura.ipynb  ->  constraintIdealPendulum.ipynb   Almost ready (13)
 rodadura_FuerzasLigadura.ipynb      ->  rollingForcesConstraint.ipynb   Ready
-sistemasNoHolónomos.ipynb           ->  nonHolonomicSystems.ipynb
+sistemasNoHolónomos.ipynb           ->  nonHolonomicSystems.ipynb       check (15) (from 2021)
 
 
 == 07NoConservativas  ->  07NonConservative
@@ -162,8 +162,10 @@ and this:
 También se puede establere que la derivada primera y segunda con el tiempo de la función de restricción de la ligadura:
 
 (14)
-Revisar el texto de este cuaderno.
+Revisar el texto de este cuaderno, dice versión 2021.
 
 in the reference to the Lanczos notes, I wrote "A few notes...". This might change if the title
 of that pdf is changed.
 
+(15)
+Revisar el texto de este cuaderno, dice versión 2021.
