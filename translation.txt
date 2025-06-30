@@ -5,6 +5,7 @@ TODO:
 - Redo some figures, that look like screenshots, if there are copyright issues.
 - Check the year in the headers and footnotes. Some notebooks say 2022 in English and 2024 in Spanish.
 - Remove every reference to Spanish in tex files. (do a search for Spanish in VSCode)
+- Check Link to license in Spanish not working.
 - Check for nonconservative, fix any "non conservative"
 
 - Translate imagesNotebooks.ipynb
@@ -31,7 +32,7 @@ guíaEnergía.tex                    ->  exercisesEnergy.tex                  Re
 
 apunteLanczos.tex                              ->  notesLanczos.tex               Translating Victor (10)
 energíaPotencialElástica_eulerLagrange.ipynb   ->  elasticPotentialEnergy.ipynb   Ready.
-guíaEulerLagrange.tex                          ->  exercisesEulerLagrange.tex     Ready (4, ref.)
+guíaEulerLagrange.tex                          ->  exercisesEulerLagrange.tex     Ready (suggestion 4, ref.)
 partesRotantes_eulerLagrange.ipynb             ->  rotatingParts.ipynb            Ready
 plantilla_eulerLagrange.ipynb                  ->  euler_lagrange_base.ipynb      Ready
 péndulos_eulerLagrange.ipynb                   ->  eulerLagrangePendulums.ipynb   Ready
@@ -39,10 +40,10 @@ péndulos_eulerLagrange.ipynb                   ->  eulerLagrangePendulums.ipynb
 
 == 04Ligaduras  ->  04Constraints
 
-atwood_Ligaduras.ipynb            ->  atwoodConstraint.ipynb        Ready (Test that everything works)
-guíaLigaduras.tex                 ->  exercisesConstraints.tex      Ask (almost ready) (6)
-ligadurasFunción.ipynb            ->  constraintsFunction.ipynb     Ready (8)
-resoluciónSistemasLineales.ipynb  ->  solvingLinearSystems.ipynb    Ready (9)
+atwood_Ligaduras.ipynb            ->  atwoodConstraint.ipynb        Ready (suggestion Test that everything works)
+guíaLigaduras.tex                 ->  exercisesConstraints.tex      Ready (suggestion 6)
+ligadurasFunción.ipynb            ->  constraintsFunction.ipynb     Ready (suggestion 8)
+resoluciónSistemasLineales.ipynb  ->  solvingLinearSystems.ipynb    Ready
 figures\ringPulley.tikz: changed labels.
 
 
@@ -50,7 +51,7 @@ figures\ringPulley.tikz: changed labels.
 
 atwoodSimulación_Resuelto.ipynb         ->  atwoodSimulationSolved.ipynb   Ready
 guíaSimulación.tex                      ->  exercisesSimulation.tex        Ready
-pénduloLibre_Simulación_Resuelto.ipynb  ->  pendulumFreeSimulSolved.ipynb  Ready (12)
+pénduloLibre_Simulación_Resuelto.ipynb  ->  pendulumFreeSimulSolved.ipynb  Ready (comment 12)
 
 == 06FuerzasLigadura  ->  06ForcesConstraint
 
@@ -133,20 +134,10 @@ https://www.sciencedirect.com/topics/computer-science/dynamic-equation
 (6)
 Agregar tilde en Máquina.
 
-Exercises: the relation between the coordinates, is that a constraint?
-
-
 (8)
 
 Español:
 usar "aligned" en lugar de "align" para no tener tags.
-
-(9)
-Dice que usaremos 3 métodos pero solo se muestran 2 en se notebook.
-
-(10) 
-- TODO: Remove spanish commands.
-- Link to license in Spanish not working.
 
 
 (12)
