@@ -1,0 +1,101 @@
+\documentclass[11pt, spanish, a4paper, twoside]{article}
+
+\input{../figuresLaTeX/introUNLaM}
+
+\begin{document}
+\begin{center}
+  % \textsc{\large Mecánica general}\\
+  \textsc{\large Cuerpo rígido | Tensores de inercia}
+\end{center}
+
+% De poder resolver estos problemas en forma autónoma puede asumir que adquirió los conocimientos mínimos sobre los temas abordados en la semana. No dude en consultar a docentes y compañeros si no puede terminarlos.
+% Los problemas marcados con (*) son opcionales.
+
+\begin{enumerate}
+
+	\item 
+	\begin{minipage}[t][5.5cm]{0.65\textwidth}
+		\textbf{Péndulo de torsión desbalanceado}\\
+		El sistema que se muestra en la ilustración para \(t=0\) presenta pesos en los extremos de dos brazos.
+		La barra dispuesta verticalmente se mantiene en tal dirección con rulemanes que posibilitan que el eje rote sin fricción con velocidad angular $\Omega$ constante respecto el marco inercial $O_{xyz}$.
+		Para este análisis la masa de brazos y ejes es despreciable frente a la de los pesos \(m\).
+		Calcule: 
+		\begin{tasks} 
+			\task tensor de inercia respecto a A en función del tiempo \(\overline{\overline{I}}_A(t)\)\\
+			\task momento angular $\vec{L}_A (t) = \overline{\overline{I}}_A (t) \vec{\Omega}$ y torque $\vec{\tau} (t) = \dot{\vec{L}} (t)$.
+		\end{tasks}
+	\end{minipage}
+	\begin{minipage}[c][0cm][t]{0.3\textwidth}
+		\includegraphics[width=\textwidth]{figures/o-021}
+	\end{minipage}
+	Resultados:\\
+			\[
+				\scalebox{0.8}{$
+				\overline{\overline{I}}_A = \left[\begin{matrix}\ell^{2} m \left(- \cos^{2}{\left(\phi \right)} \cos^{2}{\left(\Omega t \right)} - \cos^{2}{\left(\Omega t \right)} + 2\right) & - \ell^{2} m \left(\cos^{2}{\left(\phi \right)} + 1\right) \sin{\left(\Omega t \right)} \cos{\left(\Omega t \right)} & \frac{\ell^{2} m \left(\sin{\left(\Omega t - 2 \phi \right)} - \sin{\left(\Omega t + 2 \phi \right)}\right)}{4}\\- \ell^{2} m \left(\cos^{2}{\left(\phi \right)} + 1\right) \sin{\left(\Omega t \right)} \cos{\left(\Omega t \right)} & \ell^{2} m \left(\sin^{2}{\left(\phi \right)} \sin^{2}{\left(\Omega t \right)} - 2 \sin^{2}{\left(\Omega t \right)} + 2\right) & - \frac{\ell^{2} m \left(\cos{\left(\Omega t - 2 \phi \right)} - \cos{\left(\Omega t + 2 \phi \right)}\right)}{4}\\\ell^{2} m \left(\cos^{2}{\left(\phi \right)} + 1\right) & - \frac{\ell^{2} m \left(\cos{\left(\Omega t - 2 \phi \right)} - \cos{\left(\Omega t + 2 \phi \right)}\right)}{4} & \ell^{2} m \left(\cos^{2}{\left(\phi \right)} + 1\right)\end{matrix}\right]
+				$}
+				\] 
+			\[
+				\vec{L}_A = \left[\begin{matrix}\frac{\Omega \ell^{2} m \left(\sin{\left(\Omega t - 2 \phi \right)} - \sin{\left(\Omega t + 2 \phi \right)}\right)}{4}\\- \frac{\Omega \ell^{2} m \left(\cos{\left(\Omega t - 2 \phi \right)} - \cos{\left(\Omega t + 2 \phi \right)}\right)}{4}\\\Omega \ell^{2} m \left(\cos^{2}{\left(\phi \right)} + 1\right)\end{matrix}\right]
+			\qquad
+				\vec{\tau}_A = \left[\begin{matrix}\frac{\Omega^{2} \ell^{2} m \left(\cos{\left(\Omega t - 2 \phi \right)} - \cos{\left(\Omega t + 2 \phi \right)}\right)}{4}\\\frac{\Omega^{2} \ell^{2} m \left(\sin{\left(\Omega t - 2 \phi \right)} - \sin{\left(\Omega t + 2 \phi \right)}\right)}{4}\\0\end{matrix}\right]
+			\]
+
+	\item 
+	\begin{minipage}[t][2.8cm]{0.75\textwidth}
+		\textbf{Molécula de agua}\\
+		Calcule los momentos de inercia en el SI para una molécula de \isotope{H_2O}.
+		En CNPT se abre con un ángulo de \ang{104,5;;} y median \SI{95.84}{\pico\metre} entre \isotope{O} y \isotope{H}.
+		Resultado:\\
+		\[
+			\scalebox{0.8}{$
+			\overline{\overline{I}} = \left[\begin{matrix}1.02353565118967 \cdot 10^{-47} & 0 & 0\\0 & 1.92240664746526 \cdot 10^{-47} & 0\\0 & 0 & 2.94594229865493 \cdot 10^{-47}\end{matrix}\right]
+			$}	
+		\]
+	\end{minipage}
+	\begin{minipage}[c][2cm][t]{0.2\textwidth}
+		\includegraphics[width=\textwidth]{figures/moleculaH2O}
+	\end{minipage}
+
+
+	\item 
+	\begin{minipage}[t][4.5cm]{0.55\textwidth}
+		% \begin{minipage}[t][3.5cm]{0.7\textwidth}
+		% Tensor de inercia de un cubo con arista \(b\).
+			\textbf{Cubo con arista \(b\)} [Marion (e) ex. 11-3]
+			\begin{enumerate}
+				\item Calcule el tensor de inercia desde el sistema de ejes \(x_i\) con origen en el centro de masa \(O\).
+				\item Use la forma general del teorema de ejes paralelos de Steiner para calcularlo en el sistema \(X_i\) con origen en el vértice \(Q\) 
+			\end{enumerate}
+		\end{minipage}
+		\begin{minipage}[c][1cm][t]{0.4\textwidth}
+			\includegraphics[width=\textwidth]{figures/mFig11-8}
+		\end{minipage}
+
+
+	\item
+	\textbf{Componentes del tensor de inercia para una barra}\\
+	Se tiene una barra de \(m= \SI{1}{\kilo\gram}\) de sección despreciable frente a \(l= \SI{1}{\metre}\).
+	De alinear un eje (\(\hat{z}\)) con ella, 
+	\begin{tasks}(2)
+		\task	Calcule sus momentos de inercia.
+		\task Muestre que sucede con los productos de inercia. 
+	\end{tasks}
+
+
+	\item
+	\textbf{Ejes conveniente para el cálculo del momentos de inercia}\\
+	Se dibujan vistas en perspectiva de diversos objetos.
+	Sabre estos dibuje los ejes intersectando en el punto más conveniente para el cálculo de momentos de inercia, esto es, en el centro de masa.
+	Haga lo mismo con los dos ejes que corresponden a la proyección en planta.
+	\vspace{-0.8cm}
+	\begin{tasks}(4)
+		\task \includegraphics[width=0.15\textwidth]{figures/o-000}
+		\task \includegraphics[width=0.15\textwidth]{figures/o-001}
+		\task \includegraphics[width=0.15\textwidth]{figures/o-002}
+		\task \includegraphics[width=0.15\textwidth]{figures/o-003}
+	\end{tasks}
+
+
+	\end{enumerate}
+
+\end{document}

@@ -70,12 +70,11 @@ noConservativas.ipynb                            ->  nonconservative.ipynb      
 
 == 08TensorInercia  ->  08InertiaTensor
 
-guíaTensorInercia.tex               ->  exercisesInertiaTensor.tex
-momentoAngularTorque.ipynb          ->  angular_momentum_torque.ipynb
-monóxidoCarbono_tensorInercia.ipynb -> ?
+guíaTensorInercia.tex               -> exercisesInertiaTensor.tex
+momentoAngularTorque.ipynb          -> angular_momentum_torque.ipynb
+monóxidoCarbono_tensorInercia.ipynb -> carbonMonoxide_inertiaTensor.ipynb
 tensorInercia.ipynb                 -> inertiaTensor.ipynb
-?                                   -> ex3RotationArm.ipynb
-?                                   -> ex5Cube.ipynb  (Check next module 09)
+
 
 == 09MasaDistribuida  -> 09DistributedMass
 
@@ -169,3 +168,5 @@ Check: longitudes de equilibrio. Pero el dato es l10 and l20, las longitudes nat
 Check: where $\delta\vec{r}_j$ is the **virtual displacement of the coordinate, as a vector, where the nonconservative force $\vec{F_j}$ is applied**.
 
 T_translational and V_elastic, it should be for the system.
+
+---------------- hasta acá el último intercambio con Victor -----------------
