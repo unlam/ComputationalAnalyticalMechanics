@@ -65,7 +65,7 @@ sistemasNoHolónomos.ipynb           ->  nonHolonomicSystems.ipynb       check (
 
 cilíndrosSolidarios_noConservativas_ayuda.ipynb  ->  linkedCylinders_Help.ipynb     Ready
 guíaNoConservativas.tex                          ->  exercisesNonconservative.tex   Ready. (16)
-noConservativas.ipynb                            ->  nonconservative.ipynb
+noConservativas.ipynb                            ->  nonconservative.ipynb          almost ready (17)
 
 == 08TensorInercia  ->  08InertiaTensor
 
@@ -173,3 +173,8 @@ Revisar el texto de este cuaderno, dice versión 2021.
 
 (16)
 Check: longitudes de equilibrio. Pero el dato es l10 and l20, las longitudes naturales? No tienen porqué ser las mismas que en equilibrio.
+
+(17)
+Check: where $\delta\vec{r}_j$ is the **virtual displacement of the coordinate, as a vector, where the nonconservative force $\vec{F_j}$ is applied**.
+
+T_translational and V_elastic, it should be for the system.
