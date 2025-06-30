@@ -1,0 +1,172 @@
+
+tags/202503
+
+TODO:
+- Redo some figures, that look like screenshots, if there are copyright issues.
+- Check the year in the headers and footnotes. Some notebooks say 2022 in English and 2024 in Spanish.
+- Remove every reference to Spanish in tex files. (do a search for Spanish in VSCode)
+- Check Link to license in Spanish not working.
+- Check for nonconservative, fix any "non conservative"
+
+- Translate imagesNotebooks.ipynb
+
+
+
+
+== 01Vectorial -> 01Vector 
+
+cinemáticaVectorial.ipynb  ->  vectorKinematics.ipynb   Ready
+estaAsignatura.ipynb       ->  thisCourse.ipynb         Ready
+guíaVectorial.tex          ->  exercisesVector.tex      Ready.
+
+
+== 02Energía -> 02Energy
+
+apunteLanczos.pdf                  ->  notesLanczos.pdf                     Traduciendo Victor, copiar desde 03.
+energíaCinéticaTraslación.ipynb    ->  kineticEnergy.ipynb                  Ready.
+energíaPotencialGravitatoria.ipynb ->  gravitationalPotentialEnergy.ipynb   Ready.
+guíaEnergía.tex                    ->  exercisesEnergy.tex                  Ready.
+
+
+== 03EulerLagrange -> 03EulerLagrange
+
+apunteLanczos.tex                              ->  notesLanczos.tex               Translating Victor (10)
+energíaPotencialElástica_eulerLagrange.ipynb   ->  elasticPotentialEnergy.ipynb   Ready.
+guíaEulerLagrange.tex                          ->  exercisesEulerLagrange.tex     Ready (suggestion 4, ref.)
+partesRotantes_eulerLagrange.ipynb             ->  rotatingParts.ipynb            Ready
+plantilla_eulerLagrange.ipynb                  ->  euler_lagrange_base.ipynb      Ready
+péndulos_eulerLagrange.ipynb                   ->  eulerLagrangePendulums.ipynb   Ready
+
+
+== 04Ligaduras  ->  04Constraints
+
+atwood_Ligaduras.ipynb            ->  atwoodConstraint.ipynb        Ready (suggestion Test that everything works)
+guíaLigaduras.tex                 ->  exercisesConstraints.tex      Ready (suggestion 6)
+ligadurasFunción.ipynb            ->  constraintsFunction.ipynb     Ready (suggestion 8)
+resoluciónSistemasLineales.ipynb  ->  solvingLinearSystems.ipynb    Ready
+figures\ringPulley.tikz: changed labels.
+
+
+== 05Simulación  ->  05Simulation
+
+atwoodSimulación_Resuelto.ipynb         ->  atwoodSimulationSolved.ipynb   Ready
+guíaSimulación.tex                      ->  exercisesSimulation.tex        Ready
+pénduloLibre_Simulación_Resuelto.ipynb  ->  pendulumFreeSimulSolved.ipynb  Ready (comment 12)
+
+== 06FuerzasLigadura  ->  06ForcesConstraint
+
+fuerzasLigadura.ipynb               ->  forcesConstraint.ipynb          check (14) (from 2021)
+guíaFuerzasLigadura.tex             ->  exercisesConstraintForces.tex   Ready.
+pénduloIdeal_FuerzasLigadura.ipynb  ->  constraintIdealPendulum.ipynb   Almost ready (13)
+rodadura_FuerzasLigadura.ipynb      ->  rollingForcesConstraint.ipynb   Ready
+sistemasNoHolónomos.ipynb           ->  nonHolonomicSystems.ipynb       check (15) (from 2021)
+
+
+== 07NoConservativas  ->  07Nonconservative
+
+cilíndrosSolidarios_noConservativas_ayuda.ipynb  ->  linkedCylinders_Help.ipynb     Ready
+guíaNoConservativas.tex                          ->  exercisesNonconservative.tex   Ready. (16)
+noConservativas.ipynb                            ->  nonconservative.ipynb          almost ready (17)
+
+== 08TensorInercia  ->  08InertiaTensor
+
+guíaTensorInercia.tex               -> exercisesInertiaTensor.tex
+momentoAngularTorque.ipynb          -> angular_momentum_torque.ipynb
+monóxidoCarbono_tensorInercia.ipynb -> carbonMonoxide_inertiaTensor.ipynb
+tensorInercia.ipynb                 -> inertiaTensor.ipynb
+
+
+== 09MasaDistribuida  -> 09DistributedMass
+
+guíaDistribuciónMasa.tex   ->  exercisesDistributedMass.tex
+cubo_tensorInercia.ipynb   ->  inertiaTensorcube.ipynb  
+masaDistribuida.ipynb      ->  distributedMass.ipynb
+
+
+== 10RotaciónEuler  ->  10EulerRotation
+
+engranajeDesalineado.ipynb  ->  gearOffsetted.ipynb
+guíaRotacionEuler.tex       ->  exercisesEulerRotation.tex
+rotaciónEuler.ipynb         ->  rotationEuler.ipynb
+volanteInercia.ipynb        ->  flywheel.ipynb
+
+
+==  11Vibraciones1GdL  ->  11OscillationsSDOF
+
+arbitrario1GdL.ipynb     ->  arbitrarySDOF.ipynb
+armónico1GdL.ipynb       ->  harmonicSDOF.ipynb
+guíaVibraciones1GdL.tex  ->  exercisesSDOF.tex
+vibraciones1GdL.ipynb    ->  oscillationsSDOF.ipynb
+
+== 12VibracionesNGdL  ->  12OscillationsMDOF
+
+guíaVibracionesNGdL.tex  ->  exercisesMDOF.tex
+masas_transv.ipynb       ->  ?
+vibracionesNGdL.ipynb    ->  oscillationsMDOF.ipynb
+
+
+== 15Integrador  ->  13FinalProject   (keep this number?)
+
+integradorRígido.ipynb  ->  projectRigid.ipynb
+
+
+
+=============================
+
+General:
+- Check if figures are loaded in colab, because I'm sometimes using the link to a local file.
+- End comments with a period.
+- Función de ligadura o ecuaciones de ligadura?
+
+
+
+
+(4) Interesting references about topics in this notebook that could be added:
+Pendulum motion on an inclined plane
+https://iopscience.iop.org/article/10.1088/1361-6552/ac7b02
+
+Dynamic equation
+https://www.sciencedirect.com/topics/computer-science/dynamic-equation
+
+
+
+(6)
+Agregar tilde en Máquina.
+
+(8)
+
+Español:
+usar "aligned" en lugar de "align" para no tener tags.
+
+
+(12)
+Translated from current version. The version in the release is outdated.
+
+(13)
+Check this:
+Applying the constraint function
+Debe aplicarse ahora la función de restricción de la ligadura.
+No solo hay que substituir en las ecuaciones de Euler-Lagrange el que
+
+and this:
+También se puede establere que la derivada primera y segunda con el tiempo de la función de restricción de la ligadura:
+
+(14)
+Revisar el texto de este cuaderno, dice versión 2021.
+
+in the reference to the Lanczos notes, I wrote "A few notes...". This might change if the title
+of that pdf is changed.
+
+(15)
+Revisar el texto de este cuaderno, dice versión 2021.
+
+
+(16)
+Check: longitudes de equilibrio. Pero el dato es l10 and l20, las longitudes naturales? No tienen porqué ser las mismas que en equilibrio.
+
+(17)
+Check: where $\delta\vec{r}_j$ is the **virtual displacement of the coordinate, as a vector, where the nonconservative force $\vec{F_j}$ is applied**.
+
+T_translational and V_elastic, it should be for the system.
+
+---------------- hasta acá el último intercambio con Victor -----------------
