@@ -71,7 +71,7 @@ noConservativas.ipynb                            ->  nonconservative.ipynb      
 == 08TensorInercia  ->  08InertiaTensor
 
 guíaTensorInercia.tex               -> exercisesInertiaTensor.tex           Ready
-momentoAngularTorque.ipynb          -> angular_momentum_torque.ipynb
+momentoAngularTorque.ipynb          -> angular_momentum_torque.ipynb        Ready
 monóxidoCarbono_tensorInercia.ipynb -> carbonMonoxide_inertiaTensor.ipynb
 tensorInercia.ipynb                 -> inertiaTensor.ipynb
 
