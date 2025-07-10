@@ -72,8 +72,8 @@ noConservativas.ipynb                            ->  nonconservative.ipynb      
 
 guíaTensorInercia.tex               -> exercisesInertiaTensor.tex           Ready
 momentoAngularTorque.ipynb          -> angular_momentum_torque.ipynb        Ready
-monóxidoCarbono_tensorInercia.ipynb -> carbonMonoxide_inertiaTensor.ipynb
-tensorInercia.ipynb                 -> inertiaTensor.ipynb
+monóxidoCarbono_tensorInercia.ipynb -> carbonMonoxide_inertiaTensor.ipynb   Almost ready (18)
+tensorInercia.ipynb                 -> inertiaTensor.ipynb    translating
 
 
 == 09MasaDistribuida  -> 09DistributedMass
@@ -158,3 +158,17 @@ Check: longitudes de equilibrio. Pero el dato es l10 and l20, las longitudes nat
 
 
 ---------------- 30 jun 2025 -----------------
+
+(18) 08TensorInercia/monóxidoCarbono_tensorInercia.ipynb
+
+- Tensor de inercia para rotaciones respecto del centro de masa:
+en el texto que sigue, se refiere a una figura, pero no hay figura en el cuaderno.
+
+- Esto aparece más de una vez:
+print(
+  vlatex(
+    Iik_cm
+    )
+  )
+
+¿Se deja o se elimina?

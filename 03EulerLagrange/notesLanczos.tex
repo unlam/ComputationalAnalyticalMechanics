@@ -72,119 +72,115 @@
 \tableofcontents
 
 \section{Mechanics: vector vs. analytical approaches}
-\textbf{Referencia: Lanczos I\S1}\\
+\textbf{Reference: Lanczos I\S1}\\
 
 For Isaac Newton\footnote{English mathematician and physicist (Woolsthorpe, Lincolnshire, 1642 - Kensington, Middlesex 1726).}, the fundamental law for mechanics is the one that sets \(\va{F}_i= m_i \va{a}_i\) for particle \(i\).
 
 Thus, the linear momentum of this particle moving in free space is conserved until a force is exerted upon it. This approach is simple and adequate for a single particle.
 But when dealing with systems formed by many particles, we have to isolate each one of them and find the forces they exert upon each other. We call these forces \emph{interactions}.
 
-El desconocimiento de la naturaleza de muchas de estas fuerzas de interacción hacen necesario el uso de postulados adicionales.
-Newton pensó que su tercera ley, ``la acción equivale a la reacción'', se ocuparía de todos estos problemas dinámicos.
-Esto no resultó así, como demuestra el ejemplo de la dinámica de cuerpos rígidos para cuyo análisis hay que \emph{encorsetarse} en presunciones como de que las fuerzas entre componentes del sistema son todas centrales\footnote{En las fuerzas centrales estas apuntan de una partícula a la otra con la que interactúa, por tanto, la definición excluye a fuerzas observadas en el interior de sólidos, causadas por torsión o tensiones de corte que no son colineales con una recta pasando entre los elementos interactuantes.}.
+The lack of knowledge about the nature of many of these interaction forces makes the use of additional postulates necessary.
+Newton thought that his third law, ``action equals reaction'', would take care of all these dynamical problems.
+This did not turn out to be the case, as demonstrated by the example of rigid body dynamics, for whose analysis one must \emph{constrain oneself} to assumptions such as that the forces between components of the system are all central\footnote{In central forces these point from one particle to the other with which it interacts, therefore, the definition excludes forces observed inside solids, caused by torsion or shear stresses that are not collinear with a line passing between the interacting elements.}.
 
-En el enfoque analítico se analiza el \emph{sistema mecánico} en su conjunto, sin aislar fuerzas sobre partículas individuales.
-Si en el enfoque vectorial la fuerza sobre cada punto debe analizarse, en el analítico basta con conocer una única función que depende de la posición (y a veces también la velocidad) de las partículas; esta \emph{función trabajo} contiene en forma implícita todas las fuerzas que actúan sobre las partículas del sistema.
-Para obtener tales fuerzas basta una simple diferenciación de esta función.
+In the analytical approach, the \emph{mechanical system} is analyzed as a whole, without isolating forces on individual particles.
+If in the vector approach the force on each point must be analyzed, in the analytical approach it suffices to know a single function that depends on the position (and sometimes also the velocity) of the particles; this \emph{work function} contains in implicit form all the forces acting on the particles of the system.
+To obtain such forces, a simple differentiation of this function suffices.
 
-Otra ventaja de este último enfoque es el manejo de condiciones auxiliares.
-Muchas veces existen \emph{condiciones dinámicas} que se conocen \emph{a priori} del análisis de un sistema.
-Por ejemplo la distancia entre dos puntos cualesquiera de un cuerpo rígido se mantiene inalterable.
-Tal condición se mantiene gracias a fuertes fuerzas de vínculo entre partículas del sistema.
-El enfoque analítico no requiere determinar tales fuerzas, basta con enunciar la condición entre las posiciones de las partículas.
-Lo mismo se aplica al analizar un fluido; uno se despreocupa de las fuerzas internas.
+Another advantage of this latter approach is the handling of auxiliary conditions.
+Often there exist \emph{dynamical conditions} that are known \emph{a priori} from the analysis of a system.
+For example, the distance between any two points of a rigid body remains unchanged.
+Such a condition is maintained thanks to strong constraint forces between particles of the system.
+The analytical approach does not require determining such forces; it suffices to state the condition between the positions of the particles.
+The same applies when analyzing a fluid; one disregards the internal forces.
 
-Pero tal vez la diferencia más crucial se hace evidente en un sistema complejo.
-En el enfoque vectorial se requiere plantear por separado un elevado número de ecuaciones diferenciales y luego concatenarlas.
-Los \emph{principios variacionales} de la mecánica analítica permiten descubrir la base que todas estas ecuaciones deben respetar.
-Existe un principio, que sostiene que una cantidad llamada \emph{acción} debe ser \emph{estacionaria} (ver sección \ref{trabajosVirtuales}) y el cumplir con solo esta condición permite obtener las ecuaciones diferenciales que describen correctamente la dinámica del sistema.
+But perhaps the most crucial difference becomes evident in a complex system.
+In the vector approach, it is required to separately formulate a high number of differential equations and then concatenate them.
+The \emph{variational principles} of analytical mechanics allow discovering the basis that all these equations must respect.
+There exists a principle, which holds that a quantity called \emph{action} must be \emph{stationary} (see section \ref{trabajosVirtuales}) and fulfilling only this condition allows obtaining the differential equations that correctly describe the dynamics of the system.
 
-En resumen:
+In summary:
 \begin{enumerate}
-	\item La mecánica vectorial aísla partículas; la analítica considera el sistema como un todo.
-	\item La vectorial construye una fuerza ejercida sobre cada partícula; la analítica considera una única función que contiene toda la información sobre las fuerzas de interés.
-	\item Si hay fuerzas que mantienen una condición entre coordenadas el enfoque vectorial requiere obtener estas. En el analítico basta enunciar matemáticamente tal relación.
-	\item Con el método analítico se obtiene el conjunto completo de ecuaciones que describen la dinámica a partir de un único principio. Basta con minimizar la cantidad llamada \emph{acción}. 
+	\item Vector mechanics isolates particles; analytical mechanics considers the system as a whole.
+	\item Vector mechanics constructs a force exerted on each particle; analytical mechanics considers a single function that contains all the information about the forces of interest.
+	\item If there are forces that maintain a condition between coordinates, the vector approach requires obtaining these. In the analytical approach, it suffices to mathematically state such a relationship.
+	\item With the analytical method, the complete set of equations describing the dynamics is obtained from a single principle. It suffices to minimize the quantity called \emph{action}.
 \end{enumerate}
 
+\section{The Analytical Approach to Mechanics}
+\textbf{Reference: Lanczos 0\S1}\\
 
-
-
-\section{El enfoque analítico de la mecánica}
-\textbf{Referencia: Lanczos 0\S1}\\
-
-Para Newton, es decir en la mecánica vectorial, las fuerzas actúan produciendo un cambio en el momento de una partícula
+For Newton, that is in vectorial mechanics, forces act producing a change in the momentum of a particle
 \begin{equation}
-	\sum \va{F}(t)= \dv{\va{p}}{t}= m \dv{\va{v}}{t},\footnote{La masa solo se puede sacar como constante si descartamos efectos relativistas.}
+	\sum \va{F}(t)= \dv{\va{p}}{t}= m \dv{\va{v}}{t},\footnote{Mass can only be taken as constant if we discard relativistic effects.}
 \end{equation}
-% Para su contemporaneo Gottfried Leibniz no era el momento lo que describía su estado dinámico  
-en tanto que para su contemporáneo Gottfried Leibniz\footnote{Matemático y físico alemán (Leipzig 1646 - Hanover 1716)} la acción de estas era producir un cambio en una cantidad que denominó \emph{vis viva} (fuerza viviente) que cuantificó en \(m v^2\) que no es otra cosa que el doble de lo que llamamos \emph{energía cinética}.
-Y así como Leibniz reemplazó el momento Newtoniano con la energía cinética, siguiendo con tal línea de razonamiento, reemplazó la fuerza con el \emph{trabajo de la fuerza}.
-Este último fue posteriormente reemplazado con el concepto de \emph{función trabajo}.
-Así Leibniz es el iniciador una nueva rama del estudio de la mecánica llamada \emph{mecánica analítica} que basa su estudio del equilibrio y el movimiento en dos cantidades no vectoriales, sino escalares, la \emph{energía cinética} y la \emph{función trabajo}, esta última a veces reemplazable por una \emph{energía potencial}.
+% For his contemporary Gottfried Leibniz it was not momentum that described its dynamic state  
+while for his contemporary Gottfried Leibniz\footnote{German mathematician and physicist (Leipzig 1646 - Hanover 1716)} the action of these was to produce a change in a quantity he called \emph{vis viva} (living force) which he quantified as \(m v^2\) which is nothing other than twice what we call \emph{kinetic energy}.
+And just as Leibniz replaced Newtonian momentum with kinetic energy, following such a line of reasoning, he replaced force with the \emph{work of the force}.
+The latter was subsequently replaced with the concept of \emph{work function}.
+Thus Leibniz is the initiator of a new branch of mechanics study called \emph{analytical mechanics} which bases its study of equilibrium and motion on two quantities that are not vectorial, but scalar, the \emph{kinetic energy} and the \emph{work function}, the latter sometimes replaceable by a \emph{potential energy}.
 
-Puede resultar difícil el aceptar que dos magnitudes escalares alcancen para determinar un movimiento siendo este un fenómeno tan relacionable con una determinada dirección.
-El teorema de la energía que establece que la suma de las energías cinéticas y potenciales no varía durante un movimiento da solo \emph{una} ecuación, cuando es evidente que describir el movimiento de solo una partícula requiere de \emph{tres} (las dimensiones espaciales), incrementado tal número si el sistema está compuesto de más partículas.
-Pero de hecho estas dos cantidades escalares alcanzan para describir la dinámica del más complejo sistema si se las usan en conjunto con un \emph{principio}.
+It may be difficult to accept that two scalar quantities are sufficient to determine a motion being this a phenomenon so relatable to a certain direction.
+The energy theorem that establishes that the sum of kinetic and potential energies does not vary during motion gives only \emph{one} equation, when it is evident that describing the motion of just one particle requires \emph{three} (the spatial dimensions), increasing such number if the system is composed of more particles.
+But in fact these two scalar quantities are sufficient to describe the dynamics of the most complex system if they are used in conjunction with a \emph{principle}.
 
-Antes de presentar tal principio, discutiremos tres conceptos fundamentales dentro del enfoque analítico: el trabajo de una fuerza, las coordenadas generalizadas, y la función trabajo. 
+Before presenting such principle, we will discuss three fundamental concepts within the analytical approach: the work of a force, generalized coordinates, and the work function.
 
 
-\subsection{Trabajo de una fuerza}
-En la ecuación Newtoniana \(\va{F}= m \va{a}\) cada lado de la igualdad responde a dos aspectos diferentes de un problema mecánico.
-El lado derecho responde a la calidad inercial de la masa, que es recogida en la energía cinética en el tratamiento analítico.
-El lado izquierdo es el efecto de un campo externo actuando sobre la partícula.
-Aunque estamos acostumbrados a pensar la fuerza como algo primitivo e irreductible, en el enfoque analítico el \emph{trabajo} hecho por la fuerza es nuestra preocupación principal mientras que la fuerza propiamente dicha es una cantidad secundaria que derivamos de la anterior.
+\subsection{Work of a Force}
+In the Newtonian equation \(\va{F}= m \va{a}\) each side of the equality responds to two different aspects of a mechanical problem.
+The right side responds to the inertial quality of mass, which is captured in the kinetic energy in the analytical treatment.
+The left side is the effect of an external field acting on the particle.
+Although we are accustomed to thinking of force as something primitive and irreducible, in the analytical approach the \emph{work} done by the force is our main concern while the force itself is a secondary quantity that we derive from the former.
 
-El trabajo es una cantidad escalar que se obtiene de integrar la fuerza ejercida sobre la trayectoria de una partícula
+Work is a scalar quantity that is obtained by integrating the force exerted over the trajectory of a particle
 \begin{equation}
 	W= \int \va{F} \cdot \dd\va{r}.
 \end{equation}
 
-Toda fuerza puede descomponerse según el sistema de coordenadas utilizado.
-Para el caso del sistema cartesiano
+Any force can be decomposed according to the coordinate system used.
+For the case of the Cartesian system
 \begin{equation}
 	\va{F}= F_x \hat{x}+ F_y \hat{y}+ F_z \hat{z},
 \end{equation}
 
-Pero si analizamos solo una fuerza, nada impide orientar un eje con ella y se puede escribir el trabajo \(W= \int F_x \dd x\).
-Así en forma diferencial puede expresarse un trabajo infinitesimal \(\dd w= F_x \dd x\), que solo será \emph{integrable} si \(F_x\) es la misma cuando se recorre el mismo \(x\).
-Un contraejemplo clásico es el de la fuerza que frena una rueda enclavada de un automóvil.
-El signo de la fuerza de rozamiento cambia para oponerse al desplazamiento.
+But if we analyze only one force, nothing prevents orienting an axis with it and the work can be written as \(W= \int F_x \dd x\).
+Thus in differential form an infinitesimal work can be expressed as \(\dd w= F_x \dd x\), which will only be \emph{integrable} if \(F_x\) is the same when traversing the same \(x\).
+A classic counterexample is that of the force that brakes a locked wheel of an automobile.
+The sign of the friction force changes to oppose the displacement.
 
-En este caso unidimensional una trayectoria cerrada obliga a recorrer los mismos puntos en un sentido y otro, pero en el caso general es claro que el trabajo resulta dependiente de la trayectoria y no de sus puntos inicial y final.
-Y como usualmente es posible que las fuerzas involucradas \(\vec{F}= \vec{F}(x,y,z)\) presenten valores que hacen que \(W \neq 0 \) en una trayectoria cerrada (igual punto inicial y final) queda claro que el trabajo infinitesimal no es un verdadero diferencial cuya integral solo depende de los límites de integración, y es esencialmente una cantidad \emph{no integrable}.
+In this one-dimensional case a closed trajectory forces us to traverse the same points in one direction and another, but in the general case it is clear that the work depends on the trajectory and not on its initial and final points.
+And since usually the forces involved \(\vec{F}= \vec{F}(x,y,z)\) present values that make \(W \neq 0 \) in a closed trajectory (same initial and final point) it becomes clear that the infinitesimal work is not a true differential whose integral depends only on the limits of integration, and is essentially a \emph{non-integrable} quantity.
 
-Así el trabajo se expresa como una cantidad infinitesimal que es una forma diferencial de primer orden, pero no integrable\footnote{Se utiliza la notación de escribir una barra sobre una cantidad diferencial no integrable.}, 
+Thus work is expressed as an infinitesimal quantity that is a first-order differential form, but not integrable\footnote{The notation of writing a bar over a non-integrable differential quantity is used.}, 
 \begin{equation}\label{Lanczos17.2}
 	\overline{\dd w}= \displaystyle\sum_{i=1}^{N} F_{xi} \dd x_i+ F_{yi} \dd y_i+ F_{zi} \dd z_i,
 	\tag{Lanczos 17.2}
 \end{equation}
-sumando sobre las \(N\) fuerzas impresas sobre la partícula.
+summing over the \(N\) forces impressed upon the particle.
 
 
-\subsection{Coordenadas generalizadas}\label{generalizadas}
-% Los métodos vectoriales son eminentemente útiles en los problemas de estática.
-% Cuando analizamos el movimiento el número de problemas que pueden resolverse por métodos puramente vectoriales es limitado.
-En el enfoque analítico la definición de coordenada es una construcción puramente matemática sin relación con los vectores posición del enfoque Newtoniano.
-Las coordenadas solo deben guardar una relación \emph{uno a uno} con los puntos del espacio físico analizado, luego podemos operar en forma algebraica sobre estas olvidando su sentido físico.
 
-Un sistema de \(P\) partículas que no tiene restricciones a su movimiento presenta en el sistema cartesiano \(x_i, y_i, z_i\) (\(i=1, 2, \ldots, P\)) totalizando \(3P\) coordenadas.
-Su dinámica estará determinada si conocemos \(x_i, y_i, z_i\) en función del tiempo \(t\).
-El mismo problema estará resuelto si estos últimos están expresados en función de unas cantidades \(q_1, q_2, \ldots, q_{3P}\) y conocemos como estas dependen de \(t\).
-Un ejemplo de esto es si aprovechamos la relación con las coordenadas polares
+\subsection{Generalized Coordinates}\label{generalized}
+In the analytical approach, the definition of coordinate is a purely mathematical construction without relation to the position vectors of the Newtonian approach.
+The coordinates need only maintain a \emph{one-to-one} relationship with the points of the physical space being analyzed, then we can operate algebraically on these while forgetting their physical meaning.
+
+A system of \(P\) particles that has no restrictions on its motion presents in the Cartesian system \(x_i, y_i, z_i\) (\(i=1, 2, \ldots, P\)) totaling \(3P\) coordinates.
+Its dynamics will be determined if we know \(x_i, y_i, z_i\) as functions of time \(t\).
+The same problem will be solved if these latter are expressed as functions of some quantities \(q_1, q_2, \ldots, q_{3P}\) and we know how these depend on \(t\).
+An example of this is if we take advantage of the relationship with polar coordinates
 \begin{equation}\label{Lanczos12.3}
 	\begin{aligned}
-		x &= r \cos{\theta} \sen{\varphi}\\
-		y &= r \sen{\theta} \sen{\varphi}\\
+		x &= r \cos{\theta} \sin{\varphi}\\
+		y &= r \sin{\theta} \sin{\varphi}\\
 		z &= r \cos{\varphi}
 	\end{aligned},
 	\tag{Lanczos 12.3}
 \end{equation}
-y obtenemos \(r(t), \theta(t), \varphi(t)\).
-En definitiva no es importante cuál sistema de coordenadas se utilice, siempre que para \(P\) partículas definamos unas \(3P\) coordenadas independientes.
-Estas reciben el nombre de \emph{coordenadas generalizadas} \(q_i\), y sus derivadas \(\dot{q}_i= \pdv{q_i}{t}\), el de \emph{velocidades generalizadas}.
-Con estas debemos ser capaces de escribir relaciones \(f_{3P}\) que nos permitan recuperar las variables cartesianas
+and obtain \(r(t), \theta(t), \varphi(t)\).
+Ultimately, it is not important which coordinate system is used, as long as for \(P\) particles we define some \(3P\) independent coordinates.
+These receive the name of \emph{generalized coordinates} \(q_i\), and their derivatives \(\dot{q}_i= \pdv{q_i}{t}\), the name of \emph{generalized velocities}.
+With these we must be able to write relations \(f_{3P}\) that allow us to recover the Cartesian variables
 \begin{equation}\label{Lanczos12.8}
 	\begin{aligned}
 		x_1 &= f_1(q_i, \ldots, q_n) \\
@@ -196,122 +192,111 @@ Con estas debemos ser capaces de escribir relaciones \(f_{3P}\) que nos permitan
 	\tag{Lanczos 12.8}
 \end{equation}
 
-En la práctica el número de \(q_i\) que se utilizan suele ser menor a \(3P\) cuando se consideran las condiciones que limitan la dinámica.
-Por ejemplo si un sistema de dos partículas, \(P = 2\), está limitado a moverse en un plano tenemos dos \emph{grados de libertad} menos, por lo que nos basta con un número de coordenadas generalizadas \(n= 3 \times 2 - 2\).
-Así el número de grados de libertad de un sistema es 
+In practice, the number of \(q_i\) that are used is usually less than \(3P\) when considering the conditions that limit the dynamics.
+For example, if a system of two particles, \(P = 2\), is limited to move in a plane, we have two fewer \emph{degrees of freedom}, so we need only a number of generalized coordinates \(n= 3 \times 2 - 2\).
+Thus the number of degrees of freedom of a system is 
 \begin{equation}
 	n = 3 P - K,
 \end{equation}
-siendo \(K\) el número de condiciones cinemáticas, \emph{constreñimientos }o \emph{ligaduras}, impuestas al sistema.
+where \(K\) is the number of kinematic conditions, \emph{constraints} or \emph{linkages}, imposed on the system.
 
 
 
-\subsection{Función trabajo | Fuerzas mono y poligénicas}\label{funcionTrabajo}
-Así como en la ecuación \eqref{Lanczos17.2} se expresó el trabajo infinitesimal en función de las coordenadas de un sistema cartesiano, puede hacerse lo mismo con coordenadas generalizadas
+\subsection{Work Function | Monogenic and Polygenic Forces}\label{workFunction}
+Just as in equation \eqref{Lanczos17.2} the infinitesimal work was expressed as a function of the coordinates of a Cartesian system, the same can be done with generalized coordinates
 \begin{equation}\label{Lanczos17.3}
 	\overline{\dd w} = F_1 \dd q_1 + F_2 \dd q_2 + \ldots + F_n \dd q_n =  \displaystyle\sum_{i=1}^{n} F_{i} \dd q_i,
 	\tag{Lanczos 17.3}
 \end{equation}
-donde las \(F_i\) son las componentes de las llamadas \emph{fuerzas generalizadas}.
+where the \(F_i\) are the components of the so-called \emph{generalized forces}.
 
-% Las fuerzas actuando sobre un sistema pueden clasificarse en dos categorías.
-Si bien \(\overline{\dd w}\) es en el caso general una forma diferencial de primer orden, existen casos en que resulta ser una verdadera diferencial de una función, de forma tal que podemos quitar la barra sobre ella, y renombrarla como \(\dd w= \dd U\), siendo
+While \(\overline{\dd w}\) is in the general case a first-order differential form, there are cases where it turns out to be a true differential of a function, such that we can remove the bar over it, and rename it as \(\dd w= \dd U\), where
 \begin{equation}\label{Lanczos17.6}
 	U= U(q_1, q_2, \ldots, q_n),
 	\tag{Lanczos 17.6}
 \end{equation}
-la llamada \emph{función trabajo}.
-De esta forma
+is the so-called \emph{work function}.
+In this way
 \begin{equation}\label{Lanczos17.8}
 	\sum_{i=1}^{n} F_i \dd q_i = \sum_{i=1}^{n} \pdv{U}{q_i} \dd q_i 
 	\Rightarrow F_i = \pdv{U}{q_i},
 	\tag{Lanczos 17.8}
 \end{equation}
-siendo que usualmente se utiliza el negativo de la función trabajo \(V = - U\) para interpretarla como una \emph{energía potencial}, de forma que 
+where usually the negative of the work function \(V = - U\) is used to interpret it as a \emph{potential energy}, so that 
 \begin{align}\label{Lanczos17.10}
 	F_i = - \pdv{V}{q_i},
 	\tag{Lanczos 17.10}
 \end{align}
-siendo \(V= V(q_1, q_2, \ldots, q_n)\).
+where \(V= V(q_1, q_2, \ldots, q_n)\).
 
-Las fuerzas de esta clase presentan dos características destacables:
+Forces of this class present two notable characteristics:
 \begin{enumerate}
-	\item satisfacen la \emph{conservación de la energía} por lo que reciben el nombre de \emph{fuerzas conservativas};
-	\item aunque tengan \(n\) componentes se calculan a partir de una \emph{única función escalar} \(U\).
+	\item they satisfy \emph{energy conservation} and therefore receive the name of \emph{conservative forces};
+	\item although they have \(n\) components, they are calculated from a \emph{single scalar function} \(U\).
 \end{enumerate}
 
-La definición de la función trabajo como solo dependiente de las coordenadas generalizadas es demasiado restrictiva, pues bien conocemos casos de fuerzas derivables de funciones trabajo en que el tiempo \(t\) figura explícitamente \(U= U(q_1, q_2, \ldots, q_n,t)\).
-En tales casos se pierde la conservación de la energía, pero las ecuaciones \eqref{Lanczos17.8} siguen siendo válidas.
-Un ejemplo de este caso es el de una partícula con carga eléctrica en un \emph{cyclotron} que luego de cada ciclo regresa al mismo punto de partida pero con una energía cinética mayor.
-Claramente, las fuerzas de Lorentz\footnote{\(\va{F}= q (\va{E}+ \va{v}\times \va{B})\)} involucradas se pueden obtener de funciones trabajo\footnote{\(\va{B}= \curl{\va{A}}\) y \(\va{E}= -\grad \varphi - \pdv{\va{A}}{t}\), donde \(\va{A}\) es el denominado potencial vector y \(\varphi\) el eléctrico.}, pero en el caso particular del \emph{cyclotron} el campo eléctrico varía en el tiempo, y, por tanto, no resulta en una fuerza conservativa.
+The definition of the work function as only dependent on the generalized coordinates is too restrictive, since we well know cases of forces derivable from work functions in which time \(t\) appears explicitly \(U= U(q_1, q_2, \ldots, q_n,t)\).
+In such cases, energy conservation is lost, but equations \eqref{Lanczos17.8} remain valid.
+An example of this case is that of a particle with electric charge in a \emph{cyclotron} that after each cycle returns to the same starting point but with greater kinetic energy.
+Clearly, the Lorentz forces\footnote{\(\va{F}= q (\va{E}+ \va{v}\times \va{B})\)} involved can be obtained from work functions\footnote{\(\va{B}= \curl{\va{A}}\) and \(\va{E}= -\grad \varphi - \pdv{\va{A}}{t}\), where \(\va{A}\) is the so-called vector potential and \(\varphi\) the electric potential.}, but in the particular case of the \emph{cyclotron} the electric field varies in time, and therefore does not result in a conservative force.
 
-El caso opuesto, de que conserve la energía, y aun así no pueda definirse una \(U\), es posible.
-Este es el caso de las fuerzas de rozamiento estático que intervienen en el fenómeno de rodadura, que al no haber desplazamiento involucrado no hacen trabajo alguno.
-El caso de este tipo de fuerzas para las cuales no puede idearse una función escalar de las cuales derivarlas se denominan \emph{poligénicas}, por sus múltiples posibles orígenes.
-Este término está en contraposición al que corresponde a aquellas fuerzas que podemos derivar de una cantidad escalar, la función trabajo \(U\), que denominamos \emph{monogénicas} para tener un término que las englobe independientemente de si son o no conservativas.
+The opposite case, where energy is conserved and yet no \(U\) can be defined, is possible.
+This is the case of static friction forces that intervene in the rolling phenomenon, which, since there is no displacement involved, do no work at all.
+The case of this type of forces for which no scalar function can be devised from which to derive them are called \emph{polygenic}, due to their multiple possible origins.
+This term is in contrast to that which corresponds to those forces that we can derive from a scalar quantity, the work function \(U\), which we call \emph{monogenic} to have a term that encompasses them regardless of whether or not they are conservative.
 
-El caso más general de una fuerza monogénica puede depender tanto de las coordenadas como de las velocidades generalizadas, \(U= U(q_1, \ldots, q_n; \dot{q}_1, \ldots, \dot{q}_n; t)\).
-De hecho este es el caso de las mencionadas fuerzas de Lorentz.
-En tal caso pueden obtenerse las componentes de fuerza como
+The most general case of a monogenic force can depend on both the coordinates and the generalized velocities, \(U= U(q_1, \ldots, q_n; \dot{q}_1, \ldots, \dot{q}_n; t)\).
+In fact, this is the case of the aforementioned Lorentz forces.
+In such a case, the force components can be obtained as
 \begin{equation}\label{Lanczos17.13}
 	F_i= \pdv{U}{q_i}- \dv{t} \pdv{U}{\dot{q}_i},
 	\tag{Lanczos 17.13}
 \end{equation}
-usando un procedimiento similar al presentado en la sección \ref{EulerLagrange}.
+using a procedure similar to that presented in section \ref{EulerLagrange}.
 
 
-%\subsubsection{Conservación de la energía - Sistemas esclerónomos y reónomos} % Lanczos \S 18
+\section{Principle of Virtual Work}\label{virtualWork} %  Lanczos III\S1
+In Newtonian mechanics, a particle is in equilibrium if the sum of the \(N\) forces acting on it vanishes, \(\displaystyle\sum_{i=1}^N \va{F}= 0\), that is, the resultant force on it is zero.
+In this approach to mechanics, the particle is isolated and all constraints on its motion are replaced with \emph{reaction forces} that enforce these \emph{constraints}.
+In the analytical treatment, these forces are discarded and only the external ones are considered.
+For this purpose, \emph{virtual displacements} are made that are in harmony with the \emph{constraints}.
 
-
-\section{Principio de trabajos virtuales}\label{trabajosVirtuales} %  Lanczos III\S1
-En la mecánica de Newton una partícula está en equilibrio si la suma de las \(N\) fuerzas actuando sobre esta se anula, \(\displaystyle\sum_{i=1}^N \va{F}= 0\), es decir la fuerza resultante sobre la misma es nula.
-En este enfoque de la mecánica se aísla la partícula y se reemplazan todas las limitaciones a su movimiento con \emph{fuerzas de reacción} que hagan cumplir estas \emph{ligaduras}.
-En el tratamiento analítico descarta estas fuerzas y solo tiene en cuenta las externas.
-Para esto se realizan \emph{desplazamientos virtuales} que estén en armonía con las \emph{ligaduras}.
-
-De actuar fuerzas resultantes externas \(\va{F}_1, \va{F}_2, \ldots, \va{F}_P\) sobre cada una de las \(P\) partículas que componen un sistema, sus correspondientes \emph{desplazamientos virtuales} los notaremos \(\delta \va{r}_1, \delta \va{r}_2, \ldots, \delta \va{r}_P\)\footnote{Con \(\delta\) se denotan variaciones virtuales. Ver sección \ref{desplazamientoVirtual}.}.
-Con esta notación el \emph{principio de trabajos virtuales} se puede resumir en:
+If resultant external forces \(\va{F}_1, \va{F}_2, \ldots, \va{F}_P\) act on each of the \(P\) particles that compose a system, we will denote their corresponding \emph{virtual displacements} as \(\delta \va{r}_1, \delta \va{r}_2, \ldots, \delta \va{r}_P\)\footnote{The symbol \(\delta\) denotes virtual variations. See section \ref{virtualDisplacement}.}.
+With this notation, the \emph{principle of virtual work} can be summarized as:
 \begin{quote}
- ``Un sistema estará en equilibrio si, y solo si, la suma de los trabajos virtuales de todas la fuerzas impresas sobre él se anula'',
+ ``A system will be in equilibrium if, and only if, the sum of the virtual works of all the impressed forces acting on it vanishes'',
 \end{quote}
 \begin{equation}\label{Lanczos31.2}
 	\overline {\delta \omega} = 
 	\va{F}_1 \cdot \delta \va{r}_1+ \va{F}_2 \cdot \delta \va{r}_2+ \ldots+ \va{F}_P \cdot \delta \va{r}_P = 0.
 	\tag{Lanczos 31.2}
 \end{equation}
-Como en el lenguaje analítico utilizamos \emph{coordenadas generalizadas} (ver sección \ref{generalizadas}) reescribimos esta última expresión como
+Since in analytical language we use \emph{generalized coordinates} (see section \ref{generalized}) we rewrite this last expression as
 \begin{equation}\label{Lanczos31.4}
 	\overline {\delta \omega} = 
 	F_1 \delta q_1+ F_2 \delta q_1+ \ldots + F_n \delta q_n = \sum_{i=1}^n F_i \delta q_i = 0. 
 	\tag{Lanczos 31.4}
 \end{equation}
 
-Si desde el punto de vista Newtoniano el principio de equilibrio de un sistema requería que \emph{la suma de las fuerzas impresas con las de reacción sea nula}, desde el punto de vista analítico el trabajo virtual de las fuerzas impresas puede reemplazarse con el valor negativo del trabajo de las fuerzas de reacción.
-Expresado de esta forma llegamos a postular el principio como:
+If from the Newtonian point of view the equilibrium principle of a system required that \emph{the sum of the impressed forces with the reaction forces be zero}, from the analytical point of view the virtual work of the impressed forces can be replaced with the negative value of the work of the reaction forces.
+Expressed in this form, we arrive at postulating the principle as:
 \begin{quote} 
-``El trabajo virtual de las fuerzas de reacción es siempre cero para cualquier desplazamiento virtual que esté en armonía con las ligaduras cinemáticas dadas''.
+``The virtual work of the reaction forces is always zero for any virtual displacement that is in harmony with the given kinematic constraints''.
 \end{quote} 
 
-%En el caso particular de que las fuerzas impresas \(F_i\) son \emph{monogénicas} (ver \ref{funcionTrabajo}) su trabajo virtual es igual a la variación de la correspondiente función trabajo, es decir \(delta \omega = \dd U(q_1, \ldots, q_n)\).
-%Como se discutió en \ref{funcionTrabajo} esta última es el negativo de la llamada \emph{energía potencial}, es decir \(dd V= - \dd U= - delta \omega\).
-%El equilibrio de un sistema se logra cuando esta última presenta un valor estacionario \(\delta V= 0\).
-%% Para que el equilibrio sea \emph{estable}, \(V\) debe ser un mínimo.
 
+\subsection{What is a virtual displacement? | Stationary value}\label{virtualDisplacement}
+\textbf{Reference: Lanczos II\S2}\\
 
-% \subsection{¿Que es un desplazamiento virtual? | Principios variacionales}
+In section \ref{virtualWork} the use of the symbol \(\delta\) associated with a \emph{virtual displacement} was introduced.
+The term \emph{virtual} responds to the fact that it is an \emph{infinitesimal variation} of position that would be performed with the intention of \emph{mathematically exploring} the values that a continuous and differentiable function in the coordinates \(q_i\) assumes in the neighborhood of a point \(q_1, q_2, \ldots, q_n\).
 
-\subsection{¿Qué es un desplazamiento virtual? | Valor estacionario}\label{desplazamientoVirtual}
-\textbf{Referencia: Lanczos II\S2}\\
+To exemplify the difference between such a displacement and a \emph{real} one associated with differentiation, \(\dd q\), let us imagine a sphere at the deepest point of a \emph{bowl}.
+We can explore how the \emph{potential energy} \(V\) changes by evaluating it after taking the sphere to a position adjacent to the current one, but in fact we do not seek to produce any displacement of the sphere.
+We will have made a \emph{virtual displacement}, which was done with the intention of exploring the consequence of all possible displacements \emph{in any kinematically admissible form}.
+The term that condenses the concept of a displacement that is simultaneously \emph{virtual} and \emph{infinitesimal} is called \emph{variation}, and is denoted by \(\delta\) at the suggestion of Joseph-Louis Lagrange\footnote{Giuseppe Lodovico Lagrangia. Italian mathematician and astronomer (Turin 1736 - Paris 1813)}.
 
-En la sección \ref{trabajosVirtuales} se introdujo el uso del símbolo \(\delta\) asociado a un \emph{desplazamiento virtual}.
-El término \emph{virtual} responde a que es una \emph{variación infinitesimal} de la posición que se realizaría con la intención de \emph{explorar matemáticamente} los valores que en el entorno de un punto \(q_1, q_2, \ldots, q_n\) asume una función continua y diferenciable en las coordenadas \(q_i\).
-
-Para ejemplificar la diferencia de tal desplazamiento con uno \emph{real} asociado con una diferenciación, \(\dd q\), imaginemos una esfera en el punto más profundo de un \emph{bowl}.
-Podemos explorar como cambia la \emph{energía potencial} \(V\) al evaluarla luego de llevar la esfera a una posición colindante a la actual, pero de hecho no buscamos producir ningún desplazamiento de la esfera.
-Habremos hecho un \emph{desplazamiento virtual}, que se hizo con la intención de explorar la consecuencia de todos los posibles desplazamientos \emph{en cualquier forma cinemáticamente admisibles}.
-El término que condensa el concepto de un desplazamiento al mismo tiempo \emph{virtual} e \emph{infinitesimal} se denomina \emph{variación}, y se denota con \(\delta\) a sugerencia de Joseph-Louis Lagrange\footnote{Giuseppe Lodovico Lagrangia. Matemático y astrónomo italiano (Turín 1736 - París 1813)}.
-
-Así una variación de la energía potencial representaría
+Thus a variation of the potential energy would represent
 \begin{equation}\label{Lanczos22.3,6}
     \delta V = 
 	\pdv{V}{q_1} \delta q_1+ \pdv{V}{q_2} \delta q_2+ \ldots + \pdv{V}{q_n} \delta q_n =
@@ -319,185 +304,171 @@ Así una variación de la energía potencial representaría
     \tag{Lanczos 22.3,6}
 \end{equation}
 
-Cuando se encuentra el mínimo (o máximo) de una función, como \(V\), la tasa de cambio de esta ante un desplazamiento infinitesimal en cualquiera de sus coordenadas debe ser nula, es decir
+When the minimum (or maximum) of a function, such as \(V\), is found, the rate of change of this function with respect to an infinitesimal displacement in any of its coordinates must be zero, that is
 \begin{equation}\label{Lanczos22.7}
 	\pdv{V}{q_i} = 0\; (i= 1, 2, \ldots, n).
     \tag{Lanczos 22.7}
 \end{equation}
-Y si bien un punto \emph{silla} de \(V\) también cumpliría tal condición, cada uno de los puntos que la cumplen se los considera excepcionales; se dice que la función presenta un valor \emph{estacionario} allí.
-% Para que \(V\) sea un valor estacionario esta sumataria debe ser nula, \(\delta V=0\).
-% Puesto que el dezplazamiento es de naturaleza \emph{virtual}, este puede realizarse \emph{en cualquier dirección arbitraria}, y por tanto cada término de la sumatoria debe ser nulo, es decir
-En definitiva convenimos que para que \(V\) presente un valor estacionario en un punto debe cumplirse que \(\delta V=0\) allí.
+And while a \emph{saddle} point of \(V\) would also satisfy such a condition, each of the points that satisfy it are considered exceptional; it is said that the function presents a \emph{stationary} value there.
+In short, we agree that for \(V\) to present a stationary value at a point, it must be satisfied that \(\delta V=0\) there.
 
 
-\section{Principio de d'Alembert}
-\textbf{Referencia: Lanczos IV\S1}\\
-
-La 2"a ley de Newton puede escribirse como \(\va{F}- m \va{a}= 0 \), siendo la \(\va{F}\) la fuerza resultante.
-Entonces se puede asumir que la fuerza creada por el movimiento es una \emph{fuerza de inercia} \(\va{I}= - m \va{a}\).
-Así expresada \(\va{F}+ \va{I}=0\) es más que una reformulación de la 2"a ley de Newton, es la expresión de un \emph{principio}.
-Así como en la mecánica Newtoniana el que la fuerza resultante sea nula, \(\va{F}=0\), significa un equilibrio, el agregar la \emph{fuerza de inercia} a un sistema en movimiento permite siempre lograr este ansiado ``equilibrio''.
-De esta forma cualquier criterio que tengamos para un sistema en equilibrio ahora podemos aplicarlo a un sistema en movimiento.
-Jean le Rond d'Alembert\footnote{Matemático y físico francés (París 1717 - París 1783).} lo enunció como:
+\section{d'Alembert's Principle}
+\textbf{Reference: Lanczos IV\S1}\\
+Newton's 2nd law can be written as \(\va{F}- m \va{a}= 0 \), where \(\va{F}\) is the resultant force.
+Then one can assume that the force created by the motion is an \emph{inertial force} \(\va{I}= - m \va{a}\).
+Thus expressed \(\va{F}+ \va{I}=0\) is more than a reformulation of Newton's 2nd law, it is the expression of a \emph{principle}.
+Just as in Newtonian mechanics the resultant force being zero, \(\va{F}=0\), means equilibrium, adding the \emph{inertial force} to a system in motion always allows achieving this desired ``equilibrium''.
+In this way any criterion we have for a system in equilibrium can now be applied to a system in motion.
+Jean le Rond d'Alembert\footnote{French mathematician and physicist (Paris 1717 - Paris 1783).} stated it as:
 \begin{quote}
-``Cualquier sistema de fuerzas está en equilibrio si se agregan a las fuerzas \emph{ejercidas} la de inercia''.
+``Any system of forces is in equilibrium if the inertial forces are added to the \emph{applied} forces''.
 \end{quote}
-
-Si sumamos a las fuerzas resultantes ejercidas \(\va{F}_i\) sobre una partícula la fuerza de inercia obtenemos la llamada \emph{fuerza efectiva}
+If we add to the resultant applied forces \(\va{F}_i\) on a particle the inertial force we obtain the so-called \emph{effective force}
 \begin{equation}\label{Lanczos41.5}
-	\va{F}^e_i= \va{F}_i + \va{I}_i.
-	\tag{Lanczos 41.5}
+ \va{F}^e_i= \va{F}_i + \va{I}_i.
+ \tag{Lanczos 41.5}
 \end{equation}
-Con esta definición, y sumando sobre las \(P\) partículas de un sistema, puede reformularse el \emph{principio de d'Alembert} como 
+With this definition, and summing over the \(P\) particles of a system, \emph{d'Alembert's principle} can be reformulated as
 \begin{equation}\label{Lanczos41.6}
-	\overline {\delta \omega^e} = 
-	\displaystyle\sum_{i=1}^P \va{F}^e_i \cdot \delta \va{r}_i \equiv 
-	\displaystyle\sum_{i=1}^P (\va{F}_i - m_i \va{a}_i) \cdot \delta \va{r}_i = 0, 
-	\tag{Lanczos 41.6}
+ \overline {\delta \omega^e} =
+ \displaystyle\sum_{i=1}^P \va{F}^e_i \cdot \delta \va{r}_i \equiv
+ \displaystyle\sum_{i=1}^P (\va{F}_i - m_i \va{a}_i) \cdot \delta \va{r}_i = 0,
+ \tag{Lanczos 41.6}
 \end{equation}
-que puesto en palabras es,
+which put in words is,
 \begin{quote}
-	``El total del trabajo virtual de las fuerzas efectivas es nulo para toda variación reversible que satisfaga las condiciones cinemáticas dadas.''
+ ``The total virtual work of the effective forces is zero for any reversible variation that satisfies the given kinematic conditions.''
 \end{quote}
-Esencialmente, el principio postula que como el trabajo virtual de las fuerzas impresas sobre un sistema es usualmente distinto de cero, el sistema reaccionará moviéndose de forma tal que las fuerzas inerciales hagan nulo \(\overline {\delta \omega^e}\).
+Essentially, the principle postulates that since the virtual work of the impressed forces on a system is usually different from zero, the system will react by moving in such a way that the inertial forces make \(\overline {\delta \omega^e}\) zero.
+The radical importance of d'Alembert's principle is that it allows applying the \emph{principle of virtual work} to any dynamic system.
 
-La importancia radical del principio de d'Alembert es que permite aplicar el \emph{principio de trabajos virtuales} a cualquier sistema dinámico.
 
 
-\section{Principio de Hamilton: de d'Alembert al Lagrangiano}\label{principioHamilton}
-\textbf{Referencia: Lanczos V\S1}\\
+\section{Hamilton's Principle: from d'Alembert to the Lagrangian}\label{principioHamilton}
+\textbf{Reference: Lanczos V\S1}\\
  
-% Habiendo convenido que el trabajo tanto de las fuerza virtuales como de las fuerzas inerciales debe ser cero \(\overline{\delta w^e} = 0\)\footnote{\(\overline{\delta w^e}\) se refire al trabajo de las fuerzas efectivas, que incluye las impresas externamente mas las de inercia.}
 
-El principio de d'Alembert establece que \(\overline{\delta \omega^e}= 0\), es decir que el trabajo virtual de las fuerzas efectivas sea nulo.
-El trabajo virtual de las fuerzas impresas puede obtenerse de una forma diferencial monogénica, pero las fuerzas inerciales no, es decir que no pueden deducirse de una función trabajo \(U\).
-William Rowan Hamilton\footnote{Físico y matemático irlandés (Dublín 1805 - Dublín 1865).} mostró que una simple integración respecto del tiempo permite relacionar el trabajo virtual de las fuerzas inerciales con una forma monogénica.
-Su propuesta consiste básicamente en que, de respetarse el principio de d'Alembert, la integración de \(\overline{\delta \omega^e}\) en cualquier intervalo de tiempo también debiera anularse
+D'Alembert's principle establishes that \(\overline{\delta \omega^e}= 0\), i.e., that the virtual work of effective forces is zero.
+The virtual work of impressed forces can be obtained from a monogenic differential form, but inertial forces cannot, meaning they cannot be deduced from a work function \(U\).
+William Rowan Hamilton\footnote{Irish physicist and mathematician (Dublin 1805 - Dublin 1865).} showed that a simple integration with respect to time allows relating the virtual work of inertial forces to a monogenic form.
+His proposal basically consists in that, if d'Alembert's principle is respected, the integration of \(\overline{\delta \omega^e}\) over any time interval should also vanish
 \begin{equation}\label{Lanczos51.1}
 	\int^{t_2}_{t_1} \overline{\delta \omega^e} \dd{t}= \int^{t_2}_{t_1} \sum_{i=1}^P \pqty{ \va{F}_i - m_i \dv{\va{v}_i}{t} } \cdot \delta \va{r}_i \dd{t}= 0 
-% \int^{t_2}_{t_1} \delta \over{\omega}^e \dd{t}= \int^{t_2}_{t_1} \sum \left( \va{F}_i - \right) \delta \va{r}_i \dd{t}
 	\tag{Lanczos 51.1}
 \end{equation}
 
-La integral de la resta resultante podría resolverse como la resta de sendas integrales.
-Para analizar la primera, asociada a las \(P\) fuerzas resultantes ejercidas en sendas partículas, debemos recordar que estas pueden descomponerse en \(n\) fuerzas generalizadas monogénicas correspondientes a las \(n\) coordenadas generalizadas\footnote{
-    Una demostración análoga puede seguirse para fuerzas que dependen explícitamente del tiempo \(t\) y/o de velocidades generalizadas \(\dot{q}_i\), pero aquí se omite darlas por claridad.
-}, y que estas, a su vez se relacionan con la energía potencial según lo expresado en las ecuaciones \eqref{Lanczos17.8} y \eqref{Lanczos17.10} 
+The integral of the resulting difference could be solved as the difference of separate integrals.
+To analyze the first, associated with the \(P\) resultant forces exerted on each particle, we must remember that these can be decomposed into \(n\) monogenic generalized forces corresponding to the \(n\) generalized coordinates\footnote{
+    An analogous demonstration can be followed for forces that depend explicitly on time \(t\) and/or generalized velocities \(\dot{q}_i\), but these are omitted here for clarity.
+}, and that these, in turn, are related to the potential energy according to what is expressed in equations \eqref{Lanczos17.8} and \eqref{Lanczos17.10} 
 \begin{equation}\label{Lanczos17.7}
 	\sum_{i=1}^n F_i \dd{q_i}= \sum_{i=1}^n \pdv{U}{q_i} \dd{q_i} \Rightarrow F_i= \pdv{U}{q_i}= - \pdv{V}{q_i} \Rightarrow \sum_{i=1}^P \va{F}_i \cdot \delta \va{r}_i = - \delta V.
 	\tag{Lanczos 17.7}
 \end{equation}
-De integrar esta relación y haciendo uso de la conmutatividad entre diferenciación (integración) y diferenciación\footnote{Tal conmutatividad se demuestra posteriormente en esta sección.} la primera integral resulta ser
+By integrating this relation and making use of the commutativity between differentiation (integration) and differentiation\footnote{Such commutativity is demonstrated later in this section.} the first integral turns out to be
 \begin{equation}\label{Lanczos51.2}
 	\int^{t_2}_{t_1} \sum_{i=1}^n \va{F}_i \cdot \delta \va{r}_i \dd{t} = - \int^{t_2}_{t_1} \delta V \dd{t}=
 - \delta \int^{t_2}_{t_1} V \dd{t} ,
 	\tag{Lanczos51.2}
 \end{equation} 
-que representa una variación de la energía potencial del sistema entre \(t_1\) y \(t_2\) para las fuerzas que vulgarmente se denominan conservativas.
+which represents a variation of the system's potential energy between \(t_1\) and \(t_2\) for forces that are commonly called conservative.
 
-En cuanto al término de las fuerzas inerciales, si asumimos condiciones no relativistas, lo escribimos como 
+As for the inertial forces term, if we assume non-relativistic conditions, we write it as 
 \begin{equation}\label{Lanczos51.3A}
 	\int^{t_2}_{t_1} \dv{t} \pqty{m_i \va{v}_i} \cdot \delta \va{r}_i \dd{t}.
 	\tag{Lanczos51.3A}
 \end{equation} 
-Si hacemos uso de la integración por partes\footnote{\label{integraciónPartes}La integración por partes no es otra cosa que una reescritura de la derivación de un producto, 
+If we make use of integration by parts\footnote{\label{integraciónPartes}Integration by parts is nothing other than a rewriting of the differentiation of a product, 
 \begin{align}
-	% \int u' v & = u v - \int u v' \Rightarrow
-	% \int u' v = \int \dv{t} (u v) - \int u v'\\
 	\int (u \dv{v}{t}+ \dv{u}{t} v) & = \int \dv{(u v)}{t} \Rightarrow
 	\int \dv{u}{t} v = \int \dv{(u v)}{t} - \int u \dv{v}{t}
 	=
 	u v - \int u \dv{v}{t}
 	.
 \end{align}
-En este caso \(u= m_i \va{v}_i\) y \(v= \delta \va{r}_i\).
-} para reescribirlo como
+In this case \(u= m_i \va{v}_i\) and \(v= \delta \va{r}_i\).
+} to rewrite it as
 \begin{equation}\label{Lanczos51.3B}
 - \left[ \int^{t_2}_{t_1} \dv{t} \pqty{ m_i \va{v}_i  \cdot \delta \va{r}_i } \dd{t} - \int^{t_2}_{t_1} m_i \va{v}_i \cdot \dv{t} \delta \va{r}_i \dd{t} \right],
 	\tag{Lanczos51.3B}
 \end{equation}
-cuyo primer termino se integra en \(- \eval[ m \va{v}_i \cdot \delta \va{r}_i |^{t_2}_{t_1}\), que es la que se llama un término de borde, y su valor dependerá de su evaluación en \(t_1\) y \(t_2\).
+whose first term integrates to \(- \eval[ m \va{v}_i \cdot \delta \va{r}_i |^{t_2}_{t_1}\), which is what is called a boundary term, and its value will depend on its evaluation at \(t_1\) and \(t_2\).
 
-Para resolver el segundo término de la ecuación \eqref{Lanczos51.3B} hacemos uso de que las operaciones de diferenciación y variación son intercambiables, lo que se denomina propiedad conmutativa\footnote{
-Para probar que diferenciación y variación conmutan debemos interpretar lo que significa la derivada de una variación de \(\va{r}_i (t)\).
-Si nos apartamos en una dirección arbitraria \(\va{\rho} (t)\) en una magnitud \(\epsilon\) nos queda \(\overline{\va{r}_i (t)}= \va{r}_i (t)+ \epsilon \va{\rho} (t)\).
-Así la derivada de tal variación es
+To solve the second term of equation \eqref{Lanczos51.3B} we make use of the fact that the operations of differentiation and variation are interchangeable, which is called the commutative property\footnote{
+To prove that differentiation and variation commute, we must interpret what the derivative of a variation of \(\va{r}_i (t)\) means.
+If we depart in an arbitrary direction \(\va{\rho} (t)\) by a magnitude \(\epsilon\) we get \(\overline{\va{r}_i (t)}= \va{r}_i (t)+ \epsilon \va{\rho} (t)\).
+Thus the derivative of such variation is
 \begin{equation}\label{Lanczos29.1}
 	\dv{t} \delta \va{r}_i= \dv{t}\pqty{\overline{\va{r}_i (t)}- \va{r}_i (t)}= \epsilon \dot{\va{\rho}}_i (t)= \epsilon \va{v}_\rho (t),
 	\tag{Lanczos 29.1}
 \end{equation}
-donde \(\va{v}_\rho (t) \) sería una velocidad de la diferencia con respecto a una \(\va{v}_r (t) \).
-Ahora vemos que sería la variación de una derivada,
+where \(\va{v}_\rho (t) \) would be a velocity of the difference with respect to a \(\va{v}_r (t) \).
+Now we see what the variation of a derivative would be,
 \begin{equation}\label{Lanczos29.3}
 	\delta \dv{t} \va{r}_i= \overline{\dot{\va{r}}_i (t)} - \dot{\va{r}}_i (t)= \pqty{\va{v}_r (t) + \epsilon \va{v}_\rho (t)}- \va{v}_r (t) = \epsilon \va{v}_\rho (t),
 	\tag{Lanczos 29.3}
 \end{equation}
-que al coincidir con la ecuación \eqref{Lanczos29.1} deja demostrada la conmutatividad entre variación y derivación.
+which by coinciding with equation \eqref{Lanczos29.1} demonstrates the commutativity between variation and differentiation.
 }
-% Para resolver el segundo termino recurrimos a que la operación de diferenciación y la de variación son intercambiables (ver apendice \ref{conmuta}) % \footnote{Ver Lanczos II\S9, ecuación (29.3).} 
 \begin{align}\label{Lanczos51.5A}
 	\int^{t_2}_{t_1} m_i \va{v}_i \cdot \dv{t} \delta \va{r}_i \dd{t} & =
 	\int^{t_2}_{t_1} m_i \va{v}_i \cdot \delta \dv{\va{r}_i}{t} \dd{t} =
 	\int^{t_2}_{t_1} m_i \va{v}_i \cdot \delta \va{v}_i \dd{t}. 
 	\tag{Lanczos 51.5A}
 \end{align}
-El resultado del producto escalar puede obtenerse teniendo en cuenta que la variación de un producto se realiza de igual forma que una derivación, es decir \(\delta(\va{v}_i \cdot \va{v}_i)= \va{v}_i \cdot \delta \va{v}_i +\delta \va{v}_i \cdot \va{v}_i= 2 \va{v}_i \cdot \delta \va{v}_i\), por tanto
-% y operan de igual forma \footnote{La variación de un producto se realiza de igual forma que una derivación: \(\delta(\va{v}_i \cdot \va{v}_i)= \va{v}_i \cdot \delta \va{v}_i 	+ \delta \va{v}_i \cdot \va{v}_i= 2 \va{v}_i \cdot \delta \va{v}_i\).}
-	%  E.g. \(\dv{t} \delta v^2= \delta \dv{t} (v_i \cdot v_1)= \delta \frac{1}{2} \)}
-	%  E.g. \(\dv{t} \delta v^2= \delta \dv{t} (v_i \cdot v_1)= \delta \frac{1}{2} \)}
+The result of the scalar product can be obtained taking into account that the variation of a product is performed in the same way as a differentiation, i.e., \(\delta(\va{v}_i \cdot \va{v}_i)= \va{v}_i \cdot \delta \va{v}_i +\delta \va{v}_i \cdot \va{v}_i= 2 \va{v}_i \cdot \delta \va{v}_i\), therefore
 \begin{align}\label{Lanczos51.5B}
 	\int^{t_2}_{t_1} m_i \va{v}_i \cdot \delta \va{v}_i \dd{t} & =
 	\int^{t_2}_{t_1} m_i \frac{1}{2} \delta \left( \va{v}_i \cdot \va{v}_i \right) \dd{t} = 
-	% \int^{t_2}_{t_1} m_i \frac{1}{2} \delta \left( \va{v}_i \cdot \va{v}_i \right) \dd{t} = \footnote{\(\dv{t} \delta v^2= \dv{t} \delta(v_i \cdot v_1)\)} \nonumber \\
 	\delta \int^{t_2}_{t_1} \frac{1}{2} m_i v^2 \dd t.
 	\tag{Lanczos 51.5B}
 \end{align}
 
-Sumamos la expresión a la que arribamos en la ecuación \eqref{Lanczos51.2} con la integración del primer término de \eqref{Lanczos51.3B} y con la reformulación de su segundo a la que arribamos en la ecuación \eqref{Lanczos51.5B} y obtenemos
-% la integración de la ecuación (\ref{Lanczos51.3B}) con las reformulaciones de las ecuaciones (\ref{Lanczos51.3A}) y (\ref{Lanczos51.5B}) obtenemos
+We add the expression we arrived at in equation \eqref{Lanczos51.2} with the integration of the first term of \eqref{Lanczos51.3B} and with the reformulation of its second term that we arrived at in equation \eqref{Lanczos51.5B} and obtain
 \begin{equation}\label{Lanczos51.6}
 	\int^{t_2}_{t_1} \overline{\delta \omega^e} \dd t=
 	- \delta \int^{t_2}_{t_1} V \dd t 
 	- \left[ m \va{v}_i \cdot \delta \va{r}_i \right]\eval^{t_2}_{t_1}
 	+ \delta \int^{t_2}_{t_1} \frac{1}{2} \sum m_i v_i^2 \dd t .
-	% \int^{t_2}_{t_1} \overline{\delta \omega^e} \dd t= \delta \int^{t_2}_{t_1} \frac{1}{2} \sum m_i v_i^2 \dd t - \delta \int^{t_2}_{t_1} V \dd t - \left[ m \va{v}_i \cdot \delta \va{r}_i \right]\eval^{t_2}_{t_1}.
 	\tag{Lanczos51.6}
 \end{equation}
-El último término no es otra cosa que la variación de la energía cinética del sistema \(T\) ente \(t_1\) y \(t_2\), por lo que puede resumirse la ecuación \eqref{Lanczos51.6} en
+The last term is nothing other than the variation of the system's kinetic energy \(T\) between \(t_1\) and \(t_2\), so equation \eqref{Lanczos51.6} can be summarized as
 \begin{equation}\label{Lanczos51.8}
     \int^{t_2}_{t_1} \overline{\delta \omega^e} \dd t= \delta \int^{t_2}_{t_1} \left(T - V \right) \dd t - \left[ m \va{v}_i \cdot \delta \va{r}_i \right]\eval^{t_2}_{t_1}.
     \tag{Lanczos 51.8}
 \end{equation}
 
-Puesto que el objetivo de realizar variaciones en las posiciones recorridas \(\delta \va{r}_i\) es minimizar el trabajo virtual de las fuerzas hasta hacerlo \emph{estacionario}, es decir \(\overline{\delta \omega^e}= 0\), tales variaciones se realizan en el recorrido a lo largo de la integración, no en las posiciones iniciales y finales; es decir \emph{variamos entre límites definidos}, por tanto
+Since the objective of performing variations in the traveled positions \(\delta \va{r}_i\) is to minimize the virtual work of forces to make it \emph{stationary}, i.e., \(\overline{\delta \omega^e}= 0\), such variations are performed in the path along the integration, not at the initial and final positions; that is, \emph{we vary between fixed limits}, therefore
 \begin{equation}\label{Lanczos51.9}
-	\delta \va{r}_i\ (t_1)=0 \; \mathrm{y} \; 
+	\delta \va{r}_i\ (t_1)=0 \; \text{and} \; 
 	\delta \va{r}_i\ (t_2)=0,
 	\tag{Lanczos 51.9}
 \end{equation}
-con lo que efectivamente el segundo término de la ecuación \eqref{Lanczos51.8}, llamado de borde, es nulo.
+with which the second term of equation \eqref{Lanczos51.8}, called the boundary term, is indeed zero.
 
-Arribamos finalmente a que
+We finally arrive at
 \begin{equation}\label{Lanczos51.10}
     \int^{t_2}_{t_1} \overline{\delta \omega^e} \dd t=
 	\delta \int^{t_2}_{t_1} \left(T - V \right) \dd t= 
 	\delta \int^{t_2}_{t_1} \mathcal{L} \dd t= \delta S,
     \tag{Lanczos 51.10}
 \end{equation}
-donde \(S\) es la denominada acción obtenida de la integración de
+where \(S\) is the so-called action obtained from the integration of
 \begin{equation}\label{Lanczos51.11}
 	\mathcal{L} = \mathcal{L}(q_i, \dot{q}_i, t) = T - V,
     \tag{Lanczos 51.11}
 \end{equation}
-que es el denominado \emph{Lagrangiano} del sistema.
+which is the so-called \emph{Lagrangian} of the system.
 
-Esta reformulación del principio de d'Alembert denominada \emph{principio de Hamilton} establece sencillamente que \(\delta S= 0\), y puede expresarse en palabras como:
+This reformulation of d'Alembert's principle called \emph{Hamilton's principle} simply establishes that \(\delta S= 0\), and can be expressed in words as:
 \begin{quote}
-``Dadas las configuraciones iniciales y finales fruto de la dinámica, la acción debe ser estacionaria para todas las posibles variaciones de la configuración del sistema''. 
+``Given the initial and final configurations resulting from the dynamics, the action must be stationary for all possible variations of the system's configuration''. 
 \end{quote}
 
-Este proceder, de encontrar las ecuaciones que describen la dinámica del sistema a través de una minimización de la acción, o \emph{principio de mínima acción}, es común a la mecánica clásica, relativista y ondulatoria.
-Lo único que cambia en cada enfoque es como se escribe el Lagrangiano.
+This procedure, of finding the equations that describe the system's dynamics through a minimization of the action, or \emph{principle of least action}, is common to classical, relativistic, and wave mechanics.
+The only thing that changes in each approach is how the Lagrangian is written.
+
 
 
 \section{Ecuación de Euler-Lagrange}\label{EulerLagrange} % Lanczos II.10 % Landau \SI.2
