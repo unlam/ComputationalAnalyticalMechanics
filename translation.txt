@@ -22,7 +22,7 @@ guíaVectorial.tex          ->  exercisesVector.tex      Ready.
 
 == 02Energía -> 02Energy
 
-apunteLanczos.pdf                  ->  notesLanczos.pdf                     Traduciendo Victor, copiar desde 03.
+apunteLanczos.pdf                  ->  notesLanczos.pdf                     Ver .tex en 03
 energíaCinéticaTraslación.ipynb    ->  kineticEnergy.ipynb                  Ready.
 energíaPotencialGravitatoria.ipynb ->  gravitationalPotentialEnergy.ipynb   Ready.
 guíaEnergía.tex                    ->  exercisesEnergy.tex                  Ready.
@@ -30,7 +30,7 @@ guíaEnergía.tex                    ->  exercisesEnergy.tex                  Re
 
 == 03EulerLagrange -> 03EulerLagrange
 
-apunteLanczos.tex                              ->  notesLanczos.tex               Translating Victor (10)
+apunteLanczos.tex                              ->  notesLanczos.tex               Translated using Claude, to be checked.
 energíaPotencialElástica_eulerLagrange.ipynb   ->  elasticPotentialEnergy.ipynb   Ready.
 guíaEulerLagrange.tex                          ->  exercisesEulerLagrange.tex     Ready (suggestion 4, ref.)
 partesRotantes_eulerLagrange.ipynb             ->  rotatingParts.ipynb            Ready
