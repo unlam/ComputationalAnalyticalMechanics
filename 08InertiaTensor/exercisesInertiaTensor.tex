@@ -1,30 +1,24 @@
-\documentclass[11pt, spanish, a4paper, twoside]{article}
+\documentclass[11pt, a4paper, twoside]{article}
 
-\input{../figurasLaTeX/introUNLaM}
+\input{../figuresLaTeX/introUNLaM}
 
 \begin{document}
 \begin{center}
-  % \textsc{\large Mecánica general}\\
-  \textsc{\large Cuerpo rígido | Tensores de inercia}
+  \textsc{\large Rigid body | Inertia tensors}
 \end{center}
-
-% De poder resolver estos problemas en forma autónoma puede asumir que adquirió los conocimientos mínimos sobre los temas abordados en la semana. No dude en consultar a docentes y compañeros si no puede terminarlos.
-% Los problemas marcados con (*) son opcionales.
 
 \begin{enumerate}
 	\item
-	\textbf{Monóxido de carbono}\\
-	Calcular el tensor de inercia de una molécula requiere conocer la distancia entre los átomos y sus masas.
+	\textbf{Carbon monoxide}\\
+	Calculating the inertia tensor of a molecule requires knowing the distance between the atoms and their masses.
 
-	La distancia, o longitud de enlace, puede encontrarse en el \href{https://cccbdb.nist.gov/exp1x.asp}{buscador de propiedades de una molécula fruto de experimentos} de la \emph{Computational Chemistry Comparison and Benchmark DataBase} del National Institute of Standards and Technology, NIST, de los E.U.A.
-	Tras ingresar la fórmula química de la molécula, que en este caso es \emph{CO}, pueden encontrarse las distancias, o aún mejor las respectivas posiciones en un sistema de referecia cartesiano, expresadas en \si{angstrom}, equivalente a \SI{1e-10}{\metre}.
+	The distance, or bodn length, can be found at the \href{https://cccbdb.nist.gov/exp1x.asp}{Computational Chemistry Comparison and Benchmark DataBase} of the National Institute of Standards and Technology, NIST, U.S.A.
+	Querying about the chemical formula, \emph{CO} in this case, we can find the distances, or the positions in a cartesian frame of reference, expressed in \si{angstrom}, equivalent to \SI{1e-10}{\metre}.
 
-	La masa para cada elemento químico está expresada en unidades de masa atómica unificada, \si{\atomicmassunit} en la \href{https://iupac.org/what-we-do/periodic-table-of-elements/}{tabla periódica} publicada por la Unión Internacional de Química Pura y Aplicada, IUPAC.
-	Esta es la masa expresada en gramos de un mol de átomos con la proporción de isótopos que se presenta en la naturaleza.
-	Para obtener la masa en gramos de uno sólo basta con dividirle por el número de átomos en este mol, la constante de Avogadro, \(N_A = \SI{6.022e23}{\per\mole}\).
-	
-	Expresar el tensor de inercia en unidades del SI (\si{\kilogram \squared \metre}).
-	Resultado:\\
+	The mass for each chemical element is expressed in unified atomic mass units, \si{\atomicmassunit}, in the \href{https://iupac.org/what-we-do/periodic-table-of-elements/}{periodic table} published by the International Union of Pure and Applied Chemistry, IUPAC. This is the mass expressed in grams of one mole of atoms with the proportion of isotopes found in nature. To obtain the mass in grams of just one atom, simply divide by the number of atoms in this mole, Avogadro's constant, \(N_A = \SI{6.022e23}{\per\mole}\).
+
+	Express the inertia tensor in SI units (\si{\kilogram \squared \metre}).
+	Result:\\
 	\[
 		\overline{\overline{I}} = \left[\begin{matrix}0 & 0 & 0\\0 & 1.45 \cdot 10^{-46} & 0\\0 & 0 & 1.45 \cdot 10^{-46}\end{matrix}\right]
 	\]
@@ -33,50 +27,49 @@
 
 	\item 
 	\begin{minipage}[t][3cm]{0.73\textwidth}
-	\textbf{Agua}\\
-		Expresar el tensor de inercia en unidades del SI.
-		Resultado:\\
+	\textbf{Water}\\
+		Express the inertia tensor in SI units.
+		Result:\\
 		\[
 			\overline{\overline{I}} = \left[\begin{matrix}1.02 \cdot 10^{-47} & 0 & 0\\0 & 1.92 \cdot 10^{-47} & 0\\0 & 0 & 2.95 \cdot 10^{-47}\end{matrix}\right]
 		\]
 	\end{minipage}
 	\begin{minipage}[c][0.5cm][t]{0.2\textwidth}
-		\includegraphics[width=\textwidth]{moleculaH2O}
+		\includegraphics[width=\textwidth]{figures/moleculaH2O}
 	\end{minipage}
 
 	
 
 	\item 
 	\begin{minipage}[t][3cm]{0.73\textwidth}
-	\textbf{diclorometano}\\
-	Esta molécula tiene por fórmula química \isotope{CH_2Cl_2}. Expresar el tensor de inercia en unidades del SI.
-		Resultado:\\
+	\textbf{Dichloromethane}\\
+	The chemical formula for this molecule is \isotope{CH_2Cl_2}. Express the inertia tensor in SI units.
+		Result:\\
 		\[
 			\overline{\overline{I}} = \left[\begin{matrix}2.69 \cdot 10^{-46} & 0 & 0\\0 & 2.56 \cdot 10^{-45} & 0\\0 & 0 & 1.04 \cdot 10^{-36}\end{matrix}\right]
 		\]
 	\end{minipage}
 	\begin{minipage}[c][0.5cm][t]{0.2\textwidth}
-		\includegraphics[width=\textwidth]{Dichloromethane_molecular_structure}
+		\includegraphics[width=\textwidth]{figures/Dichloromethane_molecular_structure}
 	\end{minipage}
 
 
 
 	\item 
 	\begin{minipage}[t][6cm]{0.65\textwidth}
-		\textbf{Péndulo de torsión desbalanceado}\\
-		El sistema que se muestra en la ilustración para \(t = 0 \) presenta pesos en los extremos de dos brazos.
-		La barra dispuesta verticalmente se mantiene en tal dirección con rulemanes que posibilitan que el eje rote sin fricción con velocidad angular $\Omega$ constante respecto el marco inercial $O_{xyz}$.
-		Para este análisis la masa de brazos y ejes es despreciable frente a la de los pesos \(m\).
-		Calcule: 
+		\textbf{Unbalanced torsion pendulum}\\
+		The figure shows a system at \(t = 0 \) with weights at the ends of two arms.
+		The vertical rod rotates without friction at a constant angular velocity $\Omega$ with respect to the inertial frame of reference $O_{xyz}$. The rod and the arms have negligible masses, compared to the mass \(m\) of each weight.
+		Calculate: 
 		\begin{tasks} 
-			\task tensor de inercia respecto a A en función del tiempo \(\overline{\overline{I}}_A(t)\)\\
-			\task momento angular $\vec{L}_A (t) = \overline{\overline{I}}_A (t) \vec{\Omega}$ y torque $\vec{\tau} (t) = \dot{\vec{L}} (t)$.
+			\task the inertia tensor with respect to A as a function of time \(\overline{\overline{I}}_A(t)\)\\
+			\task the angular momentum $\vec{L}_A (t) = \overline{\overline{I}}_A (t) \vec{\Omega}$ and torque $\vec{\tau} (t) = \dot{\vec{L}} (t)$.
 		\end{tasks}
 	\end{minipage}
 	\begin{minipage}[c][0cm][t]{0.3\textwidth}
-		\includegraphics[width=\textwidth]{o-021}
+		\includegraphics[width=\textwidth]{figures/o-021}
 	\end{minipage}
-	Resultados:\\
+	Results:\\
 			\[
 				\scalebox{0.9}{$
 				\overline{\overline{I}}_A = \left[\begin{matrix}\ell^{2} m \left(- \cos^{2}{\left(\phi \right)} \cos^{2}{\left(\Omega t \right)} - \cos^{2}{\left(\Omega t \right)} + 2\right) & - \ell^{2} m \left(\cos^{2}{\left(\phi \right)} + 1\right) \sin{\left(\Omega t \right)} \cos{\left(\Omega t \right)} & \frac{\ell^{2} m \left(\sin{\left(\Omega t - 2 \phi \right)} - \sin{\left(\Omega t + 2 \phi \right)}\right)}{4}\\- \ell^{2} m \left(\cos^{2}{\left(\phi \right)} + 1\right) \sin{\left(\Omega t \right)} \cos{\left(\Omega t \right)} & \ell^{2} m \left(\sin^{2}{\left(\phi \right)} \sin^{2}{\left(\Omega t \right)} - 2 \sin^{2}{\left(\Omega t \right)} + 2\right) & - \frac{\ell^{2} m \left(\cos{\left(\Omega t - 2 \phi \right)} - \cos{\left(\Omega t + 2 \phi \right)}\right)}{4}\\\frac{\ell^{2} m \left(\sin{\left(\Omega t - 2 \phi \right)} - \sin{\left(\Omega t + 2 \phi \right)}\right)}{4} & - \frac{\ell^{2} m \left(\cos{\left(\Omega t - 2 \phi \right)} - \cos{\left(\Omega t + 2 \phi \right)}\right)}{4} & \ell^{2} m \left(\cos^{2}{\left(\phi \right)} + 1\right)\end{matrix}\right]

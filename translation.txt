@@ -22,7 +22,7 @@ guíaVectorial.tex          ->  exercisesVector.tex      Ready.
 
 == 02Energía -> 02Energy
 
-apunteLanczos.pdf                  ->  notesLanczos.pdf                     Traduciendo Victor, copiar desde 03.
+apunteLanczos.pdf                  ->  notesLanczos.pdf                     Ver .tex en 03
 energíaCinéticaTraslación.ipynb    ->  kineticEnergy.ipynb                  Ready.
 energíaPotencialGravitatoria.ipynb ->  gravitationalPotentialEnergy.ipynb   Ready.
 guíaEnergía.tex                    ->  exercisesEnergy.tex                  Ready.
@@ -30,7 +30,7 @@ guíaEnergía.tex                    ->  exercisesEnergy.tex                  Re
 
 == 03EulerLagrange -> 03EulerLagrange
 
-apunteLanczos.tex                              ->  notesLanczos.tex               Translating Victor (10)
+apunteLanczos.tex                              ->  notesLanczos.tex               Translated using Claude, to be checked.
 energíaPotencialElástica_eulerLagrange.ipynb   ->  elasticPotentialEnergy.ipynb   Ready.
 guíaEulerLagrange.tex                          ->  exercisesEulerLagrange.tex     Ready (suggestion 4, ref.)
 partesRotantes_eulerLagrange.ipynb             ->  rotatingParts.ipynb            Ready
@@ -55,25 +55,25 @@ pénduloLibre_Simulación_Resuelto.ipynb  ->  pendulumFreeSimulSolved.ipynb  Rea
 
 == 06FuerzasLigadura  ->  06ForcesConstraint
 
-fuerzasLigadura.ipynb               ->  forcesConstraint.ipynb          check (14) (from 2021)
+fuerzasLigadura.ipynb               ->  forcesConstraint.ipynb          Ready (comment check (14) (from 2021))
 guíaFuerzasLigadura.tex             ->  exercisesConstraintForces.tex   Ready.
-pénduloIdeal_FuerzasLigadura.ipynb  ->  constraintIdealPendulum.ipynb   Almost ready (13)
+pénduloIdeal_FuerzasLigadura.ipynb  ->  constraintIdealPendulum.ipynb   Ready
 rodadura_FuerzasLigadura.ipynb      ->  rollingForcesConstraint.ipynb   Ready
-sistemasNoHolónomos.ipynb           ->  nonHolonomicSystems.ipynb       check (15) (from 2021)
+sistemasNoHolónomos.ipynb           ->  nonHolonomicSystems.ipynb       Ready (comment check (15) (from 2021))
 
 
 == 07NoConservativas  ->  07Nonconservative
 
 cilíndrosSolidarios_noConservativas_ayuda.ipynb  ->  linkedCylinders_Help.ipynb     Ready
-guíaNoConservativas.tex                          ->  exercisesNonconservative.tex   Ready. (16)
-noConservativas.ipynb                            ->  nonconservative.ipynb          almost ready (17)
+guíaNoConservativas.tex                          ->  exercisesNonconservative.tex   Ready. (comment 16)
+noConservativas.ipynb                            ->  nonconservative.ipynb          Ready
 
 == 08TensorInercia  ->  08InertiaTensor
 
-guíaTensorInercia.tex               -> exercisesInertiaTensor.tex
-momentoAngularTorque.ipynb          -> angular_momentum_torque.ipynb
-monóxidoCarbono_tensorInercia.ipynb -> carbonMonoxide_inertiaTensor.ipynb
-tensorInercia.ipynb                 -> inertiaTensor.ipynb
+guíaTensorInercia.tex               -> exercisesInertiaTensor.tex           Ready
+momentoAngularTorque.ipynb          -> angular_momentum_torque.ipynb        Ready
+monóxidoCarbono_tensorInercia.ipynb -> carbonMonoxide_inertiaTensor.ipynb   Almost ready (18)
+tensorInercia.ipynb                 -> inertiaTensor.ipynb    translating
 
 
 == 09MasaDistribuida  -> 09DistributedMass
@@ -142,14 +142,6 @@ usar "aligned" en lugar de "align" para no tener tags.
 (12)
 Translated from current version. The version in the release is outdated.
 
-(13)
-Check this:
-Applying the constraint function
-Debe aplicarse ahora la función de restricción de la ligadura.
-No solo hay que substituir en las ecuaciones de Euler-Lagrange el que
-
-and this:
-También se puede establere que la derivada primera y segunda con el tiempo de la función de restricción de la ligadura:
 
 (14)
 Revisar el texto de este cuaderno, dice versión 2021.
@@ -164,9 +156,19 @@ Revisar el texto de este cuaderno, dice versión 2021.
 (16)
 Check: longitudes de equilibrio. Pero el dato es l10 and l20, las longitudes naturales? No tienen porqué ser las mismas que en equilibrio.
 
-(17)
-Check: where $\delta\vec{r}_j$ is the **virtual displacement of the coordinate, as a vector, where the nonconservative force $\vec{F_j}$ is applied**.
 
-T_translational and V_elastic, it should be for the system.
+---------------- 30 jun 2025 -----------------
 
----------------- hasta acá el último intercambio con Victor -----------------
+(18) 08TensorInercia/monóxidoCarbono_tensorInercia.ipynb
+
+- Tensor de inercia para rotaciones respecto del centro de masa:
+en el texto que sigue, se refiere a una figura, pero no hay figura en el cuaderno.
+
+- Esto aparece más de una vez:
+print(
+  vlatex(
+    Iik_cm
+    )
+  )
+
+¿Se deja o se elimina?
