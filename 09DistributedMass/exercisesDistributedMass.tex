@@ -1,58 +1,81 @@
-\documentclass[11pt, spanish, a4paper, twoside]{article}
+\documentclass[11pt, a4paper, twoside]{article}
 
 \input{../figuresLaTeX/introUNLaM}
 
 \begin{document}
 \begin{center}
-  % \textsc{\large Mecánica general}\\
-  \textsc{\large Cuerpo rígido | Distribuciones continuas de masa}
+  \textsc{\large Rigid Body | Continuous Mass Distributions}
 \end{center}
 
-% De poder resolver estos problemas en forma autónoma puede asumir que adquirió los conocimientos mínimos sobre los temas abordados en la semana. No dude en consultar a docentes y compañeros si no puede terminarlos.
-% Los problemas marcados con (*) son opcionales.
 
 \begin{enumerate}
+	\item
+	\textbf{Moment of Inertia Tensor of a Rod}\\
+	A rod of mass \(m= \SI{1}{\kilo\gram}\)  and negligible cross-section compared to its length \(l= \SI{1}{\metre}\) is given.
+	Align an axis (\(\hat{z}\)) with it. 
+	\begin{tasks}(2)
+		\task Calculate its moments of inertia.
+		\task Show what happens with the products of inertia. 
+	\end{tasks}
+
+
+	\item
+	\textbf{Convenient Axes for Calculating Moments of Inertia}\\
+	Perspective views of various objects are drawn. On these, draw the axes intersecting at the most convenient point for calculating moments of inertia, that is, at the center of mass. Do the same with the two axes that correspond to the plane view projection.
+	\vspace{-0.8cm}
+	\begin{tasks}(4)
+		\task \includegraphics[width=0.15\textwidth]{figures/o-000}
+		\task \includegraphics[width=0.15\textwidth]{figures/o-001}
+		\task \includegraphics[width=0.15\textwidth]{figures/o-002}
+		\task \includegraphics[width=0.15\textwidth]{figures/o-003}
+	\end{tasks}
+
+
+	\item 
+	\begin{minipage}[t][4.5cm]{0.55\textwidth}
+		% \begin{minipage}[t][3.5cm]{0.7\textwidth}
+			\textbf{Cube with Edge \(b\)} [Marion (e) ex. 11-3]
+			\begin{enumerate}
+				\item Calculate the inertia tensor from the coordinate system \(x_i\) with origin at the center of mass \(O\).
+				\item Use the general form of Steiner's parallel axis theorem to calculate it in the \(X_i\) system with origin at vertex \(Q\) 
+			\end{enumerate}
+		\end{minipage}
+		\begin{minipage}[c][1cm][t]{0.4\textwidth}
+			\includegraphics[width=\textwidth]{figures/mFig11-8}
+		\end{minipage}
+
 
 	\item 
 		\begin{minipage}[t][4cm]{0.49\textwidth}
-			\textbf{Planchuela calada}\\
-			En una planchuela de densidad homogénea se calaron dos aberturas en forma simétrica.
-			Suspendida desde el punto A \emph{pendulea} en el plano \(x,y\).
-			Por eso es relevante conocer su momento de inercia \(I_{zz}\) desde ese punto.
-			Cuente con los datos disponibles en un taller: espesor $e$ del material, dimensiones del plano y una $m$ de pesada. 
+			\textbf{Perforated Plate}\\
+			In a plate of homogeneous density, two openings were cut symmetrically. Suspended from point A, it \emph{oscillates} in the \(x,y\) plane. Therefore, it is relevant to know its moment of inertia \(I_{zz}\) from that point. Use the data available in a workshop: thickness $e$ of the material, plane dimensions, and a measured mass $m$. 
 
-			Se sugiere seguir esta secuencia:			
+			Follow this suggested sequence:			
 		\end{minipage}
 		\begin{minipage}[c][2cm][t]{0.45\textwidth}
 			\includegraphics[width=\textwidth]{figures/o-023}
 		\end{minipage}
 			\begin{enumerate}
-				\item Calcular la densidad del metal de la planchuela contemplando el área faltante por los calados.
-				\item Idém. \(I_{zz}\) de uno de los calados circulares como si fuera de este metal.
-				\item ídem. \(I_{zz}\) de una planchuela sin calado desde su centro de masa.
-				\item Trasladar con el teorema de Steiner los \(I_{zz}\) de ambos calados circulares al centro de la planchuela.
-				\item Restando al \(I_{zz}\) de la planchuela sin calado el de los círculos obtenga el de la planchuela calada.
-				\item Nuevamente con Steiner traslade el \(I_{zz}\) de la planchuela calada al punto de penduleo A.
+				\item Calculate the metal density of the plate considering the missing area due to the perforations.
+				\item Calculate \(I_{zz}\) of one of the circular perforations as if it were made of this metal.
+				\item Calculate \(I_{zz}\) of an unperforated plate from its center of mass.
+				\item Transfer with Steiner's theorem the \(I_{zz}\) of both circular perforations to the center of the plate.
+				\item Subtract from the \(I_{zz}\) of the unperforated plate that of the circles to obtain that of the perforated plate.
+				\item Again with Steiner's theorem, transfer the  \(I_{zz}\) of the perforated plate to pendulum point A.
 			\end{enumerate}
 
 
-			Resultado: 
+			Result: 
 			\(
 			I_{zz} = \frac{m \left(- 12 \pi R^{4} - 6 \pi R^{2} a^{2} - 24 \pi R^{2} d^{2} + 4 a^{3} b + a b^{3}\right)}{12 \left(- 2 \pi R^{2} + a b\right)}
 			\) 
-			% Respuesta: Se informa el tensor de inercia aunque no requiera calcularle completo.\\
-			% \[
-			% \overline{\overline{I}} = \left[\begin{matrix}\frac{m \left(6 \pi R^{4} + 24 \pi R^{2} d^{2} - a b^{3}\right)}{12 \cdot \left(2 \pi R^{2} - a b\right)} & 0 & 0\\0 & \frac{m \left(- 3 \pi R^{4} - 3 \pi R^{2} a^{2} + 2 a^{3} b\right)}{6 \left(- 2 \pi R^{2} + a b\right)} & 0\\0 & 0 & \frac{m \left(- 12 \pi R^{4} - 6 \pi R^{2} a^{2} - 24 \pi R^{2} d^{2} + 4 a^{3} b + a b^{3}\right)}{12 \left(- 2 \pi R^{2} + a b\right)}\end{matrix}\right]	
-			% \]
-
 
 	\item 
 		\begin{minipage}[t][2.5cm]{0.62\textwidth}
-			\textbf{Cilindro rodando en semi-cilindro} [Landau \S 32 6]\\
-			%Hallar la energía cinética de un cilindro homogéneo de radio \(a\) que rueda en el interior de una superficie cilíndrica de radio \(R\).
-			Hallar la energía cinética de un cilindro homogéneo de radio \(a\) que rueda en el interior de una superficie cilíndrica de radio \(R\).
+			\textbf{Cylinder in Semi-cylinder} [Landau \S 32 6]\\
+			Find the kinetic energy of a homogeneous cylinder of radius \(a\) rolling inside a cylindrical surface of radius \(R\).
 
-			Resultado:
+			Result:
 			\(
 				T = \frac{3 m \left(R - a\right)^{2} \dot{\phi}^{2}}{4}
 			\)
@@ -64,29 +87,32 @@
 
 	\item 
 		\begin{minipage}[t][3.5cm]{0.72\textwidth}
-			\textbf{Cono circular de altura h y radio de la base R} [Landau \S 32 2e]\begin{enumerate}
-				\item Calcule la posición del centro de masa \(O\) desde el vértice \(O'\).
-				Recuerde elegir límites de integración en función de la geometría.
-				Resultado: \(|\overline{O O'}| = \frac{3}{4} h\).
-				\item Calcule los momentos de inercia desde \(O'\).\\
-				Resultado: \(I_{x'_3 x'_3} = \frac{3}{10} m R^{2} \qquad I_{x'_1 x'_1} = I_{x'_2 x'_2} = \frac{3 m \left(R^{2} + 4 h^{2}\right)}{20}\)
+			\textbf{Cone} [Landau \S 32 2e]\\
+			This cone has a circular base of radius \(R\) and height \(h\).
+			 \begin{enumerate}
+				\item Calculate the position of the center of mass \(O\) from the vertex \(O'\).
+				Remember to choose integration limits based on the geometry.
+				Result: \(|\overline{O O'}| = \frac{3}{4} h\).
+				\item Calculate the moments of inertia from \(O'\).\\
+				Result: \(I_{x'_3 x'_3} = \frac{3}{10} m R^{2} \qquad I_{x'_1 x'_1} = I_{x'_2 x'_2} = \frac{3 m \left(R^{2} + 4 h^{2}\right)}{20}\)
 			\end{enumerate}
 			\end{minipage}
 			\begin{minipage}[c][1cm][t]{0.2\textwidth}
 			\includegraphics[width=\textwidth]{figures/landauFig38}
 		\end{minipage}
 
+	\newpage
 
 	\item 
 		\begin{minipage}[t][3.5cm]{0.53\textwidth}
-			\textbf{Cono rodante sobre un plano} [Landau \S 32 7]\\
-				 El contacto instantáneo con el plano \(X Y\), \(\overline{O A}\), forma los ángulo de \(\theta\) con \(X\) y \(\alpha\) con el eje del cono.
-				 El otro dato conocido es la distancia hasta el cento de masa \(a\).
+			\textbf{Cone Rolling on a Plane} [Landau \S 32 7]\\
+				 The instantaneous contact with the \(X Y\) plane, \(\overline{O A}\), forms angles \(\theta\) with \(X\) and \(\alpha\) with the cone's axis.
+				 The other known datum is the distance to the center of mass \(a\).
 				\begin{enumerate}
-					\item Asumiendo conocidos los momentos de inercia desde el vértice en la dirección del eje \(I_3\) y en las perpendiculares \(I_1 = I_2\), calcule la energía cinética.
-					Resultado:\\
+					\item Assuming known moments of inertia from the vertex in the axial direction \(I_3\) and in the perpendicular directions \(I_1 = I_2\), calculate the kinetic energy.
+					Result:\\
 					\(T = \frac{1}{2} \cos^2(\alpha) I_1 \dot{\theta}^{2} + \frac{1}{2} \frac{\cos^4(\alpha)}{\sin^2(\alpha)} I_3  \dot{\theta}^{2} + \frac{1}{2} \cos^2(\alpha) m a^{2} \dot{\theta}^{2} \)
-					\item Exprese en la energía cinética a \(I_{1,2,3}\), \(\alpha\) y \(a\) en función del radio de la base del cono \(R\) y su altura \(h\).
+					\item Express in the kinetic energy \(I_{1,2,3}\), \(\alpha\) and \(a\) as functions of the cone's base radius \(R\) and its height \(h\).
 				\end{enumerate}
 		\end{minipage}
 		\begin{minipage}[c][0cm][t]{0.4\textwidth}

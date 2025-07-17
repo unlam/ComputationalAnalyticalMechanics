@@ -73,14 +73,14 @@ noConservativas.ipynb                            ->  nonconservative.ipynb      
 guíaTensorInercia.tex               -> exercisesInertiaTensor.tex           Ready
 momentoAngularTorque.ipynb          -> angular_momentum_torque.ipynb        Ready
 monóxidoCarbono_tensorInercia.ipynb -> carbonMonoxide_inertiaTensor.ipynb   Almost ready (18)
-tensorInercia.ipynb                 -> inertiaTensor.ipynb    translating
+tensorInercia.ipynb                 -> inertiaTensor.ipynb                  (19)
 
 
 == 09MasaDistribuida  -> 09DistributedMass
 
-guíaDistribuciónMasa.tex   ->  exercisesDistributedMass.tex
-cubo_tensorInercia.ipynb   ->  inertiaTensorcube.ipynb  
-masaDistribuida.ipynb      ->  distributedMass.ipynb
+guíaDistribuciónMasa.tex   ->  exercisesDistributedMass.tex   Almost ready (20)
+cubo_tensorInercia.ipynb   ->  inertiaTensorcube.ipynb        Ready
+masaDistribuida.ipynb      ->  distributedMass.ipynb          Ready
 
 
 == 10RotaciónEuler  ->  10EulerRotation
@@ -172,3 +172,9 @@ print(
   )
 
 ¿Se deja o se elimina?
+
+(19) Hay algo raro en este documento. Se refiere al de la araña en el frisbee, pero ese cuaderno ya no
+existe en este release.
+
+(20) 
+¿Está bien esto? : Cuente con los datos disponibles en un taller: 
