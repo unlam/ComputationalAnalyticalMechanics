@@ -106,8 +106,8 @@ vibraciones1GdL.ipynb    ->  oscillationsSDOF.ipynb       Ready
 
 == 12VibracionesNGdL  ->  12OscillationsMDOF
 
-guíaVibracionesNGdL.tex  ->  exercisesMDOF.tex
-masas_transv.ipynb       ->  transverseOscillations.ipynb
+guíaVibracionesNGdL.tex  ->  exercisesMDOF.tex              Ready
+masas_transv.ipynb       ->  transverseOscillations.ipynb   Ready (22)
 vibracionesNGdL.ipynb    ->  oscillationsMDOF.ipynb
 
 
@@ -189,4 +189,10 @@ existe en este release.
 ---------------- hasta 17 julio 2025 -----------------
 
 (21) volanteInercia.ipynb   No está en la versión actual, ¿borrar?
+
+
+(22) masas_transv.ipynb  ->  transverseOscillations.ipynb
+
+Parece ser una versión vieja o en desarrollo. No tenía encabezado por ejemplo.
+Revisar que sea coherente.
 
