@@ -14,7 +14,12 @@ TODO:
   After 8 or 9, it's translated from current version.
 - Translate imagesNotebooks.ipynb
 
-- Español: cambiar "o" con \circ.
+
+- Check figures: change links to embedded.
+- Test everything in Colab.
+
+- Incluir NoInercial cuando esté listo.
+
 
 
 
@@ -28,7 +33,7 @@ guíaVectorial.tex          ->  exercisesVector.tex      Ready.
 
 == 02Energía -> 02Energy
 
-apunteLanczos.pdf                  ->  notesLanczos.pdf                     Ver .tex en 03
+apunteLanczos.pdf                  ->  notesLanczos.pdf                     Ready
 energíaCinéticaTraslación.ipynb    ->  kineticEnergy.ipynb                  Ready.
 energíaPotencialGravitatoria.ipynb ->  gravitationalPotentialEnergy.ipynb   Ready.
 guíaEnergía.tex                    ->  exercisesEnergy.tex                  Ready.
@@ -36,7 +41,7 @@ guíaEnergía.tex                    ->  exercisesEnergy.tex                  Re
 
 == 03EulerLagrange -> 03EulerLagrange
 
-apunteLanczos.tex                              ->  notesLanczos.tex               Translated using Claude, to be checked.
+apunteLanczos.tex                              ->  notesLanczos.tex               Ready - Translated using Claude, to be checked.
 energíaPotencialElástica_eulerLagrange.ipynb   ->  elasticPotentialEnergy.ipynb   Ready.
 guíaEulerLagrange.tex                          ->  exercisesEulerLagrange.tex     Ready (suggestion 4, ref.)
 partesRotantes_eulerLagrange.ipynb             ->  rotatingParts.ipynb            Ready
@@ -78,13 +83,13 @@ noConservativas.ipynb                            ->  nonconservative.ipynb      
 
 guíaTensorInercia.tex               -> exercisesInertiaTensor.tex           Ready
 momentoAngularTorque.ipynb          -> angular_momentum_torque.ipynb        Ready
-monóxidoCarbono_tensorInercia.ipynb -> carbonMonoxide_inertiaTensor.ipynb   Almost ready (18)
+monóxidoCarbono_tensorInercia.ipynb -> carbonMonoxide_inertiaTensor.ipynb   Ready
 tensorInercia.ipynb                 -> inertiaTensor.ipynb                  (19)
 
 
 == 09MasaDistribuida  -> 09DistributedMass (21)
 
-guíaDistribuciónMasa.tex   ->  exercisesDistributedMass.tex   Almost ready (20)
+guíaDistribuciónMasa.tex   ->  exercisesDistributedMass.tex   Ready
 cubo_tensorInercia.ipynb   ->  inertiaTensorcube.ipynb        Ready
 masaDistribuida.ipynb      ->  distributedMass.ipynb          Ready
 
@@ -94,7 +99,7 @@ masaDistribuida.ipynb      ->  distributedMass.ipynb          Ready
 engranajeDesalineado.ipynb  ->  misalignedGear.ipynb          Ready
 guíaRotacionEuler.tex       ->  exercisesEulerRotation.tex    Ready    
 rotaciónEuler.ipynb         ->  rotationEuler.ipynb           Ready
-volanteInercia.ipynb        ->  flywheel.ipynb                (21) ¿Borrar?
+volanteInercia.ipynb        ->  flywheel.ipynb                Ready (21)
 
 
 ==  11Vibraciones1GdL  ->  11OscillationsSDOF
@@ -106,9 +111,9 @@ vibraciones1GdL.ipynb    ->  oscillationsSDOF.ipynb       Ready
 
 == 12VibracionesNGdL  ->  12OscillationsMDOF
 
-guíaVibracionesNGdL.tex  ->  exercisesMDOF.tex              Ready
-masas_transv.ipynb       ->  transverseOscillations.ipynb   Ready (22)
-vibracionesNGdL.ipynb    ->  oscillationsMDOF.ipynb
+guíaVibracionesNGdL.tex  ->  exercisesMDOF.tex                    Ready
+masas_transv.ipynb       ->  vieux/transverseOscillations.ipynb   Ready
+vibracionesNGdL.ipynb    ->  oscillationsMDOF.ipynb               Ready
 
 
 == 15Integrador  ->  13FinalProject   (keep this number?)
@@ -119,10 +124,6 @@ integradorRígido.ipynb  ->  projectRigid.ipynb
 
 =============================
 
-General:
-- Check if figures are loaded in colab, because I'm sometimes using the link to a local file.
-- End comments with a period.
-- Función de ligadura o ecuaciones de ligadura?
 
 
 
@@ -167,32 +168,34 @@ Check: longitudes de equilibrio. Pero el dato es l10 and l20, las longitudes nat
 
 (18) 08TensorInercia/monóxidoCarbono_tensorInercia.ipynb
 
-- Tensor de inercia para rotaciones respecto del centro de masa:
-en el texto que sigue, se refiere a una figura, pero no hay figura en el cuaderno.
-
 - Esto aparece más de una vez:
 print(
   vlatex(
     Iik_cm
     )
   )
+Vic: Se deja.
 
-¿Se deja o se elimina?
 
 (19) tensorInercia.ipynb:
 Hay algo raro en este documento. Se refiere al de la araña en el frisbee, pero ese cuaderno ya no
 existe en este release.
 
-(20) 09MasaDistribuida/guíaDistribuciónMasa.tex:
-¿Está bien esto? : Cuente con los datos disponibles en un taller: 
+La araña se está modificando, luego se corregira esto.
+
 
 ---------------- hasta 17 julio 2025 -----------------
 
 (21) volanteInercia.ipynb   No está en la versión actual, ¿borrar?
 
+Limpiarlo (poner un aviso que se está corrigiendo).
 
 (22) masas_transv.ipynb  ->  transverseOscillations.ipynb
 
 Parece ser una versión vieja o en desarrollo. No tenía encabezado por ejemplo.
 Revisar que sea coherente.
 
+Mover a vieux.
+
+
+---------------- hasta 23 julio 2025 -----------------
