@@ -116,9 +116,9 @@ masas_transv.ipynb       ->  vieux/transverseOscillations.ipynb   Ready
 vibracionesNGdL.ipynb    ->  oscillationsMDOF.ipynb               Ready
 
 
-== 15Integrador  ->  13FinalProject   (keep this number?)
+== 15Integrador  ->  13FinalProject   (keep this number?) 
 
-integradorRígido.ipynb  ->  projectRigid.ipynb
+integradorRígido.ipynb  ->  projectRigid.ipynb      Ready
 
 
 
