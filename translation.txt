@@ -4,10 +4,11 @@ tags/202503
 TODO:
 - Redo some figures, that look like screenshots, if there are copyright issues.
 - Check the year in the headers and footnotes. Some notebooks say 2022 in English and 2024 in Spanish.
-- Remove every reference to Spanish in tex files. (do a search for Spanish in VSCode)
-- Check Link to license in Spanish not working.
+- Remove every reference to "Spanish" in tex files. (do a search for Spanish in VSCode)
+- Check Link to license in Spanish, some are not working.
 - Check for nonconservative, fix any "non conservative"
 - Redo some pngs. The embedded pngs look better in the spanish version, do not use screenshots, use okular.
+- Find and replace "https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES"
 
 - Up to 8 (I think), translated from the release, although some files were updated using the current version, mostly the figures and exercises.
   After 8 or 9, it's translated from current version.
@@ -98,15 +99,15 @@ volanteInercia.ipynb        ->  flywheel.ipynb                (21) ¿Borrar?
 
 ==  11Vibraciones1GdL  ->  11OscillationsSDOF
 
-arbitrario1GdL.ipynb     ->  arbitrarySDOF.ipynb
-armónico1GdL.ipynb       ->  harmonicSDOF.ipynb
-guíaVibraciones1GdL.tex  ->  exercisesSDOF.tex
-vibraciones1GdL.ipynb    ->  oscillationsSDOF.ipynb
+arbitrario1GdL.ipynb     ->  arbitrarySDOF.ipynb          Ready
+armónico1GdL.ipynb       ->  harmonicSDOF.ipynb           Ready
+guíaVibraciones1GdL.tex  ->  exercisesSDOF.tex            Ready
+vibraciones1GdL.ipynb    ->  oscillationsSDOF.ipynb       Ready
 
 == 12VibracionesNGdL  ->  12OscillationsMDOF
 
 guíaVibracionesNGdL.tex  ->  exercisesMDOF.tex
-masas_transv.ipynb       ->  ?
+masas_transv.ipynb       ->  transverseOscillations.ipynb
 vibracionesNGdL.ipynb    ->  oscillationsMDOF.ipynb
 
 
@@ -189,12 +190,3 @@ existe en este release.
 
 (21) volanteInercia.ipynb   No está en la versión actual, ¿borrar?
 
-
-
-(22) engranajeDesalineado.ipynb
-
-Revisar en la versión en español:
-
-"Para conocer $I_z$ basta recordar que para un cuerpo plano"
-¿debería ser I_x?
-Yo lo cambién en la versión en inglés.
