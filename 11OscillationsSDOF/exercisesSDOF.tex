@@ -1,76 +1,54 @@
-\documentclass[11pt, spanish, a4paper, twopage]{article}
-
+\documentclass[11pt, english, a4paper, twopage]{article}
 \input{../figuresLaTeX/introUNLaM}
-
 \begin{document}
 \begin{center}
-%	\textsc{\large Mecánica general}\\
-	\textsc{\large Vibraciones | Único grado de libertad}
+ \textsc{\large Vibrations | Single degree of freedom}
 \end{center}
-
-% De poder resolver estos problemas en forma autónoma puede asumir que adquirió los conocimientos mínimos sobre los temas abordados en la semana. No dude en consultar a docentes y compañeros si no puede terminarlos. Los problemas marcados con * son opcionales.
-
 \begin{enumerate}
-
-				
-\item 
+\item
 \begin{minipage}[t][4cm]{0.65\textwidth}
-El sistema mostrado en la figura consiste en una masa $m$ y una barra rígida de longitud $l$, cuya masa se desprecia.
-El sistema está restringido por dos resortes de coeficiente de rigidez $k_1$ y $k_2$.
-
-Obtenga las ecuación de la dinámica asumiendo pequeñas oscilaciones y la frecuencia natural de oscilación del sistema.
+ \textbf{Constrained pendulum}
+ The system shown in the figure consists of a mass $m$ and a rigid bar of length $l$, whose mass is neglected.
+ The system is constrained by two springs with stiffness coefficients $k_1$ and $k_2$.
+ Obtain the dynamics equation assuming small oscillations and the natural frequency of oscillation of the system.
 \end{minipage}
 \begin{minipage}[c][3cm][t]{0.3\textwidth}
-	\includegraphics[width=\textwidth]{figures/shabana_fig_P1_1.png}
+ \includegraphics[width=\textwidth]{figures/shabana_fig_P1_1.png}
 \end{minipage}
-
-
-
-\item 
+\item
 \begin{minipage}[t][6cm]{0.65\textwidth}
-En la figura se muestra la ubicación de los amortiguadores de un \emph{Audi TT Coupé}.
-Las \href{https://www.audi.de/de/brand/de/neuwagen/tt/tt-coupe.html#layer=/de/brand/de/neuwagen/tt/tt-coupe.engine_compare.fvp09g_0.techdata.html}{especificaciones de esta máquina} indican que con un pasajero y 90\% de carga de nafta tiene un peso de \SI{1370}{\kilo\gram}.
-
-Utilice el modelo de cuarto de coche (\emph{quarter car model}), en el que se asume que cada amortiguador soporta un cuatro del peso.
-Simplificará aún más este modelo eliminando el neumático, tanto su masa y su capacidad de operar como amortiguador, para encargar esta última tarea únicamente en la suspensión.
-
-Puesto que manejar en el régimen de sobre-amortiguación es incomodo, pues tras un bache puede producirse un violento rebote, debe ajustar la suspensión en consecuencia.
-De \href{https://journals.sagepub.com/doi/pdf/10.1177/1687814016648638}{un paper en \emph{Advances in Mechanical Engineering}} tomamos un valor estándar de $k_s = \SI{12500}{\newton\per\metre}$ para el amortiguador
+ \textbf{Audi TT Coupé}
+ The figure shows the location of the shock absorbers of an \emph{Audi TT Coupé}.
+ The \href{https://media.audiusa.com/assets/documents/original/8253-FINAL2021TTTechSpecs.pdf}{specifications of this machine} indicate that with one passenger and 90\% fuel load it has a weight of \SI{1450}{\kilo\gram}.
+ Use the quarter car model, in which it is assumed that each shock absorber supports one quarter of the weight.
+ Further simplify this model by eliminating the tire, both its mass and its ability to operate as a shock absorber, to assign this latter task solely to the suspension.
+ Since driving in the overdamped regime is uncomfortable, as after a pothole a violent rebound can occur, you must adjust the suspension accordingly.
+ From a \href{https://journals.sagepub.com/doi/pdf/10.1177/1687814016648638}{paper in \emph{Advances in Mechanical Engineering}} we take a standard value of $k_s = \SI{12500}{\newton\per\metre}$ for the shock absorber
 \end{minipage}
 \begin{minipage}[c][0cm][t]{0.3\textwidth}
-	\includegraphics[width=\textwidth]{figures/amortiguadores_AudiCoupeTT}
+ \includegraphics[width=\textwidth]{figures/amortiguadores_AudiCoupeTT}
 \end{minipage}
-
-
-
-\item 
-\begin{minipage}[t][3.5cm]{0.75\textwidth}
-Un motor eléctrico de \SI{15}{\kilo\gram} presenta un desbalance de su carga de \SI{20}{\gram} a \SI{125}{\milli\metre} de su eje.
-Se lo abulona a un soporte que limita su movimiento a la vertical.
-Para morigerar su vibración está amortiguado por cuatro resortes de \SI{40}{\kilo\newton\per\metre}, y un amortiguador de aceite con un coeficiente con lineal con la velocidad ajustado para que $c = 0.4 C_c$ ($C_c$, coeficiente de amortiguamiento crítico).
-
-Obtenga un rango aproximado de frecuencias de operación del motor en que la vibración es menor a \SI{0.2}{\milli\metre}.
+\item
+ \begin{minipage}[t][3.5cm]{0.75\textwidth}
+ \textbf{Unbalanced motor}
+ A \SI{15}{\kilo\gram} electric motor has an unbalanced load of \SI{20}{\gram} at \SI{125}{\milli\metre} from its axis.
+ It is bolted to a support that limits its movement to the vertical direction.
+ To mitigate its vibration it is damped by four springs of \SI{40}{\kilo\newton\per\metre}, and an oil damper with a coefficient linearly proportional to velocity adjusted so that $c = 0.4 C_c$ ($C_c$, critical damping coefficient).
+ Obtain an approximate range of motor operating frequencies where the vibration is less than \SI{0.2}{\milli\metre}.
 \end{minipage}
 \begin{minipage}[c][2cm][t]{0.2\textwidth}
-	\includegraphics[width=\textwidth]{figures/beer_fig_P19_144}
+ \includegraphics[width=\textwidth]{figures/beer_fig_P19_144}
 \end{minipage}
-
-
-
-\item 
+\item
 \begin{minipage}[t][3.5cm]{0.75\textwidth}
-Las levas se caracterizan con los mapas de desplazamiento, que \emph{mapean} la función de su radio en un desplazamiento lineal del seguidor.
-La figura muestra como una leva con forma similar a una corazón permite que el desplazamiento de este último crezca y decrezca linealmente desde un pico.
-				
-Asuma que en el pico el desplazamiento es de \SI{5}{\centi\metre} y en el mínimo es nulo, y que un motor hace que la leva describa $6\,\mathrm{rpm}$.  
-Suponiendo que este sistema se utiliza para forzar el sistema del ejemplo dado en clase, gráfique el desplazamiento de $m$ en el estado estacionario en función del tiempo durante cuatro rotaciones de la leva.
+ \textbf{Cam}
+ Cams are characterized by displacement maps, which \emph{map} the function of their radius to a linear displacement of the follower.
+ The figure shows how a heart-shaped cam allows the displacement of the latter to increase and decrease linearly from a peak.
+ Assume that at the peak the displacement is \SI{5}{\centi\metre} and at the minimum it is zero, and that a motor makes the cam rotate at $6\,\mathrm{rpm}$.
+ Assuming that this system is used to force the system from the example given in class, plot the displacement of $m$ in steady state as a function of time during four rotations of the cam.
 \end{minipage}
 \begin{minipage}[c][2cm][t]{0.2\textwidth}
-	\includegraphics[width=\textwidth]{figures/nok_wikkelmachine}
+ \includegraphics[width=\textwidth]{figures/nok_wikkelmachine}
 \end{minipage}
-
-
-
-
 \end{enumerate}
 \end{document}

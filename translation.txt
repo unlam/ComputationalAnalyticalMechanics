@@ -4,11 +4,17 @@ tags/202503
 TODO:
 - Redo some figures, that look like screenshots, if there are copyright issues.
 - Check the year in the headers and footnotes. Some notebooks say 2022 in English and 2024 in Spanish.
-- Remove every reference to Spanish in tex files. (do a search for Spanish in VSCode)
-- Check Link to license in Spanish not working.
+- Remove every reference to "Spanish" in tex files. (do a search for Spanish in VSCode)
+- Check Link to license in Spanish, some are not working.
 - Check for nonconservative, fix any "non conservative"
+- Redo some pngs. The embedded pngs look better in the spanish version, do not use screenshots, use okular.
+- Find and replace "https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES"
 
+- Up to 8 (I think), translated from the release, although some files were updated using the current version, mostly the figures and exercises.
+  After 8 or 9, it's translated from current version.
 - Translate imagesNotebooks.ipynb
+
+- Español: cambiar "o" con \circ.
 
 
 
@@ -73,35 +79,35 @@ noConservativas.ipynb                            ->  nonconservative.ipynb      
 guíaTensorInercia.tex               -> exercisesInertiaTensor.tex           Ready
 momentoAngularTorque.ipynb          -> angular_momentum_torque.ipynb        Ready
 monóxidoCarbono_tensorInercia.ipynb -> carbonMonoxide_inertiaTensor.ipynb   Almost ready (18)
-tensorInercia.ipynb                 -> inertiaTensor.ipynb    translating
+tensorInercia.ipynb                 -> inertiaTensor.ipynb                  (19)
 
 
-== 09MasaDistribuida  -> 09DistributedMass
+== 09MasaDistribuida  -> 09DistributedMass (21)
 
-guíaDistribuciónMasa.tex   ->  exercisesDistributedMass.tex
-cubo_tensorInercia.ipynb   ->  inertiaTensorcube.ipynb  
-masaDistribuida.ipynb      ->  distributedMass.ipynb
+guíaDistribuciónMasa.tex   ->  exercisesDistributedMass.tex   Almost ready (20)
+cubo_tensorInercia.ipynb   ->  inertiaTensorcube.ipynb        Ready
+masaDistribuida.ipynb      ->  distributedMass.ipynb          Ready
 
 
 == 10RotaciónEuler  ->  10EulerRotation
 
-engranajeDesalineado.ipynb  ->  gearOffsetted.ipynb
-guíaRotacionEuler.tex       ->  exercisesEulerRotation.tex
-rotaciónEuler.ipynb         ->  rotationEuler.ipynb
-volanteInercia.ipynb        ->  flywheel.ipynb
+engranajeDesalineado.ipynb  ->  misalignedGear.ipynb          Ready
+guíaRotacionEuler.tex       ->  exercisesEulerRotation.tex    Ready    
+rotaciónEuler.ipynb         ->  rotationEuler.ipynb           Ready
+volanteInercia.ipynb        ->  flywheel.ipynb                (21) ¿Borrar?
 
 
 ==  11Vibraciones1GdL  ->  11OscillationsSDOF
 
-arbitrario1GdL.ipynb     ->  arbitrarySDOF.ipynb
-armónico1GdL.ipynb       ->  harmonicSDOF.ipynb
-guíaVibraciones1GdL.tex  ->  exercisesSDOF.tex
-vibraciones1GdL.ipynb    ->  oscillationsSDOF.ipynb
+arbitrario1GdL.ipynb     ->  arbitrarySDOF.ipynb          Ready
+armónico1GdL.ipynb       ->  harmonicSDOF.ipynb           Ready
+guíaVibraciones1GdL.tex  ->  exercisesSDOF.tex            Ready
+vibraciones1GdL.ipynb    ->  oscillationsSDOF.ipynb       Ready
 
 == 12VibracionesNGdL  ->  12OscillationsMDOF
 
-guíaVibracionesNGdL.tex  ->  exercisesMDOF.tex
-masas_transv.ipynb       ->  ?
+guíaVibracionesNGdL.tex  ->  exercisesMDOF.tex              Ready
+masas_transv.ipynb       ->  transverseOscillations.ipynb   Ready (22)
 vibracionesNGdL.ipynb    ->  oscillationsMDOF.ipynb
 
 
@@ -157,7 +163,7 @@ Revisar el texto de este cuaderno, dice versión 2021.
 Check: longitudes de equilibrio. Pero el dato es l10 and l20, las longitudes naturales? No tienen porqué ser las mismas que en equilibrio.
 
 
----------------- 30 jun 2025 -----------------
+---------------- hasta 30 jun 2025 -----------------
 
 (18) 08TensorInercia/monóxidoCarbono_tensorInercia.ipynb
 
@@ -172,3 +178,21 @@ print(
   )
 
 ¿Se deja o se elimina?
+
+(19) tensorInercia.ipynb:
+Hay algo raro en este documento. Se refiere al de la araña en el frisbee, pero ese cuaderno ya no
+existe en este release.
+
+(20) 09MasaDistribuida/guíaDistribuciónMasa.tex:
+¿Está bien esto? : Cuente con los datos disponibles en un taller: 
+
+---------------- hasta 17 julio 2025 -----------------
+
+(21) volanteInercia.ipynb   No está en la versión actual, ¿borrar?
+
+
+(22) masas_transv.ipynb  ->  transverseOscillations.ipynb
+
+Parece ser una versión vieja o en desarrollo. No tenía encabezado por ejemplo.
+Revisar que sea coherente.
+
