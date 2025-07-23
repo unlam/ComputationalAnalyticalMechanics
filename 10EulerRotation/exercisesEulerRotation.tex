@@ -1,41 +1,55 @@
-\documentclass[11pt, spanish, a4paper, twoside]{article}
+\documentclass[11pt, english, a4paper, twoside]{article}
 
 \input{../figuresLaTeX/introUNLaM}
 
 \begin{document}
 \begin{center}
-  % \textsc{\large Mecánica general}\\
-  \textsc{\large Cuerpo rígido | Ecuaciones de Euler}
+  \textsc{\large Rigid Body | Euler's Equations}
 \end{center}
 
-% De poder resolver estos problemas en forma autónoma puede asumir que adquirió los conocimientos mínimos sobre los temas abordados en la semana. No dude en consultar a docentes y compañeros si no puede terminarlos. Los problemas marcados con * son opcionales.
 
 \begin{enumerate}
 
 	\item 
 	\begin{minipage}[t][5cm]{0.55\textwidth}
-		\textbf{Engranaje inclinado}
-		Un engranaje de masa de \SI{10}{\kilo\gram} está montado con una inclinación de \ang{10;;} en un eje de masa despreciable.
-		Los cojinetes \(A\) y \(B\) sostienen el eje que gira con velocidad angular constante.
-		El \(A\) es de empuje, por lo que provee reacción también en la dirección longitudinal al eje en tanto que el \(B\) solo lo hace en las direcciones transversales.
-		Los momentos de inercia del engranaje son \(I_z = \SI{.1}{\kilo\gram\metre\squared}\) y el \(I_y = \SI{.05}{\kilo\gram\metre\squared}\).
+		\textbf{Inclined Gear}
+		A gear with a mass of \SI{10}{\kilo\gram} is mounted with an inclination of \ang{10;;} on a shaft of negligible mass.
+		Bearings \(A\) and \(B\) support the shaft which rotates at constant angular velocity.
+		Bearing \(A\) is a thrust bearing, so it provides reaction also in the longitudinal direction of the shaft, while bearing \(B\) only does so in the transverse directions.
+		The moments of inertia of the gear are \(I_z = \SI{.1}{\kilo\gram\metre\squared}\) and \(I_y = \SI{.05}{\kilo\gram\metre\squared}\).
 		\begin{tasks} 
-			\task Determine las reacciones que deben proveer los cojinetes para el instante en que el sistema en rotación presenta la disposición que se ilustra.
+			\task Determine the reactions that the bearings must provide for the instant when the rotating system presents the arrangement shown.
 		\end{tasks}
 	\end{minipage}
 	\begin{minipage}[c][0.5cm][t]{0.4\textwidth}
-		\includegraphics[width=\textwidth]{figures/hibb21_4}
+		\includegraphics[width=\textwidth]{figures/hibb_21-4}
 	\end{minipage}
 
 
+	\item 
+	\begin{minipage}[t][4.6cm]{0.55\textwidth}
+		\textbf{Flywheel}
+		The flywheel centered at \(G\) has a mass of \SI{10}{\kilo\gram} and is integral with the shaft of negligible mass that rotates at constant angular velocity \(\omega_s= \SI{6}{\per\second} \) (radians per second) supported by bearings \(A\) and \(B\).
+		The first is a thrust bearing, so it provides reaction also in the longitudinal direction of the shaft, while the second only does so in the transverse directions.
+		A transverse shaft to that of the flywheel supports the mount of bearing \(A\) and also rotates at constant angular velocity \(\omega_p\).
+		\begin{tasks}
+			\task Determine the reactions provided by the bearings.
+		\end{tasks}
+	\end{minipage}
+	\begin{minipage}[c][0.5cm][t]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{figures/hibb_21-6}
+	\end{minipage}
 
 
 	\item
 	\begin{minipage}[t][3cm]{0.75\textwidth}
-		\textbf{Rotación fuera de eje}
-		Un cilindro homogéneo de masa \(m\), radio \(R\) y altura \(H\) gira con velocidad angular constante \(\vec{\omega}\) en torno a un eje que forma un ángulo de \ang{30;;} con el \(\hat{z}\) y que pasa por su centro de masa.
+		\textbf{Off-axis Rotation}
+		A homogeneous cylinder of mass \(m\), radius \(R\) and height \(H\) rotates at constant angular velocity \(\vec{\omega}\) around an axis that forms an angle of \ang{30;;} with the \(\hat{z}\) and passes through its center of mass.
 		\begin{tasks}
-			\task Calcular el torque que debe aplicarse al cilindro para mantener tal movimiento.
+			\task Calculate the torque that must be applied to the cylinder to maintain such motion.\\
+			Result: \(
+			\vec{\tau} = \left[\begin{matrix}\frac{\sqrt{3} m \omega^{2} \left(- H^{2} + 3 R^{2}\right)}{48}\\0\\0\end{matrix}\right]
+			\) 
 		\end{tasks}
 	\end{minipage}
 	\begin{minipage}[c][2cm][t]{0.2\textwidth}
@@ -43,50 +57,80 @@
 	\end{minipage}
 
 
+
+	\item 
+	\begin{minipage}[t][4.5cm]{0.75\textwidth}
+		\textbf{Rotating Rod}
+		The thin rod AB has mass \(m\) and is connected to the support by means of a pin at A.
+		The support is rigidly mounted on the shaft.
+		Determine the required constant angular velocity \(\omega\) of the shaft so that the rod forms an angle \(\theta\) with the vertical.
+	\end{minipage}
+	\begin{minipage}[c][3cm][t]{0.2\textwidth}
+		\includegraphics[width=\textwidth]{figures/hibb_21-45}
+	\end{minipage}
+
+
 	\item 
 	\begin{minipage}[t][3.5cm]{0.6\textwidth}
-	\textbf{Cilindro desbalanceado}
-		Un cilindro de altura \(D\) y masa \(M\) está apoyado en dos cojinetes \(P\) y \(Q\), y lleva colocadas asimétricamente dos pesas de masa igual \(m/2\) a una distancia \(a\) de su centro, formando con su eje un ángulo \(\varphi\).
-		El conjunto gira con velocidad angular constante \(\omega\).
+	\textbf{Unbalanced Cylinder}
+		A cylinder of height \(D\) and mass \(M\) rotates supported on two bearings \(P\) and \(Q\) with angular velocity \(\omega\).
+		On an imaginary axis at an angle \(\varphi\) from the rotation axis, and at a distance \(a\) from its center, it has two weights of equal mass, \(m\), placed on it. 
 		\begin{tasks} 
-			\task Calcular la fuerza que aplican los cojinetes.
+			\task Calculate the force applied by the bearings.\\
+			Result: \(
+				F = \frac{m a^2 \omega^2}{D} \sin(\varphi) \cos(\varphi)
+			\).
 		\end{tasks}
 	\end{minipage}
 	\begin{minipage}[c][0.5cm][t]{0.35\textwidth}
-		\includegraphics[width=\textwidth]{figures/cilindroPesas.png}
+		\includegraphics[width=\textwidth]{figures/cilindroDesbalanceado}
 	\end{minipage}
-	
-	
+		
+
 	\item 
-	\begin{minipage}[t][4.6cm]{0.6\textwidth}
-		\textbf{Volante de inercia}
-		El volante de inercia centrado en \(G\) tiene una masa de \SI{10}{\kilo\gram} es solidario al eje de masa despreciable que gira con velocidad angular constante \(\omega_s\)sostenido por los cojinetes \(A\) y \(B\).
-		El primero es de empuje, por lo que provee reacción también en la dirección longitudinal al eje en tanto que el segundo solo lo hace en las direcciones transversales.
-		Un eje transversal al del volante sostiene la montura del cojinete \(A\) y también gira con velocidad angular constante \(\omega_p\).
+	\begin{minipage}[t][4.5cm]{0.55\textwidth}
+		\textbf{Shaft on Bearings}
+		The shaft was constructed with a rod whose mass per unit length is \SI{2}{\kilo\gram\per\metre}.
+		Determine the \(x, y, z\) components of the reaction at bearings A and B if at the instant shown the shaft rotates freely at an angular velocity of \(\omega = \SI{30}{\per\second}\) (radians per second).
+		What is the angular acceleration of the shaft at this instant?
+		Bearing A is capable of supporting a force component in the y direction while bearing B is not.
+	\end{minipage}
+	\begin{minipage}[c][0cm][t]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{figures/hibb_21-48}
+	\end{minipage}
+
+
+	\item 
+	\begin{minipage}[t][7cm]{0.65\textwidth}
+		\textbf{Constant Angular Acceleration}
+		The 15-pound cylinder rotates around axis AB with \(\vec{\omega} = -\SI{4}{\per\second} \hat{x}\) (radians per second).
+		Bearing \(A\) does not support force in the \(x\) direction, which is handled by bearing \(B\).
+		The shaft that extends from the support at point \(C\), starting from rest, is subjected to an acceleration \(\vec{\alpha}_C = \dot{\vec{\omega}} = \SI{12}{\per\second\squared} \hat{Z}\) (radians per second squared), where \(\hat{Z}\) includes \(\overline{AC}\) and is parallel to \(\hat{z}\).
+		The coordinate system has its origin at \(G\), the center of mass of the cylinder.
 		\begin{tasks}
-			\task Determine las reacciones que proveen los cojinetes.
+			\task Convert the data in imperial units (feet, pounds) to International System units.
+			\task Determine the reactions that the bearings must provide.\\
+			Result: \(
+			\left[\begin{matrix}A_{y}\\A_{z}\\B_{x}\\B_{y}\\B_{z}\end{matrix}\right] = \left[\begin{matrix}-5.79\\21.1 t + 33.4\\0\\5.79\\33.4 - 21.1 t\end{matrix}\right]
+			\)
 		\end{tasks}
 	\end{minipage}
-	\begin{minipage}[c][0.5cm][t]{0.35\textwidth}
-		\includegraphics[width=\textwidth]{figures/hibb21_6}
+	\begin{minipage}[c][2cm][t]{0.3\textwidth}
+		\includegraphics[width=\textwidth]{figures/hibbEng_21-58}
 	\end{minipage}
 
 
-
-\item 
-\begin{minipage}[t][3.5cm]{0.65\textwidth}
-		\textbf{Aceleración angular constante}
-El cilindro de 15 libras rota alrededor del eje AB con \(\vec{\omega} = -\SI{4}{\per\second} \hat{x}\) (radianes por segundo).
-El cojinete \(A\) no soporta fuerza en el sentido de \(x\) de lo que se ocupa el \(B\).
-El eje soporte \(C\) que estaba inicialmente en reposo está sometido a una aceleración \(\vec{\alpha}_C = \dot{\vec{\omega}} = \SI{12}{\per\second\squared} \hat{Z}\) (radianes por segundo cuadrado), siendo que \(\hat{Z}\) incluye a \(\overline{AC}\) y es paralelo a \(\hat{z}\).
-\begin{tasks}
-	\task Convierta los datos en unidades imperiales (pies, libras) en unidades del Sistema Internacional.
-	\task Determine las reacciones que deben proveer los cojinetes.
-\end{tasks}
-\end{minipage}
-\begin{minipage}[c][2cm][t]{0.3\textwidth}
-	\includegraphics[width=\textwidth]{figures/hibb_14_21_58}
-\end{minipage}
+	\item 
+	\begin{minipage}[t][3.5cm]{0.65\textwidth}
+		\textbf{Rock Crusher}
+		A rock crusher consists of a large thin disk which is connected by means of a pin to a horizontal shaft.
+		If it rotates at a constant speed of \SI{8}{\per\second} (radians per second), determine the normal force that the disk exerts on the stones.
+		Assume that the disk rolls without slipping and that its mass is \SI{25}{\kilo\gram}.
+		Ignore the mass of the shaft.
+	\end{minipage}
+	\begin{minipage}[c][2cm][t]{0.3\textwidth}
+		\includegraphics[width=\textwidth]{figures/hibb_21-56}
+	\end{minipage}
 
 
 \end{enumerate}

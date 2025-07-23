@@ -7,8 +7,13 @@ TODO:
 - Remove every reference to Spanish in tex files. (do a search for Spanish in VSCode)
 - Check Link to license in Spanish not working.
 - Check for nonconservative, fix any "non conservative"
+- Redo some pngs. The embedded pngs look better in the spanish version, do not use screenshots, use okular.
 
+- Up to 8 (I think), translated from the release, although some files were updated using the current version, mostly the figures and exercises.
+  After 8 or 9, it's translated from current version.
 - Translate imagesNotebooks.ipynb
+
+- Español: cambiar "o" con \circ.
 
 
 
@@ -76,7 +81,7 @@ monóxidoCarbono_tensorInercia.ipynb -> carbonMonoxide_inertiaTensor.ipynb   Alm
 tensorInercia.ipynb                 -> inertiaTensor.ipynb                  (19)
 
 
-== 09MasaDistribuida  -> 09DistributedMass
+== 09MasaDistribuida  -> 09DistributedMass (21)
 
 guíaDistribuciónMasa.tex   ->  exercisesDistributedMass.tex   Almost ready (20)
 cubo_tensorInercia.ipynb   ->  inertiaTensorcube.ipynb        Ready
@@ -85,10 +90,10 @@ masaDistribuida.ipynb      ->  distributedMass.ipynb          Ready
 
 == 10RotaciónEuler  ->  10EulerRotation
 
-engranajeDesalineado.ipynb  ->  gearOffsetted.ipynb
-guíaRotacionEuler.tex       ->  exercisesEulerRotation.tex
-rotaciónEuler.ipynb         ->  rotationEuler.ipynb
-volanteInercia.ipynb        ->  flywheel.ipynb
+engranajeDesalineado.ipynb  ->  misalignedGear.ipynb          Ready
+guíaRotacionEuler.tex       ->  exercisesEulerRotation.tex    Ready    
+rotaciónEuler.ipynb         ->  rotationEuler.ipynb           Ready
+volanteInercia.ipynb        ->  flywheel.ipynb                (21) ¿Borrar?
 
 
 ==  11Vibraciones1GdL  ->  11OscillationsSDOF
@@ -157,7 +162,7 @@ Revisar el texto de este cuaderno, dice versión 2021.
 Check: longitudes de equilibrio. Pero el dato es l10 and l20, las longitudes naturales? No tienen porqué ser las mismas que en equilibrio.
 
 
----------------- 30 jun 2025 -----------------
+---------------- hasta 30 jun 2025 -----------------
 
 (18) 08TensorInercia/monóxidoCarbono_tensorInercia.ipynb
 
@@ -173,8 +178,23 @@ print(
 
 ¿Se deja o se elimina?
 
-(19) Hay algo raro en este documento. Se refiere al de la araña en el frisbee, pero ese cuaderno ya no
+(19) tensorInercia.ipynb:
+Hay algo raro en este documento. Se refiere al de la araña en el frisbee, pero ese cuaderno ya no
 existe en este release.
 
-(20) 
+(20) 09MasaDistribuida/guíaDistribuciónMasa.tex:
 ¿Está bien esto? : Cuente con los datos disponibles en un taller: 
+
+---------------- hasta 17 julio 2025 -----------------
+
+(21) volanteInercia.ipynb   No está en la versión actual, ¿borrar?
+
+
+
+(22) engranajeDesalineado.ipynb
+
+Revisar en la versión en español:
+
+"Para conocer $I_z$ basta recordar que para un cuerpo plano"
+¿debería ser I_x?
+Yo lo cambién en la versión en inglés.
