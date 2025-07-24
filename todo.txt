@@ -1,0 +1,26 @@
+
+TODO:
+- Check the notes for Readme below.
+
+- Test everything in Colab.
+
+- Include NonInertial when ready.
+- Edit tensorInercia.ipynb accordingly (see 19 below) 
+
+
+
+
+
+===================================
+Readme
+
+Added link to 06 nonHolonomicSystems.ipynb
+
+Commented out 97 nonConservativesExamples.ipynb
+
+Commented out 08 ex3RotationArm.ipynb and ex5Cube.ipynb (examples).
+
+Added link to 08 carbonMonoxide_inertiaTensor.ipynb
+
+Added link to 09 distributedMass.ipynb and inertiaTensorcube.ipynb
+

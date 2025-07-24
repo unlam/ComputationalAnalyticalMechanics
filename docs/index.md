@@ -37,7 +37,7 @@ Some of them are covered through more than one week, so a further descriptor, _F
 | 04   | "                     | 04Constraints      | Constraints as functions of coordinates. |
 | 05   | Numerical             | 05Simulation       | Numerical resolution of Euler-Lagrange equations. |
 | 06   | Forces                | 06ForcesConstraint | Constraint reactions by Lagrange multipliers. |
-| 07   | "                     | 07NonConservative  | Non conservative forces in the Euler-Lagrange formalism. |
+| 07   | "                     | 07Nonconservative  | Nonconservative forces in the Euler-Lagrange formalism. |
 | 08   | Rigid body            | 08InertiaTensor    | Inertia tensor of point masses systems. Steiner theorem. |
 | 09   | "                     | 09DistributedMass  | Inertia tensor of masses distributions.  |
 | 10   | "                     | 10EulerRotation    | Euler equations for the rigid body. |
@@ -157,12 +157,12 @@ The determination of the dynamics of each part in a device is important, but it'
   - pset06e05
 
 
-## 07 Non conservative forces
+## 07 Nonconservative forces
 
-- [Non conservative forces and Euler-Lagrange](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07NonConservative/nonConservative.ipynb) [ipynb]
-- [Problem set - Non conservative forces](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/07NonConservative/exercisesNonConservative.pdf) [pdf]
+- [Nonconservative forces and Euler-Lagrange](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/nonconservative.ipynb) [ipynb]
+- [Problem set - Nonconservative forces](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/exercisesNonconservative.pdf) [pdf]
 - Exercises to turn in
-  - [Linked cylinders - Help](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07NonConservative/linkedCylinders_Help.ipynb) [ipynb]
+  - [Linked cylinders - Help](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/linkedCylinders_Help.ipynb) [ipynb]
   - pset07e02
   - pset07e03
   - pset07e04
