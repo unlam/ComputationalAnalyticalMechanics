@@ -1,15 +1,8 @@
 <!-- Remove for github pages -->
 <!-- [<image src="docs/assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/) -->
-[<image src="assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/)
-
-<!-- [![UNLAM Logo](assets/img/bothLogo.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em01_campo_electrico.ipynb) -->
-
-
 
 <!-- Uncomment for github pages -->
-<!-- ![https://ingenieria.unlam.edu.ar/](/docs/assets/img/bothLogo.svg ) -->
-
-
+[<image src="assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/)
 
 # Computational Analytical Mechanics
 
@@ -17,7 +10,7 @@
 <!-- [<image src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg"  width="80"/>](https://creativecommons.org/licenses/by-nc-sa/4.0/) 2024 Víctor A. Bettachini -->
 
 <!-- Uncomment for github pages -->
-![https://creativecommons.org/licenses/by-nc-sa/4.0/](/docs/assets/img/by-nc-sa.svg) 2024 Víctor A. Bettachini
+[<image src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg"  width="80"/>](https://creativecommons.org/licenses/by-nc-sa/4.0/) 2024 Víctor A. Bettachini
 
 <!-- Remove for github pages -->
 <!-- Access to the material: [https://unlam.github.io/ComputationalAnalyticalMechanics/](https://unlam.github.io/ComputationalAnalyticalMechanics/) -->
