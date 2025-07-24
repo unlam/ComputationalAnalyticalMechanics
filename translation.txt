@@ -2,27 +2,21 @@
 tags/202503
 
 TODO:
-- Redo some figures, that look like screenshots, if there are copyright issues.
-- Check the year in the headers and footnotes. Some notebooks say 2022 in English and 2024 in Spanish.
-- Remove every reference to "Spanish" in tex files. (do a search for Spanish in VSCode)
+- Informatica: ¿qué hacer? ¿Se traduce o no se incluye?
+
 - Check Link to license in Spanish, some are not working.
-- Check for nonconservative, fix any "non conservative"
-- Redo some pngs. The embedded pngs look better in the spanish version, do not use screenshots, use okular.
 - Find and replace "https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES"
 
-- Up to 8 (I think), translated from the release, although some files were updated using the current version, mostly the figures and exercises.
-  After 8 or 9, it's translated from current version.
-- Translate imagesNotebooks.ipynb
-
-
-- Check figures: change links to embedded.
 - Test everything in Colab.
 
-- Incluir NoInercial cuando esté listo.
+- Include NonInertial when ready.
+- Edit tensorInercia.ipynb accordingly (see 19 below) 
 
 
 
 
+
+===================================================================
 
 == 01Vectorial -> 01Vector 
 
@@ -84,7 +78,7 @@ noConservativas.ipynb                            ->  nonconservative.ipynb      
 guíaTensorInercia.tex               -> exercisesInertiaTensor.tex           Ready
 momentoAngularTorque.ipynb          -> angular_momentum_torque.ipynb        Ready
 monóxidoCarbono_tensorInercia.ipynb -> carbonMonoxide_inertiaTensor.ipynb   Ready
-tensorInercia.ipynb                 -> inertiaTensor.ipynb                  (19)
+tensorInercia.ipynb                 -> inertiaTensor.ipynb                  Ready (19)
 
 
 == 09MasaDistribuida  -> 09DistributedMass (21)
@@ -178,8 +172,12 @@ Vic: Se deja.
 
 
 (19) tensorInercia.ipynb:
-Hay algo raro en este documento. Se refiere al de la araña en el frisbee, pero ese cuaderno ya no
-existe en este release.
+
+Revisar esto cuando los cuadernos de no inercial estén listos:
+
+> This is a brief summary of the topic found   
+> in the notebook nonInertial/spiderFrisbee.ipynb.  
+> We recommend using it as reference.
 
 La araña se está modificando, luego se corregira esto.
 
