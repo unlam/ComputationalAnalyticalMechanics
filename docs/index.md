@@ -1,8 +1,14 @@
 <!-- Remove for github pages -->
-[<image src="docs/assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/)
+<!-- [<image src="docs/assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/) -->
+[<image src="assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/)
+
+<!-- [![UNLAM Logo](assets/img/bothLogo.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em01_campo_electrico.ipynb) -->
+
+
 
 <!-- Uncomment for github pages -->
 <!-- ![https://ingenieria.unlam.edu.ar/](/docs/assets/img/bothLogo.svg ) -->
+
 
 
 # Computational Analytical Mechanics
