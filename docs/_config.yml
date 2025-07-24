@@ -5,17 +5,15 @@ author:
 logopath: assets/img/bothLogo.png
 logowidth: 100
 logoalt: Logo UNLAM
-logolink: https://fra.utn.edu.ar/
-# author: Edgardo Palazzo
-# email: epalazzo@fra.utn.edu.ar
+logolink: https://ingenieria.unlam.edu.ar/
 description: >-
   DIIT UNLAM
 # baseurl: /MecanicaAnaliticaComputacional
 baseurl: /ComputationalAnalyticalMechanics
 # url: https://bettachini.github.io/
-url: https://frautn.github.io/
-# github_username: bettachini
-github_username: frautn
+url: https://unlam.github.io/
+github_username: unlam
+# github_username: frautn
 
 # Build settings
 theme: minima

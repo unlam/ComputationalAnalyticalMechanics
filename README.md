@@ -10,11 +10,11 @@
 [<image src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg"  width="80"/>](https://creativecommons.org/licenses/by-nc-sa/4.0/) 2024 Víctor A. Bettachini
 
 <!-- Uncomment for github pages -->
-<!-- [<image src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg"  width="80"/>](https://creativecommons.org/licenses/by-nc-sa/4.0/) 2024 Víctor A. Bettachini -->
-
-<!-- Uncomment for github pages -->
 <!-- [<image src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg"  width="80"/>](https://creativecommons.org/licenses/by-nc-sa/4.0/)   -->
 <!-- 2024 Víctor A. Bettachini -->
+
+<!-- Remove for github pages -->
+Access to the material: [https://unlam.github.io/ComputationalAnalyticalMechanics/](https://unlam.github.io/ComputationalAnalyticalMechanics/)
 
 
 This is the repository for the course [Computational Analytical Mechanics](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510), for the [mechanical engineering degree](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) at the [Department of Engineering and Research in Technology](https://ingenieria.unlam.edu.ar/), Universidad Nacional de La Matanza.
