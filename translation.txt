@@ -5,7 +5,6 @@ TODO:
 - Informatica: ¿qué hacer? ¿Se traduce o no se incluye?
 
 - Check Link to license in Spanish, some are not working.
-- Find and replace "https://creativecommons.org/licenses/by-sa/4.0/"
 
 - Test everything in Colab.
 
