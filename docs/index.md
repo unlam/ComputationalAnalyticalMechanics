@@ -1,8 +1,8 @@
 <!-- Remove for github pages -->
-<!-- [<image src="docs/assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/) -->
+[<image src="docs/assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/)
 
 <!-- Uncomment for github pages -->
-![https://ingenieria.unlam.edu.ar/](/docs/assets/img/bothLogo.svg )
+<!-- ![https://ingenieria.unlam.edu.ar/](/docs/assets/img/bothLogo.svg ) -->
 
 
 # Computational Analytical Mechanics
