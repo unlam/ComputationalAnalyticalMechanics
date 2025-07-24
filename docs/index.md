@@ -202,7 +202,7 @@ The relation is more complex than a simple scalar quantity like mass, it is the 
 
 Now that you know how to write the inertia tensor of a rigid body, it's time to make it rotate.  
 - [Euler equations](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/rotationEuler.ipynb) [ipynb]
-- [Gear with offsetted axis](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/misalignedGear.ipynb) [ipynb]
+- [Misaligned gear](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/misalignedGear.ipynb) [ipynb]
 - [Flywheel](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/flywheel.ipynb) [ipynb]
 - [Problem set - Euler equations](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/exercisesEulerRotation.pdf) [pdf]
 - Exercises to turn in
