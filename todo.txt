@@ -2,7 +2,7 @@
 TODO:
 - Check the notes for Readme below.
   - I (VB) do not know what to check.
-- Test everything in Colab.
+- Test everything (ipynb) runs in Colab.
   - 01Vector | done
   - 02Energy | done
   - 03EulerLagrange | done
