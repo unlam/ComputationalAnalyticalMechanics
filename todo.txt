@@ -9,7 +9,12 @@ TODO:
   - 04Constraints | done
   - 05Simulation | done
   - 06ForcesConstraint | done
-  
+  - 07Nonconservative | done 
+  - 08InertiaTensor | done
+  - 09DistributedMass | done
+  - 10EulerRotation | done (except for flywheel.ipynb)
+  - 11OscillationsSDOF | done
+  - 12OscillationsMDOF | done
 - Include NonInertial when ready.
 - Edit tensorInercia.ipynb accordingly (see 19 below) 
 
