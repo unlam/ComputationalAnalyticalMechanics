@@ -1,7 +1,11 @@
 
 TODO:
 - Check the notes for Readme below.
-  - I (VB) do not know what to check.
+  - Added link to 06 nonHolonomicSystems.ipynb | ok
+  - Commented out 97 nonConservativesExamples.ipynb | file not found...
+  - Commented out 08 ex3RotationArm.ipynb and ex5Cube.ipynb (examples) | files not found...
+  - Added link to 08 carbonMonoxide_inertiaTensor.ipynb | ok
+  - Added link to 09 distributedMass.ipynb and inertiaTensorcube.ipynb | ok
 - Test everything (ipynb) runs in Colab.
   - 01Vector | done
   - 02Energy | done
@@ -16,22 +20,4 @@ TODO:
   - 11OscillationsSDOF | done
   - 12OscillationsMDOF | done
 - Include NonInertial when ready.
-- Edit tensorInercia.ipynb accordingly (see 19 below) 
-
-
-
-
-
-===================================
-Readme
-
-Added link to 06 nonHolonomicSystems.ipynb
-
-Commented out 97 nonConservativesExamples.ipynb
-
-Commented out 08 ex3RotationArm.ipynb and ex5Cube.ipynb (examples).
-
-Added link to 08 carbonMonoxide_inertiaTensor.ipynb
-
-Added link to 09 distributedMass.ipynb and inertiaTensorcube.ipynb
-
+  - Edit tensorInercia.ipynb accordingly
