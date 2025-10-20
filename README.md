@@ -25,17 +25,17 @@ This 16-week flipped classroom course focuses on providing skills to calculate d
 Problems sets with increasingly complex exercises are introduced each week.
 Python-based solutions to previous ones are reused by students, who through small incremental modifications over the code presented by the teaching staff, build their own library of solutions to address mechanical modelling challenges.  
 
-The material for this course is available as Jupyter notebooks, containing theory and example exercises alongside the code to solve them.
+The material for this course is available as [Jupyter notebooks](https://jupyter.org/), containing theory and example exercises alongside the code to solve them.
 Students are required to rely on computer-based calculations, both analytical and numerical, so to focus their efforts on the physics modelling and interpretation of results.
 The online hosting and execution of these notebooks avoids any installation or hardware requirement issues.
 
 
 ## Requirements
 Notebooks in this repository require to explicitly import the following Python libraries:
-- SymPy 1.14.0
-- NumPy 2.3.3
-- SciPy 1.16.2
-- Matplotlib 3.10.6
+- [SymPy](https://www.sympy.org/en/index.html) 1.14.0
+- [NumPy](https://numpy.org/) 2.3.3
+- [SciPy](https://scipy.org/) 1.16.2
+- [Matplotlib](https://matplotlib.org/) 3.10.6
 
 
 ## Get in touch
@@ -80,15 +80,15 @@ https://img.shields.io/badge/Google%20Colab-000000?logo=googlecolab&logoColor=ff
 --->
 
 ### 01 Vector kinematics
-It should be stated at the first synchronous meeting that by the end of the next one, excercises of pset02 have to be turned-in. 
 
 - [Introduction to this course](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/thisCourse.ipynb)
 [![Introduction to this course](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/thisCourse.ipynb)
 - [Vector kinematics](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/vectorKinematics.ipynb)
 [![Vector kinematis](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/vectorKinematics.ipynb)
-- [Problem set - Vector kinematics](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/exercisesVector.pdf) [pdf] | The following are the exercises to be turned in:
-  - pset01e01 to be submitted one hour after being presented. 
-  - pset01e02 to be submitted by next week meeting beginning.
+- [First problem set (pset01) - Vector kinematics](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/exercisesVector.pdf) | Exercises to turn-in:
+  - pset01e01 one hour after being presented. 
+  - pset01e02 at next week meeting beginning.
+  - Those of pset02 at end of next meeting (should be started during the week). 
 - References
   - [Introduction to Python](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/IntroPython.ipynb) [ipynb]
   - [Markdown and LaTeX](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/MarkdownLaTeX.ipynb) [ipynb]
