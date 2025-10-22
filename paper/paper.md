@@ -240,7 +240,7 @@ The authors are confident that the methodology employed in this course offers gr
 
 
 # Aknowledgments
-The authors would like to thank DIIT-UNLaM for its support  and grant C2-ING-109 (2023-2024).
+The authors would like to thank DIIT-UNLaM for its support and grant C2-ING-109 (2023-2024).
 <!--
  __Probablemente Edgardo quiera sumar algo acá de UTN?__
 
