@@ -40,7 +40,7 @@ Notebooks in this repository require to explicitly import the following Python l
 
 
 ## Get in touch
-If you have a question regarding this course, feel free to [open an issue](https://github.com/unlam/ComputationalAnalyticalMechanics/issues) or a [new discussion](https://github.com/orgs/unlam/discussions) on GitHub.
+If you have a question regarding this course, feel free to [open an issue](https://github.com/unlam/ComputationalAnalyticalMechanics/issues) on its GitHub repository.
 We welcome community feedback and suggestions!  
 
 
@@ -241,19 +241,19 @@ Now that you know how to write the inertia tensor of a rigid body, it's time to 
 ### Vector mechanics
 
 - F. Beer, E. Johnston et al., _Vector Mechanics for Engineers: Statics and Dynamics_ (McGraw Hill, 11th edition, 2015)
-- W. Moebs, S. Ling and J. Sanny, _University Physics Volume 1_ (Independently Published, 2023)
-- S. Alrasheed, _Principles of Mechanics_ (Saint Philip Street Press, 2020)
+- W. Moebs, S. Ling and J. Sanny, [_University Physics Volume 1_](https://openstax.org/details/books/university-physics-volume-1/) (OpenStax, 2016)
+- S. Alrasheed, [_Principles of Mechanics_](https://doi.org/10.1007/978-3-030-15195-9) (Saint Philip Street Press, 2020)
 
 ### Analytical and vector mechanics
 
-- S. M. Targ, _Theoretical Mechanics: A Short Course_ (Mir Publishers Moscow, 1962)
+- S. M. Targ, [_Theoretical Mechanics: A Short Course_](https://archive.org/details/targtheoreticalmechanicsashortcourse) (Mir Publishers Moscow, 1962)
 
 ### Analytical mechanics
 
 - Stephen T. Thornton y Jerry B. Marion, _Classical Dynamics of Particles and Systems_ (Cengage Learning, 5th edition, 2003)
 - John Robert Taylor, _Classical Mechanics_ (University Science Books, 2005)
 - Cornelius Lanczos, _The Variational Principles of Mechanics_ (University of Toronto press, 1952).
-- Douglas Cline, _Variational Principles in Classical Mechanics_ (University of Rocherster River Campus Libraries, 2021)
+- Douglas Cline, [_Variational Principles in Classical Mechanics_](http://classicalmechanics.lib.rochester.edu/) (University of Rocherster River Campus Libraries, 2021)
 
 
 <!-- ## Environment -->
