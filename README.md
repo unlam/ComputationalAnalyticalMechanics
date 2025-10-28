@@ -235,9 +235,11 @@ Now that you know how to write the inertia tensor of a rigid body, it's time to 
 
 ## Bibliography
 
-### Basics
+### Main
+The basis of this course is the following book:
 - L. D. Landau and E. M. Lifshitz, _Mechanics: Volume 1 (Course of Theoretical Physics)_ (Butterworth-Heinemann, 3rd edition, 1976)
 
+The following books are also recommended as complementary material on the indicated subjects.
 ### Vector mechanics
 
 - F. Beer, E. Johnston et al., _Vector Mechanics for Engineers: Statics and Dynamics_ (McGraw Hill, 11th edition, 2015)
@@ -250,10 +252,10 @@ Now that you know how to write the inertia tensor of a rigid body, it's time to 
 
 ### Analytical mechanics
 
-- Stephen T. Thornton y Jerry B. Marion, _Classical Dynamics of Particles and Systems_ (Cengage Learning, 5th edition, 2003)
-- John Robert Taylor, _Classical Mechanics_ (University Science Books, 2005)
 - Cornelius Lanczos, _The Variational Principles of Mechanics_ (University of Toronto press, 1952).
 - Douglas Cline, [_Variational Principles in Classical Mechanics_](http://classicalmechanics.lib.rochester.edu/) (University of Rocherster River Campus Libraries, 2021)
+- John Robert Taylor, _Classical Mechanics_ (University Science Books, 2005)
+- Stephen T. Thornton y Jerry B. Marion, _Classical Dynamics of Particles and Systems_ (Cengage Learning, 5th edition, 2003)
 
 
 <!-- ## Environment -->
