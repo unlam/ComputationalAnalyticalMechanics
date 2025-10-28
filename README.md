@@ -40,7 +40,7 @@ Notebooks in this repository require to explicitly import the following Python l
 
 
 ## Get in touch
-If you have a question regarding this course, feel free to [open an issue](https://github.com/unlam/ComputationalAnalyticalMechanics/issues) or a [new discussion]() on GitHub.
+If you have a question regarding this course, feel free to [open an issue](https://github.com/unlam/ComputationalAnalyticalMechanics/issues) or a [new discussion](https://github.com/orgs/unlam/discussions) on GitHub.
 We welcome community feedback and suggestions!  
 
 
