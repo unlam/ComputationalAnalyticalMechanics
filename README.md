@@ -1,23 +1,16 @@
+---
+lang: en-GB
+---
+
 # Computational Analytical Mechanics
 
-This is the repository for the [Computational Analytical Mechanics](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510) course for the [mechanical engineering degree](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) at the [Department of Engineering and Research in Technology](https://ingenieria.unlam.edu.ar/), Universidad Nacional de La Matanza.
+All teaching material used in the [Computational Analytical Mechanics](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510) course for the [mechanical engineering degree](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) at the Universidad Nacional de La Matanza is published here.
 A [Spanish version](https://github.com/unlam/MecanicaAnaliticaComputacional) is also available.
 
-It's a code-based undergraduate course on analytical mechanics for engineering students with little to no prior programming knowledge.
-This 16-week flipped classroom course focuses on providing skills to calculate dynamics and strains of simple mechanical devices modelled as rigid bodies by solving Euler-Lagrange equations.
-Problems sets with increasingly complex exercises are introduced each week.
-[Python](https://www.python.org/)-based solutions to previous ones are reused by students, who through small incremental modifications over the code presented by the teaching staff, build their own library of solutions to address mechanical modelling challenges.  
-
-The material for this course is available as [Jupyter notebooks](https://jupyter.org/), containing theory and example exercises alongside the code to solve them.
-Students are required to rely on computer-based calculations, both analytical and numerical, so to focus their efforts on the physics modelling and interpretation of results.
-The online hosting and execution of these notebooks avoids any installation or hardware requirement issues.
-
-Problem sets are provided as PDF files.
-Their [$\LaTeX$](https://www.latex-project.org/) source code is provided in order for instructors to modify them at please.
-
 <!-- Remove for github pages -->
-[<image src="figuresLaTeX/ambos.svg" alt="Logo UNLAM"  width="150"/>](https://ingenieria.unlam.edu.ar/)
-[<image src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg"  width="80"/>](https://creativecommons.org/licenses/by-nc-sa/4.0/) 2025 Víctor A. Bettachini
+[![DIIT-UNLaM](figuresLaTeX/ingenieria_logo_schwarz.png)](https://ingenieria.unlam.edu.ar/)
+[![CC BY-NC-SA](https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+ 2025 Víctor A. Bettachini
 <!-- Uncomment for github pages -->
 <!-- [<image src="assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/) -->
 <!-- Remove for github pages -->
@@ -31,14 +24,58 @@ Their [$\LaTeX$](https://www.latex-project.org/) source code is provided in orde
 Access to the material: [https://unlam.github.io/ComputationalAnalyticalMechanics/](https://unlam.github.io/ComputationalAnalyticalMechanics/)
 --->
 
+## Course Overview
+
+This undergraduate course introduces analytical mechanics through computational methods, designed for engineering students with little to no programming background. Students learn to model mechanical devices as rigid bodies and solve Euler-Lagrange equations to analyse dynamics and strains.
+
+### Learning Materials
+
+New topics are presented at one or more **[Jupyter notebooks](https://jupyter.org/)** that combine:
+- Physics theory and concepts
+- **[Python](https://www.python.org/)**-based computational tools
+- Worked examples illustrating the code to address new topics
+
+A per-topic **PDF problem set** challenges students to apply their knowledge, and build their own solution library, by making incremental modifications to provided code examples, focusing on:
+- Physics modelling and result interpretation
+- Computer-based analytical and numerical calculations
 
 
-## Requirements
-Notebooks in this repository require to explicitly import the following Python libraries:
-- [SymPy](https://www.sympy.org/en/index.html) 1.14.0
-- [NumPy](https://numpy.org/) 2.3.3
-- [SciPy](https://scipy.org/) 1.16.2
-- [Matplotlib](https://matplotlib.org/) 3.10.6
+### Teaching Approach
+
+The course material was designed for a [**flipped classroom**](https://en.wikipedia.org/wiki/Flipped_classroom) model where students:
+- Study materials and attempt exercises before weekly synchronous meetings
+- Address questions and doubts with teaching staff at these meetings
+- Finish their own problem-solving by these meetings end
+
+### Technical Features
+
+- **No installation required** - Cloud-based notebook execution
+- **Open source** - Even the problem sets [$\LaTeX$](https://www.latex-project.org/) sources are provided
+- **Requirements**
+Notebooks in this repository explicitly import the following Python libraries when required:
+  - [SymPy](https://www.sympy.org/en/index.html) 1.14.0
+  - [NumPy](https://numpy.org/) 2.3.3
+  - [SciPy](https://scipy.org/) 1.16.2
+  - [Matplotlib](https://matplotlib.org/) 3.10.6
+
+
+<!--
+This is the repository for the [Computational Analytical Mechanics](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510) course for the [mechanical engineering degree](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) at the [Department of Engineering and Research in Technology](https://ingenieria.unlam.edu.ar/), Universidad Nacional de La Matanza.
+A [Spanish version](https://github.com/unlam/MecanicaAnaliticaComputacional) is also available.
+
+This code-based course on analytical mechanics was designed for undergraduate engineering students with little to no prior programming knowledge.
+It focuses on providing skills to calculate dynamics and strains of simple mechanical devices modelled as rigid bodies by solving Euler-Lagrange equations.
+
+At almost each of the course 16 weeks, new [Jupyter notebooks](https://jupyter.org/) are made available to the students. 
+These present both the physics theoretical background and [Python](https://www.python.org/)-based computational tools employed to solve example exercises that illustrate that week topic on the modelling of mechanical systems.
+The online hosting and execution of these notebooks avoids any installation or hardware requirement issues.
+Through small incremental modifications over the code presented in the notebooks, students build their own library of solutions to address diverse mechanical modelling challenges posed at problem sets provided as PDF files.
+Students are required to rely on computer-based calculations, both analytical and numerical, in order to focus their efforts on the physics modelling and interpretation of results, rather than on the solution of complex mathematical expressions by hand.
+
+Course material is organized folders including each week notebooks and problem set, alongside their [$\LaTeX$](https://www.latex-project.org/) source.
+It was designed to be used in a flipped classroom format, where students study the material and try to solve the exercises before attending weekly synchronous meetings where teaching staff address doubts and questions.
+
+-->
 
 
 ## Get in touch
@@ -47,31 +84,32 @@ We welcome community feedback and suggestions!
 
 
 ## Schedule
+<!--
 In this flipped classroom course, a problem set has to be turned in by the students at the end of synchronous weekly meeting.
 In between, students are expected to study the material and try to solve the exercises.
 Doubts and questions are addressed at the meetings.
-
+-->
 Course topics are divided by areas.
 Some of them are covered through more than one week, so a further descriptor, _Folder_, indicates where to find each week's material.
 
-| Week | Area                  | Folder            | Topics                   |
-|:----|:---------------------:|:----------------:|:-------                |
-| 01   | Newtonian mechanics   | 01Vector           | Course presentation. Vector calculus using SymPy. |  
-| 02   | Analytical mechanics  | 02Energy           | Degrees of freedom. Generalized coordinates. Kinetic and potential energies. |
-| 03   | "                     | 03EulerLagrange    | Euler-Lagrange equations. |
-| 04   | "                     | 04Constraints      | Constraints as functions of coordinates. |
-| 05   | Numerical             | 05Simulation       | Numerical resolution of Euler-Lagrange equations. |
-| 06   | Forces                | 06ForcesConstraint | Constraint reactions by Lagrange multipliers. |
-| 07   | "                     | 07Nonconservative  | Nonconservative forces in the Euler-Lagrange formalism. |
-| 08   | Rigid body            | 08InertiaTensor    | Inertia tensor of point masses systems. Steiner theorem. |
-| 09   | "                     | 09DistributedMass  | Inertia tensor of masses distributions.  |
-| 10   | "                     | 10EulerRotation    | Euler equations for the rigid body. |
-| 11   | "                     | "                | **Final project: statement of the problem** |
-| 12   | Oscillations          | 11OscillationsSDOF | Forced oscillations in single degree of freedom systems. |
-| 13   | "                     | 12OscillationsMDOF | Forced oscillations in multiple degrees of freedom systems. |
-| 14   | "                     | "                | "                                                           |
-| 15   | Evaluation            | (none)           | **Project live presentation**                                                   |
-| 16   | "                     | (none)           | **2.nd presentation chance**                                                   |
+| Week | Area                 | Folder             | Topics |
+|:-----|:--------------------:|:------------------:|:-------|
+| 01   | Newtonian mechanics  | 01Vector           | Course presentation. Vector calculus using SymPy. |  
+| 02   | Analytical mechanics | 02Energy           | Degrees of freedom. Generalized coordinates. Kinetic and potential energies. |
+| 03   | "                    | 03EulerLagrange    | Euler-Lagrange equations. |
+| 04   | "                    | 04Constraints      | Constraints as functions of coordinates. |
+| 05   | Numerical            | 05Simulation       | Numerical resolution of Euler-Lagrange equations. |
+| 06   | Forces               | 06ForcesConstraint | Constraint reactions by Lagrange multipliers. |
+| 07   | "                    | 07Nonconservative  | Nonconservative forces in the Euler-Lagrange formalism. |
+| 08   | Rigid body           | 08InertiaTensor    | Inertia tensor of point masses systems. Steiner theorem. |
+| 09   | "                    | 09DistributedMass  | Inertia tensor of masses distributions. |
+| 10   | "                    | 10EulerRotation    | Euler equations for the rigid body. |
+| 11   | "                    | "                  | **Final project: statement of the problem** |
+| 12   | Oscillations         | 11OscillationsSDOF | Forced oscillations in single degree of freedom systems. |
+| 13   | "                    | 12OscillationsMDOF | Forced oscillations in multiple degrees of freedom systems. |
+| 14   | "                    | "                  | " |
+| 15   | Evaluation           | 13FinalProject     | **Project live presentation** |
+| 16   | "                    | (none)             | **2.nd presentation chance** |
 
 
 <!---
@@ -238,15 +276,16 @@ Now that you know how to write the inertia tensor of a rigid body, it's time to 
 ## Bibliography
 
 ### Main
-The basis of this course is the following book:
+This course's theoretical foundations are fully explained at:
 - L. D. Landau and E. M. Lifshitz, _Mechanics: Volume 1 (Course of Theoretical Physics)_ (Butterworth-Heinemann, 3rd edition, 1976)
 
-The following books are also recommended as complementary material on the indicated subjects.
+The following books are cited as complementary material on the indicated subjects.
+
 ### Vector mechanics
 
 - F. Beer, E. Johnston et al., _Vector Mechanics for Engineers: Statics and Dynamics_ (McGraw Hill, 11th edition, 2015)
 - W. Moebs, S. Ling and J. Sanny, [_University Physics Volume 1_](https://openstax.org/details/books/university-physics-volume-1/) (OpenStax, 2016)
-- S. Alrasheed, [_Principles of Mechanics_](https://doi.org/10.1007/978-3-030-15195-9) (Saint Philip Street Press, 2020)
+- S. Alrasheed, [_Principles of Mechanics_](https://doi.org/10.1007/978-3-030-15195-9) (Springer Cham, 2019)
 
 ### Analytical and vector mechanics
 
