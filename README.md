@@ -1,13 +1,26 @@
-<!-- Remove for github pages -->
-[<image src="docs/assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/)
-
-<!-- Uncomment for github pages -->
-<!-- [<image src="assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/) -->
-
 # Computational Analytical Mechanics
 
+This is the repository for the [Computational Analytical Mechanics](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510) course for the [mechanical engineering degree](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) at the [Department of Engineering and Research in Technology](https://ingenieria.unlam.edu.ar/), Universidad Nacional de La Matanza.
+A [Spanish version](https://github.com/unlam/MecanicaAnaliticaComputacional) is also available.
+
+It's a code-based undergraduate course on analytical mechanics for engineering students with little to no prior programming knowledge.
+This 16-week flipped classroom course focuses on providing skills to calculate dynamics and strains of simple mechanical devices modelled as rigid bodies by solving Euler-Lagrange equations.
+Problems sets with increasingly complex exercises are introduced each week.
+[Python](https://www.python.org/)-based solutions to previous ones are reused by students, who through small incremental modifications over the code presented by the teaching staff, build their own library of solutions to address mechanical modelling challenges.  
+
+The material for this course is available as [Jupyter notebooks](https://jupyter.org/), containing theory and example exercises alongside the code to solve them.
+Students are required to rely on computer-based calculations, both analytical and numerical, so to focus their efforts on the physics modelling and interpretation of results.
+The online hosting and execution of these notebooks avoids any installation or hardware requirement issues.
+
+Problem sets are provided as PDF files.
+Their [$\LaTeX$](https://www.latex-project.org/) source code is provided in order for instructors to modify them at please.
+
 <!-- Remove for github pages -->
+[<image src="figuresLaTeX/ambos.svg" alt="Logo UNLAM"  width="150"/>](https://ingenieria.unlam.edu.ar/)
 [<image src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg"  width="80"/>](https://creativecommons.org/licenses/by-nc-sa/4.0/) 2025 Víctor A. Bettachini
+<!-- Uncomment for github pages -->
+<!-- [<image src="assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/) -->
+<!-- Remove for github pages -->
 
 <!-- Uncomment for github pages -->
 <!-- [<image src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg"  width="80"/>](https://creativecommons.org/licenses/by-nc-sa/4.0/)   -->
@@ -18,17 +31,6 @@
 Access to the material: [https://unlam.github.io/ComputationalAnalyticalMechanics/](https://unlam.github.io/ComputationalAnalyticalMechanics/)
 --->
 
-This is the repository for the course [Computational Analytical Mechanics](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510), for the [mechanical engineering degree](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) at the [Department of Engineering and Research in Technology](https://ingenieria.unlam.edu.ar/), Universidad Nacional de La Matanza.
-A [Spanish version](https://github.com/unlam/MecanicaAnaliticaComputacional) is available.
-
-It's a code-based undergraduate course on analytical mechanics for engineering students with little to no prior programming knowledge.
-This 16-week flipped classroom course focuses on providing skills to calculate dynamics and strains of simple mechanical devices modelled as rigid bodies by solving Euler-Lagrange equations.
-Problems sets with increasingly complex exercises are introduced each week.
-Python-based solutions to previous ones are reused by students, who through small incremental modifications over the code presented by the teaching staff, build their own library of solutions to address mechanical modelling challenges.  
-
-The material for this course is available as [Jupyter notebooks](https://jupyter.org/), containing theory and example exercises alongside the code to solve them.
-Students are required to rely on computer-based calculations, both analytical and numerical, so to focus their efforts on the physics modelling and interpretation of results.
-The online hosting and execution of these notebooks avoids any installation or hardware requirement issues.
 
 
 ## Requirements
@@ -53,7 +55,7 @@ Course topics are divided by areas.
 Some of them are covered through more than one week, so a further descriptor, _Folder_, indicates where to find each week's material.
 
 | Week | Area                  | Folder            | Topics                   |
-|:----:|:---------------------:|:----------------:|:-------                |
+|:----|:---------------------:|:----------------:|:-------                |
 | 01   | Newtonian mechanics   | 01Vector           | Course presentation. Vector calculus using SymPy. |  
 | 02   | Analytical mechanics  | 02Energy           | Degrees of freedom. Generalized coordinates. Kinetic and potential energies. |
 | 03   | "                     | 03EulerLagrange    | Euler-Lagrange equations. |
@@ -69,7 +71,7 @@ Some of them are covered through more than one week, so a further descriptor, _F
 | 13   | "                     | 12OscillationsMDOF | Forced oscillations in multiple degrees of freedom systems. |
 | 14   | "                     | "                | "                                                           |
 | 15   | Evaluation            | (none)           | **Project live presentation**                                                   |
-| 16   | "                     | (none)           | **2.nd chance presentation**                                                   |
+| 16   | "                     | (none)           | **2.nd presentation chance**                                                   |
 
 
 <!---
@@ -91,26 +93,26 @@ https://img.shields.io/badge/Google%20Colab-000000?logo=googlecolab&logoColor=ff
   - pset01e02 at next week meeting beginning.
   - Those of pset02 at end of next meeting (should be started during the week). 
 - References
-  - [Introduction to Python](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/IntroPython.ipynb) [ipynb]
-  - [Markdown and LaTeX](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/MarkdownLaTeX.ipynb) [ipynb]
+  - [Introduction to Python](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/IntroPython.ipynb) [![Introduction to Python](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/IntroPython.ipynb)
+  - [Markdown and LaTeX](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/MarkdownLaTeX.ipynb) [![Markdown and LaTeX](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/MarkdownLaTeX.ipynb)
 
 
 ### 02 Kinetic energy and gravitational potential energy
-- [Kinetic energy](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/kineticEnergy.ipynb) [ipynb]
-- [Gravitational potential energy: pendulum with pivot free to slide horizontally](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/gravitationalPotentialEnergy.ipynb) [ipynb]
-- [Energy problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/exercisesEnergy.pdf) [pdf]
+- [Kinetic energy](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/kineticEnergy.ipynb) [![Kinetic energy](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/kineticEnergy.ipynb)
+- [Gravitational potential energy: pendulum with pivot free to slide horizontally](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/gravitationalPotentialEnergy.ipynb) [![Gravitational potential energy: pendulum with pivot free to slide horizontally](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/gravitationalPotentialEnergy.ipynb)
+- [Energy problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/exercisesEnergy.pdf)
   - pset02e02
   - pset02e03
   - pset02e04
 
 ### 03 Euler-Lagrange equation
 
-- [Euler-Lagrange equation - Pendulums](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/eulerLagrangePendulums.ipynb) [ipynb]
-- [Euler-Lagrange template](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/euler_lagrange_base.ipynb) [ipynb]
-- [Problem set - Euler-Lagrange](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/exercisesEulerLagrange.pdf) [pdf]
-- [Elastic potential energy](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/elasticPotentialEnergy.ipynb) [ipynb]
-- [Rotating parts in a system](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/rotatingParts.ipynb) [ipynb]
-- [Euler-Lagrange problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/exercisesEulerLagrange.pdf) [pdf]
+- [Euler-Lagrange equation - Pendulums](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/eulerLagrangePendulums.ipynb) [![Euler-Lagrange equation - Pendulums](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/eulerLagrangePendulums.ipynb)
+- [Euler-Lagrange template](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/euler_lagrange_base.ipynb) [![Euler-Lagrange template](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/euler_lagrange_base.ipynb)
+- [Problem set - Euler-Lagrange](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/exercisesEulerLagrange.pdf)
+- [Elastic potential energy](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/elasticPotentialEnergy.ipynb) [![Elastic potential energy](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/elasticPotentialEnergy.ipynb)
+- [Rotating parts in a system](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/rotatingParts.ipynb) [![Rotating parts in a system](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/rotatingParts.ipynb)
+- [Euler-Lagrange problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/exercisesEulerLagrange.pdf)
   - pset03e01c
   - pset03e02
   - pset03e03
@@ -119,10 +121,10 @@ https://img.shields.io/badge/Google%20Colab-000000?logo=googlecolab&logoColor=ff
 
 ### 04 Constraints
 
-- [Constraints](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/constraintsFunction.ipynb) [ipynb]
-- [Atwood machine with constraint](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/atwoodConstraint.ipynb) [ipynb]
-- [Solving systems of differential equations](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/solvingLinearSystems.ipynb) [ipynb]
-- [Constraints problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/exercisesConstraints.pdf) [pdf]
+- [Constraints](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/constraintsFunction.ipynb) [![Constraints](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/constraintsFunction.ipynb)
+- [Atwood machine with constraint](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/atwoodConstraint.ipynb) [![Atwood machine with constraint](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/atwoodConstraint.ipynb)
+- [Solving systems of differential equations](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/solvingLinearSystems.ipynb) [![Solving systems of differential equations](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/solvingLinearSystems.ipynb)
+- [Constraints problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/exercisesConstraints.pdf) 
   - pset04e02
   - pset04e03
   - pset04e04
@@ -132,25 +134,25 @@ https://img.shields.io/badge/Google%20Colab-000000?logo=googlecolab&logoColor=ff
 
 To visualize the dynamics of the systems that we have modelled so far, the Euler-Lagrange equations are now solved numerically.
 
-- [Atwood machine](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/atwoodSimulationSolved.ipynb) [ipynb]
-- [Pendulum with pivot free to slide horizontally](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/pendulumFreeSimulSolved.ipynb) [ipynb]
-- [Simulation problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/exercisesSimulation.pdf) [pdf]
+- [Atwood machine](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/atwoodSimulationSolved.ipynb) [![Atwood machine](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/atwoodSimulationSolved.ipynb)
+- [Pendulum with pivot free to slide horizontally](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/pendulumFreeSimulSolved.ipynb) [![Pendulum with pivot free to slide horizontally](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/pendulumFreeSimulSolved.ipynb)
+- [Simulation problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/exercisesSimulation.pdf) 
   - pset05e02a
   - pset05e02c
   - pset05e03
   - pset05e04
 - References
-  - [2D and 3D graphics with matplotlib](https://github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb?classId=fc1ba4aa-6a5d-4ffa-8fd4-7a06ba08cfcd&classId=660444eb-e3d5-4135-8b70-44d5b04eb604) [ipynb]
+  - [2D and 3D graphics with matplotlib](https://www.github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb) [![2D and 3D graphics with matplotlib](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
 
 ### 06 Constraint reactions
 
 The determination of the dynamics of each part in a device is important, but it's equally important to determine the strains that they have to withstand. Let's start calculating these torques and forces.
 
-- [Constraint reactions](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/forcesConstraint.ipynb) [ipynb]
-- [Constraint reactions - Ideal physical pendulum](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/constraintIdealPendulum.ipynb) [ipynb]
-- [Constraint reactions - Rolling](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/rollingForcesConstraint.ipynb) [ipynb]
-- [Constraint reactions - Nonholonomic systems](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/nonHolonomicSystems.ipynb) [ipynb]
-- [Constraint reactions problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/exercisesConstraintForces.pdf) [pdf]
+- [Constraint reactions](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/forcesConstraint.ipynb) [![Constraint reactions](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/forcesConstraint.ipynb)
+- [Constraint reactions - Ideal physical pendulum](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/constraintIdealPendulum.ipynb) [![Constraint reactions - Ideal physical pendulum](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/constraintIdealPendulum.ipynb)
+- [Constraint reactions - Rolling](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/rollingForcesConstraint.ipynb) [![Constraint reactions - Rolling](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/rollingForcesConstraint.ipynb)
+- [Constraint reactions - Nonholonomic systems](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/nonHolonomicSystems.ipynb) [![Constraint reactions - Nonholonomic systems](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/nonHolonomicSystems.ipynb)
+- [Constraint reactions problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/exercisesConstraintForces.pdf) 
   - pset06e03
   - pset06e04
   - pset06e05
@@ -158,9 +160,9 @@ The determination of the dynamics of each part in a device is important, but it'
 
 ### 07 Nonconservative forces
 
-- [Nonconservative forces and Euler-Lagrange](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/nonconservative.ipynb) [ipynb]
-- [Nonconservative forces problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/exercisesNonconservative.pdf) [pdf]
-  - [Linked cylinders - Help](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/linkedCylinders_Help.ipynb) [ipynb]
+- [Nonconservative forces and Euler-Lagrange](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/nonconservative.ipynb) [![Nonconservative forces and Euler-Lagrange](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/nonconservative.ipynb)
+- [Nonconservative forces problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/exercisesNonconservative.pdf) 
+  - [Linked cylinders - Help](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/linkedCylinders_Help.ipynb) [![Linked cylinders - Help](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/linkedCylinders_Help.ipynb)
   - pset07e02
   - pset07e03
   - pset07e04
@@ -172,10 +174,10 @@ The determination of the dynamics of each part in a device is important, but it'
 We now begin studying solids of increasing complexity. In the same manner that a force gives more or less acceleration to different bodies according to their masses, a torque changes more or less the angular velocity according to how the mass is distributed around the axis of rotation.
 The relation is more complex than a simple scalar quantity like mass, it is the inertia tensor, which we are going to calculate for simple geometric figures for now, to then move forward to work on more realistic mechanic devices.
 
-- [Angular momentum and torque](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/angular_momentum_torque.ipynb) [ipynb]
-- [Inertia Tensor](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/inertiaTensor.ipynb) [ipynb]
-- [Carbon Monoxide](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/carbonMonoxide_inertiaTensor.ipynb) [ipynb]
-- [Problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/exercisesInertiaTensor.pdf) [pdf]
+- [Angular momentum and torque](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/angular_momentum_torque.ipynb) [![Angular momentum and torque](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/angular_momentum_torque.ipynb)
+- [Inertia Tensor](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/inertiaTensor.ipynb) [![Inertia Tensor](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/inertiaTensor.ipynb)
+- [Carbon Monoxide](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/carbonMonoxide_inertiaTensor.ipynb) [![Carbon Monoxide](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/carbonMonoxide_inertiaTensor.ipynb)
+- [Problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/exercisesInertiaTensor.pdf) 
   - pset08e02
   - pset08e04
   - pset08e05
@@ -185,9 +187,9 @@ The relation is more complex than a simple scalar quantity like mass, it is the 
 
 ### 09 Distributed mass
 
-- [Distributed mass](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/distributedMass.ipynb) [ipynb]
-- [Inertia tensor of a cube](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/inertiaTensorcube.ipynb) [ipynb]
-- [Distributed mass problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/exercisesDistributedMass.pdf) [pdf]
+- [Distributed mass](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/distributedMass.ipynb) [![Distributed mass](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/distributedMass.ipynb)
+- [Inertia tensor of a cube](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/inertiaTensorcube.ipynb) [![Inertia tensor of a cube](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/inertiaTensorcube.ipynb)
+- [Distributed mass problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/exercisesDistributedMass.pdf)
   - pset09e01
   - pset09e02
   - pset09e03
@@ -198,10 +200,10 @@ The relation is more complex than a simple scalar quantity like mass, it is the 
 
 Now that you know how to write the inertia tensor of a rigid body, it's time to make it rotate.
 
-- [Euler equations](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/rotationEuler.ipynb) [ipynb]
-- [Misaligned gear](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/misalignedGear.ipynb) [ipynb]
-- [Flywheel](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/flywheel.ipynb) [ipynb]
-- [Euler equations for the rotation problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/exercisesEulerRotation.pdf) [pdf]
+- [Euler equations](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/rotationEuler.ipynb) [![Euler equations](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/rotationEuler.ipynb)
+- [Misaligned gear](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/misalignedGear.ipynb) [![Misaligned gear](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/misalignedGear.ipynb)
+- [Flywheel](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/flywheel.ipynb) [![Flywheel](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/flywheel.ipynb)
+- [Euler equations for the rotation problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/exercisesEulerRotation.pdf) 
   - pset10e02
   - pset10e03
   - pset10e05
@@ -209,10 +211,10 @@ Now that you know how to write the inertia tensor of a rigid body, it's time to 
 
 ### 11 Oscillations of single degree of freedom systems
 
-  - [Damped oscillations of a single degree of freedom system (SDOF)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/oscillationsSDOF.ipynb) [ipynb]
-  - [Single degree of freedom system harmonically forced](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/harmonicSDOF.ipynb) [ipynb]
-  - [Single degree of freedom system with arbitrary force](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/arbitrarySDOF.ipynb) [ipynb]
-  - [Oscillations SDOF problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/exercisesSDOF.pdf) [pdf]
+  - [Damped oscillations of a single degree of freedom system (SDOF)](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/oscillationsSDOF.ipynb) [![Damped oscillations of a single degree of freedom system (SDOF)](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/oscillationsSDOF.ipynb)
+  - [Single degree of freedom system harmonically forced](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/harmonicSDOF.ipynb) [![Single degree of freedom system harmonically forced](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/harmonicSDOF.ipynb)
+  - [Single degree of freedom system with arbitrary force](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/arbitrarySDOF.ipynb) [![Single degree of freedom system with arbitrary force](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/arbitrarySDOF.ipynb)
+  - [Oscillations SDOF problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/exercisesSDOF.pdf)
     - pset11e01
     - pset11e02
     - pset11e03
@@ -221,15 +223,15 @@ Now that you know how to write the inertia tensor of a rigid body, it's time to 
 
 ### 12 Oscillations in multiple degrees of freedom systems
 
-- [Discrete system with multiple degrees of freedom](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsMDOF/oscillationsMDOF.ipynb) [ipynb]
-- [Oscillations MDOF problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsMDOF/exercisesMDOF.pdf) [pdf]
+- [Discrete system with multiple degrees of freedom](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsMDOF/oscillationsMDOF.ipynb) [![Discrete system with multiple degrees of freedom](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsMDOF/oscillationsMDOF.ipynb)
+- [Oscillations MDOF problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsMDOF/exercisesMDOF.pdf)
   - pset12e01
   - pset12e02
 
 
 ### 13 Final project
 
-- [Final project - Rigid body](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/13FinalProject/projectRigid.ipynb) [ipynb]
+- [Final project - Rigid body](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/13FinalProject/projectRigid.ipynb) [![Final project - Rigid body](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/13FinalProject/projectRigid.ipynb)
 
 
 
