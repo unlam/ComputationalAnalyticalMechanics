@@ -1,4 +1,4 @@
-<!-- LTeX: language=en-GB -->
+<!-- LTeX: language=en-US -->
 
 # Computational Analytical Mechanics
 
@@ -24,7 +24,7 @@ Access to the material: [https://unlam.github.io/ComputationalAnalyticalMechanic
 
 ## Course Overview
 
-This undergraduate course introduces analytical mechanics through computational methods, designed for engineering students with little to no programming background. Students learn to model mechanical devices as rigid bodies and solve Euler-Lagrange equations to analyse dynamics and strains.
+This undergraduate course introduces analytical mechanics through computational methods, designed for engineering students with little to no programming background. Students learn to model mechanical devices as rigid bodies and solve Euler-Lagrange equations to analyze dynamics and strains.
 
 
 ### Learning Materials
