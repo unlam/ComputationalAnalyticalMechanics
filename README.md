@@ -49,7 +49,7 @@ The course material was designed for a [**flipped classroom**](https://en.wikipe
 ### Technical Features
 
 - **No installation required** - Cloud-based notebook execution
-- **Open source** - Even the problem sets [$\LaTeX$](https://www.latex-project.org/) sources are provided
+- **Open source** - Even the problem sets [LaTeX](https://www.latex-project.org/) sources are provided
 - **Requirements**
 Notebooks in this repository explicitly import the following Python libraries when required:
   - [SymPy](https://www.sympy.org/en/index.html) 1.14.0
