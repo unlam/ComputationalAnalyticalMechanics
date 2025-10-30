@@ -36,8 +36,8 @@ New topics are presented at one or more **[Jupyter notebooks](https://jupyter.or
 - **[Python](https://www.python.org/)**-based computational tools
 - Worked examples illustrating the code that performs all required analytical and numerical calculations
 
-A per-topic **PDF problem set** is also provided. 
-Each of its exercises can be solved by making incremental modifications to the code of the provided examples.
+For each topic a PDF is presented containing a **problem set**.
+Its exercises can be solved by making incremental modifications to the code of the provided examples.
 Thus, the focus of the student effort is shifted from solving complex mathematical expressions by hand towards physics modeling and result interpretation.
 
 
