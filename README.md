@@ -37,7 +37,8 @@ New topics are presented at one or more **[Jupyter notebooks](https://jupyter.or
 - Worked examples illustrating the code that performs all required analytical and numerical calculations
 
 A per-topic **PDF problem set** is also provided. 
-Each of its excercises can be solved by making incremental modifications to the code of the provided examples allowing to shift the focus of student effort from solving complex mathematical expressions by hand towards physics modeling and result interpretation.
+Each of its exercises can be solved by making incremental modifications to the code of the provided examples.
+Thus, the focus of the student effort is shifted from solving complex mathematical expressions by hand towards physics modeling and result interpretation.
 
 
 ### Teaching Approach
