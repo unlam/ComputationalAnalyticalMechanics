@@ -96,7 +96,7 @@ Some of them are covered through more than one week, so a further descriptor, _F
 | Week | Area                 | Folder             | Topics |
 |:-----|:--------------------:|:------------------:|:-------|
 | 01   | Newtonian mechanics  | 01Vector           | Course methodology. Vector calculus using SymPy. |  
-| 02   | Analytical mechanics | 02Energy           | Degrees of freedom. Generalized coordinates. Kinetic and potential energies. |
+| 02   | Analytical mechanics | 02Energy           | Generalized coordinates. Kinetic and potential energies. |
 | 03   | "                    | 03EulerLagrange    | Euler-Lagrange equations. |
 | 04   | "                    | 04Constraints      | Constraints as functions of coordinates. |
 | 05   | Numerical            | 05Simulation       | Numerical resolution of Euler-Lagrange equations. |
