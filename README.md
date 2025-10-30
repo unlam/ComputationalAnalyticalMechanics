@@ -24,7 +24,9 @@ Access to the material: [https://unlam.github.io/ComputationalAnalyticalMechanic
 
 ## Course Overview
 
-This undergraduate course introduces analytical mechanics through computational methods, designed for engineering students with little to no programming background. Students learn to model mechanical devices as rigid bodies and solve Euler-Lagrange equations to analyze dynamics and strains.
+This undergraduate course introduces analytical mechanics through computational methods.
+It has been designed for engineering students with little to no programming background.
+Students learn to model mechanical devices as rigid bodies, and through the use of the Euler-Lagrange equations, analyze their dynamics and strains.
 
 
 ### Learning Materials
@@ -32,11 +34,10 @@ This undergraduate course introduces analytical mechanics through computational 
 New topics are presented at one or more **[Jupyter notebooks](https://jupyter.org/)** that combine:
 - Physics theory and concepts
 - **[Python](https://www.python.org/)**-based computational tools
-- Worked examples illustrating the code to address new topics
+- Worked examples illustrating the code that performs all required analytical and numerical calculations
 
-A per-topic **PDF problem set** challenges students to apply their knowledge, and build their own solution library, by making incremental modifications to provided code examples, focusing on:
-- Physics modelling and result interpretation
-- Computer-based analytical and numerical calculations
+A per-topic **PDF problem set** is also provided. 
+Each of its excercises can be solved by making incremental modifications to the code of the provided examples allowing to shift the focus of student effort from solving complex mathematical expressions by hand towards physics modeling and result interpretation.
 
 
 ### Teaching Approach
@@ -108,7 +109,7 @@ Some of them are covered through more than one week, so a further descriptor, _F
 | 13   | "                    | 12OscillationsMDOF | Forced oscillations in multiple degrees of freedom systems. |
 | 14   | "                    | "                  | " |
 | 15   | Evaluation           | 13FinalProject     | **Project live presentation** |
-| 16   | "                    | (none)             | **2.nd presentation chance** |
+| 16   | "                    | "                  | **2.nd presentation chance** |
 
 
 <!---
