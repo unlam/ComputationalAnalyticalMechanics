@@ -122,23 +122,22 @@ https://img.shields.io/badge/Google%20Colab-000000?logo=googlecolab&logoColor=ff
 
 ### 01 Vector kinematics
 
-- [Introduction to this course](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/thisCourse.ipynb)
-[![Introduction to this course](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/thisCourse.ipynb)
+- [This course subject matter](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/reference/academical/subjectMatter.ipynb)
+[![Introduction to this course](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/reference/academical/subjectMatter.ipynb)
 - [Vector kinematics](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/vectorKinematics.ipynb)
 [![Vector kinematis](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/vectorKinematics.ipynb)
-- [First problem set (pset01) - Vector kinematics](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/exercisesVector.pdf) | Exercises to turn-in:
-  - pset01e01 one hour after being presented. 
+- [First problem set (pset01) - Vector kinematics](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/exercisesVector.pdf)
+[![First problem set (pset01) - Vector kinematics](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/01Vector/exercisesVector.pdf)
+  - Exercise pset01e01 should be turned-in in one hour.
   - pset01e02 at next week meeting beginning.
-  - Those of pset02 at end of next meeting (should be started during the week). 
-- References
-  - [Introduction to Python](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/IntroPython.ipynb) [![Introduction to Python](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/IntroPython.ipynb)
-  - [Markdown and LaTeX](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/MarkdownLaTeX.ipynb) [![Markdown and LaTeX](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/MarkdownLaTeX.ipynb)
+  - Those of pset02 at end of next meeting (begin during the week). 
 
 
 ### 02 Kinetic energy and gravitational potential energy
 - [Kinetic energy](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/kineticEnergy.ipynb) [![Kinetic energy](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/kineticEnergy.ipynb)
 - [Gravitational potential energy: pendulum with pivot free to slide horizontally](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/gravitationalPotentialEnergy.ipynb) [![Gravitational potential energy: pendulum with pivot free to slide horizontally](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/gravitationalPotentialEnergy.ipynb)
 - [Problem set - Energy](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/02Energy/exercisesEnergy.pdf)
+[![Problem set - Energy](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/02Energy/exercisesEnergy.pdf)
   - pset02e02
   - pset02e03
   - pset02e04
@@ -148,6 +147,7 @@ https://img.shields.io/badge/Google%20Colab-000000?logo=googlecolab&logoColor=ff
 - [Euler-Lagrange equation - Pendulums](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/eulerLagrangePendulums.ipynb) [![Euler-Lagrange equation - Pendulums](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/eulerLagrangePendulums.ipynb)
 - [Euler-Lagrange template](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/euler_lagrange_base.ipynb) [![Euler-Lagrange template](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/euler_lagrange_base.ipynb)
 - [Problem set - Euler-Lagrange](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/exercisesEulerLagrange.pdf)
+[![Problem set - Euler-Lagrange](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/03EulerLagrange/exercisesEulerLagrange.pdf)
   - pset03e01c
   - pset03e02
   - pset03e03
@@ -296,6 +296,19 @@ The following books are cited as complementary material on the indicated subject
 - Douglas Cline, [_Variational Principles in Classical Mechanics_](http://classicalmechanics.lib.rochester.edu/) (University of Rocherster River Campus Libraries, 2021)
 - John Robert Taylor, _Classical Mechanics_ (University Science Books, 2005)
 - Stephen T. Thornton y Jerry B. Marion, _Classical Dynamics of Particles and Systems_ (Cengage Learning, 5th edition, 2003)
+
+
+<!--
+## Reference
+### Academical
+- [Course subject]()
+
+### Computer
+- [Introduction to Python](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/IntroPython.ipynb) [![Introduction to Python](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/IntroPython.ipynb)
+- [Markdown and LaTeX](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/MarkdownLaTeX.ipynb) [![Markdown and LaTeX](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/MarkdownLaTeX.ipynb)
+
+-->
+
 
 
 <!-- ## Environment -->
