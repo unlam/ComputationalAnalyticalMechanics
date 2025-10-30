@@ -109,8 +109,8 @@ Some of them are covered through more than one week, so a further descriptor, _F
 | 12OscillationsSDOF | Oscillations         | Forced oscillations in single degree of freedom systems. |
 | 13OscillationsMDOF | "                    | Forced oscillations in multiple degrees of freedom systems. |
 | 14 (continues 13)  | "                    | " |
-| 15FinalProject     | Evaluation           | **Project live presentation** |
-| 16 (continues 15)  | "                    | **2.nd presentation chance** |
+| 15FinalProject     | Evaluation           | **Final project defense** |
+| 16 (continues 15)  | "                    | **2.nd defense chance** |
 
 
 <!---
