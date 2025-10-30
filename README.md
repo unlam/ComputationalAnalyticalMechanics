@@ -94,7 +94,7 @@ Course topics are divided by areas.
 Some of them are covered through more than one week, so a further descriptor, _Folder_, indicates where to find each week's material.
 
 | Weekly folder      | Area                 | Topics |
-|:------------------:|:--------------------:|:-------|
+|:-------------------|:--------------------:|:-------|
 | 01Vector           | Newtonian mechanics  | Course methodology. Vector calculus using SymPy. |  
 | 02Energy           | Analytical mechanics | Generalized coordinates. Kinetic and potential energies. |
 | 03EulerLagrange    | "                    | Euler-Lagrange equations. |
