@@ -93,24 +93,24 @@ Doubts and questions are addressed at the meetings.
 Course topics are divided by areas.
 Some of them are covered through more than one week, so a further descriptor, _Folder_, indicates where to find each week's material.
 
-| Week | Area                 | Folder             | Topics |
-|:-----|:--------------------:|:------------------:|:-------|
-| 01   | Newtonian mechanics  | 01Vector           | Course methodology. Vector calculus using SymPy. |  
-| 02   | Analytical mechanics | 02Energy           | Generalized coordinates. Kinetic and potential energies. |
-| 03   | "                    | 03EulerLagrange    | Euler-Lagrange equations. |
-| 04   | "                    | 04Constraints      | Constraints as functions of coordinates. |
-| 05   | Numerical            | 05Simulation       | Numerical resolution of Euler-Lagrange equations. |
-| 06   | Forces               | 06ForcesConstraint | Constraint reactions by Lagrange multipliers. |
-| 07   | "                    | 07Nonconservative  | Nonconservative forces in the Euler-Lagrange formalism. |
-| 08   | Rigid body           | 08InertiaTensor    | Inertia tensor of point masses systems. Steiner theorem. |
-| 09   | "                    | 09DistributedMass  | Inertia tensor of masses distributions. |
-| 10   | "                    | 10EulerRotation    | Euler equations for the rigid body. |
-| 11   | "                    | "                  | **Final project: statement of the problem** |
-| 12   | Oscillations         | 11OscillationsSDOF | Forced oscillations in single degree of freedom systems. |
-| 13   | "                    | 12OscillationsMDOF | Forced oscillations in multiple degrees of freedom systems. |
-| 14   | "                    | "                  | " |
-| 15   | Evaluation           | 13FinalProject     | **Project live presentation** |
-| 16   | "                    | "                  | **2.nd presentation chance** |
+| Weekly folder      | Area                 | Topics |
+|:------------------:|:--------------------:|:-------|
+| 01Vector           | Newtonian mechanics  | Course methodology. Vector calculus using SymPy. |  
+| 02Energy           | Analytical mechanics | Generalized coordinates. Kinetic and potential energies. |
+| 03EulerLagrange    | "                    | Euler-Lagrange equations. |
+| 04Constraints      | "                    | Constraints as functions of coordinates. |
+| 05Simulation       | Numerical            | Numerical resolution of Euler-Lagrange equations. |
+| 06ConstraintForces | Forces               | Constraint reactions by Lagrange multipliers. |
+| 07Nonconservative  | "                    | Nonconservative forces in the Euler-Lagrange formalism. |
+| 08InertiaTensor    | Rigid body           | Inertia tensor of point masses systems. Steiner theorem. |
+| 09DistributedMass  | "                    | Inertia tensor of masses distributions. |
+| 10EulerRotation    | "                    | Euler equations for the rigid body. |
+| 11 (continues 10)  | "                    | **Final project: statement of the problem** |
+| 12OscillationsSDOF | Oscillations         | Forced oscillations in single degree of freedom systems. |
+| 13OscillationsMDOF | "                    | Forced oscillations in multiple degrees of freedom systems. |
+| 14 (continues 13)  | "                    | " |
+| 15FinalProject     | Evaluation           | **Project live presentation** |
+| 16 (continues 15)  | "                    | **2.nd presentation chance** |
 
 
 <!---
