@@ -1,3 +1,4 @@
+% LTeX: language=en-GB
 \documentclass[12pt, english, a4paper]{article}
 
 \usepackage[english]{babel}
@@ -143,14 +144,14 @@ For the case of the Cartesian system
 \end{equation}
 
 But if we analyze only one force, nothing prevents orienting an axis with it and the work can be written as \(W= \int F_x \dd x\).
-Thus in differential form an infinitesimal work can be expressed as \(\dd w= F_x \dd x\), which will only be \emph{integrable} if \(F_x\) is the same when traversing the same \(x\).
+Thus, in differential form an infinitesimal work can be expressed as \(\dd w= F_x \dd x\), which will only be \emph{integrable} if \(F_x\) is the same when traversing the same \(x\).
 A classic counterexample is that of the force that brakes a locked wheel of an automobile.
 The sign of the friction force changes to oppose the displacement.
 
 In this one-dimensional case a closed trajectory forces us to traverse the same points in one direction and another, but in the general case it is clear that the work depends on the trajectory and not on its initial and final points.
 And since usually the forces involved \(\vec{F}= \vec{F}(x,y,z)\) present values that make \(W \neq 0 \) in a closed trajectory (same initial and final point) it becomes clear that the infinitesimal work is not a true differential whose integral depends only on the limits of integration, and is essentially a \emph{non-integrable} quantity.
 
-Thus work is expressed as an infinitesimal quantity that is a first-order differential form, but not integrable\footnote{The notation of writing a bar over a non-integrable differential quantity is used.}, 
+Thus, work is expressed as an infinitesimal quantity that is a first-order differential form, but not integrable\footnote{The notation of writing a bar over a non-integrable differential quantity is used.}, 
 \begin{equation}\label{Lanczos17.2}
 	\overline{\dd w}= \displaystyle\sum_{i=1}^{N} F_{xi} \dd x_i+ F_{yi} \dd y_i+ F_{zi} \dd z_i,
 	\tag{Lanczos 17.2}
@@ -192,7 +193,7 @@ With these we must be able to write relations \(f_{3P}\) that allow us to recove
 
 In practice, the number of \(q_i\) that are used is usually less than \(3P\) when considering the conditions that limit the dynamics.
 For example, if a system of two particles, \(P = 2\), is limited to move in a plane, we have two fewer \emph{degrees of freedom}, so we need only a number of generalized coordinates \(n= 3 \times 2 - 2\).
-Thus the number of degrees of freedom of a system is 
+Thus, the number of degrees of freedom of a system is 
 \begin{equation}
 	n = 3 P - K,
 \end{equation}
@@ -233,7 +234,7 @@ Forces of this class present two notable characteristics:
 	\item although they have \(n\) components, they are calculated from a \emph{single scalar function} \(U\).
 \end{enumerate}
 
-The definition of the work function as only dependent on the generalized coordinates is too restrictive, since we well know cases of forces derivable from work functions in which time \(t\) appears explicitly \(U= U(q_1, q_2, \ldots, q_n,t)\).
+The definition of the work function as only dependent on the generalized coordinates is too restrictive, since in well-know cases of forces derivable from work functions in which time \(t\) appears explicitly \(U= U(q_1, q_2, \ldots, q_n,t)\).
 In such cases, energy conservation is lost, but equations \eqref{Lanczos17.8} remain valid.
 An example of this case is that of a particle with electric charge in a \emph{cyclotron} that after each cycle returns to the same starting point but with greater kinetic energy.
 Clearly, the Lorentz forces\footnote{\(\va{F}= q (\va{E}+ \va{v}\times \va{B})\)} involved can be obtained from work functions\footnote{\(\va{B}= \curl{\va{A}}\) and \(\va{E}= -\grad \varphi - \pdv{\va{A}}{t}\), where \(\va{A}\) is the so-called vector potential and \(\varphi\) the electric potential.}, but in the particular case of the \emph{cyclotron} the electric field varies in time, and therefore does not result in a conservative force.
