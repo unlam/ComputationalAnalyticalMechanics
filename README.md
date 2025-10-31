@@ -2,7 +2,9 @@
 
 # Computational Analytical Mechanics
 Here it is published all teaching material used in the [course on this subject](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510) for the [mechanical engineering degree](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) at the Universidad Nacional de La Matanza.
-A [Spanish version](https://github.com/unlam/MecanicaAnaliticaComputacional) is also available.
+
+Una versión en castellano de este repositorio, [Mecánica Analítica Computacional](https://github.com/unlam/MecanicaAnaliticaComputacional), se encuentra disponible.
+
 
 <!-- Remove for github pages -->
 [![DIIT-UNLaM](figuresLaTeX/ingenieria_logo_schwarz.png)](https://ingenieria.unlam.edu.ar/)
