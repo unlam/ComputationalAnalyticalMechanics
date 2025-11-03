@@ -101,23 +101,25 @@
 
 
 	\item 
-	\begin{minipage}[t][7cm]{0.65\textwidth}
+	\begin{minipage}[t][5.5cm]{0.65\textwidth}
 		\textbf{Constant Angular Acceleration}
 		The 15-pound cylinder rotates around axis AB with \(\vec{\omega} = -\SI{4}{\per\second} \hat{x}\) (radians per second).
 		Bearing \(A\) does not support force in the \(x\) direction, which is handled by bearing \(B\).
 		The shaft that extends from the support at point \(C\), starting from rest, is subjected to an acceleration \(\vec{\alpha}_C = \dot{\vec{\omega}} = \SI{12}{\per\second\squared} \hat{Z}\) (radians per second squared), where \(\hat{Z}\) includes \(\overline{AC}\) and is parallel to \(\hat{z}\).
 		The coordinate system has its origin at \(G\), the center of mass of the cylinder.
-		\begin{tasks}
-			\task Convert the data in imperial units (feet, pounds) to International System units.
-			\task Determine the reactions that the bearings must provide.\\
-%			Result: \(
-%			\left[\begin{matrix}A_{y}\\A_{z}\\B_{x}\\B_{y}\\B_{z}\end{matrix}\right] = \left[\begin{matrix}-5.79\\21.1 t + 33.4\\0\\5.79\\33.4 - 21.1 t\end{matrix}\right]
-%			\)
-		\end{tasks}
+
+		\textbf{Help:} Do not forget that in G a ``centrifugal'' acceleration is perceived, \(\vec{a}_{c} = \dfrac{|\alpha_c|}{d_{AG}} \hat{x}\), when expressing Newton's second law equations. It will be up to the bearing at B to provide a reaction in \(\hat{x}\) to exert the centripetal force that keeps the cylinder on its circular path.
 	\end{minipage}
 	\begin{minipage}[c][2cm][t]{0.3\textwidth}
 		\includegraphics[width=\textwidth]{figures/hibbEng_21-58}
 	\end{minipage}
+	\begin{tasks}
+		\task Convert the data in imperial units (feet, pounds) to International System units.
+		\task Determine the reactions that the bearings must provide.\\
+		Result: \(
+		\left[\begin{matrix}A_{y}\\A_{z}\\B_{x}\\B_{y}\\B_{z}\end{matrix}\right] = \left[\begin{matrix}-17.4\\33.4\\134.0\\17.4\\33.4\end{matrix}\right]
+		\)
+	\end{tasks}
 
 
 	\item 
