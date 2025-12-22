@@ -48,11 +48,11 @@ Access to the material: [https://unlam.github.io/ComputationalAnalyticalMechanic
 
 ## About the Course
 
-- It introduces analytical mechanics through computational methods in the time frame of a four-month term.
-- Designed for undergrad engineering students with little to no programming background.
+- Introduces analytical mechanics using computational methods within a one-semester schedule..
+- Aimed to undergraduate engineering students without any programming experience.
 - Mechanical devices as modelled as rigid bodies.
-- Device's dynamics and strains differential equations are derived using the Euler-Lagrange formalism.
-- All analytical and numerical calculations are computationally performed.
+- System dynamics and stress analysis are derived using Euler-Lagrange equations.
+- All analytical derivations and numerical solutions are computationally implemented.
 
 
 ### Learning Materials
