@@ -1,9 +1,9 @@
 <!-- LTeX: language=en-US -->
 
 # Computational Analytical Mechanics
-Here it is published all teaching material used in the [course on this subject](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510) for the [mechanical engineering degree](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) at the Universidad Nacional de La Matanza.
+This repository hosts all the teaching materials for the [introductory course to Analytical Mechanics](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510) of the [Mechanical Engineering degree](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) at the Universidad Nacional de La Matanza.
 
-Una versión en castellano de este repositorio, [Mecánica Analítica Computacional](https://github.com/unlam/MecanicaAnaliticaComputacional), se encuentra disponible.
+Una versión en castellano de este repositorio, [Mecánica Analítica Computacional](https://github.com/unlam/MecanicaAnaliticaComputacional), también está disponible.
 
 
 <!-- Remove for github pages -->
@@ -23,22 +23,47 @@ Una versión en castellano de este repositorio, [Mecánica Analítica Computacio
 Access to the material: [https://unlam.github.io/ComputationalAnalyticalMechanics/](https://unlam.github.io/ComputationalAnalyticalMechanics/)
 --->
 
-## Course Overview
+## Table of Contents
+- [Abount the Course](#about-the-course)
+  - [Learning Materials](#learning-materials)
+  - [Teaching Approach](#teaching-approach)
+  - [Technical Features](#technical-features)
+  - [Get in touch](#get-in-touch)
+- [Weekly Schedule](#weekly-schedule)
+  - [01 Vector kinematics](#01-vector-kinematics)
+  - [02 Kinetic energy and gravitational potential energy](#02-kinetic-energy-and-gravitational-potential-energy)
+  - [03 Euler-Lagrange equation](#03-euler-lagrange-equation)
+  - [04 Constraints](#04-constraints)
+  - [05 Numerical simulations](#05-numerical-simulations)
+  - [06 Constraint reactions](#06-constraint-reactions)
+  - [07 Nonconservative forces](#07-nonconservative-forces)
+  - [08 The inertia tensor](#08-the-inertia-tensor)
+  - [09 Distributed mass](#09-distributed-mass)
+  - [10 Euler equations for the rotation of rigid bodies](#10-euler-equations-for-the-rotation-of-rigid-bodies)
+  - [12 Oscillations of single degree of freedom systems](#12-oscillations-of-single-degree-of-freedom-systems)
+  - [13 Oscillations in multiple degrees of freedom systems](#13-oscillations-in-multiple-degrees-of-freedom-systems)
+  - [15 Final project](#15-final-project)
+- [Bibliography](#bibliography)
 
-This undergraduate course introduces analytical mechanics through computational methods.
-It has been designed for engineering students with little to no programming background.
-Students learn to model mechanical devices as rigid bodies, and through the use of the Euler-Lagrange equations, analyze their dynamics and strains.
+
+## About the Course
+
+- It introduces analytical mechanics through computational methods in the time frame of a four-month term.
+- Designed for undergrad engineering students with little to no programming background.
+- Mechanical devices as modelled as rigid bodies.
+- Device's dynamics and strains differential equations are derived using the Euler-Lagrange formalism.
+- All analytical and numerical calculations are computationally performed.
 
 
 ### Learning Materials
 
-New topics are presented at one or more **[Jupyter notebooks](https://jupyter.org/)** that combine:
+Weekly topics are presented at one or more **[Jupyter notebooks](https://jupyter.org/)** that combine:
 - Physics theory and concepts
 - **[Python](https://www.python.org/)**-based computational tools
-- Worked examples illustrating the code that performs all required analytical and numerical calculations
+- Worked examples illustrating the code that performs all required calculations
 
 For each topic a PDF is presented containing a **problem set**.
-Its exercises can be solved by making incremental modifications to the code of the provided examples.
+Its exercises can be solved by making incremental modifications to the worked examples code.
 Thus, the focus of the student effort is shifted from solving complex mathematical expressions by hand towards physics modeling and result interpretation.
 
 
@@ -49,7 +74,7 @@ The course material was designed for a [**flipped classroom**](https://en.wikipe
 - Address questions and doubts with teaching staff at these meetings
 - Finish their own problem-solving by these meetings end
 
-### Technical Features
+### Technology
 
 - **No installation required** - Cloud-based notebook execution
 - **Open source** - Even the problem sets [LaTeX](https://www.latex-project.org/) sources are provided
@@ -80,12 +105,12 @@ It was designed to be used in a flipped classroom format, where students study t
 -->
 
 
-## Get in touch
-If you have a question regarding this course, feel free to [open an issue](https://github.com/unlam/ComputationalAnalyticalMechanics/issues) on its GitHub repository.
+### Get in touch
+If you have a question regarding this course, feel free to [open an issue](https://github.com/unlam/ComputationalAnalyticalMechanics/issues).
 We welcome community feedback and suggestions!  
 
 
-## Schedule
+## Weekly Schedule
 <!--
 In this flipped classroom course, a problem set has to be turned in by the students at the end of synchronous weekly meeting.
 In between, students are expected to study the material and try to solve the exercises.
@@ -96,8 +121,8 @@ Some of them are covered through more than one week, so a further descriptor, _F
 
 | Weekly folder      | Area                 | Topics |
 |:-------------------|:--------------------:|:-------|
-| 01Vector           | Newtonian mechanics  | Course methodology. Vector calculus using SymPy. |  
-| 02Energy           | Analytical mechanics | Generalized coordinates. Kinetic and potential energies. |
+| 01Vector           | Newtonian Mechanics  | Course methodology. Vector calculus using SymPy. |  
+| 02Energy           | Analytical Mechanics | Generalized coordinates. Kinetic and potential energies. |
 | 03EulerLagrange    | "                    | Euler-Lagrange equations. |
 | 04Constraints      | "                    | Constraints as functions of coordinates. |
 | 05Simulation       | Numerical            | Numerical resolution of Euler-Lagrange equations. |
