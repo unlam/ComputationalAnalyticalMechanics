@@ -323,7 +323,7 @@ The following books are as complementary material.
 ### Analytical mechanics
 
 - Cornelius Lanczos, _The Variational Principles of Mechanics_ (University of Toronto press, 1952).
-  - [A course note](reference/notes/notesLanczos.pdf) summarises its main relevant subjects.
+  - [A course note](reference/notes/notesLanczos.pdf) summarises the main relevant subjects.
 - Douglas Cline, [_Variational Principles in Classical Mechanics_](http://classicalmechanics.lib.rochester.edu/) (University of Rocherster River Campus Libraries, 2021)
 - John Robert Taylor, _Classical Mechanics_ (University Science Books, 2005)
 - Stephen T. Thornton y Jerry B. Marion, _Classical Dynamics of Particles and Systems_ (Cengage Learning, 5th edition, 2003)
