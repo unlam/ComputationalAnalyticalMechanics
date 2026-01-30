@@ -24,7 +24,7 @@ Access to the material: [https://unlam.github.io/ComputationalAnalyticalMechanic
 --->
 
 ## Table of Contents
-- [Abount the Course](#about-the-course)
+- [About the Course](#about-the-course)
   - [Learning Materials](#learning-materials)
   - [Teaching Approach](#teaching-approach)
   - [Technical Features](#technical-features)
@@ -72,7 +72,10 @@ Thus, the focus of the student effort is shifted from solving complex mathematic
 
 ### Teaching Approach
 
-The course material was designed for a [**flipped classroom**](https://en.wikipedia.org/wiki/Flipped_classroom) model where students:
+[Course methodology](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/reference/academical/methodology.ipynb)
+[![Course methodology](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/reference/academical/methodology.ipynb)
+
+Course materials were designed for a [**flipped classroom**](https://en.wikipedia.org/wiki/Flipped_classroom) model where students:
 - Study materials and attempt exercises before weekly synchronous meetings
 - Address questions and doubts with teaching staff at these meetings
 - Finish their own problem-solving by these meetings end
