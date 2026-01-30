@@ -9,7 +9,7 @@ Una versión en castellano de este repositorio, [Mecánica Analítica Computacio
 <!-- Remove for github pages -->
 [![DIIT-UNLaM](reference/figuresLaTeX/ingenieria_logo_schwarz.png)](https://ingenieria.unlam.edu.ar/)
 [![CC BY-NC-SA](/reference/figuresLaTeX//Cc-by-nc-sa_icon.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
- 2025 Víctor A. Bettachini
+ 2026 Víctor A. Bettachini
 <!-- Uncomment for github pages -->
 <!-- [<image src="assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/) -->
 <!-- Remove for github pages -->
@@ -177,8 +177,8 @@ https://img.shields.io/badge/Google%20Colab-000000?logo=googlecolab&logoColor=ff
 ### 03 Euler-Lagrange equation
 - [Euler-Lagrange equation - Pendulums](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/eulerLagrangePendulums.ipynb) [![Euler-Lagrange equation - Pendulums](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/eulerLagrangePendulums.ipynb)
   - [The Closest We’ve Come to a Theory of Everything](https://youtu.be/Q10_srZ-pbs)  ![youtube](reference/figuresLaTeX/youtube.svg)
-  - [Esentials from Lanczos' _The Variational Principles of Mechanics_](/reference/notes/notesLanczos.pdf)
-  [![Esentials from Lanczos'_The Variational Principles of Mechanics_](/reference/figuresLaTeX/PDF.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/reference/notes/notesLanczos.pdf)
+  - [Essentials from Lanczos' _The Variational Principles of Mechanics_](/reference/notes/notesLanczos.pdf)
+  [![Essentials from Lanczos'_The Variational Principles of Mechanics_](/reference/figuresLaTeX/PDF.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/reference/notes/notesLanczos.pdf)
 - [Problem set - Euler-Lagrange](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/exercisesEulerLagrange.pdf)
 [![Problem set - Euler-Lagrange](/reference/figuresLaTeX/PDF.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/03EulerLagrange/exercisesEulerLagrange.pdf)
   - [Euler-Lagrange template](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/euler_lagrange_base.ipynb) [![Euler-Lagrange template](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/03EulerLagrange/euler_lagrange_base.ipynb)
@@ -195,18 +195,20 @@ https://img.shields.io/badge/Google%20Colab-000000?logo=googlecolab&logoColor=ff
 - [Atwood machine with constraint](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/atwoodConstraint.ipynb) [![Atwood machine with constraint](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/atwoodConstraint.ipynb)
 - [Solving systems of differential equations](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/solvingLinearSystems.ipynb) [![Solving systems of differential equations](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/solvingLinearSystems.ipynb)
 - [Problem set - Constraints](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/04Constraints/exercisesConstraints.pdf) 
+[![Problem set - Constraints](/reference/figuresLaTeX/PDF.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/04Constraints/exercisesConstraints.pdf)
   - pset04e02
   - pset04e03
   - pset04e04
 
 
-### 05 Numerical simulations
+### 05 Numerical simulation
 
 To visualize the dynamics of the systems that we have modelled so far, the Euler-Lagrange equations are now solved numerically.
 
 - [Atwood machine](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/atwoodSimulationSolved.ipynb) [![Atwood machine](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/atwoodSimulationSolved.ipynb)
 - [Pendulum with pivot free to slide horizontally](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/pendulumFreeSimulSolved.ipynb) [![Pendulum with pivot free to slide horizontally](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/pendulumFreeSimulSolved.ipynb)
 - [Problem set - Simulation](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/05Simulation/exercisesSimulation.pdf) 
+[![Problem set - Simulation](/reference/figuresLaTeX/PDF.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/05Simulation/exercisesSimulation.pdf)
   - pset05e02a
   - pset05e02c
   - pset05e03
@@ -223,7 +225,8 @@ The determination of the dynamics of each part in a device is important, but it'
 - [Constraint reactions - Ideal physical pendulum](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/constraintIdealPendulum.ipynb) [![Constraint reactions - Ideal physical pendulum](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/constraintIdealPendulum.ipynb)
 - [Constraint reactions - Rolling](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/rollingForcesConstraint.ipynb) [![Constraint reactions - Rolling](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/rollingForcesConstraint.ipynb)
 - [Constraint reactions - Nonholonomic systems](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/nonHolonomicSystems.ipynb) [![Constraint reactions - Nonholonomic systems](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/nonHolonomicSystems.ipynb)
-- [Constraint reactions problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/exercisesConstraintForces.pdf) 
+- [Problem set - Constraint reactions](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/06ForcesConstraint/exercisesConstraintForces.pdf) 
+[![Problem set - Constraint reactions](/reference/figuresLaTeX/PDF.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/06ForcesConstraint/exercisesConstraintForces.pdf)
   - pset06e03
   - pset06e04
   - pset06e05
@@ -232,7 +235,8 @@ The determination of the dynamics of each part in a device is important, but it'
 ### 07 Nonconservative forces
 
 - [Nonconservative forces and Euler-Lagrange](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/nonconservative.ipynb) [![Nonconservative forces and Euler-Lagrange](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/nonconservative.ipynb)
-- [Nonconservative forces problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/exercisesNonconservative.pdf) 
+- [Problem set - Nonconservative forces](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/exercisesNonconservative.pdf) 
+[![Problem set - Nonconservative forces](/reference/figuresLaTeX/PDF.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/07Nonconservative/exercisesNonconservative.pdf)
   - [Linked cylinders - Help](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/linkedCylinders_Help.ipynb) [![Linked cylinders - Help](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/07Nonconservative/linkedCylinders_Help.ipynb)
   - pset07e02
   - pset07e03
@@ -248,7 +252,8 @@ The relation is more complex than a simple scalar quantity like mass, it is the 
 - [Angular momentum and torque](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/angular_momentum_torque.ipynb) [![Angular momentum and torque](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/angular_momentum_torque.ipynb)
 - [Inertia Tensor](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/inertiaTensor.ipynb) [![Inertia Tensor](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/inertiaTensor.ipynb)
 - [Carbon Monoxide](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/carbonMonoxide_inertiaTensor.ipynb) [![Carbon Monoxide](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/carbonMonoxide_inertiaTensor.ipynb)
-- [Problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/exercisesInertiaTensor.pdf) 
+- [Problem set - Inertia tensor](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/08InertiaTensor/exercisesInertiaTensor.pdf) 
+[![Problem set - Inertia tensor](/reference/figuresLaTeX/PDF.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/08InertiaTensor/exercisesInertiaTensor.pdf)
   - pset08e02
   - pset08e04
   - pset08e05
@@ -260,7 +265,8 @@ The relation is more complex than a simple scalar quantity like mass, it is the 
 
 - [Distributed mass](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/distributedMass.ipynb) [![Distributed mass](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/distributedMass.ipynb)
 - [Inertia tensor of a cube](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/inertiaTensorcube.ipynb) [![Inertia tensor of a cube](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/inertiaTensorcube.ipynb)
-- [Distributed mass problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/exercisesDistributedMass.pdf)
+- [Problem set - Distributed mass](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/09DistributedMass/exercisesDistributedMass.pdf)
+[![Problem set - Distributed mass](/reference/figuresLaTeX/PDF.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/09DistributedMass/exercisesDistributedMass.pdf)
   - pset09e01
   - pset09e02
   - pset09e03
@@ -274,7 +280,8 @@ Now that you know how to write the inertia tensor of a rigid body, it's time to 
 - [Euler equations](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/rotationEuler.ipynb) [![Euler equations](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/rotationEuler.ipynb)
 - [Misaligned gear](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/misalignedGear.ipynb) [![Misaligned gear](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/misalignedGear.ipynb)
 - [Flywheel](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/flywheel.ipynb) [![Flywheel](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/flywheel.ipynb)
-- [Euler equations for the rotation problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/exercisesEulerRotation.pdf) 
+- [Problem set - Euler equations for the rotation](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/10EulerRotation/exercisesEulerRotation.pdf) 
+[![Problem set - Euler equations for the rotation](/reference/figuresLaTeX/PDF.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/10EulerRotation/exercisesEulerRotation.pdf)
   - pset10e02
   - pset10e03
   - pset10e05
@@ -282,20 +289,22 @@ Now that you know how to write the inertia tensor of a rigid body, it's time to 
 
 ### 12 Oscillations of single degree of freedom systems
 
-  - [Damped oscillations of a single degree of freedom system (SDOF)](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/oscillationsSDOF.ipynb) [![Damped oscillations of a single degree of freedom system (SDOF)](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/oscillationsSDOF.ipynb)
-  - [Single degree of freedom system harmonically forced](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/harmonicSDOF.ipynb) [![Single degree of freedom system harmonically forced](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/harmonicSDOF.ipynb)
-  - [Single degree of freedom system with arbitrary force](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/arbitrarySDOF.ipynb) [![Single degree of freedom system with arbitrary force](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/arbitrarySDOF.ipynb)
-  - [Oscillations SDOF problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/exercisesSDOF.pdf)
-    - pset12e01
-    - pset12e02
-    - pset12e03
-    - pset12e04
+- [Damped oscillations of a single degree of freedom system (SDoF)](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/oscillationsSDOF.ipynb) [![Damped oscillations of a single degree of freedom system (SDOF)](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/oscillationsSDOF.ipynb)
+- [Single degree of freedom system harmonically forced](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/harmonicSDOF.ipynb) [![Single degree of freedom system harmonically forced](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/harmonicSDOF.ipynb)
+- [Single degree of freedom system with arbitrary force](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/arbitrarySDOF.ipynb) [![Single degree of freedom system with arbitrary force](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/arbitrarySDOF.ipynb)
+- [Problem set - Oscillations SDoF](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/11OscillationsSDOF/exercisesSDOF.pdf)
+[![Problem set - Oscillations SDoF](/reference/figuresLaTeX/PDF.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/11OscillationsSDOF/exercisesSDOF.pdf)
+  - pset12e01
+  - pset12e02
+  - pset12e03
+  - pset12e04
 
 
 ### 13 Oscillations in multiple degrees of freedom systems
 
 - [Discrete system with multiple degrees of freedom](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsMDOF/oscillationsMDOF.ipynb) [![Discrete system with multiple degrees of freedom](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsMDOF/oscillationsMDOF.ipynb)
-- [Oscillations MDOF problem set](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsMDOF/exercisesMDOF.pdf)
+- [Problem set - Oscillations MDoF](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/12OscillationsMDOF/exercisesMDOF.pdf)
+[![Problem set - Oscillations MDoF](/reference/figuresLaTeX/PDF.svg)](https://github.com/unlam/ComputationalAnalyticalMechanics/raw/refs/heads/main/12OscillationsMDOF/exercisesMDOF.pdf)
   - pset13e01
   - pset13e02
 
