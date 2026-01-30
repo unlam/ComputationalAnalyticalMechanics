@@ -48,7 +48,10 @@ Access to the material: [https://unlam.github.io/ComputationalAnalyticalMechanic
 
 ## About the Course
 
-- Introduces analytical mechanics using computational methods within a one-semester schedule..
+[This course subject matter](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/reference/academical/subjectMatter.ipynb)
+[![Introduction to this course](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/reference/academical/subjectMatter.ipynb)
+
+- Introduces analytical mechanics using computational methods within a one-semester schedule.
 - Aimed to undergraduate engineering students without any programming experience.
 - Mechanical devices as modelled as rigid bodies.
 - System dynamics and stress analysis are derived using Euler-Lagrange equations.
@@ -149,8 +152,6 @@ https://img.shields.io/badge/Google%20Colab-000000?logo=googlecolab&logoColor=ff
 
 ### 01 Vector kinematics
 
-- [This course subject matter](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/reference/academical/subjectMatter.ipynb)
-[![Introduction to this course](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/reference/academical/subjectMatter.ipynb)
 - [Vector kinematics](https://www.github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/vectorKinematics.ipynb)
 [![Vector kinematis](/reference/figuresLaTeX/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/vectorKinematics.ipynb)
 - [First problem set (pset01) - Vector kinematics](https://github.com/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/exercisesVector.pdf)
