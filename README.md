@@ -40,9 +40,12 @@ Access to the material: [https://unlam.github.io/ComputationalAnalyticalMechanic
   - [08 The inertia tensor](#08-the-inertia-tensor)
   - [09 Distributed mass](#09-distributed-mass)
   - [10 Euler equations for the rotation of rigid bodies](#10-euler-equations-for-the-rotation-of-rigid-bodies)
+  - 11 (continues 10)
   - [12 Oscillations of single degree of freedom systems](#12-oscillations-of-single-degree-of-freedom-systems)
   - [13 Oscillations in multiple degrees of freedom systems](#13-oscillations-in-multiple-degrees-of-freedom-systems)
+  - 14 (continues 13)
   - [15 Final project](#15-final-project)
+  - 16 Final project - 2.nd defense chance
 - [Bibliography](#bibliography)
 
 
