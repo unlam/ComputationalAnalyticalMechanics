@@ -1,0 +1,72 @@
+\begin{tikzpicture}
+
+	% Ring
+	\def \ringRadius {1.0};
+	\def \extra {0.8};
+	\coordinate (ringCentre) at (0,0);
+	\draw [ultra thin] (ringCentre) circle (\ringRadius);	
+	\draw [ultra thin] (ringCentre) circle ({\ringRadius - 0.1});	
+	\filldraw (ringCentre) circle (1 mm);
+	% arc below the Ring
+	\def \angle {60};
+	\draw [ultra thick] (ringCentre) ++(0:\ringRadius) arc (0:-\angle:\ringRadius);
+	% angle dimensions
+	\draw [dashed, rotate around={-\angle:(ringCentre)}] {(ringCentre) + (0.2,0)} -- ({\ringRadius + \extra },0);
+	\draw [Latex-Latex] (ringCentre) ++(0:{\ringRadius + \extra / 2}) arc (0:-\angle:{\ringRadius + \extra / 2 }) node [midway, right] {\(\theta\)};
+	\node [above left] at (\ringRadius/2,0) {};
+	
+	% knot
+	\shade [ball color=black!80] ($(ringCentre) +({- \angle}:\ringRadius)$) circle(0.25) node [] {\color{white} $m_1$};
+
+	% draw the pulley
+	\def \pulleyRadius {1.5};
+	\def \pulleyAltitude {2.5};
+	\coordinate (pulleyCentre) at ({\ringRadius + \pulleyRadius}, \pulleyAltitude);
+	\fill [inner color = white, outer color = gray!25] (pulleyCentre) circle (\pulleyRadius);	
+	\filldraw (pulleyCentre) circle (1 mm);
+	
+	% rope to ring
+	\draw [ultra thick] ($(ringCentre) + (\ringRadius,0)$) -- ($(pulleyCentre) - (\pulleyRadius,0)$) node [above left] {\(\ell\)};
+	
+	% arc above the pulley
+	\draw [ultra thick] (pulleyCentre) ++(0:\pulleyRadius) arc (0:180:\pulleyRadius);
+	\node [above] at ($ (pulleyCentre) + (\pulleyRadius/2,0)$) {};
+	
+	% height pulley dimension lines
+	\draw [dashed] {(ringCentre) + (0.2,0)} -- ({\ringRadius + 2 * \pulleyRadius + 2* \extra},0);
+	% \draw [dashed] {(pulleyCentre) + (0.2,0)} -- ($ (pulleyCentre) + (\pulleyRadius,0)$) ;
+	\draw [dashed] {(pulleyCentre) + (0.2,0)} -- ($ (pulleyCentre) + (\pulleyRadius + 2 * \extra,0)$) ;
+	\draw [Latex-Latex] ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra,0)$) -- ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude})$) node [midway, right] {\(h_{p}\)};
+	
+	% ceiling
+	\def \ceilingAbove {2.0};
+	\draw [line width = 1 mm] ($(pulleyCentre) + (0,\ceilingAbove)$) -- (pulleyCentre);
+	\draw [ultra thick] ($(pulleyCentre) + ({- \pulleyRadius},\ceilingAbove)$)  -- ($(pulleyCentre) + (\pulleyRadius,\ceilingAbove)$);
+	\fill [pattern = north east lines] ($(pulleyCentre) + ({- \pulleyRadius},\ceilingAbove)$)  rectangle ($(pulleyCentre) + (\pulleyRadius, {\ceilingAbove + 0.2 })$);
+
+	% weight at rope's end
+	\def \weightAltitude {-1.5};
+	\def \weightHeight {.5};
+	\def \weightWidth {0.5};
+	\coordinate (weightCentre) at ({\ringRadius + 2* \pulleyRadius}, \weightAltitude);
+	
+	% rope to weight
+	\draw [ultra thick] ({\ringRadius + 2* \pulleyRadius}, \pulleyAltitude) --(weightCentre);
+	
+	% weight dimension lines
+	\draw [dashed] (weightCentre) -- ({\ringRadius + 2 * \pulleyRadius + 2* \extra}, \weightAltitude);
+	\draw [Latex-Latex] ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude})$) --  ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude + \weightAltitude})$) node [midway, right] {\(y_{2}\)};
+
+	% weight 
+	\shade [ball color=black!80] (weightCentre) circle (\weightHeight) node {\color{white} $m_{2}$};
+
+
+	% floor
+	\def \floorAltitude {-2.0};
+	\draw [ultra thick] (-\ringRadius,\floorAltitude) -- (\ringRadius,\floorAltitude);
+	\fill [pattern = north east lines] (- \ringRadius,{\floorAltitude-0.2}) rectangle (\ringRadius,\floorAltitude);
+	% base of the ring
+	\draw [line width = 1 mm] (0,\floorAltitude) -- (ringCentre);
+
+
+\end{tikzpicture}

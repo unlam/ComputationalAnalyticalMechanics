@@ -1,0 +1,100 @@
+\documentclass[11pt, a4paper, twoside]{article}
+
+\input{../figuresLaTeX/introUNLaM}
+
+
+\begin{document}
+\begin{center}
+  \textsc{\large Simulation | Numerical solutions for the Euler-Lagrange equation}
+\end{center}
+
+\noindent
+In the following exercises, you will solve numerically the Euler-Lagrange equation for each generalized coordinate. Plotting these solutions, using the given initial conditions and within the given time ranges, you will be simulating the dynamics of these systems.\\
+Use \(|\vec{g}| = \SI{9.81}{\metre\per\second\squared}\) for the magnitude of the acceleration due to gravity.\\
+Exercises marked with (*) have extra difficulty, don't hesitate to ask for help.
+
+
+\begin{enumerate}
+
+
+\item 
+\begin{minipage}[t][2.5cm]{0.7\textwidth}
+\textbf{Atwood machine}\\
+Time from \(t = \SI{0}{\second}\) to \(t = \SI{10}{\second}\).
+Parameters and initial conditions:\\
+\(\ell_\mathrm{rope} > \SI{150}{\metre}\), 
+\(R = \SI{0.5}{\metre}\), \\ 
+\(m_1 = \SI{8}{\kilo\gram}\), 
+\(m_2 = \SI{1}{\kilo\gram}\), 
+\(m_p = \SI{4}{\kilo\gram}\), \\
+\(x_1(t=0) = \SI{25}{\metre}\), 
+\(\dot{x}_1(t=0) = -\SI{10}{\metre\per\second}\).
+\end{minipage}
+\begin{minipage}[c][2cm][t]{0.3\textwidth}
+	%\hspace{0.5cm}
+	%\includegraphics[width=0.6\textwidth]{marion_fig2_1a}
+	\input{figures/atwood.tikz}
+\end{minipage}
+
+\item
+	a) \textbf{Ideal pendulum} [Marion ex. 7.2] \\
+	b) \textbf{Pendulum with free support} [Landau \S5 ex. 2]\\ 
+	c) \textbf{Double pendulum} [Landau \S5 ex. 1] 
+\begin{tasks}(3)
+	\task \input{figures/pendulum.tikz}
+	\task \includegraphics[height=0.24\textwidth]{figures/landauS52_fig2}
+	\task \includegraphics[height=0.24\textwidth]{figures/landauS52_fig1}
+\end{tasks}
+Time from \(t = \SI{0}{\second}\) to \(t = \SI{10}{\second}\). Parameters and initial conditions:
+\begin{enumerate}
+	\item \(m = \SI{3}{\kilo\gram}\), 
+				\(\ell = \SI{2}{\metre}\), 
+				\(\varphi (t=0) = \frac{\pi}{4}\), \(\dot{\varphi} (t=0) = 0\).
+	\item \(m_1 = \SI{3}{\kilo\gram}\), \(m_2 = \SI{1}{\kilo\gram}\),   
+				\(\ell = \SI{2}{\metre}\), 
+				\(x(t=0) = \SI{1}{\metre}\), \(\dot{x} (t=0) = \SI{0.5}{\metre\per\second} \),
+				\(\phi (t=0) = \frac{\pi}{8}\), \(\dot{\phi} (t=0) = 0\).
+	\item \(m_1 = \SI{3}{\kilo\gram}\), \(m_2 = \SI{1}{\kilo\gram}\),
+				\(\ell_1 = \SI{1}{\metre}\), \(\ell_2 = \SI{1}{\metre}\),\\ 
+				\(\phi_1 (t=0) = \frac{\pi}{8}\), \(\dot{\phi}_1 (t=0) = 0\), 
+				\(\phi_2 (t=0) = \frac{\pi}{4}\), \(\dot{\phi}_2 (t=0) = -\frac{\pi}{16} \si{\per\second}\).
+\end{enumerate}
+
+
+\item 
+	\begin{minipage}[t][2cm]{0.7\textwidth}
+	\textbf{Pendulum of linked beads moving on rigid thin wires}\\
+	Time from \(t = \SI{0}{\second}\) to \(t = \SI{10}{\second}\). Parameters and initial conditions:\\
+	\(m_1 = m_2 = m = \SI{2}{\kilo\gram}\), \(l = \SI{2}{\metre}\), \(\theta(t=0) = \frac{\pi}{4}\), \(\dot{\theta}(t=0) = 0\).
+	\end{minipage}
+	\begin{minipage}[c][2cm][t]{0.3\textwidth}
+		\hspace{0.5cm}
+				\input{figures/slidingWeights.tikz}
+  	%  \includegraphics[width=0.6\textwidth]{figures/fcen1-004}
+	\end{minipage}
+
+	\newpage
+
+\item
+\begin{minipage}[t][2cm]{0.65\textwidth}
+(*) \textbf{Compound Atwood machine} [Marion ex. 7.8]\\
+	Time from \(t = \SI{0}{\second}\) to \(t = \SI{5}{\second}\). Parameters and initial conditions:\\
+\(\ell_\text{top} = \SI{15}{\metre}\), 
+\(R_{\text{top pulley}} = \SI{0.5}{\metre}\), 
+\(\ell_\text{bottom} = \SI{15}{\metre}\), 
+\(R_{\text{bottom pulley}} = \SI{0.5}{\metre}\),\\ 
+\(m_1 = \SI{1}{\kilo\gram}\),
+\(m_2 = \SI{2}{\kilo\gram}\),
+\(m_3 = \SI{3}{\kilo\gram}\),
+\(M_{\text{top pulley}} = \SI{4}{\kilo\gram}\),
+\(M_{\text{bottom pulley}} = \SI{4}{\kilo\gram}\),\\
+\(y(t=0) = \SI{1}{\metre}\), \(\dot{y}_1(t=0) = 0\),
+\(y_2(t=0) = \SI{2}{\metre}\), \(\dot{y}_2(t=0) = 0\)
+\end{minipage}
+\begin{minipage}[c][3cm][t]{0.3\textwidth}
+		\input{figures/compoundAtwood.tikz}
+	% \includegraphics[width=\textwidth]{figures/marion_fig7_6}
+\end{minipage}
+
+\end{enumerate}
+\end{document}

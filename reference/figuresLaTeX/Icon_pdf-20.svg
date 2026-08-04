@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="Calque_1"
+   x="0px"
+   y="0px"
+   width="29.196947"
+   height="20"
+   viewBox="0 0 29.196947 20.000001"
+   enable-background="new 0 0 453.543 310.96"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" />
+<g
+   id="red_square"
+   transform="matrix(0.07611161,0,0,0.07611161,-2.6614708,-1.8338331)">
+	<path
+   fill="#ed1c24"
+   d="m 34.968,261.354 c 0,14.09 11.422,25.512 25.512,25.512 h 332.583 c 14.09,0 25.512,-11.422 25.512,-25.512 V 49.606 c 0,-14.09 -11.422,-25.512 -25.512,-25.512 H 60.48 c -14.09,0 -25.512,11.422 -25.512,25.512 z"
+   id="path1" />
+</g>
+<text
+   id="pdf"
+   transform="scale(0.98463188,1.015608)"
+   fill="#ffffff"
+   font-family="'\\\\\\'DejaVu Sans'"
+   font-weight="bold"
+   font-size="11.9907px"
+   x="3.7566254"
+   y="14.630596"
+   style="stroke-width:0.0749419">PDF</text>
+</svg>

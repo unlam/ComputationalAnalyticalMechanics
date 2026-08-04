@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" width="413" height="413" viewBox="0 0 413 413" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+	<style type="text/css">
+		path, line{
+			fill: none;
+			stroke: #000;
+			stroke-width: 10;
+			stroke-miterlimit: 10;
+		}
+		text{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 82px;
+		}
+	</style>
+	<line x1="197.37" y1="102.56" x2="197.37" y2="176.12"/>
+	<line x1="302.57" y1="282.81" x2="234.42" y2="243.13"/>
+	<polygon points="168.49,256.76 176.39,262.21 144.51,324.32 124.08,310.97"/>
+	<clipPath id="clip">
+		<polygon points="80.63,251.72 155.15,231.84 159.27,241.32 90.02,274.19"/>
+	</clipPath>
+	<path clip-path="url(#clip)" d="M98,283l-15-40M113,229l15,40M145,218l15,40"/>
+	<text x="166.76" y="251.94">C</text>
+	<text x="12.56" y="308.61">H</text>
+	<text x="75.22" y="390.89">H</text>
+	<text x="308.48" y="335.31">CI</text>
+	<text x="165.17" y="86.76">CI</text>
+</svg>

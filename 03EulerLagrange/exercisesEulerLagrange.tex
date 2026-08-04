@@ -1,0 +1,95 @@
+\documentclass[11pt, a4paper, twoside]{article}
+
+\input{../figuresLaTeX/introUNLaM}
+
+
+
+\begin{document}
+\begin{center}
+  \textsc{\large Euler-Lagrange equation}
+\end{center}
+
+\noindent
+Exercises marked with (*) have extra difficulty, don't hesitate to ask for help.
+
+\begin{enumerate} 
+
+\item
+\textbf{Ideal physical pendulum} [Marion ex. 7.2] \\ 
+\textbf{Pendulum with free point of support and double pendulum} [Landau \S5 exs. 1 y 2]\\
+Apply the Euler-Lagrange equation to obtain the equations that describe the dynamics of the following systems:
+\begin{tasks}(3)
+	\task \input{figures/pendulum.tikz}
+	\task \includegraphics[height=0.23\textwidth]{figures/landauS52_fig2}
+	\task \includegraphics[height=0.23\textwidth]{figures/landauS52_fig1}
+\end{tasks}
+Result 1c:\\
+\(
+\ell_{1} \left(\ell_{1} m_{1} \ddot{\varphi}_{1} + \ell_{1} m_{2} \ddot{\varphi}_{1} + \ell_{2} m_{2} \sin{\left(\varphi_{1} - \varphi_{2} \right)} \dot{\varphi}_{2}^{2} + \ell_{2} m_{2} \cos{\left(\varphi_{1} - \varphi_{2} \right)} \ddot{\varphi}_{2} + g m_{1} \sin{\left(\varphi_{1} \right)} + g m_{2} \sin{\left(\varphi_{1} \right)}\right) = 0\\
+\ell_{2} m_{2} \left(\ell_{1} \sin{\left(\varphi_{1} - \varphi_{2} \right)} \dot{\varphi}_{1}^{2} - \ell_{1} \cos{\left(\varphi_{1} - \varphi_{2} \right)} \ddot{\varphi}_{1} - \ell_{2} \ddot{\varphi}_{2} - g \sin{\left(\varphi_{2} \right)}\right) = 0
+\)
+
+
+\item
+	\begin{minipage}[t][4.5cm]{0.7\textwidth}
+		\textbf{Mobile inclined plane}\\
+		A block of mass \(m_1\) is initially at rest on an inclined plane \(\theta\) of mass \(M\), without friction between the two bodies.
+		The former can slide over the horizontal surface, also without friction.
+		Let's call \(c\) the coordinate for the inclined plane, directed as shown in the figure, and \(d\) the coordinate for the block on top.
+		\begin{enumerate}
+			\item Write the Euler-Lagrange equation for \(c\) and for \(d\).\\ 
+			Result:
+	\(
+		M \ddot{c} - m \cos{\left(\theta \right)} \ddot{d} + m_1 \ddot{c} = 0
+		\qquad
+		m_1 \left(g \sin{\left(\theta \right)} + \cos{\left(\theta \right)} \ddot{c} - \ddot{d }\right) = 0
+	\)
+		\end{enumerate}
+	\end{minipage}
+	\begin{minipage}[c][0cm][t]{0.3\textwidth}
+		\input{figures/mobileSlide.tikz}
+	\end{minipage}
+	You should notice that you couldn't provide an answer to a question such as ``If the block is realeased, what is the inclined plane's acceleration?'' because this is a coupled differential equations system.
+	You will learn how to solve this system using \verb'SymPy' in the next class.
+
+
+\item
+	\begin{minipage}[t][4.5cm]{0.7\textwidth}
+		\textbf{Pendulum motion on an inclined plane}\\
+		A support of mass \(m_1\) slides on an inclined plane with angle \(\theta\), without friction.
+		A pendulum of length \(\ell\) and mass \(m\) hangs from the support making an angle \(\varphi\) with respect to the vertical direction.
+		The support protrudes to one side allowing the pendulum to move freely without interference from the inclined plane.
+		\begin{enumerate}
+			\item Find the dynamic equations for this system.\\
+			Result:
+			\(
+				\ell m \left(\ell \ddot{\varphi} + g \sin{\left(\varphi \right)} + \cos{\left(\theta + \varphi \right)} \ddot{d}\right) = 0 \\
+				\ell m \sin{\left(\theta + \varphi \right)} \dot{\varphi}^{2} - \ell m \cos{\left(\theta + \varphi \right)} \ddot{\varphi} + g m \sin{\left(\theta \right)} + g m_{1} \sin{\left(\theta \right)} - m \ddot{d} - m_{1} \ddot{d} = 0
+			\)
+		\end{enumerate}
+	\end{minipage}
+	\begin{minipage}[c][0cm][t]{0.3\textwidth}
+		\input{figures/mobilePendulum.tikz}
+	\end{minipage}
+	
+
+
+\item
+	\begin{minipage}[t][3.9cm]{0.75\textwidth}
+		\textbf{Spring coiled around a T-shaped arm}\\
+		The T-shaped device shown in the figure is connected by a rod of length \(\ell\) to a pivot point.
+		The T spins over an horizontal plane with constant angular speed \(\omega\).
+		A particle of mass \(m\) much larger than that of the T (so that the mass of the T can be neglected) can slide freely over the perpendicular arm on the T, attached to the end of a spring of constant \(k\) and zero natural length, that is connected to the joint of the T-arm.
+	\end{minipage}
+	\begin{minipage}[c][1cm][t]{0.3\textwidth}
+		\input{figures/coil.tikz}
+	\end{minipage}
+	\begin{enumerate}
+		\item Find a dynamic equation in terms of \(d\), the distance between the particle and the joint.\\
+		Result: \(- \omega^{2} m d + k d + m \ddot{d} = 0\)
+		\item (*) There exists a ``special value'' for \(\omega\). What is this value and how it relates to \(d(t)\)?
+	\end{enumerate}
+
+
+\end{enumerate}
+\end{document}

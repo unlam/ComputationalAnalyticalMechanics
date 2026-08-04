@@ -1,0 +1,17 @@
+\begin{tikzpicture}[scale= 1.0]
+  \draw [ultra thick] (-3,0) -- (3,0);
+  % \draw [ultra thick] (-3,0) -- (3,0);
+  \fill [pattern = north east lines] (-3,0) rectangle (3,-0.2); % piso
+  \draw [ultra thick] (-2,0) .. controls (-2,2*0.555) and (-2*0.555,2) .. (0,2) .. controls (2*0.555,2) and (2,2*0.555) .. (2,0); % semi esfera
+  % \filldraw (0,2.2) circle (0.2); % masa superior
+  % \fill (2*0.5+.12,1.732+.18) circle [radius=0.25] node [midway, text=white] { \( m \) };
+  % \filldraw (2*0.5+.12,1.732+.18) circle (0.2) node [above, right=5] {\(m\)}; % masa a la derecha
+  \shade [ball color=black!80] (2*0.5+.12,1.732+.18) circle(0.2) node [] {\color{white} $m$};
+  % \draw (2,2) circle [radius=0.3, color=white, fill=black] node {$T_1$};
+  \draw [dashed] (0,0) -- (0,2.5); % linea vertical
+  \draw [-Latex] (0,0) -- (1,1.732) node [midway, anchor=west] {\(R\)}; % linea hacia la derecha
+  \draw [-Latex] (0,1) arc (90:60:1) node [above left] {\(\theta\)}; % arco c/ flecha comenzando en (0,1), de 90 a 60 grados, 1...
+  % \node [circle,draw,label=60:$60^\circ$,label=below:$-90^\circ$] {\(m\)}; 
+  % \node at (-2*0.5+.15,1.732+.15) [circle,draw,fill=black] {\(m\)}; 
+  \draw [-Latex, thick] (-2.5,2) -> (-2.5,1) node [above=15, right=2] {\(\vec{g}\)}; % g vertical
+\end{tikzpicture}

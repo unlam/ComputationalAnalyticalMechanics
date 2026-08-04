@@ -1,0 +1,54 @@
+\documentclass[11pt, english, a4paper, twopage]{article}
+\input{../figuresLaTeX/introUNLaM}
+\begin{document}
+\begin{center}
+ \textsc{\large Vibrations | Single degree of freedom}
+\end{center}
+\begin{enumerate}
+\item
+\begin{minipage}[t][4cm]{0.65\textwidth}
+ \textbf{Constrained pendulum}
+ The system shown in the figure consists of a mass $m$ and a rigid bar of length $l$, whose mass is neglected.
+ The system is constrained by two springs with stiffness coefficients $k_1$ and $k_2$.
+ Obtain the dynamics equation assuming small oscillations and the natural frequency of oscillation of the system.
+\end{minipage}
+\begin{minipage}[c][3cm][t]{0.3\textwidth}
+ \includegraphics[width=\textwidth]{figures/shabana_fig_P1_1.png}
+\end{minipage}
+\item
+\begin{minipage}[t][6cm]{0.65\textwidth}
+ \textbf{Audi TT Coupé}
+ The figure shows the location of the shock absorbers of an \emph{Audi TT Coupé}.
+ The \href{https://media.audiusa.com/assets/documents/original/8253-FINAL2021TTTechSpecs.pdf}{specifications of this machine} indicate that with one passenger and 90\% fuel load it has a weight of \SI{1450}{\kilo\gram}.
+ Use the quarter car model, in which it is assumed that each shock absorber supports one quarter of the weight.
+ Further simplify this model by eliminating the tire, both its mass and its ability to operate as a shock absorber, to assign this latter task solely to the suspension.
+ Since driving in the overdamped regime is uncomfortable, as after a pothole a violent rebound can occur, you must adjust the suspension accordingly.
+ From a \href{https://journals.sagepub.com/doi/pdf/10.1177/1687814016648638}{paper in \emph{Advances in Mechanical Engineering}} we take a standard value of $k_s = \SI{12500}{\newton\per\metre}$ for the shock absorber.
+\end{minipage}
+\begin{minipage}[c][0cm][t]{0.3\textwidth}
+ \includegraphics[width=\textwidth]{figures/amortiguadores_AudiCoupeTT}
+\end{minipage}
+\item
+ \begin{minipage}[t][3.5cm]{0.75\textwidth}
+ \textbf{Unbalanced motor}
+ A \SI{15}{\kilo\gram} electric motor has an unbalanced load of \SI{20}{\gram} at \SI{125}{\milli\metre} from its axis.
+ It is bolted to a support that limits its movement to the vertical direction.
+ To mitigate its vibration it is damped by four springs of \SI{40}{\kilo\newton\per\metre}, and an oil damper with a coefficient linearly proportional to velocity adjusted so that $c = 0.4 C_c$ ($C_c$, critical damping coefficient).
+ Obtain an approximate range of motor operating frequencies where the vibration is less than \SI{0.2}{\milli\metre}.
+\end{minipage}
+\begin{minipage}[c][2cm][t]{0.2\textwidth}
+ \includegraphics[width=\textwidth]{figures/beer_fig_P19_144}
+\end{minipage}
+\item
+\begin{minipage}[t][3.5cm]{0.75\textwidth}
+ \textbf{Cam}
+ Cams are characterized by displacement maps, which \emph{map} the function of their radius to a linear displacement of the follower.
+ The figure shows how a heart-shaped cam allows the displacement of the latter to increase and decrease linearly from a peak.
+ Assume that at the peak the displacement is \SI{5}{\centi\metre} and at the minimum it is zero, and that a motor makes the cam rotate at $6\,\mathrm{rpm}$.
+ Assuming that this system is used to force the system from the example given in class, plot the displacement of $m$ in steady state as a function of time during four rotations of the cam.
+\end{minipage}
+\begin{minipage}[c][2cm][t]{0.2\textwidth}
+ \includegraphics[width=\textwidth]{figures/nok_wikkelmachine}
+\end{minipage}
+\end{enumerate}
+\end{document}

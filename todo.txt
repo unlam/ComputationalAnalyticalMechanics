@@ -1,0 +1,23 @@
+
+TODO:
+- Check the notes for Readme below.
+  - Added link to 06 nonHolonomicSystems.ipynb | ok
+  - Commented out 97 nonConservativesExamples.ipynb | file not found...
+  - Commented out 08 ex3RotationArm.ipynb and ex5Cube.ipynb (examples) | files not found...
+  - Added link to 08 carbonMonoxide_inertiaTensor.ipynb | ok
+  - Added link to 09 distributedMass.ipynb and inertiaTensorcube.ipynb | ok
+- Test everything (ipynb) runs in Colab.
+  - 01Vector | done
+  - 02Energy | done
+  - 03EulerLagrange | done
+  - 04Constraints | done
+  - 05Simulation | done
+  - 06ForcesConstraint | done
+  - 07Nonconservative | done 
+  - 08InertiaTensor | done
+  - 09DistributedMass | done
+  - 10EulerRotation | done (except for flywheel.ipynb)
+  - 11OscillationsSDOF | done
+  - 12OscillationsMDOF | done
+- Include NonInertial when ready.
+  - Edit tensorInercia.ipynb accordingly

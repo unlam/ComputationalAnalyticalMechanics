@@ -1,0 +1,64 @@
+\documentclass[11pt, english, a4paper, twopage]{article}
+\input{../figuresLaTeX/introUNLaM}
+\begin{document}
+\begin{center}
+ \textsc{\large Oscillations in discrete systems | Multiple degrees of freedom}
+\end{center}
+\begin{enumerate}
+\item
+\begin{minipage}[t][4cm]{0.65\textwidth}
+ \textbf{Multiple carts}
+ In the system shown in the figure \(l = \SI{0.5}{\metre}\), \(k_1 = k_2 = k = \SI{2E3}{\newton\per\metre}\) and \(m_1 = m_2 = m_3 = m = \SI{1}{\kilo\gram}\).
+ Assuming small oscillations around zero of the indicated coordinates:
+ \begin{tasks}
+ \task obtain the Euler-Lagrange equations,
+ \task write them in matrix form (matrices M, K), and
+ \task obtain the natural oscillation frequencies of the system.
+ \end{tasks}
+\end{minipage}
+\begin{minipage}[c][0cm][t]{0.3\textwidth}
+ \includegraphics[width=\textwidth]{figures/shabana_fig_P3_6.png}
+\end{minipage}
+\item
+\begin{minipage}[t][2.5cm]{0.65\textwidth}
+ \textbf{Compound torsional pendulum}
+ The system in the figure consists of a shaft that passes through three disks having moments of inertia \(I_1, I_2\) and \(I_3\) all of equal magnitude \SI{1E3}{\kilo\gram\metre\squared}.
+ The steel shaft has a diameter \(d = \SI{0.01}{\metre}\) and its sections have lengths of \(l_1 = l_2 = l_3 = \SI{0.5}{\metre}\).
+\end{minipage}
+\begin{minipage}[c][1cm][t]{0.3\textwidth}
+ \includegraphics[width=\textwidth]{figures/shabana_fig_P3_5.png}
+\end{minipage}
+Let us recall that for an angular coordinate \(\theta\) the Euler-Lagrange equation is
+\[
+ \Gamma \dot{\theta} + \kappa \theta + I \ddot{\theta} = \tau,
+\]
+where \(\Gamma\) is the torsional friction, \(I\) the moment of inertia, \(\tau\) the applied torque.
+$\kappa$ is the \href{https://en.wikipedia.org/wiki/Torsion_spring#Torsion_coefficient}{torsional stiffness or torsion coefficient} that responds to the restoring torque exerted by the piece when twisted through a unit angle, $\tau_\text{restoring} = - \kappa \theta$ and its magnitude is determined by
+\[
+ \kappa = \frac{G J}{l},
+\]
+where \(l\) is the length of the piece, \(G\) the \href{https://en.wikipedia.org/wiki/Shear_modulus}{shear modulus} specific to each material, and \(J\) is the \href{https://en.wikipedia.org/wiki/Torsion_constant}{torsion constant} of the cross-sectional geometry transverse to the direction of $\vec{\tau}$.
+For a circular section \(J\) is equal to the second moment of area, or \href{https://en.wikipedia.org/wiki/Second_moment_of_area}{polar moment of inertia}
+\[
+ J_{zz} = J_{xx} + J_{yy} = \frac{\pi r^4}{2} = \frac{\pi d^4}{32}.
+\]
+According to the document \href{https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=101021}{Mechanical Properties of Structural Steels} published by the U.S. National Institute of Standards and Technology, for the structural steel of the \href{https://en.wikipedia.org/wiki/World_Trade_Center_(1973%E2%80%932001)}{towers 1 and 2 of the World Trade Center in New York that disappeared in 2001},
+\[
+ \begin{aligned}
+ G &= g_0 + g_1 T + g_2 T^2 + g_3 T^3 + g_4 T^4 + g_5 T^5\\
+ g_0 &= \SI{80.005922}{\giga\pascal}\\
+ g_1 &= \SI{-0.018303811}{\giga\pascal\per\celsius}\\
+ g_2 &= \SI{-1.5650288E-5}{\giga\pascal\per\celsius\tothe{2}}\\
+ g_3 &= \SI{-1.5160921E-8}{\giga\pascal\per\celsius\tothe{3}}\\
+ g_4 &= \SI{-1.6242911E-11}{\giga\pascal\per\celsius\tothe{4}}\\
+ g_5 &= \SI{7.7277543E-15}{\giga\pascal\per\celsius\tothe{5}}
+ \end{aligned}
+\]
+Disregarding rotational friction \(\Gamma\):
+\begin{tasks}
+ \task obtain the Euler-Lagrange equations,
+ \task write them in matrix form (matrices M, K), and
+ \task obtain the natural oscillation frequencies of the system.
+\end{tasks}
+\end{enumerate}
+\end{document}

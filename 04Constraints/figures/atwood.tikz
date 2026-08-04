@@ -1,0 +1,48 @@
+\begin{tikzpicture}
+	
+	% pulley at 0,0
+	\def \pulleyRadius {1.0};
+	\coordinate (pulleyCentre) at (0,0);
+	\fill [inner color = white, outer color = gray!25, thin] (pulleyCentre) circle (\pulleyRadius) node [below = 2mm] {\(m_p\)};
+	\filldraw (pulleyCentre) circle (1 mm);
+
+	% dashed lines from 0.1 at each side of the circle
+	\def \deltax {1.0};
+	\draw [dashed] (0.2,0) -- ({\pulleyRadius + \deltax},0);
+	\draw [dashed] (-0.2,0) -- ({-\pulleyRadius - \deltax},0);
+	\node at ({\pulleyRadius / 2}, 0) [above] {\(R\)};
+
+	% weight m_1
+	\def \boxwidth {\pulleyRadius/ 2.5};
+	\def \boxAheight {-1.5};
+	\shade [ball color=black!80] (-\pulleyRadius, \boxAheight) circle (\boxwidth) node {\color{white} $m_1$};
+	
+	% lower pulley
+	\def \lowerPulleyHeight {-2.5};
+	\shade [ball color=black!80] (\pulleyRadius, \lowerPulleyHeight) circle (\boxwidth) node {\color{white} $m_2$};
+	
+	% draw the line connecting the two boxes to the circle
+	\draw [ultra thick] (-\pulleyRadius, \boxAheight + \boxwidth) -- (-\pulleyRadius,0);
+	\draw [ultra thick] ( \pulleyRadius, \lowerPulleyHeight + \boxwidth) -- (\pulleyRadius,0); 
+	\draw [ultra thick] (pulleyCentre) ++(0:\pulleyRadius) arc (0:180:\pulleyRadius);
+
+	% draw dashed lines for y coordinates from horizontal lines to the height of middle of the boxes
+	\def \pendeLeft {-\pulleyRadius - \boxwidth - 0.2};
+	\def \pende {\pulleyRadius + \boxwidth + 0.2};
+	\def \pendePulley {2* \pulleyRadius + 0.2};
+	\draw [-Latex] (\pendeLeft, 0) -- (\pendeLeft, \boxAheight) node [midway, left] {\(y_1\)};
+	\draw [-Latex] ( \pende, 0) -- ( \pende, \lowerPulleyHeight) node [midway, right] {\(y_2\)};
+
+	% pulley angle
+	\def \extra {0.5};
+	\draw [-Latex] (pulleyCentre) ++(110:{\pulleyRadius + \extra / 2}) arc (110 : 160 : {\pulleyRadius + \extra / 2 }) node [midway, above] {\(\theta\)};
+
+
+	% ceiling
+	\def \ceilingAbove {1.5};
+	\draw [line width = 1 mm] ($(pulleyCentre) + (0,\ceilingAbove)$) -- (pulleyCentre);
+	\draw [ultra thick] ($(pulleyCentre) + ({- \pulleyRadius},\ceilingAbove)$)  -- ($(pulleyCentre) + (\pulleyRadius,\ceilingAbove)$);
+	\fill [pattern = north east lines] ($(pulleyCentre) + ({- \pulleyRadius},\ceilingAbove)$)  rectangle ($(pulleyCentre) + (\pulleyRadius, {\ceilingAbove + 0.2 })$);
+
+
+\end{tikzpicture}

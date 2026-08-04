@@ -1,0 +1,22 @@
+\begin{tikzpicture}
+% Define coordinates
+\coordinate (O) at (0,0); % Origin point
+
+% Draw a rod at 40 degrees to the horizontal of length 2
+\begin{scope}[rotate = 40]
+  \draw[very thick] (O) -- (2,0) node[midway, right] {$\ell$};
+  \draw[very thick] (2,2) -- (2,-2);
+	\shade [ball color=black!80] (2, 1.25) circle(0.25) node [] {\color{white} $m$};
+  \draw[decorate, decoration= {coil, amplitude=1.5mm, segment length=1.5 mm}] (2,0) -- (2,1) node[midway,below left] {$k$};
+  % \filldraw[black] (2,1.5) circle (1.5mm) node[above right] {$m$};
+\end{scope}
+
+% Draw pivot point
+\draw[black, fill=white] (O) circle (1.5 mm);
+\filldraw[black] (O) circle (0.5 mm);
+
+% arrow around 0 from angle 60 to 120
+\draw[-Latex] (.5,0.5) arc (60:120:1) node[midway, above]{\(\omega\)};
+
+
+\end{tikzpicture}

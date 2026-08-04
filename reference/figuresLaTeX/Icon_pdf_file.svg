@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="335" height="380" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <path d="m282.65 102.07v254.58h-230.86v-332.66h152.71z" fill="#fff"/>
+ <path d="m43.793 15.982v0.003906h-0.00586v348.66h246.85v-0.0039h0.00586v-265.9l-82.83-82.76h-164.02zm15.996 16.004h138.52l0.00391 0.003906v76.336h76.336v240.32h-214.86v-316.66z"/>
+ <path d="m43.785 137.24-27.748 27.748v126h302.35v-126l-27.744-27.748v27.748h-246.86v-27.748z" fill="#ed1c24"/>
+ <text x="52" y="272" fill="#ffffff" font-family="'DejaVu Sans'" font-size="105px" font-weight="bold">PDF</text>
+</svg>

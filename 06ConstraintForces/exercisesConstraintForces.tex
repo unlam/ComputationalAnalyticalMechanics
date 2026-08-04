@@ -1,0 +1,124 @@
+\documentclass[11pt, a4paper, twoside]{article}
+
+\input{../figuresLaTeX/introUNLaM}
+
+\begin{document}
+\begin{center}
+  \textsc{\large Constraint forces | Lagrange multipliers} 
+\end{center}
+
+\begin{enumerate}
+
+	\item
+	\begin{minipage}[t][1.1cm]{0.75\textwidth}
+		\textbf{Ideal pendulum}\\
+		Calculate the tension in the string using the method of Lagrange multipliers.
+		The constraint is that the bead is always at \(\vec{r} = \ell \hat{\rho}\), ergo, the function expressing this is \(f(\rho) = \rho - \ell = 0\).
+	\end{minipage}
+	\begin{minipage}[c][0cm][t]{0.25\textwidth}
+		\input{figures/pendulum.tikz}
+	\end{minipage}
+
+
+
+	\item 
+	\begin{minipage}[t][4cm]{0.47\textwidth}
+	\textbf{Cylinder rolling over an inclined plane} [Marion ex. 7.5]\\
+		\begin{enumerate}
+			\item Write the equations of motion,
+			\item find the angular acceleration,
+			\item and the constraint forces.
+		\end{enumerate}
+	\end{minipage}
+	\begin{minipage}[c][2.5cm][t]{0.3\textwidth}
+		\includegraphics[width=\textwidth]{figures/marion_fig6_7}
+	\end{minipage}
+
+	
+	\item
+	\begin{minipage}[t][6.5cm]{0.65\textwidth}
+	\textbf{Double Atwood machine} [Marion ex. 7.8 and 7-37]\\
+	Use the method of Lagrange multipliers to find the equations of motion and the tensions in the strings.
+	\begin{enumerate}
+		\item Verify that you obtain the same generalized accelerations as when this is solved without using Lagrange multipliers. Results:\\
+		\(
+			\ddot{y}_{1} = \frac{2 g \left(2 m_{1} m_{2} + 2 m_{1} m_{3} + m_{1} m_{p} - 8 m_{2} m_{3} - 3 m_{2} m_{p} - 3 m_{3} m_{p} - m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\\
+			\ddot{y}_{2} = \frac{2 g \left(4 m_{1} + m_{p}\right) \left(m_{2} - m_{3}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}
+		\)
+		\item Find the tension in both strings.
+		Results:\\
+		\(
+			Q_{1} = \frac{g \left(32 m_{1} m_{2} m_{3} + 8 m_{1} m_{2} m_{p} + 20 m_{1} m_{3} m_{p} + 4 m_{1} m_{p}^{2} + 8 m_{2} m_{3} m_{p} + 2 m_{2} m_{p}^{2} + 4 m_{3} m_{p}^{2} + m_{p}^{3}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 6 m_{2} m_{p} + 14 m_{3} m_{p} + 3 m_{p}^{2}}
+			\)\\
+			\(
+				Q_{2} = \frac{g m_{3} \cdot \left(16 m_{1} m_{2} + 6 m_{1} m_{p} + 4 m_{2} m_{p} - m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 6 m_{2} m_{p} + 14 m_{3} m_{p} + 3 m_{p}^{2}}
+				\)
+	\end{enumerate}
+	\end{minipage}
+	\begin{minipage}[c][0.5cm][t]{0.3\textwidth}
+		\input{figures/compoundAtwood.tikz}
+	\end{minipage}
+
+
+	\item
+	\begin{minipage}[t][6cm]{0.65\textwidth}
+		\textbf{Weights linked by a rope} [Taylor 7.50]\\
+		A particle of mass \(m\) that lies over a table is linked to another particle of mass \(M\) by a rope of length \(l\) that passes through a hole in the table, without friction.
+		The second one is hanging vertically at a distance \(y = \ell - \rho\) from the table, where \(\rho\) is the distance between the first particle and the hole.
+		\begin{enumerate}
+			\item Assuming that \(\theta\) is not necessarily constant, find the Lagrange equations for \(\rho\) and \(y\). Result:\\ \(- M g + M \ddot{y} + \lambda_{1} = 0 \qquad \lambda_{1} - m \rho \dot{\theta}^{2} + m \ddot{\rho} = 0\)
+			\item Solve the system for \(\rho, y\) and the Lagrange multiplier \(\lambda_1\) finding the tensions exerted upon both particles.\\
+			Result: \(Q_{\rho} = \frac{M m \left(g + \rho \dot{\theta}^{2}\right)}{M + m}\)
+		\end{enumerate}
+	\end{minipage}
+	\begin{minipage}[c][0cm][t]{0.3\textwidth}
+		\input{figures/linkedWeights.tikz}
+	\end{minipage}
+
+
+	\item
+	\begin{minipage}[t][4.5cm]{0.62\textwidth}
+		\textbf{Particle slidding over a semi-sphere} [Marion ex. 7.10]\\
+		The particle of mass \(m\), considered as a point particle, slides over a semi-sphere of radius \(R\) without friction.
+		\begin{enumerate}
+			\item Find the constraint force.\\
+			Result: \(F^\mathrm{constraint}_{\rho} = m \left(- R \dot{\theta}^{2} + g \cos{\left(\theta \right)}\right)\)
+			\item Calculate the angle at which the particle leaves the semi-sphere.\\
+			Result: \(\approx 48.19^\circ\) 
+		\end{enumerate}
+	\end{minipage}
+	\begin{minipage}[c][0cm][t]{0.3\textwidth}
+		\input{figures/semiSphere.tikz}
+	\end{minipage}
+	
+	To find the angle at which the particle leaves the semi-sphere, you must solve the differential equation you'll get after working out the rather tough constraint force, which will be $\ddot{\theta} = \frac{g \sin(\theta)}{R}$.
+	This expression can be integrated for the perticle's trajectory.
+	This is easier after applying the chain rule to insert derivatives with respect to \(\theta\).
+	$$
+		\ddot{\theta} 
+		= \frac{d \dot{\theta} }{d t} 
+		= \frac{d \theta}{d t} \frac{d \dot{\theta}}{d \theta} 
+		= \dot{\theta} \frac{d \dot{\theta}}{d \theta}
+	$$
+
+	Since the particle starts at $\theta(t=0) = 0$ with $\dot{\theta}(t=0) = 0$:
+	$$
+	\begin{aligned}
+		\ddot{\theta} = \dot{\theta} \frac{d \dot{\theta}}{d \theta}
+		&= \frac{g}{R} \sin(\theta)\\
+		\dot{\theta} d \dot{\theta}
+		&= \frac{g}{R} \sin(\theta) d \theta \\
+		\int_0^{\dot{\theta}_\mathrm{leaving}} \dot{\theta} d \dot{\theta}
+		&= \frac{g}{R} \int_0^{\theta_\mathrm{leaving}} \sin{\theta} d \theta\\
+		\frac{\dot{\theta}^2}{2} \bigg|_0^{\dot{\theta}_\mathrm{leaving}}
+		&= \frac{g}{R} (-\cos{\theta}) \bigg|_0^{\theta_\mathrm{leaving}}\\
+		\frac{\dot{\theta}_\mathrm{leaving}^2}{2}
+		&= \frac{g}{R} (-\cos(\theta_\mathrm{leaving}) + 1)\\
+	\end{aligned}
+	$$
+	After this, you have to substitute $\dot{\theta}^2$ in an expression for $F^\mathrm{constraint}_{\rho}$, that must vanish at the moment of leaving the semi-sphere.
+
+
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,140 @@
+\documentclass[11pt, english, a4paper, twoside]{article}
+
+\input{../figuresLaTeX/introUNLaM}
+
+\begin{document}
+\begin{center}
+  \textsc{\large Rigid Body | Euler's Equations}
+\end{center}
+
+
+\begin{enumerate}
+
+	\item 
+	\begin{minipage}[t][5cm]{0.55\textwidth}
+		\textbf{Inclined Gear}
+		A gear with a mass of \SI{10}{\kilo\gram} is mounted with an inclination of \ang{10;;} on a shaft of negligible mass.
+		Bearings \(A\) and \(B\) support the shaft which rotates at constant angular velocity.
+		Bearing \(A\) is a thrust bearing, so it provides reaction also in the longitudinal direction of the shaft, while bearing \(B\) only does so in the transverse directions.
+		The moments of inertia of the gear are \(I_z = \SI{.1}{\kilo\gram\metre\squared}\) and \(I_y = \SI{.05}{\kilo\gram\metre\squared}\).
+		\begin{tasks} 
+			\task Determine the reactions that the bearings must provide for the instant when the rotating system presents the arrangement shown.
+		\end{tasks}
+	\end{minipage}
+	\begin{minipage}[c][0.5cm][t]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{figures/hibb_21-4}
+	\end{minipage}
+
+
+	\item 
+	\begin{minipage}[t][4.6cm]{0.55\textwidth}
+		\textbf{Flywheel}
+		The flywheel centered at \(G\) has a mass of \SI{10}{\kilo\gram} and is integral with the shaft of negligible mass that rotates at constant angular velocity \(\omega_s= \SI{6}{\per\second} \) (radians per second) supported by bearings \(A\) and \(B\).
+		The first is a thrust bearing, so it provides reaction also in the longitudinal direction of the shaft, while the second only does so in the transverse directions.
+		A transverse shaft to that of the flywheel supports the mount of bearing \(A\) and also rotates at constant angular velocity \(\omega_p\).
+		\begin{tasks}
+			\task Determine the reactions provided by the bearings.
+		\end{tasks}
+	\end{minipage}
+	\begin{minipage}[c][0.5cm][t]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{figures/hibb_21-6}
+	\end{minipage}
+
+
+	\item
+	\begin{minipage}[t][3cm]{0.75\textwidth}
+		\textbf{Off-axis Rotation}
+		A homogeneous cylinder of mass \(m\), radius \(R\) and height \(H\) rotates at constant angular velocity \(\vec{\omega}\) around an axis that forms an angle of \ang{30;;} with the \(\hat{z}\) and passes through its center of mass.
+		\begin{tasks}
+			\task Calculate the torque that must be applied to the cylinder to maintain such motion.\\
+			Result: \(
+			\vec{\tau} = \left[\begin{matrix}\frac{\sqrt{3} m \omega^{2} \left(- H^{2} + 3 R^{2}\right)}{48}\\0\\0\end{matrix}\right]
+			\) 
+		\end{tasks}
+	\end{minipage}
+	\begin{minipage}[c][2cm][t]{0.2\textwidth}
+		\includegraphics[width=\textwidth]{figures/Ex3_17}
+	\end{minipage}
+
+
+
+	\item 
+	\begin{minipage}[t][4.5cm]{0.75\textwidth}
+		\textbf{Rotating Rod}
+		The thin rod AB has mass \(m\) and is connected to the support by means of a pin at A.
+		The support is rigidly mounted on the shaft.
+		Determine the required constant angular velocity \(\omega\) of the shaft so that the rod forms an angle \(\theta\) with the vertical.
+	\end{minipage}
+	\begin{minipage}[c][3cm][t]{0.2\textwidth}
+		\includegraphics[width=\textwidth]{figures/hibb_21-45}
+	\end{minipage}
+
+
+	\item 
+	\begin{minipage}[t][3.5cm]{0.6\textwidth}
+	\textbf{Unbalanced Cylinder}
+		A cylinder of height \(D\) and mass \(M\) rotates supported on two bearings \(P\) and \(Q\) with angular velocity \(\omega\).
+		On an imaginary axis at an angle \(\varphi\) from the rotation axis, and at a distance \(a\) from its center, it has two weights of equal mass, \(m\), placed on it. 
+		\begin{tasks} 
+			\task Calculate the force applied by the bearings.\\
+			Result: \(
+				F = \frac{2 m a^2 \omega^2}{D} \sin(\varphi) \cos(\varphi)
+			\).
+		\end{tasks}
+	\end{minipage}
+	\begin{minipage}[c][0.5cm][t]{0.35\textwidth}
+		\includegraphics[width=\textwidth]{figures/cilindroDesbalanceado}
+	\end{minipage}
+		
+
+	\item 
+	\begin{minipage}[t][4.5cm]{0.55\textwidth}
+		\textbf{Shaft on Bearings}
+		The shaft was constructed with a rod whose mass per unit length is \SI{2}{\kilo\gram\per\metre}.
+		Determine the \(x, y, z\) components of the reaction at bearings A and B if at the instant shown the shaft rotates freely at an angular velocity of \(\omega = \SI{30}{\per\second}\) (radians per second).
+		What is the angular acceleration of the shaft at this instant?
+		Bearing A is capable of supporting a force component in the y direction while bearing B is not.
+	\end{minipage}
+	\begin{minipage}[c][0cm][t]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{figures/hibb_21-48}
+	\end{minipage}
+
+
+	\item 
+	\begin{minipage}[t][5.5cm]{0.65\textwidth}
+		\textbf{Constant Angular Acceleration}
+		The 15-pound cylinder rotates around axis AB with \(\vec{\omega} = -\SI{4}{\per\second} \hat{x}\) (radians per second).
+		Bearing \(A\) does not support force in the \(x\) direction, which is handled by bearing \(B\).
+		The shaft that extends from the support at point \(C\), starting from rest, is subjected to an acceleration \(\vec{\alpha}_C = \dot{\vec{\omega}} = \SI{12}{\per\second\squared} \hat{Z}\) (radians per second squared), where \(\hat{Z}\) includes \(\overline{AC}\) and is parallel to \(\hat{z}\).
+		The coordinate system has its origin at \(G\), the center of mass of the cylinder.
+
+		\textbf{Help:} Do not forget that in G a ``centrifugal'' acceleration is perceived, \(\vec{a}_{c} = \dfrac{|\alpha_c|}{d_{AG}} \hat{x}\), when expressing Newton's second law equations. It will be up to the bearing at B to provide a reaction in \(\hat{x}\) to exert the centripetal force that keeps the cylinder on its circular path.
+	\end{minipage}
+	\begin{minipage}[c][2cm][t]{0.3\textwidth}
+		\includegraphics[width=\textwidth]{figures/hibbEng_21-58}
+	\end{minipage}
+	\begin{tasks}
+		\task Convert the data in imperial units (feet, pounds) to International System units.
+		\task Determine the reactions that the bearings must provide.\\
+		Result: \(
+			\left[\begin{matrix}A_{y}\\A_{z}\\B_{x}\\B_{y}\\B_{z}\end{matrix}\right] = \left[\begin{matrix}-7.52\\33.4\\268.0\\-17.4\\33.4\end{matrix}\right]
+		\)
+	\end{tasks}
+
+
+	\item 
+	\begin{minipage}[t][3.5cm]{0.65\textwidth}
+		\textbf{Rock Crusher}
+		A rock crusher consists of a large thin disk which is connected by means of a pin to a horizontal shaft.
+		If it rotates at a constant speed of \SI{8}{\per\second} (radians per second), determine the normal force that the disk exerts on the stones.
+		Assume that the disk rolls without slipping and that its mass is \SI{25}{\kilo\gram}.
+		Ignore the mass of the shaft.
+	\end{minipage}
+	\begin{minipage}[c][2cm][t]{0.3\textwidth}
+		\includegraphics[width=\textwidth]{figures/hibb_21-56}
+	\end{minipage}
+
+
+\end{enumerate}
+
+\end{document}
